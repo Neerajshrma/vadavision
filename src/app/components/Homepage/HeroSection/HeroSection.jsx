@@ -20,7 +20,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div>
-            <h1 className="text-[70px] hero-heading leading-[120%] font-bold">
+            <h1 className="text-[60px] hero-heading leading-[120%] font-bold">
               Automate your <br />
               Workflow & Save <br />
               Time{" "}

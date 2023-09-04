@@ -416,4 +416,13 @@ body {
   }
  }
  
- 
+ .ui-page-bg{
+  background: linear-gradient(283.46deg, rgba(221, 66, 66, 0.61) 0.52%, rgba(221, 66, 66, 0.26) 68.92%);
+  height: 100vh;
+ }
+
+ .ui-upwork{
+  background: #141619;
+  box-shadow: 0px 25px 55px 0px #7E7E7E26;
+  margin-top: -50px;
+ }

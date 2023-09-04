@@ -7,35 +7,35 @@ const Navbar = () => {
       <div className="nav-bar flex gap-10 items-center">
         <div
           style={{ fontFamily: "Poppins" }}
-          className="text-lg font-normal leading-[120%]"
+          className="text-base font-normal leading-[120%]"
         >
           <a href="">Home</a>
         </div>
         <div
           style={{ fontFamily: "Poppins" }}
-          className="text-lg font-normal leading-[120%]"
+          className="text-base font-normal leading-[120%]"
         >
           <a href="">Our Services</a>
         </div>
         <div
           style={{ fontFamily: "Poppins" }}
-          className="text-lg font-normal leading-[120%]"
+          className="text-base font-normal leading-[120%]"
         >
           <a href="">Portfolio</a>
         </div>
         <div
           style={{ fontFamily: "Poppins" }}
-          className="text-lg font-normal leading-[120%]"
+          className="text-base font-normal leading-[120%]"
         >
           <a href="">Company</a>
         </div>
         <Button
           fontFamily="Poppins"
-          fontWeight="600"
-          padding="14px 28px"
+          fontWeight="500"
+          padding="8px 24px"
           Color="#FFFFFF"
-          fontSize="16px"
-          backgroundColor="#141619"
+          fontSize="14px"
+          backgroundColor="#DD4242"
           name="GET IN TOUCH"
         />
       </div>

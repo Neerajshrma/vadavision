@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Header from "../common/Header/Header";
 import HeroSection from "./HeroSection/HeroSection";
 import OurServices from "./Our-services/OurServices";
 import Tweekend from "../Portfolios/tweekend/Tweekend";
@@ -13,6 +12,7 @@ import SubscribeUs from "./Subscribeus/SubscribeUs";
 import Footer from "../common/Footer/Footer";
 import FrequentlyAksedQuestions from "./FAQs/FrequentlyAksedQuestions";
 import Sliders from "./Testimonials/Testimonials";
+import Header from "../common/Header/Header";
 
 const Homepage = () => {
   return (

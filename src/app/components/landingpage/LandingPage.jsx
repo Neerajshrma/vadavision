@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../common/Header/Header";
 import HeroSection from "./Herosection/HeroSection";
 import ConsultUs from "./Consultus/ConsultUs";
 import MobileApp from "./OurServices/MobileApp";
@@ -12,6 +11,7 @@ import CalculateTheCost from "./CalculateTheCost/CalculateTheCost";
 import FAQs from "./FAQs/FAQs";
 import Footer from "../common/Footer/Footer";
 import Testimonials from "./Testimonials/Testimonials";
+import Header from "../common/Header/Header";
 
 const LandingPage = () => {
   return (
