@@ -4,10 +4,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { AiOutlineArrowUp } from "react-icons/ai";
-import "./Testimonials.css";
 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <div className={className} onClick={onClick}>
       <div className="w-9 h-9 items-center flex justify-center arrow-next">
@@ -100,14 +99,14 @@ const Sliders = () => {
     <div className="bg-[#141619] pb-20">
       <div
         className="overflow-hidden mt-10 relative bg-center py-10 bg-contain bg-no-repeat py-20 min-w-[700px]"
-        style={{ backgroundImage: "url(images/bg-1.png)" }}
+        // style={{ backgroundImage: "url(images/bg-1.png)" }}
       >
         <Slider {...settings}>
           <div className="min-h-[400px]">
             <div className="mt-20 w-[45%] mx-auto">
               <div>
                 <p
-                  style={{ fontFamily: "Montserrat" }}
+                  // style={{ fontFamily: "Montserrat" }}
                   className="text-center text-white font-semibold text-2xl leading-[56px]"
                 >
                   I am very happy with the services provided, it is very
@@ -135,7 +134,7 @@ const Sliders = () => {
             <div className="mt-20 w-[45%] mx-auto">
               <div>
                 <p
-                  style={{ fontFamily: "Montserrat" }}
+                  // style={{ fontFamily: "Montserrat" }}
                   className="text-center text-white font-semibold text-2xl leading-[56px]"
                 >
                   I am very happy with the services provided, it is very
@@ -163,7 +162,7 @@ const Sliders = () => {
             <div className="mt-20 w-[45%] mx-auto">
               <div>
                 <p
-                  style={{ fontFamily: "Montserrat" }}
+                  // style={{ fontFamily: "Montserrat" }}
                   className="text-center text-white font-semibold text-2xl leading-[56px]"
                 >
                   I am very happy with the services provided, it is very
@@ -189,6 +188,60 @@ const Sliders = () => {
           </div>
         </Slider>
       </div>
+      {/* <style jsx>{`
+        .slick-slider {
+          position: inherit !important;
+        }
+
+        .slick-prev {
+          right: 150px !important;
+          left: auto !important;
+          top: 20% !important;
+        }
+
+        .slick-prev,
+        .slick-next {
+          width: 1px !important;
+          height: 1px !important;
+        }
+
+        .slick-next {
+          right: 150px !important;
+          top: 50% !important;
+        }
+
+        .arrow-prev {
+          transform: rotate(90deg);
+        }
+
+        .arrow-next {
+          transform: rotate(90deg);
+        }
+
+        .slick-next:before {
+          content: "" !important;
+        }
+
+        .slick-prev::before {
+          content: "" !important;
+        }
+
+        .testimonials {
+          width: 80% !important;
+          min-width: 300px !important;
+          margin: 10px auto !important;
+        }
+
+        .slick-dots li button:before {
+          color: #dd4242 !important;
+        }
+
+        .slick-dots {
+          transform: rotate(90deg) !important;
+          left: 544px !important;
+          bottom: 228px !important;
+        }
+      `}</style> */}
     </div>
   );
 };

@@ -7,9 +7,9 @@ const Accordion = () => {
   const [data, setdata] = useState(questions);
   return (
     <div>
-      {data.map((curElem) => {
+      {data.map(() => {
         return (
-          <div>
+          <div key={data}>
             {" "}
             <Questions />{" "}
           </div>

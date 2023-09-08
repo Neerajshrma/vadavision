@@ -11,8 +11,8 @@ import ConsultWithUs from "./Consultwithus/ConsultWithUs";
 import SubscribeUs from "./Subscribeus/SubscribeUs";
 import Footer from "../common/Footer/Footer";
 import FrequentlyAksedQuestions from "./FAQs/FrequentlyAksedQuestions";
-import Sliders from "./Testimonials/Testimonials";
 import Header from "../common/Header/Header";
+import Sliders from "./Testimonials/Testimonials";
 
 const Homepage = () => {
   return (
@@ -84,9 +84,9 @@ const Homepage = () => {
       {/* consult with us end */}
 
       {/* FAQs start */}
-      <div>
+      {/* <div>
         <FrequentlyAksedQuestions />
-      </div>
+      </div> */}
       {/* FAQs end */}
 
       {/* subscribe us start*/}

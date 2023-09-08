@@ -10,8 +10,8 @@ import WhyChooseUs from "./WhyUs/WhyChooseUs";
 import CalculateTheCost from "./CalculateTheCost/CalculateTheCost";
 import FAQs from "./FAQs/FAQs";
 import Footer from "../common/Footer/Footer";
-import Testimonials from "./Testimonials/Testimonials";
 import Header from "../common/Header/Header";
+import Sliders from "./Testimonials/Testimonials";
 
 const LandingPage = () => {
   return (
@@ -26,8 +26,7 @@ const LandingPage = () => {
         <HeroSection />
       </div>
       <div>
-        {/* herosection start */}
-        <Testimonials />
+        <Sliders />
       </div>
       <div className="">
         <ConsultUs backgroundColor="#14EFA5" />
