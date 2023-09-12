@@ -14,7 +14,7 @@ const HeroSection = () => {
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
             <div
               style={{ fontFamily: "Poppins" }}
-              className="creative-idea text-base uppercase font-normal leading-[150%] text-[#A9AFC3]"
+              className="creative-idea text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
             >
               Creative ideas
             </div>
@@ -28,7 +28,7 @@ const HeroSection = () => {
             </h1>
           </div>
           <div>
-            <h4 className="text-xl hero-description font-medium leading-[120%] text-[#A9AFC3] w-10/12 mt-4">
+            <h4 className="text-lg hero-description font-medium leading-[120%] text-[#A9AFC3] w-10/12 mt-4">
               We create new technologies for your business thanks to our
               wonderful team of professionals.
             </h4>

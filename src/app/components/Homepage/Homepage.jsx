@@ -36,9 +36,9 @@ const Homepage = () => {
       {/* hero-section end */}
 
       {/* testimonials start */}
-      <div>
+      {/* <div>
         <Sliders />
-      </div>
+      </div> */}
       {/* testimonials end */}
 
       {/* our-services start */}
