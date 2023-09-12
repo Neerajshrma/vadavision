@@ -1,6 +1,7 @@
 import Homepage from "./components/Homepage/Homepage";
 import UIUXPage from "./components/UIUXPage/UIUXPage";
 import LandingPage from "./components/landingpage/LandingPage";
+import MobileApp from "./components/landingpage/OurServices/MobileApp";
 
 export default function Home() {
   return (
