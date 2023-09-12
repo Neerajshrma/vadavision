@@ -75,7 +75,7 @@ const MissionVision = () => {
             <span className="pt-5 text-white">UI/UX and</span>
             <span className="text-white">Brand Identity</span>
             <div className="  pt-5 pb-20   ">
-              <h3 className=" text-[#DD4242] border-b border-red-500">
+              <h3 className=" text-[#DD4242] border-b cursor-pointer	 border-red-500">
                 READ MORE
               </h3>
             </div>
@@ -85,7 +85,7 @@ const MissionVision = () => {
             <span className="pt-5 text-white">App</span>
             <span className="text-white">Development</span>
             <div className="  pt-5 pb-20   ">
-              <h3 className=" text-[#DD4242] border-b border-red-500">
+              <h3 className=" text-[#DD4242] border-b cursor-pointer	 border-red-500">
                 READ MORE
               </h3>
             </div>{" "}
@@ -95,7 +95,7 @@ const MissionVision = () => {
             <span className="pt-5 text-white">SEO & SMM</span>
             <span className="text-white ">Optimization</span>
             <div className="  pt-5 pb-20   ">
-              <h3 className=" text-[#DD4242] border-b border-red-500">
+              <h3 className=" text-[#DD4242] border-b cursor-pointer	 border-red-500">
                 READ MORE
               </h3>
             </div>{" "}
@@ -105,7 +105,7 @@ const MissionVision = () => {
             <span className="pt-5 text-white">Web</span>
             <span className="text-white">Development</span>
             <div className="  pt-5 pb-20   ">
-              <h3 className=" text-[#DD4242] border-b border-red-500">
+              <h3 className=" text-[#DD4242] border-b cursor-pointer	 border-red-500">
                 READ MORE
               </h3>
             </div>{" "}
@@ -200,7 +200,7 @@ const MissionVision = () => {
         </div>
       </div>
 
-      <div className="px-40 responsive-width mobile-width">
+      <div className="px-40 bg-[#191C26] responsive-width mobile-width">
         <span className="text-4xl hero-heading leading-[120%] font-bold text-white">
           Friendly team{" "}
         </span>
