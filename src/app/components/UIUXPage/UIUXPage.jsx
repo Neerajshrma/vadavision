@@ -6,6 +6,15 @@ import OurCustomers from "./OurSatisfyCustomers/OurCustomers";
 import OurServiceses from "./OurServiceses/OurServiceses";
 import ConsultUs from "../landingpage/Consultus/ConsultUs";
 import Portfolio from "../landingpage/Portfolio/Portfolio";
+import DesignProcess from "./OurDesignProcess/DesignProcess";
+import DesigningTools from "./OurDesigningTools/DesigningTools";
+import OurMilestones from "./OurMilestones/OurMilestones";
+import WhyChooseUs from "../landingpage/WhyUs/WhyChooseUs";
+import CalculateTheCost from "../landingpage/CalculateTheCost/CalculateTheCost";
+import FAQs from "../landingpage/FAQs/FAQs";
+import Footer from "../common/Footer/Footer";
+import Testimonials from "../testimonials/Testimonials";
+import Sliders from "../Homepage/Testimonials/Testimonials";
 
 const UIUXPage = () => {
   return (
@@ -15,7 +24,6 @@ const UIUXPage = () => {
           className="bg-cover h-screen"
           style={{ backgroundImage: "URL(images/ui-bg-img.png)" }}
         >
-          {/* header start */}
           <div>
             <Header />
           </div>
@@ -27,6 +35,9 @@ const UIUXPage = () => {
       <div>
         <RecognizedBy />
       </div>
+      {/* <div>
+        <Sliders />
+      </div> */}
       <div className="">
         <OurCustomers />
       </div>
@@ -37,10 +48,31 @@ const UIUXPage = () => {
         <ConsultUs backgroundColor="#1E2533" color="white" />
       </div>
       <div>
+        <DesignProcess />
+      </div>
+      <div>
         <Portfolio />
       </div>
       <div className="mt-5">
         <ConsultUs backgroundColor="#1E2533" color="white" />
+      </div>
+      <div className="bg-white">
+        <DesigningTools />
+      </div>
+      <div>
+        <OurMilestones />
+      </div>
+      <div className="mt-5">
+        <ConsultUs backgroundColor="#0C4137" color="white" />
+      </div>
+      <div>
+        <WhyChooseUs />
+      </div>
+      <div>
+        <FAQs />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

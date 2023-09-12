@@ -73,7 +73,7 @@ const RecognizedBy = () => {
                 />
               </svg>
             </div>
-            <div className="text-[#141619] font-medium text-xl leading-[120%] reviwes">
+            <div className="text-[#141619] font-medium text-lg leading-[120%] reviwes">
               (33 REVIEWS)
             </div>
           </div>
@@ -189,7 +189,7 @@ const RecognizedBy = () => {
                 />
               </svg>
             </div>
-            <div className="text-[#141619] font-medium text-xl leading-[120%] reviwes">
+            <div className="text-[#141619] font-medium text-lg leading-[120%] reviwes">
               (33 REVIEWS)
             </div>
           </div>

@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { AiOutlineArrowUp } from "react-icons/ai";
 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <div className={className} onClick={onClick}>
       <div className="w-9 h-9 items-center flex justify-center arrow-next">
