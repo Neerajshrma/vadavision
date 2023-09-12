@@ -416,6 +416,10 @@ body {
   }
  }
  
+ .link-border{
+  border-bottom: #DD4242 !important;
+
+ }
  .ui-page-bg{
   background: linear-gradient(283.46deg, rgba(221, 66, 66, 0.61) 0.52%, rgba(221, 66, 66, 0.26) 68.92%);
   height: 100vh;
