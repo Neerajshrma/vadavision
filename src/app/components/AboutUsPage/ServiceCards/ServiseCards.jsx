@@ -35,6 +35,7 @@ const ServiseCards = () => {
         <div className="border-b border-white-500 pr-6 m-4">Prev</div>
       </div>
 
+
       <div className="flex flex-row  px-40 responsive-width mobile-width ">
         <div className=" w-[25%] bg-[#2a2b2a] grid justify-items-center pt-10">
           <img src="images/iconbranding.svg" alt="" />
@@ -78,6 +79,7 @@ const ServiseCards = () => {
         </div>{" "}
       </div>
       </div>
+
     </>
   );
 };
