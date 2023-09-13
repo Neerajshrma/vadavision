@@ -29,10 +29,10 @@ const ServiseCards = () => {
       </div>
 
       <div className="flex flex-row-reverse pb-8 pl-40 px-40 text-white">
-        <div className="pl-6 text-[#DD4242] border-b border-red-500 m-4">
+        <div className="pl-6 text-[#DD4242] border-b border-red-500 m-4 cursor-pointer">
           Next
         </div>
-        <div className="border-b border-white-500 pr-6 m-4">Prev</div>
+        <div className="border-b border-white-500 pr-6 m-4 cursor-pointer">Prev</div>
       </div>
 
 
