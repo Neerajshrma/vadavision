@@ -150,6 +150,13 @@ body {
   }
 }
 
+
+.borderless-input {
+  border: none ;
+  border-bottom: 1px solid #ccc !important; /* You can adjust the bottom border color */
+  outline: none !important; /* Remove the default focus outline */
+}
+
 @media screen and (max-width: 1100px) {
   .nav-bar {
     display: none!important;

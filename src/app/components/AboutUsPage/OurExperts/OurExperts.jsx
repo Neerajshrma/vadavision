@@ -22,7 +22,7 @@ const OurExperts = () => {
           </span>
         </div>
 
-        <div>
+        <div className='flex flex-row'>
           <div className="mt-5 w-6/12 px-40 pb-12 responsive-width mobile-width">
             <p className="mt-4 text-[#A9AFC3] font-light text-sm  mx-auto leading-[33px]">
               Every day we communicate with each other, solve our clients’
