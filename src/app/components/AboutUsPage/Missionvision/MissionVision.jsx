@@ -9,7 +9,7 @@ const MissionVision = () => {
         <h1 className="w-[50%] text-2xl   text-[#DD4242] font-bold font-Montserrat">
           Our Mission
         </h1>
-        <p className="pt-4 responsive-width mobile-width pb-10 font-Montserrat text-white ">
+        <p className="pt-4 responsive-width mobile-width pb-10 font-Montserrat text-[#FFF] font-light">
           Space is the collaboration hub that brings the right people,
           information, and tools together to get work done. From Fortune 100
           companies to corner markets, millions of people around the world use
@@ -27,7 +27,7 @@ const MissionVision = () => {
           Our Vision
         </h1>
 
-        <p className="pt-4 font-Montserrat responsive-width mobile-width pb-10 text-white">
+        <p className="pt-4 font-Montserrat responsive-width mobile-width pb-10 text-[#FFF] font-light">
           Space is the collaboration hub that brings the right people,
           information, and tools together to get work done. From Fortune 100
           companies to corner markets, millions of people around the world use

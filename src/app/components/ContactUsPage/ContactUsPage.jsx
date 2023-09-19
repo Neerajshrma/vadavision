@@ -10,26 +10,29 @@ import Header from "../UIUXPage/Header/Header";
 const ContactUsPage = () => {
   return (
     <>
-    <div className="bg-[#141619] responsive-width  mobile-width">
-     <div>
-      <Header/>
-     </div>
-    <div className="w-[50%] flex ">
-       <MessageInfo/>
-       <SendMessage/>
+      <div className="bg-[#141619] responsive-width  mobile-width">
+        <div>
+          <Header />
+        </div>
+        <div className="w-[50%] gap-10 flex justify-between ">
+          <div className="">
+            <MessageInfo />
+          </div>
+          <div className="">
+            <SendMessage />
+          </div>
+        </div>
+        <div className="flex flex-row">
+          <FAQs />
+          <FAQTabs />
+        </div>
+        <div>
+          <SubscribeUs />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
-      <div className="flex flex-row">
-        <FAQs />
-        <FAQTabs />
-      </div>
-      <div>
-        <SubscribeUs />
-      </div>
-      <div>
-        <Footer/>
-      </div>
-    </div>
-     
     </>
   );
 };
