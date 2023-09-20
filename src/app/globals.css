@@ -447,3 +447,37 @@ body {
   bottom: -119%;
   transform: rotate(90deg);
 }
+
+.custom-prev-button{
+  position: absolute;
+  top: 27%;
+  right: 15%;
+}
+
+.custom-next-button{
+  position: absolute;
+  top: 42%;
+  right: 15%;
+}
+
+    .custom-dots {
+      position: absolute;
+      bottom: 10px; /* Adjust this value to position the dots vertically */
+      left: 50%; /* Center the dots horizontally */
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px; /* Adjust the spacing between dots */
+    }
+
+    .custom-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: opacity 0.3s;
+    }
+
+    .custom-dot.active {
+      opacity: 1;
+    }
+  

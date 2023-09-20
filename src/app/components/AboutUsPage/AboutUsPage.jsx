@@ -31,13 +31,13 @@ const AboutUsPage = () => {
         <MissionVision />
       </div>
       <div>
-        <ServiseCards/>
+        <ServiseCards />
       </div>
       <div>
-        <OurWorkCulture/>
+        <OurWorkCulture />
       </div>
-      <div>
-        <OurExperts/>
+      <div className="ml-40">
+        <OurExperts />
       </div>
       <div>
         <OurCustomers />

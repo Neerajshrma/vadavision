@@ -12,7 +12,7 @@ import SubscribeUs from "./Subscribeus/SubscribeUs";
 import Footer from "../common/Footer/Footer";
 import FrequentlyAksedQuestions from "./FAQs/FrequentlyAksedQuestions";
 import Header from "../common/Header/Header";
-import Sliders from "./Testimonials/Testimonials";
+import Sliders from "../common/Testimonials/Testimonials";
 
 const Homepage = () => {
   return (
@@ -36,9 +36,9 @@ const Homepage = () => {
       {/* hero-section end */}
 
       {/* testimonials start */}
-      {/* <div>
+      <div>
         <Sliders />
-      </div> */}
+      </div>
       {/* testimonials end */}
 
       {/* our-services start */}

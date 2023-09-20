@@ -58,9 +58,9 @@ const LandingPage = () => {
       <div>
         <CalculateTheCost />
       </div>
-      <div>
+      {/* <div>
         <FAQs />
-      </div>
+      </div> */}
       <div>
         <Footer />
       </div>

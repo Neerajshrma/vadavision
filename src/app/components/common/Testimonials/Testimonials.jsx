@@ -1,62 +1,25 @@
 "use client";
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { AiOutlineArrowUp } from "react-icons/ai";
+import { AiOutlineArrowUp, AiOutlineArrowDown } from "react-icons/ai";
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div className={className} onClick={onClick}>
-      <div className="w-9 h-9 items-center flex justify-center arrow-next">
-        <svg
-          width="12"
-          height="12"
-          viewBox="0 0 16 16"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-            fill="#DD4242"
-          />
-        </svg>
-        <div>
-          <AiOutlineArrowUp />
-        </div>
-      </div>
-    </div>
-  );
-}
+const Sliders = ({ children }) => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [totalSlides, setTotalSlides] = useState(0);
+  const sliderRef = useRef(null);
 
-function SamplePrevArrow(props) {
-  const { className, onClick } = props;
-  return (
-    <div className={className} onClick={onClick}>
-      <div className="w-9 h-9 items-center flex justify-center arrow-prev">
-        <svg
-          width="12"
-          height="12"
-          viewBox="0 0 16 16"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M16 7H3.83L9.42 1.41L8 0L0 8L8 16L9.41 14.59L3.83 9H16V7Z"
-            fill="#DD4242"
-          />
-        </svg>
-      </div>
-    </div>
-  );
-}
+  useEffect(() => {
+    if (sliderRef.current) {
+      const totalSlides = sliderRef.current.props.children.length || 0;
+      setTotalSlides(totalSlides);
+      const middleSlide = Math.floor(totalSlides / 2);
+      sliderRef.current.slickGoTo(middleSlide);
+      setCurrentSlide(middleSlide);
+    }
+  }, []);
 
-const Sliders = () => {
   var settings = {
     dots: true,
     infinite: true,
@@ -66,8 +29,11 @@ const Sliders = () => {
     initialSlide: 0,
     vertical: true,
     verticalSwiping: false,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    // nextArrow: <SampleNextArrow />,
+    // prevArrow: <SamplePrevArrow />,
+    beforeChange: (current, next) => {
+      setCurrentSlide(next);
+    },
     responsive: [
       {
         breakpoint: 1024,
@@ -95,13 +61,48 @@ const Sliders = () => {
       },
     ],
   };
+  const goToPrevSlide = () => {
+    if (sliderRef.current && totalSlides > 0) {
+      sliderRef.current.slickPrev();
+    }
+  };
+
+  const goToNextSlide = () => {
+    if (sliderRef.current && totalSlides > 0) {
+      sliderRef.current.slickNext();
+    }
+  };
+  const CustomDots = (props) => {
+    const { currentSlide, slideCount, onClick } = props;
+    const dots = [];
+
+    for (let i = 0; i < slideCount; i++) {
+      const isActive = i === currentSlide;
+      const opacity = isActive ? 1 : 0.2;
+      const color = isActive ? "#DD4242" : "#DD4242"; // Set the color you want
+
+      dots.push(
+        <span
+          key={i}
+          onClick={() => onClick(i)}
+          style={{
+            opacity,
+            backgroundColor: color,
+          }}
+          className={`custom-dot ${isActive ? "active" : ""}`}
+        ></span>
+      );
+    }
+
+    return <div className="custom-dots">{dots}</div>;
+  };
   return (
-    <div className="bg-[#141619] pb-20">
+    <div className="bg-[#141619] pb-20 relative">
       <div
         className="overflow-hidden mt-10 relative bg-center py-10 bg-contain bg-no-repeat py-20 min-w-[700px]"
         style={{ backgroundImage: "url(images/bg-1.png)" }}
       >
-        <Slider {...settings}>
+        <Slider {...settings} ref={sliderRef}>
           <div className="min-h-[400px]">
             <div className="mt-20 w-[45%] mx-auto">
               <div>
@@ -187,6 +188,26 @@ const Sliders = () => {
             </div>
           </div>
         </Slider>
+      </div>
+      <div className="custom-slider-controls">
+        <button
+          className={`text-[#DD4242] custom-prev-button ${
+            currentSlide === 0 ? "disabled" : ""
+          }`}
+          onClick={goToPrevSlide}
+        >
+          <AiOutlineArrowUp size={20} />
+        </button>
+      </div>
+      <div>
+        <button
+          className={`text-[#DD4242] custom-next-button ${
+            currentSlide === totalSlides - 1 ? "disabled" : ""
+          }`}
+          onClick={goToNextSlide}
+        >
+          <AiOutlineArrowDown size={20} />
+        </button>
       </div>
     </div>
   );
