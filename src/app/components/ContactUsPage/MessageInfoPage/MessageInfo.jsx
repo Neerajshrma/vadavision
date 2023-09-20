@@ -3,18 +3,18 @@ import React from "react";
 const MessageInfo = () => {
   return (
     <>
-      <div className="responsive-width  mobile-width">
+      <div className="responsive-width  mobile-width pt-14">
         <div className="px-40 pt-6 ">
           <div
             className="bg-[#191C26] text-white"
-            style={{ width: "458px", height: "150px" }}
+            style={{ width: "400px", height: "120px" }}
           >
             <div className="flex flex-row">
               <div className="pt-10 pl-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="65"
-                  height="65"
+                  width="55"
+                  height="55"
                   viewBox="0 0 70 70"
                   fill="none"
                 >
@@ -43,7 +43,7 @@ const MessageInfo = () => {
                   </defs>
                 </svg>
               </div>
-              <div className="pt-10 px-8">
+              <div className="pt-7 px-8">
                 <span>Address</span>
                 <p className="text-[#A9AFC3]">
                   27 Division St, New York, NY 10002, USA
@@ -56,14 +56,14 @@ const MessageInfo = () => {
         <div className="px-40 pt-6">
           <div
             className="bg-[#191C26] text-white"
-            style={{ width: "458px", height: "150px" }}
+            style={{width: "400px", height: "120px" }}
           >
             <div className="flex flex-row">
               <div className="pt-10 pl-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="65"
-                  height="65"
+                  width="55"
+                  height="55"
                   viewBox="0 0 70 70"
                   fill="none"
                 >
@@ -93,10 +93,13 @@ const MessageInfo = () => {
                   />
                 </svg>
               </div>
-              <div className="pt-10 px-8">
+              <div className="pt-7 px-8">
                 <span>Hit us up:</span>
                 <p className="text-[#A9AFC3]">
-                  +1 845 631 78 49 Vadavision.ca{" "}
+                  +1 845 631 78 49 {" "}
+                </p>
+                <p className="text-[#A9AFC3]">
+                   Vadavision.ca{" "}
                 </p>
               </div>
             </div>
@@ -106,14 +109,14 @@ const MessageInfo = () => {
         <div className="px-40 pt-6">
           <div
             className="bg-[#191C26] text-white"
-            style={{ width: "458px", height: "150px" }}
+            style={{ width: "400px", height: "120px"}}
           >
             <div className="flex flex-row">
               <div className="pt-10 pl-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="65"
-                  height="65"
+                  width="55"
+                  height="55"
                   viewBox="0 0 70 70"
                   fill="none"
                 >
@@ -182,7 +185,7 @@ const MessageInfo = () => {
                   </defs>
                 </svg>
               </div>
-              <div className="pt-10 px-8">
+              <div className="pt-7 px-8">
                 <span>Working Schedule:</span>
                 <p className="text-[#A9AFC3]">
                   Mon - Fri: 9 am - 6 pm Sat, Sun: Holiday{" "}

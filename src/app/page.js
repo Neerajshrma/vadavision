@@ -8,7 +8,7 @@ import MobileApp from "./components/landingpage/OurServices/MobileApp";
 export default function Home() {
   return (
     <div>
-      <Homepage  />
+      <ContactUsPage />
     </div>
   )
 }
