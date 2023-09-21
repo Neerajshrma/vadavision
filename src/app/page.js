@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <div>
       <ContactUsPage />
+      <Homepage/>
     </div>
   )
 }
