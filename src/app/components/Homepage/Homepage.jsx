@@ -13,6 +13,8 @@ import Footer from "../common/Footer/Footer";
 import FrequentlyAksedQuestions from "./FAQs/FrequentlyAksedQuestions";
 import Header from "../common/Header/Header";
 import Sliders from "../common/Testimonials/Testimonials";
+import Tabs from "../common/Faqs/Tabs/Tabs";
+import Accordion from "../common/Faqs/Faqs";
 
 const Homepage = () => {
   return (
@@ -36,9 +38,9 @@ const Homepage = () => {
       {/* hero-section end */}
 
       {/* testimonials start */}
-      <div>
+      {/* <div>
         <Sliders />
-      </div>
+      </div> */}
       {/* testimonials end */}
 
       {/* our-services start */}
@@ -83,10 +85,21 @@ const Homepage = () => {
       </div>
       {/* consult with us end */}
 
-      {/* FAQs start */}
-      {/* <div>
-        <FrequentlyAksedQuestions />
-      </div> */}
+      <div className="bg-[#141619] py-10 px-40">
+        <div className="w-1/2">
+          <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
+            Frequently Asked Questions
+          </h1>
+        </div>
+        <div className="flex gap-20">
+          <div className="w-1/2">
+            <Accordion />
+          </div>
+          <div className="w-1/2">
+            <Tabs />
+          </div>
+        </div>
+      </div>
       {/* FAQs end */}
 
       {/* subscribe us start*/}

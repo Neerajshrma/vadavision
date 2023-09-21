@@ -3,22 +3,22 @@ import React from "react";
 const MessageInfo = () => {
   return (
     <>
-      <div className="responsive-width  mobile-width pt-14">
-        <div className="px-40 pt-6 ">
+      <div className="mt-10">
+        <div className="w-full">
           <div
             className="bg-[#191C26] text-white"
-            style={{ width: "400px", height: "120px" }}
+            style={{ width: "350px", height: "120px" }}
           >
             <div className="flex flex-row">
               <div className="pt-10 pl-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="55"
-                  height="55"
+                  width="48"
+                  height="48"
                   viewBox="0 0 70 70"
                   fill="none"
                 >
-                  <g clip-path="url(#clip0_1588_573)">
+                  <g clipPath="url(#clip0_1588_573)">
                     <path
                       d="M53.0008 63.4398C52.622 62.7871 51.7857 62.5648 51.1322 62.9435L51.0796 62.9738C50.4266 63.3527 50.2045 64.1893 50.5832 64.8424C50.8368 65.2795 51.2955 65.5236 51.7669 65.5236C51.9996 65.5236 52.2358 65.4639 52.4517 65.3387L52.5043 65.3083C53.1573 64.9295 53.3795 64.0929 53.0008 63.4398Z"
                       fill="#A9AFC3"
@@ -44,8 +44,8 @@ const MessageInfo = () => {
                 </svg>
               </div>
               <div className="pt-7 px-8">
-                <span>Address</span>
-                <p className="text-[#A9AFC3]">
+                <span className="text-sm">Address</span>
+                <p className="text-[#A9AFC3] text-sm">
                   27 Division St, New York, NY 10002, USA
                 </p>
               </div>
@@ -53,17 +53,17 @@ const MessageInfo = () => {
           </div>
         </div>
 
-        <div className="px-40 pt-6">
+        <div className="pt-6 w-full">
           <div
             className="bg-[#191C26] text-white"
-            style={{width: "400px", height: "120px" }}
+            style={{ width: "350px", height: "120px" }}
           >
             <div className="flex flex-row">
               <div className="pt-10 pl-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="55"
-                  height="55"
+                  width="48"
+                  height="48"
                   viewBox="0 0 70 70"
                   fill="none"
                 >
@@ -94,33 +94,30 @@ const MessageInfo = () => {
                 </svg>
               </div>
               <div className="pt-7 px-8">
-                <span>Hit us up:</span>
-                <p className="text-[#A9AFC3]">
-                  +1 845 631 78 49 {" "}
-                </p>
-                <p className="text-[#A9AFC3]">
-                   Vadavision.ca{" "}
+                <span className="text-sm">Hit us up:</span>
+                <p className="text-[#A9AFC3] text-sm">
+                  +1 845 631 78 49 <br /> Vadavision.ca{" "}
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="px-40 pt-6">
+        <div className="pt-6 w-full">
           <div
             className="bg-[#191C26] text-white"
-            style={{ width: "400px", height: "120px"}}
+            style={{ width: "350px", height: "120px" }}
           >
             <div className="flex flex-row">
               <div className="pt-10 pl-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="55"
-                  height="55"
+                  width="48"
+                  height="48"
                   viewBox="0 0 70 70"
                   fill="none"
                 >
-                  <g clip-path="url(#clip0_1588_384)">
+                  <g clipPath="url(#clip0_1588_384)">
                     <path
                       d="M59.7488 10.2513C53.1381 3.64055 44.3488 0 35 0C25.6512 0 16.8619 3.64055 10.2512 10.2513C3.64068 16.8619 0 25.6512 0 35C0 44.3488 3.64068 53.1381 10.2512 59.7487C16.8619 66.3595 25.6512 70 35 70C44.3488 70 53.1381 66.3595 59.7488 59.7487C66.3593 53.1381 70 44.3488 70 35C70 25.6512 66.3593 16.8619 59.7488 10.2513ZM35 67.2656C17.2087 67.2656 2.73438 52.7913 2.73438 35C2.73438 17.2087 17.2087 2.73438 35 2.73438C52.7913 2.73438 67.2656 17.2087 67.2656 35C67.2656 52.7913 52.7913 67.2656 35 67.2656Z"
                       fill="#A9AFC3"
@@ -186,8 +183,8 @@ const MessageInfo = () => {
                 </svg>
               </div>
               <div className="pt-7 px-8">
-                <span>Working Schedule:</span>
-                <p className="text-[#A9AFC3]">
+                <span className="text-sm">Working Schedule:</span>
+                <p className="text-[#A9AFC3] text-sm">
                   Mon - Fri: 9 am - 6 pm Sat, Sun: Holiday{" "}
                 </p>
               </div>

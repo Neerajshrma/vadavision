@@ -14,6 +14,8 @@ import FAQTabs from "../Homepage/FAQs/FAQTabs";
 import ServiseCards from "./ServiceCards/ServiseCards";
 import OurWorkCulture from "./OurWorkCulture/OurWorkCulture";
 import OurExperts from "./OurExperts/OurExperts";
+import Accordion from "../common/Faqs/Faqs";
+import Tabs from "../common/Faqs/Tabs/Tabs";
 
 const AboutUsPage = () => {
   return (
@@ -36,9 +38,9 @@ const AboutUsPage = () => {
       <div>
         <OurWorkCulture />
       </div>
-      <div className="ml-40">
+      {/* <div className="ml-40">
         <OurExperts />
-      </div>
+      </div> */}
       <div>
         <OurCustomers />
       </div>
@@ -48,9 +50,20 @@ const AboutUsPage = () => {
       <div>
         <ConsultWithUs />
       </div>
-      <div className="flex flex-row">
-        <FAQs />
-        <FAQTabs />
+      <div className="bg-[#141619] py-10 px-40">
+        <div className="w-1/2">
+          <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
+            Frequently Asked Questions
+          </h1>
+        </div>
+        <div className="flex gap-20">
+          <div className="w-1/2">
+            <Accordion />
+          </div>
+          <div className="w-1/2">
+            <Tabs />
+          </div>
+        </div>
       </div>
       <div>
         <SubscribeUs />
