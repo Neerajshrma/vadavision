@@ -1,5 +1,7 @@
+
 import React from "react";
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -9,8 +11,9 @@ const Navbar = () => {
           style={{ fontFamily: "Poppins" }}
           className="text-base font-normal leading-[120%]"
         >
-          <a href="">Home</a>
+          
         </div>
+
         <div
           style={{ fontFamily: "Poppins" }}
           className="text-base font-normal leading-[120%]"

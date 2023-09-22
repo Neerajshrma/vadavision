@@ -17,7 +17,7 @@ import Accordion from "../common/Faqs/Faqs";
 import Tabs from "../common/Faqs/Tabs/Tabs";
 import ServiseCards from "./ServiceCards/ServiseCards";
 
-const AboutUsPage = () => {
+const   AboutUsPage = () => {
   return (
     <div className="bg-[#141619]">
       <div>

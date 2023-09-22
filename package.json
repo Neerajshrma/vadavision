@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-   
+    "@splidejs/react-splide": "^0.7.12",
     "autoprefixer": "10.4.14",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.5",
@@ -21,6 +21,7 @@
     "react-dom": "^18.2.0",
     "react-head": "^3.4.2",
     "react-icons": "^4.9.0",
+    "react-router-dom": "^6.16.0",
     "react-slick": "^0.29.0",
     "react-slider": "^2.0.6",
     "slick-carousel": "^1.8.1",
