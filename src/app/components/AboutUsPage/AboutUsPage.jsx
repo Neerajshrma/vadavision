@@ -11,9 +11,9 @@ import FAQs from "../landingpage/FAQs/FAQs";
 import Footer from "../common/Footer/Footer";
 import SubscribeUs from "../Homepage/Subscribeus/SubscribeUs";
 import FAQTabs from "../Homepage/FAQs/FAQTabs";
-import ServiseCards from "./ServiceCards/ServiseCards";
 import OurWorkCulture from "./OurWorkCulture/OurWorkCulture";
 import OurExperts from "./OurExperts/OurExperts";
+import ServiseCards from "./ServiceCards/ServiseCards";
 
 const AboutUsPage = () => {
   return (

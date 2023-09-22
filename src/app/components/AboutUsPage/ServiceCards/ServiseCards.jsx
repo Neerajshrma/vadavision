@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const ServiseCards = () => {
   return (
@@ -27,14 +27,14 @@ const ServiseCards = () => {
           You can see it by looking at our portfolio.
         </p>
       </div>
-
       <div className="flex flex-row-reverse pb-8 pl-40 px-40 text-white">
         <div className="pl-6 text-[#DD4242] border-b border-red-500 m-4 cursor-pointer">
           Next
         </div>
-        <div className="border-b border-white-500 pr-6 m-4 cursor-pointer">Prev</div>
+        <div className="border-b border-white-500 pr-6 m-4 cursor-pointer">
+          Prev
+        </div>
       </div>
-
 
       <div className="flex flex-row  px-40 responsive-width mobile-width ">
         <div className=" w-[25%] bg-[#2a2b2a] grid justify-items-center pt-10">
@@ -47,41 +47,40 @@ const ServiseCards = () => {
             </h3>
           </div>
         </div>
-      <div className="w-[25%] bg-[#181a18] grid justify-items-center pt-10">
-        <img src="images/iconapp.svg" alt="" />
-        <span className="pt-5 text-white">App</span>
-        <span className="text-white">Development</span>
-        <div className="  pt-5 pb-20   ">
-          <h3 className=" text-[#DD4242] border-b cursor-pointer	 border-red-500">
-            READ MORE
-          </h3>
-        </div>{" "}
-      </div>
+        <div className="w-[25%] bg-[#181a18] grid justify-items-center pt-10">
+          <img src="images/iconapp.svg" alt="" />
+          <span className="pt-5 text-white">App</span>
+          <span className="text-white">Development</span>
+          <div className="  pt-5 pb-20   ">
+            <h3 className=" text-[#DD4242] border-b cursor-pointer	 border-red-500">
+              READ MORE
+            </h3>
+          </div>{" "}
+        </div>
 
-      <div className="w-[25%] bg-[#2a2b2a] grid justify-items-center pt-10">
-        <img src="images/iconsocialmedia.svg" alt="" />
-        <span className="pt-5 text-white">SEO & SMM</span>
-        <span className="text-white ">Optimization</span>
-        <div className="  pt-5 pb-20   ">
-          <h3 className=" text-[#DD4242] border-b cursor-pointer	 border-red-500">
-            READ MORE
-          </h3>
-        </div>{" "}
+        <div className="w-[25%] bg-[#2a2b2a] grid justify-items-center pt-10">
+          <img src="images/iconsocialmedia.svg" alt="" />
+          <span className="pt-5 text-white">SEO & SMM</span>
+          <span className="text-white ">Optimization</span>
+          <div className="  pt-5 pb-20   ">
+            <h3 className=" text-[#DD4242] border-b cursor-pointer	 border-red-500">
+              READ MORE
+            </h3>
+          </div>{" "}
+        </div>
+        <div className="w-[25%] bg-[#181a18] grid justify-items-center pt-10">
+          <img src="images/iconwebdev.svg" alt="" />
+          <span className="pt-5 text-white">Web</span>
+          <span className="text-white">Development</span>
+          <div className="  pt-5 pb-20   ">
+            <h3 className=" text-[#DD4242] border-b cursor-pointer	 border-red-500">
+              READ MORE
+            </h3>
+          </div>{" "}
+        </div>
       </div>
-      <div className="w-[25%] bg-[#181a18] grid justify-items-center pt-10">
-        <img src="images/iconwebdev.svg" alt="" />
-        <span className="pt-5 text-white">Web</span>
-        <span className="text-white">Development</span>
-        <div className="  pt-5 pb-20   ">
-          <h3 className=" text-[#DD4242] border-b cursor-pointer	 border-red-500">
-            READ MORE
-          </h3>
-        </div>{" "}
-      </div>
-      </div>
-
     </>
-  );
-};
+  )
+}
 
-export default ServiseCards;
+export default ServiseCards

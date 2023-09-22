@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Splide, SplideSlide } from '@splidejs/react-splide';
 const OurExperts = () => {
   return (
     <>
@@ -29,28 +29,42 @@ const OurExperts = () => {
               problems and work hard to succeed their business.
             </p>
           </div>
-          <div className="flex flex-row-reverse pb-8 pl-40 px-40 text-white">
-            <div className="pl-6 text-[#DD4242] border-b border-red-500 m-4">
+          <div className="flex flex-row-reverse pb-8 pl-40 px-40 text-white splide__arrows">
+            <div className="pl-6 text-[#DD4242] border-b border-red-500 m-4 splide__arrow splide__arrow--next">
               Next
             </div>
-            <div className="border-b border-white-500 pr-6 m-4">Prev</div>
+            <div className="border-b border-white-500 cursor pr-6 m-4 splide__arrow splide__arrow--prev">Prev</div>
           </div>
         </div>
 
         <div className="flex  px-40 responsive-width mobile-width">
           <div className="flex flex-row">
+          <Splide aria-label="My Favorite Images">
+          <SplideSlide>
+
             <div>
               <img src="images/one.png" alt="" />
             </div>
+            </SplideSlide>
+            <SplideSlide>
+
             <div>
               <img src="images/two.png" alt="" />
             </div>
+            </SplideSlide>
+            <SplideSlide>
+
             <div>
               <img src="images/three.png" alt="" />
             </div>
+            </SplideSlide>
+            <SplideSlide>
+
             <div>
               <img src="images/four.jpg   " alt="" />
             </div>
+            </SplideSlide>
+            </Splide>
           </div>
         </div>
       </div>

@@ -52,7 +52,7 @@ const SendMessage = () => {
             placeholder="Message"
             id=""
             className="border-none borderless-input text-white"
-            cols="54"
+            cols="54" 
             rows="4"
           ></textarea>
         </div>

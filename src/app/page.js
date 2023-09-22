@@ -9,6 +9,7 @@ import Services from "./components/Homepage/Our-services/Services";
 import UIUXPage from "./components/UIUXPage/UIUXPage";
 import LandingPage from "./components/landingpage/LandingPage";
 import MobileApp from "./components/landingpage/OurServices/MobileApp";
+import Testimonials from "./components/testimonials/Testimonials";
 
 export default function Home() {
   return (
