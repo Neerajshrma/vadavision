@@ -15,6 +15,7 @@ import OurWorkCulture from "./OurWorkCulture/OurWorkCulture";
 import OurExperts from "./OurExperts/OurExperts";
 import Accordion from "../common/Faqs/Faqs";
 import Tabs from "../common/Faqs/Tabs/Tabs";
+import ServiseCards from "./ServiceCards/ServiseCards";
 
 const AboutUsPage = () => {
   return (
