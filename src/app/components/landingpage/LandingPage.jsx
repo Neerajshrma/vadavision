@@ -12,6 +12,7 @@ import FAQs from "./FAQs/FAQs";
 import Footer from "../common/Footer/Footer";
 import Header from "../common/Header/Header";
 import Sliders from "./Testimonials/Testimonials";
+import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
 
 const LandingPage = () => {
   return (
@@ -25,9 +26,9 @@ const LandingPage = () => {
         {/* herosection start */}
         <HeroSection />
       </div>
-      <div>
+      {/* <div>
         <Sliders />
-      </div>
+      </div> */}
       <div className="">
         <ConsultUs backgroundColor="#14EFA5" />
       </div>
@@ -58,8 +59,8 @@ const LandingPage = () => {
       <div>
         <CalculateTheCost />
       </div>
-      <div>
-        <FAQs />
+      <div className="bg-[#141619]">
+        <FrequentlyAksedQuestions />
       </div>
       <div>
         <Footer />

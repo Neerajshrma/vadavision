@@ -5,9 +5,9 @@ const WhyChooseUs = () => {
     <>
       <div className="bg-[#111319] w-full py-10 pl-40 pr-24 responsive-width">
         <div className="flex why-us gap-14 pr-16 justify-end">
-            <div className="w-[50%] ">
-                <img src="images/bg-object4.png"  alt="" />
-            </div>
+          <div className="w-[50%] ">
+            <img src="images/bg-object4.png" alt="" />
+          </div>
           <div className="w-[50%] ">
             <div className="flex gap-3 items-center">
               <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>
@@ -134,37 +134,33 @@ const WhyChooseUs = () => {
               </div>
               <div className="pl-6">
                 <div className="flex flex-row gap-1">
-
-                <img src="images/upwork.png" alt="" />
-                <div className="pt-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="35"
-                  height="28"
-                  viewBox="0 0 35 35"
-                  fill="none"
-                >
-                  <g clip-path="url(#clip0_1380_1100)">
-                    <path
-                      d="M17.45 0H0V23.025L17.45 35L34.875 23.025V0H17.45Z"
-                      fill="#5AA2C6"
-                    />
-                    <path
-                      d="M0.125 23.025L17.55 35L35 23.025V0L0.125 23.025Z"
-                      fill="#0B83B2"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1380_1100">
-                      <rect width="35" height="35" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-
+                  <img src="images/upwork.png" alt="" />
+                  <div className="pt-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="35"
+                      height="28"
+                      viewBox="0 0 35 35"
+                      fill="none"
+                    >
+                      <g clipPath="url(#clip0_1380_1100)">
+                        <path
+                          d="M17.45 0H0V23.025L17.45 35L34.875 23.025V0H17.45Z"
+                          fill="#5AA2C6"
+                        />
+                        <path
+                          d="M0.125 23.025L17.55 35L35 23.025V0L0.125 23.025Z"
+                          fill="#0B83B2"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1380_1100">
+                          <rect width="35" height="35" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
                 </div>
-               
-                </div>
-
 
                 <div className="flex flex-row">
                   <svg
