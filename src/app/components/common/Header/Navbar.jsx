@@ -11,6 +11,8 @@ const Navbar = () => {
           style={{ fontFamily: "Poppins" }}
           className="text-base font-normal leading-[120%]"
         >
+                    <a href="">Home</a>
+
           
         </div>
 
