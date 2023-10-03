@@ -1,8 +1,7 @@
-
+import Link from "next/link";
 import React from "react";
 import Button from "../Button";
-import { Link } from "react-router-dom";
-
+  
 const Navbar = () => {
   return (
     <menu style={{ fontFamily: "Poppins" }}>
@@ -11,28 +10,28 @@ const Navbar = () => {
           style={{ fontFamily: "Poppins" }}
           className="text-base font-normal leading-[120%]"
         >
-                    <a href="">Home</a>
+          {/* <a href="">Home</a> */}
 
-          
+          <Link href="/">Home</Link>
         </div>
 
         <div
           style={{ fontFamily: "Poppins" }}
           className="text-base font-normal leading-[120%]"
         >
-          <a href="">Our Services</a>
+          <Link href="/aboutuspage">Our Services</Link>
         </div>
         <div
           style={{ fontFamily: "Poppins" }}
           className="text-base font-normal leading-[120%]"
         >
-          <a href="">Portfolio</a>
+          <Link href="/contactuspage">Portfolio</Link>
         </div>
         <div
           style={{ fontFamily: "Poppins" }}
           className="text-base font-normal leading-[120%]"
         >
-          <a href="">Company</a>
+          <Link href="/uiuxpage">Company</Link>
         </div>
         <Button
           fontFamily="Poppins"

@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../common/Button";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -9,25 +10,25 @@ const Navbar = () => {
           style={{ fontFamily: "Poppins" }}
           className="text-white text-base font-normal leading-[120%]"
         >
-          <a href="">Home</a>
+          <Link href="/">Home</Link>
         </div>
         <div
           style={{ fontFamily: "Poppins" }}
           className="text-white text-base font-normal leading-[120%]"
         >
-          <a href="">Our Services</a>
+          <Link href="/aboutuspage">Our Services</Link>
         </div>
         <div
           style={{ fontFamily: "Poppins" }}
           className="text-white text-base font-normal leading-[120%]"
         >
-          <a href="">Portfolio</a>
+          <Link href="/contactuspage">Portfolio</Link>
         </div>
         <div
           style={{ fontFamily: "Poppins" }}
           className="text-white text-base font-normal leading-[120%]"
         >
-          <a href="">Company</a>
+          <Link href="/uiuxpage">Company</Link>
         </div>
         <Button
           fontFamily="Poppins"
