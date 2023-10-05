@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../common/Button";
 import RecognizedBy from "./RecognizedBy";
+import RippleEffect from "../../common/RippleEffect";
 
 const HeroSection = () => {
   return (
@@ -20,7 +21,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div>
-            <h1 className="text-[60px] hero-heading leading-[120%] font-bold">
+            <h1 className="text-[55px] hero-heading leading-[120%] font-bold">
               Automate your <br />
               Workflow & Save <br />
               Time{" "}
@@ -28,19 +29,19 @@ const HeroSection = () => {
             </h1>
           </div>
           <div>
-            <h4 className="text-lg hero-description font-medium leading-[120%] text-[#A9AFC3] w-10/12 mt-4">
+            <h4 className="text-base hero-description font-medium leading-[120%] text-[#A9AFC3] w-10/12 mt-4">
               We create new technologies for your business thanks to our
               wonderful team of professionals.
             </h4>
           </div>
-          <div className="flex gap-4 mt-8">
+          <div className="flex gap-2 mt-8">
             <div>
               <Button
                 fontFamily="Poppins"
-                fontWeight="600"
-                padding="14px 28px"
+                fontWeight="500"
+                padding="10px 26px"
                 Color="#FFFFFF"
-                fontSize="20px"
+                fontSize="18px"
                 backgroundColor="#141619"
                 name="Consult with us"
               />
@@ -48,10 +49,10 @@ const HeroSection = () => {
             <div>
               <Button
                 fontFamily="Poppins"
-                fontWeight="600"
-                padding="14px 28px"
+                fontWeight="500"
+                padding="10px 26px"
                 Color="#FFFFFF"
-                fontSize="20px"
+                fontSize="18px"
                 backgroundColor="#959596"
                 name="Know More"
               />

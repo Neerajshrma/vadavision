@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Button from "../Button";
+import RippleEffect from "../RippleEffect";
 
 const Navbar = () => {
   return (
@@ -39,15 +40,19 @@ const Navbar = () => {
         >
           <Link href="/">Career</Link>
         </div>
-        <Button
-          fontFamily="Poppins"
-          fontWeight="500"
-          padding="6px 24px"
-          Color="#FFFFFF"
-          fontSize="14px"
-          backgroundColor="#DD4242"
-          name="GET IN TOUCH"
-        />
+        <div>
+          <RippleEffect>
+            <Button
+              fontFamily="Poppins"
+              fontWeight="500"
+              padding="7px 22px"
+              Color="#FFFFFF"
+              fontSize="12px"
+              backgroundColor="#141619"
+              name="GET IN TOUCH"
+            />
+          </RippleEffect>
+        </div>
       </div>
       <div className="responsive-header">
         <button

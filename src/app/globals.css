@@ -17,7 +17,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #141619;
   font-family: 'Poppins';
 }
 
@@ -106,6 +106,7 @@ body {
 .subs-input:focus{
   box-shadow: none !important;
   border: none !important;
+  border-bottom: 1px solid #A2A9B0 !important;
 }
 
 .input-calculator{
@@ -562,4 +563,24 @@ body {
   padding: 5px 0;
   right: 9px !important;
   top: -229px !important;
+}
+
+.ripple-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4); 
+  transform: scale(0); 
+  animation: ripple 0.6s linear; 
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4); 
+    opacity: 0; 
+  }
 }

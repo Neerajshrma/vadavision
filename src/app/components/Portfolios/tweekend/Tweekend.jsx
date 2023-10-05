@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../common/Button";
+import RippleEffect from "../../common/RippleEffect";
 
 const Tweekend = () => {
   return (
@@ -38,7 +39,7 @@ const Tweekend = () => {
               details in each area.
             </p>
           </div>
-          <div className="mt-10">
+          <div className="mt-10 w-[166px]">
             <Button
               fontFamily="Montserrat"
               fontWeight="500"

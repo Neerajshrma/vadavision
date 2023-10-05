@@ -41,7 +41,7 @@ const StandardInsights = () => {
               details in each area.
             </p>
           </div>
-          <div className="mt-10">
+          <div className="mt-10  w-[166px]">
             <Button
               fontFamily="Montserrat"
               fontWeight="500"

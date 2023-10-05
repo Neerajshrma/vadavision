@@ -16,7 +16,7 @@ const Navbar = () => {
           style={{ fontFamily: "Poppins" }}
           className="text-white text-base font-normal leading-[120%]"
         >
-          <Link href="/uiuxpage">UI UX</Link>
+          <Link href="/uiuxpage">UI/UX</Link>
         </div>
         <div
           style={{ fontFamily: "Poppins" }}
