@@ -103,6 +103,11 @@ body {
   outline: none!important;
 }
 
+.subs-input:focus{
+  box-shadow: none !important;
+  border: none !important;
+}
+
 .input-calculator{
   border-radius: 8px!important;
 }
