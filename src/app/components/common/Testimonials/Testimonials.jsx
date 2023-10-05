@@ -65,12 +65,14 @@ const Sliders = ({ children }) => {
     // className: "center",
     // ots: false,
     // infinite: true,
-    speed: 500,
+    speed: 1000,
     // autoplay: true,
     // autoplaySpeed: 3000,
     // centerPadding: '60px',
-    slidesToShow: 3,
+    slidesToShow: 1,
     initialSlide: 0,
+    // vertical: true,
+    // verticalSwiping: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
@@ -152,7 +154,7 @@ const Sliders = ({ children }) => {
       > */}
       {isClient && (
         <Slider {...settings1}>
-          {Array.from({ length: 3 }).map((_, index) => (
+          {Array.from({ length: 4 }).map((_, index) => (
             <div key={index} className=" min-h-[400px]">
               <div className="mt-20 w-[45%] mx-auto">
                 <div>

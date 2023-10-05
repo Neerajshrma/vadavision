@@ -4,7 +4,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 const OurServices = () => {
   return (
-    <div className="bg-[#1E1E1E] w-full py-10 px-40 responsive-width">
+    <div className="bg-[#141619] w-full py-10 px-40 responsive-width">
       <div className="mt-10 relative">
         <div className="flex gap-3 items-center">
           <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>

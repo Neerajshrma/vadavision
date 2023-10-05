@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Head from "next/head";
 import HeroSection from "./HeroSection/HeroSection";
@@ -15,6 +16,7 @@ import Header from "../common/Header/Header";
 import Sliders from "../common/Testimonials/Testimonials";
 import Tabs from "../common/Faqs/Tabs/Tabs";
 import Accordion from "../common/Faqs/Faqs";
+import SplideSlider from "../Splide/SplideSlider";
 
 const Homepage = () => {
   return (
@@ -38,8 +40,8 @@ const Homepage = () => {
       {/* hero-section end */}
 
       {/* testimonials start */}
-      <div >
-        <Sliders />
+      <div>
+        <SplideSlider />
       </div>
       {/* testimonials end */}
 

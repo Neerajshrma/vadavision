@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Button from "../Button";
-  
+
 const Navbar = () => {
   return (
     <menu style={{ fontFamily: "Poppins" }}>
@@ -36,7 +36,7 @@ const Navbar = () => {
         <Button
           fontFamily="Poppins"
           fontWeight="500"
-          padding="8px 24px"
+          padding="6px 24px"
           Color="#FFFFFF"
           fontSize="14px"
           backgroundColor="#DD4242"
