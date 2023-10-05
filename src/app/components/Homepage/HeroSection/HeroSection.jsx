@@ -64,7 +64,7 @@ const HeroSection = () => {
       </div>
       <div className="w-4/12 hero-svg">
         <svg
-          width="420"
+          width="380"
           height="518"
           viewBox="0 0 520 518"
           fill="none"

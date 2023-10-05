@@ -12,26 +12,32 @@ const Navbar = () => {
         >
           {/* <a href="">Home</a> */}
 
-          <Link href="/">Home</Link>
+          <Link href="/homepage">Home</Link>
         </div>
 
         <div
           style={{ fontFamily: "Poppins" }}
           className="text-base font-normal leading-[120%]"
         >
-          <Link href="/aboutuspage">Our Services</Link>
+          <Link href="/uiuxpage">UI UX</Link>
         </div>
         <div
           style={{ fontFamily: "Poppins" }}
           className="text-base font-normal leading-[120%]"
         >
-          <Link href="/contactuspage">Portfolio</Link>
+          <Link href="/aboutuspage">About Us</Link>
         </div>
         <div
           style={{ fontFamily: "Poppins" }}
           className="text-base font-normal leading-[120%]"
         >
-          <Link href="/uiuxpage">Company</Link>
+          <Link href="/contactuspage">Contact Us</Link>
+        </div>
+        <div
+          style={{ fontFamily: "Poppins" }}
+          className="text-base font-normal leading-[120%]"
+        >
+          <Link href="/">Career</Link>
         </div>
         <Button
           fontFamily="Poppins"

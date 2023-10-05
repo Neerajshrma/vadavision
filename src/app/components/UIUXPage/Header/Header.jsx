@@ -1,10 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import Navbar from "./Navbar";
+import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="header w-[84.72%] mx-auto py-10">
+    <header className="header px-40 mx-auto py-10">
       <div className="flex justify-between items-center">
         <div className="flex gap-2 items-center cursor-pointer">
           <div>
@@ -34,7 +35,7 @@ const Header = () => {
               style={{ fontFamily: "Source Sans Pro" }}
               className="text-3xl text-[#DD4242] leading-[120%] font-bold"
             >
-              Vada vision!
+              <Link href="/homepage">Vada vision!</Link>
             </h1>
           </div>
         </div>
