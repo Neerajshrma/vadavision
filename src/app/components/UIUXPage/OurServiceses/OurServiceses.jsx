@@ -15,7 +15,7 @@ const OurServiceses = () => {
         </div>
       </div>
       <div className="mt-5">
-        <h1 className="text-5xl hero-heading leading-[120%] font-bold text-[#DD4242]">
+        <h1 className="text-4xl hero-heading leading-[120%] font-semibold text-[#DD4242]">
           Our UI-UX Design Service
         </h1>
         <p className="mt-8 text-[#A9AFC3] font-normal text-base w-[650px] mx-auto leading-[40px]">

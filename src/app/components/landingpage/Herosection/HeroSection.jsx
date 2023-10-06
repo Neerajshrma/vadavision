@@ -8,27 +8,27 @@ const HeroSection = () => {
       <div className="flex items-center px-40 responsive-width mobile-width mt-2">
         <div
           style={{ fontFamily: "Montserrat" }}
-          className="mt-5 w-8/12 hero-section "
+          className="mt-5 w-7/12 hero-section "
         >
           <div className="bg-hero">
             <div>
-              <h1 className="text-[60px] hero-heading leading-[120%] font-bold">
+              <h1 className="text-[55px] hero-heading leading-[120%] font-bold">
                 Unlock the Power of Cutting-Edge Mobile App Development{" "}
                 <span className="heading-dot inline-block w-5 h-5 ml-[-12px] bg-[#DD4242] rounded-full"></span>
               </h1>
             </div>
             <div>
-              <h4 className="text-xl hero-description font-medium leading-[120%] text-[#A9AFC3] w-10/12 mt-4">
+              <h4 className="text-base hero-description font-medium leading-[120%] text-[#A9AFC3] w-10/12 mt-4">
                 Transform your business with intelligent mobile solutions
                 powered by AI
               </h4>
             </div>
             <div className="flex gap-4 mt-8">
-              <div className="flex gap-1 bg-[#DD4242] items-center px-5 py-3">
+              <div className="flex gap-1 bg-[#DD4242] items-center px-4 py-1.5">
                 <span>
                   <svg
-                    width="26"
-                    height="26"
+                    width="22"
+                    height="22"
                     viewBox="0 0 26 26"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -41,10 +41,10 @@ const HeroSection = () => {
                 </span>
                 <Button
                   fontFamily="Montserrat"
-                  fontWeight="600"
+                  fontWeight="500"
                   padding=""
                   Color="#EAEAEA"
-                  fontSize="18px"
+                  fontSize="16px"
                   name="Cost Calculator"
                 />
               </div>

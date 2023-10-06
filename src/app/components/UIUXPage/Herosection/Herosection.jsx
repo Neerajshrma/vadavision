@@ -15,10 +15,10 @@ const Herosection = () => {
         </div>
       </div>
       <div className="mt-5">
-        <h1 className="text-[60px] hero-heading leading-[120%] font-bold text-white">
+        <h1 className="text-[50px] hero-heading leading-[120%] font-bold text-white">
           UI/UX Design Services
         </h1>
-        <p className="mt-8 text-white font-normal text-lg leading-[40px]">
+        <p className="mt-8 text-white font-normal text-base leading-[40px]">
           Mobile app development is the act or process by which a mobile app is
           developed for mobile devices, such as personal digital assistants,
           enterprise digital assistants or mobile phones.{" "}
@@ -30,7 +30,7 @@ const Herosection = () => {
             fontFamily="Poppins"
             fontWeight="400"
             Color="#FFFFFF"
-            fontSize="14px"
+            fontSize="12px"
             backgroundColor=""
             letterSpacing="0.06em"
             name="Request Quotation"

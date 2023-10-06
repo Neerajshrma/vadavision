@@ -3,7 +3,7 @@ import Button from "../../common/Button";
 
 const Legalhub = () => {
   return (
-    <div className="bg-[#1E2533] py-20 px-10 px-5">
+    <div className="min-h-[700px] max-h-[700px] bg-[#1E2533] py-20 px-10 px-5">
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio	bg-contain bg-right"
         style={{ backgroundImage: "url(images/bg-object3.png)" }}
@@ -24,13 +24,13 @@ const Legalhub = () => {
             <img className="w-52" src="/images/legalhub-logo.png" alt="" />
           </div>
           <div className="mt-10">
-            <p className=" Montserrat font-normal text-white text-lg leading-[120%]">
+            <p className=" Montserrat font-light text-white text-lg leading-[120%]">
               Our creative and professional agency has been developing products
               for 15 years. We are special.
             </p>
           </div>
           <div className="mt-8 pr-5">
-            <p className="Montserrat font-normal text-white text-lg leading-[120%] ">
+            <p className="Montserrat font-light text-white text-lg leading-[120%] ">
               We’ve got a lot of awards for our work and develop applications
               that became popular in the world. We try not to miss important
               details in each area.
@@ -40,9 +40,9 @@ const Legalhub = () => {
             <Button
               fontFamily="Montserrat"
               fontWeight="500"
-              padding="12px 25px"
+              padding="12px 22px"
               Color="#ffffff"
-              fontSize="20px"
+              fontSize="16px"
               backgroundColor="#141619"
               name="Know More"
             />

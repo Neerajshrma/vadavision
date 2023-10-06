@@ -23,44 +23,44 @@ const StandardInsights = () => {
             Finance
           </div>
         </div>
-        <div className="mt-3 inline-block border-8 border-white py-1 px-3">
+        <div className="mt-3 inline-block border-[6px] border-white py-1 px-3">
           <h2
-            className="text-white text-xl font-black "
+            className="text-white text-xl font-bold"
             style={{ fontFamily: "Inter", letterSpacing: "-0.24px" }}
           >
             STANDARD INSIGHTS
           </h2>
         </div>
         <div className="mt-3">
-          <p className="Montserrat text-white text-md leading-[140%] description">
+          <p className="Montserrat text-white text-sm leading-[140%] description">
             Our creative and professional agency has been developing products
             for 15 years. We are special.Our creative and professional agency
             has been
           </p>
         </div>
         <div className="mt-3">
-          <span className="text-[#DD4242] Montserrat text-xl font-bold leading-[160%]">
+          <span className="text-[#DD4242] Montserrat text-base font-semibold leading-[160%]">
             Platform
           </span>
-          <span className="mt-1 block text-white Montserrat text-md font-medium leading-[120%]">
+          <span className="mt-1 block text-white Montserrat text-sm font-normal leading-[120%]">
             Andriod, Ios
           </span>
         </div>
         <div className="mt-3">
-          <span className="text-[#DD4242] Montserrat text-xl font-bold leading-[160%]">
+          <span className="text-[#DD4242] Montserrat text-base font-semibold leading-[160%]">
             Tech Used
           </span>
-          <span className="mt-1 block text-white Montserrat text-md font-medium leading-[120%]">
+          <span className="mt-1 block text-white Montserrat text-sm font-normal leading-[120%]">
             Kotlin, Lavarel,Devops
           </span>
         </div>
-        <div className="inline-block mt-3 border-4 border-[#14EFA5]">
+        <div className="inline-block mt-3 border-[3px] border-[#14EFA5]">
           <Button
             fontFamily="Montserrat"
-            fontWeight="500"
-            padding="7px 10px"
+            fontWeight="400"
+            padding="7px 14px"
             Color="#ffffff"
-            fontSize="16px"
+            fontSize="14px"
             name="View Case Study"
           />
         </div>

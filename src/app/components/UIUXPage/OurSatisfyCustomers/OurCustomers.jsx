@@ -9,11 +9,11 @@ const OurCustomers = () => {
         </h2>
       </div>
       <div className="flex justify-center gap-14 items-center mt-5 flex-wrap">
-        <div className="w-56 mt-10">
+        <div className="w-44 mt-10">
           <img src="images/legalhub-logo.png" alt="" />
         </div>
         <div className="w-60 mt-10">
-          <h1 className="p-1 px-2 border-[6px] text-xl borde-white text-white font-bold">
+          <h1 className="p-[2px] px-1.5 border-[6px] text-lg borde-white text-white font-bold">
             STANDARD INSIGHTS
           </h1>
         </div>{" "}
@@ -22,24 +22,24 @@ const OurCustomers = () => {
         </div>{" "}
       </div>
       <div className="flex justify-center gap-14 items-center mt-5 flex-wrap">
-        <div className="w-56 mt-10">
+        <div className="w-44 mt-10">
           <img src="images/legalhub-logo.png" alt="" />
         </div>
         <div className="w-60 mt-10">
-          <h1 className="p-1 px-2 border-[6px] text-xl borde-white text-white font-bold">
+          <h1 className="p-[2px] px-1.5 border-[6px] text-lg borde-white text-white font-bold">
             STANDARD INSIGHTS
           </h1>
         </div>{" "}
       </div>
       <div className="mt-20 text-center w-8/12 mx-auto min-w-[400px]">
-        <p className="text-white">
+        <p className="text-white text-sm">
           Mobile app development is the act or process by which a mobile app is
           developed for mobile devices, such as personal digital assistants,
           enterprise digital assistants or mobile phones. These applications can
           be pre-installed on phones during manufacturing platforms, or
           delivered
         </p>
-        <p className="text-white mt-2">
+        <p className="text-white mt-2 text-sm">
           as web applications using server-side or client-side processing (e.g.,
           JavaScript) to provide an {"application-like"} experience within a Web
           browser. Application software developers also must consider a long

@@ -4,7 +4,7 @@ import RippleEffect from "../../common/RippleEffect";
 
 const Tweekend = () => {
   return (
-    <div className="bg-tweekend py-20 px-10 px-5">
+    <div className="min-h-[700px] max-h-[700px] bg-tweekend py-20 px-10 px-5">
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio bg-contain bg-right"
         style={{ backgroundImage: "url(images/bg-object.png)" }}
@@ -27,13 +27,13 @@ const Tweekend = () => {
             </h1>
           </div>
           <div className="mt-10">
-            <p className=" Montserrat font-normal text-white text-lg leading-[120%] ">
+            <p className=" Montserrat font-light text-white text-lg leading-[120%] ">
               Our creative and professional agency has been developing products
               for 15 years. We are special.
             </p>
           </div>
           <div className="mt-8 pr-5">
-            <p className="Montserrat font-normal text-white text-lg leading-[120%] ">
+            <p className="Montserrat font-light text-white text-lg leading-[120%] ">
               We’ve got a lot of awards for our work and develop applications
               that became popular in the world. We try not to miss important
               details in each area.
@@ -43,9 +43,9 @@ const Tweekend = () => {
             <Button
               fontFamily="Montserrat"
               fontWeight="500"
-              padding="12px 25px"
+              padding="12px 22px"
               Color="#300C44"
-              fontSize="20px"
+              fontSize="16px"
               backgroundColor="#ffffff"
               name="Know More"
             />

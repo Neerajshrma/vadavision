@@ -13,7 +13,7 @@ const Navbar = () => {
         >
           {/* <a href="">Home</a> */}
 
-          <Link href="/homepage">Home</Link>
+          <Link href="/landingpage">Mobile App</Link>
         </div>
 
         <div
@@ -41,17 +41,19 @@ const Navbar = () => {
           <Link href="/">Career</Link>
         </div>
         <div>
-          <RippleEffect>
-            <Button
-              fontFamily="Poppins"
-              fontWeight="500"
-              padding="6px 22px"
-              Color="#FFFFFF"
-              fontSize="12px"
-              backgroundColor="#141619"
-              name="GET IN TOUCH"
-            />
-          </RippleEffect>
+          <Link href="/contactuspage">
+            <RippleEffect>
+              <Button
+                fontFamily="Poppins"
+                fontWeight="500"
+                padding="7px 22px"
+                Color="#FFFFFF"
+                fontSize="12px"
+                backgroundColor="#141619"
+                name="GET IN TOUCH"
+              />
+            </RippleEffect>
+          </Link>
         </div>
       </div>
       <div className="responsive-header">

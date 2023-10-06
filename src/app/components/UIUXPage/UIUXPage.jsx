@@ -12,6 +12,7 @@ import OurMilestones from "./OurMilestones/OurMilestones";
 import WhyChooseUs from "../landingpage/WhyUs/WhyChooseUs";
 import Footer from "../common/Footer/Footer";
 import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
+import SplideSlider from "../Splide/SplideSlider";
 
 const UIUXPage = () => {
   return (
@@ -32,11 +33,11 @@ const UIUXPage = () => {
       <div>
         <RecognizedBy />
       </div>
-      {/* <div>
-        <Sliders />
-      </div> */}
       <div className="">
         <OurCustomers />
+      </div>
+      <div>
+        <SplideSlider />
       </div>
       <div>
         <OurServiceses />

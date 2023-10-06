@@ -43,7 +43,7 @@ const SubscribeUs = () => {
       </div>
       <div
         className="full-width-responsive w-6/12  bg-cover"
-        style={{ backgroundImage: "url(images/bg-img2.png)" }}
+        style={{ backgroundImage: "url(images/team.jpg)" }}
       >
         <div className="bg-subscribe-us min-h-[450px]"></div>
       </div>
