@@ -10,11 +10,7 @@ import DesignProcess from "./OurDesignProcess/DesignProcess";
 import DesigningTools from "./OurDesigningTools/DesigningTools";
 import OurMilestones from "./OurMilestones/OurMilestones";
 import WhyChooseUs from "../landingpage/WhyUs/WhyChooseUs";
-import CalculateTheCost from "../landingpage/CalculateTheCost/CalculateTheCost";
-import FAQs from "../landingpage/FAQs/FAQs";
 import Footer from "../common/Footer/Footer";
-import Testimonials from "../testimonials/Testimonials";
-import Sliders from "../Homepage/Testimonials/Testimonials";
 import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
 
 const UIUXPage = () => {

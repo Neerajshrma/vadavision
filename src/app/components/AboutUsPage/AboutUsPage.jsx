@@ -5,19 +5,15 @@ import AboutUs from "./AboutUs/AboutUs";
 import MissionVision from "./Missionvision/MissionVision";
 import OurCustomers from "../UIUXPage/OurSatisfyCustomers/OurCustomers";
 import WhyChooseUs from "../Homepage/Whychooseus/WhyChooseUs";
-import ConsultUs from "../landingpage/Consultus/ConsultUs";
 import ConsultWithUs from "../Homepage/Consultwithus/ConsultWithUs";
-import FAQs from "../landingpage/FAQs/FAQs";
 import Footer from "../common/Footer/Footer";
 import SubscribeUs from "../Homepage/Subscribeus/SubscribeUs";
-import FAQTabs from "../Homepage/FAQs/FAQTabs";
 import OurWorkCulture from "./OurWorkCulture/OurWorkCulture";
-import OurExperts from "./OurExperts/OurExperts";
 import Accordion from "../common/Faqs/Faqs";
 import Tabs from "../common/Faqs/Tabs/Tabs";
 import ServiseCards from "./ServiceCards/ServiseCards";
 
-const   AboutUsPage = () => {
+const AboutUsPage = () => {
   return (
     <div className="bg-[#141619]">
       <div>
