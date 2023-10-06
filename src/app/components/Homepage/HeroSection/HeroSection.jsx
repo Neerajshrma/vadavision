@@ -39,7 +39,7 @@ const HeroSection = () => {
               <Button
                 fontFamily="Poppins"
                 fontWeight="500"
-                padding="10px 26px"
+                padding="8px 26px"
                 Color="#FFFFFF"
                 fontSize="18px"
                 backgroundColor="#141619"
@@ -50,7 +50,7 @@ const HeroSection = () => {
               <Button
                 fontFamily="Poppins"
                 fontWeight="500"
-                padding="10px 26px"
+                padding="8px 26px"
                 Color="#FFFFFF"
                 fontSize="18px"
                 backgroundColor="#959596"
