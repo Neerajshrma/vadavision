@@ -1,28 +1,24 @@
 import { Splide, SplideSlide, SplideArrow } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import React, { useRef, useState, useEffect } from "react";
-
+import "./services.css";
 const ServicesSlider = () => {
   const splideRef = useRef();
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
-    // Access Splide instance and bind events
     const splideInstance = splideRef.current.splide;
 
-    // Event listener for slide change
     splideInstance.on("moved", (newIndex) => {
       setCurrentSlide(newIndex);
     });
   }, []);
 
   const handleNext = () => {
-    // Move to the next slide
     splideRef.current.splide.go("+");
   };
 
   const handlePrev = () => {
-    // Move to the previous slide
     splideRef.current.splide.go("-");
   };
   return (
@@ -358,7 +354,6 @@ const ServicesSlider = () => {
           </SplideSlide>
         </Splide>
         <div className="absolute flex gap-5 mr-3 top-[-10px] right-0">
-          {/* Your slider component */}
           <button className="" onClick={handlePrev}>
             <span className="pb-[2px] border-b text-white">Prev</span>
           </button>
