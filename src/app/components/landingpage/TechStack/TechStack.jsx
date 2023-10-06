@@ -1,6 +1,5 @@
 import React from "react";
 import RecentPosts from "./RecentPosts";
-import Sliders from "./Slider";
 
 const TechStack = () => {
   return (
@@ -29,9 +28,6 @@ const TechStack = () => {
       </div>
       <div className="mt-10">
         <RecentPosts />
-      </div>
-      <div>
-        <Sliders />
       </div>
     </div>
   );
