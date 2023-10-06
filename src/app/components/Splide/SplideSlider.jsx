@@ -18,7 +18,7 @@ const SplideSlider = () => {
   };
   return (
     <div
-      className="bg-[#141619] pt-36 pb-5 px-40 bg-center bg-contain bg-no-repeat"
+      className="bg-[#141619] pt-36 px-40 bg-center bg-contain bg-no-repeat"
       style={{ backgroundImage: "url(images/bg-1.png)" }}
     >
       <div className="relative">
@@ -27,7 +27,7 @@ const SplideSlider = () => {
             rewind: true,
             gap: "1rem",
             direction: "ttb",
-            heightRatio: 0.4, // Adjust the value as needed
+            heightRatio: 0.5, // Adjust the value as needed
             isNavigation: true,
             speed: 900,
           }}
