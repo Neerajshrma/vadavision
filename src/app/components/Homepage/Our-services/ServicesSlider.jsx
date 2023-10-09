@@ -34,6 +34,14 @@ const ServicesSlider = () => {
             perPage: 4,
             pagination: false,
             fixedWidth: `${100 / 4}%`,
+            breakpoints: {
+              800: {
+                perPage: 2,
+              },
+              500: {
+                perPage: 1,
+              },
+            },
           }}
         >
           <SplideSlide>

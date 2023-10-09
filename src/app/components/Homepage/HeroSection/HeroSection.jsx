@@ -15,23 +15,22 @@ const HeroSection = () => {
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
             <div
               style={{ fontFamily: "Poppins" }}
-              className="creative-idea text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
+              className="creative-idea text-sm uppercase font-normal leading-[150%]"
             >
               Creative ideas
             </div>
           </div>
           <div>
-            <h1 className="text-[55px] hero-heading leading-[120%] font-bold">
-              Automate your <br />
-              Workflow & Save <br />
-              Time{" "}
-              <span className="heading-dot inline-block w-5 h-5 ml-[-12px] bg-[#DD4242] rounded-full"></span>
+            <h1 className="mt-2 w-11/12 text-[55px] hero-heading leading-[120%] font-bold">
+              <span className="text-[#DD4242]">Vadavision </span> <br />
+              Where Time-Saving Solutions Come to Life!
+              <span className="heading-dot inline-block w-5 h-5 ml-[px] bg-[#DD4242] rounded-full"></span>
             </h1>
           </div>
           <div>
             <h4 className="text-base hero-description font-medium leading-[120%] text-[#A9AFC3] w-10/12 mt-4">
-              We create new technologies for your business thanks to our
-              wonderful team of professionals.
+              Revolutionize your business with our expert team, automating
+              workflows and saving you valuable time.
             </h4>
           </div>
           <div className="flex gap-2 mt-8">
@@ -63,10 +62,10 @@ const HeroSection = () => {
           <RecognizedBy />
         </div>
       </div>
-      <div className="w-4/12 hero-svg">
+      <div className="w-4/12 hero-svg mb-10">
         <svg
           width="380"
-          height="518"
+          height="400"
           viewBox="0 0 520 518"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
