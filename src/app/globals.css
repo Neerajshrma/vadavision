@@ -155,6 +155,8 @@ body {
     display: block;
   }
 }
+.background{
+  background: linear-gradient(180deg, rgba(246, 250, 254, 0.00) -5.3%, #EAF3FD 35.29%);}
 
 
 .borderless-input {
