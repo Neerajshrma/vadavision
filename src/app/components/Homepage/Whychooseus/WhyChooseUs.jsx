@@ -96,12 +96,12 @@ const WhyChooseUs = () => {
             </div>
           </div>
           <div className="mt-4">
-            <h1 className="Montserrat capitallize text-white text-5xl font-bold leading-[110%] heading">
+            <h1 className="Montserrat capitallize text-white text-5xl font-semibold leading-[110%] heading">
               Why choose us
             </h1>
           </div>
           <div className="mt-5">
-            <p className="Montserrat font-normal text-[#A9AFC3] text-lg leading-[150%] description">
+            <p className="Montserrat font-normal text-[#A9AFC3] text-base leading-[150%] description">
               We’ve got a lot of awards for our products and services that
               became popular in the world.
             </p>

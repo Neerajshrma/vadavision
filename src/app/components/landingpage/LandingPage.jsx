@@ -8,10 +8,8 @@ import Portfolio from "./Portfolio/Portfolio";
 import SomeFacts from "./SomeFacts/SomeFacts";
 import WhyChooseUs from "./WhyUs/WhyChooseUs";
 import CalculateTheCost from "./CalculateTheCost/CalculateTheCost";
-import FAQs from "./FAQs/FAQs";
 import Footer from "../common/Footer/Footer";
 import Header from "../common/Header/Header";
-import Sliders from "./Testimonials/Testimonials";
 import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
 
 const LandingPage = () => {

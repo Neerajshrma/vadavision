@@ -12,12 +12,12 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="mt-4">
-          <h1 className="Montserrat capitalize text-white text-5xl font-bold heading leading-[110%]">
+          <h1 className="Montserrat capitalize text-white text-4xl font-semibold heading leading-[110%]">
             Our Projects
           </h1>
         </div>
         <div className="w-6/12 mt-4 description">
-          <p className="Montserrat text-[#A9AFC3] text-lg leading-[140%] description">
+          <p className="Montserrat text-[#A9AFC3] text-base leading-[140%] description">
             You may be interested in our technologies. We want to share more
             helpful infomation with you about our digital life and methods.
           </p>

@@ -37,15 +37,17 @@ const Navbar = () => {
         >
           <Link href="/">Career</Link>
         </div>
-        <Button
-          fontFamily="Poppins"
-          fontWeight="500"
-          padding="8px 24px"
-          Color="#FFFFFF"
-          fontSize="14px"
-          backgroundColor="#DD4242"
-          name="GET IN TOUCH"
-        />
+        <Link href="/contactuspage">
+          <Button
+            fontFamily="Poppins"
+            fontWeight="500"
+            padding="8px 24px"
+            Color="#FFFFFF"
+            fontSize="14px"
+            backgroundColor="#DD4242"
+            name="GET IN TOUCH"
+          />
+        </Link>
       </div>
       <div className="responsive-header">
         <button

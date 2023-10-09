@@ -12,7 +12,7 @@ const MobileApp = () => {
           </div>
         </div>
         <div className="mt-4">
-          <h1 className="Montserrat capitalize text-white text-5xl font-bold heading leading-[110%]">
+          <h1 className="Montserrat capitalize text-white text-4xl font-semibold heading leading-[110%]">
             Mobile App Development Services
           </h1>
         </div>
