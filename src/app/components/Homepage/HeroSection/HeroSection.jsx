@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../common/Button";
 import RecognizedBy from "./RecognizedBy";
-import RippleEffect from "../../common/RippleEffect";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -22,39 +22,42 @@ const HeroSection = () => {
           </div>
           <div>
             <h1 className="mt-2 w-11/12 text-[55px] hero-heading leading-[120%] font-bold">
-              <span className="text-[#DD4242]">Vadavision </span> <br />
-              Where Time-Saving Solutions Come to Life!
-              <span className="heading-dot inline-block w-5 h-5 ml-[px] bg-[#DD4242] rounded-full"></span>
+              Crafting Digital Dreams into Tangible Reality{" "}
+              <span className="heading-dot inline-block w-5 h-5 ml-[-4px] bg-[#DD4242] rounded-full"></span>
             </h1>
           </div>
           <div>
             <h4 className="text-base hero-description font-medium leading-[120%] text-[#A9AFC3] w-10/12 mt-4">
-              Revolutionize your business with our expert team, automating
-              workflows and saving you valuable time.
+              We build a solid foundation for your dream startup and fuel it for
+              explosive growth.
             </h4>
           </div>
           <div className="flex gap-2 mt-8">
             <div>
-              <Button
-                fontFamily="Poppins"
-                fontWeight="500"
-                padding="10px 26px"
-                Color="#FFFFFF"
-                fontSize="18px"
-                backgroundColor="#141619"
-                name="Consult with us"
-              />
+              <Link href="/Contactus">
+                <Button
+                  fontFamily="Poppins"
+                  fontWeight="500"
+                  padding="10px 26px"
+                  Color="#FFFFFF"
+                  fontSize="18px"
+                  backgroundColor="#141619"
+                  name="Consult with us"
+                />
+              </Link>
             </div>
             <div>
-              <Button
-                fontFamily="Poppins"
-                fontWeight="500"
-                padding="10px 26px"
-                Color="#FFFFFF"
-                fontSize="18px"
-                backgroundColor="#959596"
-                name="Know More"
-              />
+              <Link href="/aboutus">
+                <Button
+                  fontFamily="Poppins"
+                  fontWeight="500"
+                  padding="10px 26px"
+                  Color="#FFFFFF"
+                  fontSize="18px"
+                  backgroundColor="#959596"
+                  name="Know More"
+                />
+              </Link>
             </div>
           </div>
         </div>

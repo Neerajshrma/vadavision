@@ -33,12 +33,13 @@ const ServicesSlider = () => {
             direction: "horizontal",
             perPage: 4,
             pagination: false,
-            fixedWidth: `${100 / 4}%`,
+            // fixedWidth: `${100 / 4}%`,
             breakpoints: {
-              800: {
+              768: {
                 perPage: 2,
+                width: `${100 / 2}%`,
               },
-              500: {
+              640: {
                 perPage: 1,
               },
             },

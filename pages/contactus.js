@@ -1,7 +1,7 @@
 import ContactUsPage from '@/app/components/ContactUsPage/ContactUsPage'
 import React from 'react'
 
-const contactuspage = () => {
+const contactus = () => {
   return (
     <div>
         <ContactUsPage/>
@@ -9,4 +9,4 @@ const contactuspage = () => {
   )
 }
 
-export default contactuspage
+export default contactus

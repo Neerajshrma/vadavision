@@ -1,53 +1,53 @@
-import React from "react";
-import Button from "../../common/Button";
 import Link from "next/link";
+import React from "react";
+import Menu from "../../common/Header/Menu";
+import RippleEffect from "../../common/RippleEffect";
+import Button from "../../common/Button";
 
 const Navbar = () => {
   return (
     <menu style={{ fontFamily: "Poppins" }}>
       <div className="nav-bar flex gap-10 items-center">
-        <div
-          style={{ fontFamily: "Poppins" }}
-          className="text-white text-base font-normal leading-[120%]"
-        >
-          <Link href="/homepage">Home</Link>
+        <div>
+          <Link href="/landingpage">
+            <Menu menuname="Mobile App" color="#fff" />
+          </Link>
         </div>
-        <div
-          style={{ fontFamily: "Poppins" }}
-          className="text-white text-base font-normal leading-[120%]"
-        >
-          <Link href="/uiuxpage">UI/UX</Link>
+        <div>
+          <Link href="/uiuxpage">
+            <Menu menuname="UI UX" color="#fff" />
+          </Link>
         </div>
-        <div
-          style={{ fontFamily: "Poppins" }}
-          className="text-white text-base font-normal leading-[120%]"
-        >
-          <Link href="/aboutuspage">About Us</Link>
+        <div>
+          <Link href="/aboutus">
+            <Menu menuname="About Us" color="#fff" />
+          </Link>
         </div>
-        <div
-          style={{ fontFamily: "Poppins" }}
-          className="text-white text-base font-normal leading-[120%]"
-        >
-          {" "}
-          <Link href="/contactuspage">Contact US</Link>
+        <div>
+          <Link href="/contactus">
+            <Menu menuname="Contact Us" color="#fff" />
+          </Link>
         </div>
-        <div
-          style={{ fontFamily: "Poppins" }}
-          className="text-white text-base font-normal leading-[120%]"
-        >
-          <Link href="/">Career</Link>
+        <div>
+          <Link href="/landingpage">
+            <Menu menuname="Career" color="#fff" />
+          </Link>
         </div>
-        <Link href="/contactuspage">
-          <Button
-            fontFamily="Poppins"
-            fontWeight="500"
-            padding="8px 24px"
-            Color="#FFFFFF"
-            fontSize="14px"
-            backgroundColor="#DD4242"
-            name="GET IN TOUCH"
-          />
-        </Link>
+        <div>
+          <Link href="/contactus">
+            <RippleEffect>
+              <Button
+                fontFamily="Poppins"
+                fontWeight="500"
+                padding="7px 22px"
+                Color="#FFFFFF"
+                fontSize="12px"
+                backgroundColor="#DD4242"
+                name="GET IN TOUCH"
+              />
+            </RippleEffect>
+          </Link>
+        </div>
       </div>
       <div className="responsive-header">
         <button
@@ -60,12 +60,12 @@ const Navbar = () => {
             width="18"
             height="12"
             viewBox="0 0 18 12"
-            fill="none"
+            fill="#fff"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M-7.15256e-07 10.6001L18 10.6001M-7.15256e-07 1.0001L10.8 1.0001M-7.15256e-07 5.8001L7.2 5.8001"
-              stroke="#333542"
+              stroke="#fff"
               strokeWidth="1.4"
             />
           </svg>

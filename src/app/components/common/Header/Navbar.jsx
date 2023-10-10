@@ -2,46 +2,39 @@ import Link from "next/link";
 import React from "react";
 import Button from "../Button";
 import RippleEffect from "../RippleEffect";
+import Menu from "./Menu";
 
 const Navbar = () => {
   return (
     <menu style={{ fontFamily: "Poppins" }}>
       <div className="nav-bar flex gap-10 items-center">
-        <div
-          style={{ fontFamily: "Poppins" }}
-          className="text-base font-normal leading-[120%]"
-        >
-          {/* <a href="">Home</a> */}
-
-          <Link href="/landingpage">Mobile App</Link>
-        </div>
-
-        <div
-          style={{ fontFamily: "Poppins" }}
-          className="text-base font-normal leading-[120%]"
-        >
-          <Link href="/uiuxpage">UI UX</Link>
-        </div>
-        <div
-          style={{ fontFamily: "Poppins" }}
-          className="text-base font-normal leading-[120%]"
-        >
-          <Link href="/aboutuspage">About Us</Link>
-        </div>
-        <div
-          style={{ fontFamily: "Poppins" }}
-          className="text-base font-normal leading-[120%]"
-        >
-          <Link href="/contactuspage">Contact Us</Link>
-        </div>
-        <div
-          style={{ fontFamily: "Poppins" }}
-          className="text-base font-normal leading-[120%]"
-        >
-          <Link href="/">Career</Link>
+        <div>
+          <Link href="/landingpage">
+            <Menu menuname="Mobile App" color="#141619" />
+          </Link>
         </div>
         <div>
-          <Link href="/contactuspage">
+          <Link href="/uiuxpage">
+            <Menu menuname="UI UX" color="#141619" />
+          </Link>
+        </div>
+        <div>
+          <Link href="/aboutus">
+            <Menu menuname="About Us" color="#141619" />
+          </Link>
+        </div>
+        <div>
+          <Link href="/contactus">
+            <Menu menuname="Contact Us" color="#141619" />
+          </Link>
+        </div>
+        <div>
+          <Link href="/landingpage">
+            <Menu menuname="Career" color="#141619" />
+          </Link>
+        </div>
+        <div>
+          <Link href="/contactus">
             <RippleEffect>
               <Button
                 fontFamily="Poppins"

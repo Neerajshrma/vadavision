@@ -211,11 +211,11 @@ body {
   }
 }
 
-@media screen and (max-width: 1100px) {
+/* @media screen and (max-width: 1100px) {
   .faq-tabs{
    display: none;
   }
-}
+} */
  
 @media screen and (max-width: 1100px) {
   .tabs{
@@ -471,7 +471,6 @@ body {
 .accordion {
   width: 100%;
   max-width: 500px;
-  margin: 0 auto;
 }
 
 .accordion-item {
@@ -499,7 +498,6 @@ body {
 .tab-container {
   display: flex;
   gap: 2px;
-  justify-content: center;
 }
 
 .tab {
@@ -605,4 +603,40 @@ body {
   width: 25% !important;
   border: none !important;
   margin: 0 !important;
+}
+
+@media screen and (max-width: 800px) {
+  .industries-we-work{
+   justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .industries-width{
+   width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 800px) {
+  .responsive-faqs{
+   display: block;
+  }
+} */
+
+@media screen and (max-width: 900px) {
+  .faq-accordian{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .faq-tabs{
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tab-container {
+    gap: 1px;
+  }
 }

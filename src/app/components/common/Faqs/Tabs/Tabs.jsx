@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import GeneralTab from "./General";
 import Payments from "./Payments";
-import Services from "./Services";
 import Refund from "./Refund";
 import Contact from "./Contact";
 
@@ -15,7 +14,7 @@ const Tabs = () => {
 
   return (
     <div>
-      <div className="tab-container my-2 text-center">
+      <div className="tab-container my-2">
         <div
           className={`tab ${activeTab === "General" ? "active" : ""}`}
           onClick={() => handleTabClick("General")}
@@ -27,12 +26,6 @@ const Tabs = () => {
           onClick={() => handleTabClick("Payments")}
         >
           Payments
-        </div>
-        <div
-          className={`tab ${activeTab === "Services" ? "active" : ""}`}
-          onClick={() => handleTabClick("Services")}
-        >
-          Services
         </div>
         <div
           className={`tab ${activeTab === "Refund" ? "active" : ""}`}
@@ -49,7 +42,6 @@ const Tabs = () => {
       </div>
       {activeTab === "General" && <GeneralTab />}
       {activeTab === "Payments" && <Payments />}
-      {activeTab === "Services" && <Services />}
       {activeTab === "Refund" && <Refund />}
       {activeTab === "Contact" && <Contact />}
     </div>
