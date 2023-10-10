@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { GoChevronDown, GoChevronUp } from "react-icons/go";
 import { AiFillInstagram } from "react-icons/ai";
