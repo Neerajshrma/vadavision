@@ -5,7 +5,7 @@ import { HiOutlinePhone } from "react-icons/hi";
 
 const Footer = () => {
   return (
-    <div className="bg-[#111319] pl-40 pr-6 responsive-width py-20">
+    <div className="bg-[#111319] pl-40 pr-6 responsive-width py-20 mobile-responisve">
       <div className="flex gap-2 flex-wrap justify-between">
         <div className="w-[42%] footer">
           <div className="flex gap-2 items-center cursor-pointer">
@@ -76,7 +76,7 @@ const Footer = () => {
               </svg>
             </span>
             <span className="font-medium text-white Montserrat text-sm">
-              ourstudio@hello.com
+              legal@Vadavision.ca
             </span>
           </div>
           <div className="flex items-center gap-1">

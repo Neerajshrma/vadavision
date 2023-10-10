@@ -73,6 +73,20 @@ const RecognizedBy = () => {
                 />
               </svg>
             </div>
+            <div className="ml-[-11px] mr-1">
+              <svg
+                width="22"
+                height="20"
+                viewBox="0 0 1 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                  fill="#FFC01F"
+                />
+              </svg>
+            </div>
             <div className="text-[#141619] font-semibold text-sm leading-[120%] reviwes">
               (33 REVIEWS)
             </div>
@@ -180,6 +194,20 @@ const RecognizedBy = () => {
                 width="22"
                 height="20"
                 viewBox="0 0 30 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                  fill="#FFC01F"
+                />
+              </svg>
+            </div>
+            <div className="ml-[-11px] mr-1">
+              <svg
+                width="22"
+                height="20"
+                viewBox="0 0 1 28"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >

@@ -14,15 +14,15 @@ const OurServices = () => {
           </div>
         </div>
         <div className="mt-4">
-          <h1 className="Montserrat capitallize text-white text-5xl font-bold leading-[110%] heading">
+          <h1 className="Montserrat capitallize text-white text-4xl font-bold leading-[110%] heading">
             We Offer The Best Services
           </h1>
         </div>
         <div className="mt-4">
           <div className="w-7/12 description">
-            <p className="Montserrat text-[#A9AFC3] description text-xl leading-[140%]">
-              We always try to implement our creative ideas at the highest
-              level. You can see it by looking at our portfolio.
+            <p className="Montserrat text-[#A9AFC3] description text-base leading-[140%]">
+              Experience top-notch services as we bring creative ideas to life
+              through our exceptional portfolio.
             </p>
           </div>
         </div>
