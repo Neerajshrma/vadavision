@@ -17,43 +17,43 @@ const WhyJoinUs = () => {
           </p>
         </div>
         <div className="space-y-4">
-        <div className="flex flex-row gap-4">
-            <div className="w-[50%]">
+        <div className="flex flex-row flex-wrap gap-4">
+            <div className="">
             <img src="images/second.png" alt="" style={{
                 height:'350px',
-                width:'700px'
+                width:'500px'
             }}/>
             </div>
             <div className="">
             <img src="images/third.png" alt="" style={{
                 height:'350px',
-                width:'300px'
+                width:'250px'
             }}/>
             </div>
             <div className="">
             <img src="images/fourth.png" alt="" style={{
                 height:'350px',
-                width:'300px'
+                width:'250px'
             }}/>
             </div>
         </div>
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row flex-wrap gap-4">
             <div >
             <img src="images/fifth.png" alt="" style={{
             height:'350px',
-            width:'300px'
+            width:'250px'
             }}/>
             </div>
             <div className="">
             <img src="images/first.png" alt="" style={{
                 height:'350px',
-                width:'300px'
+                width:'250px'
             }}/>
             </div>
-            <div className="w-[50%]">
+            <div className="">
             <img src="images/fifth.png" alt="" style={{
                  height:'350px',
-                 width:'700px'
+                 width:'500px'
             }}/>
             </div>
         </div>

@@ -31,7 +31,7 @@ const CarrierPage = () => {
         </div>
         <div className=" px-40">
           <div className="w-1/2">
-            <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
+            <h1 className="Montserrat text-white text-4xl font-bold heading FrequentlyQuestion leading-[130%]">
               Frequently Asked Questions
             </h1>
           </div>

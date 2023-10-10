@@ -5,7 +5,7 @@ const IdelogyPage = () => {
     <>
       <div
         style={{ fontFamily: "Montserrat" }}
-        className="px-40 responsive-width mobile-width pt-10  responsive-mobile"
+        className="px-40 responsive-width mobile-width pt-10  responsive-mobile idealogy"
       >
         <h1 className="text-4xl text-[#DD4242] font-semibold">Team Ideology</h1>
         <p className="pt-4 pb-10 text-white text-[14px] leading-[28px]">
@@ -21,7 +21,7 @@ const IdelogyPage = () => {
         </p>
       </div>
 
-      <div className="px-40 responsive-width mobile-width responsive-mobile">
+      <div className="px-40 responsive-width mobile-width responsive-mobile idealogy">
         <h1 className="text-4xl text-[#DD4242] font-semibold">How we Work</h1>
 
         <p className="pt-4 pb-10 text-white text-[14px] leading-[28px]">
