@@ -68,10 +68,6 @@ body {
   ;
 }
 
-.splide__slide{
-  width: auto!important;
-}
-
 .splide__arrow{
   background: none!important;
   color: #ffffff;
@@ -711,9 +707,7 @@ body {
 }
 
 .services-slider > .splide > .splide__track > .splide__list > .splide__slide{
-  width: 25% !important;
-  border: none !important;
-  margin: 0 !important;
+  border: none;
 }
 
 @media screen and (max-width: 800px) {
