@@ -33,17 +33,17 @@ const Tabs = () => {
         >
           Refund
         </div>
-        <div
+        {/* <div
           className={`tab ${activeTab === "Contact" ? "active" : ""}`}
           onClick={() => handleTabClick("Contact")}
         >
           Contact
-        </div>
+        </div> */}
       </div>
       {activeTab === "General" && <GeneralTab />}
       {activeTab === "Payments" && <Payments />}
       {activeTab === "Refund" && <Refund />}
-      {activeTab === "Contact" && <Contact />}
+      {/* {activeTab === "Contact" && <Contact />} */}
     </div>
   );
 };

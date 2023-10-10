@@ -3,6 +3,7 @@ import React from "react";
 import Button from "../Button";
 import RippleEffect from "../RippleEffect";
 import Menu from "./Menu";
+import MenuDropdown from "./MenuDropdown";
 
 const Navbar = () => {
   return (
@@ -49,8 +50,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-      <div className="responsive-header">
-        <button
+      {/* <button
           id="dropdownDefaultButton"
           data-dropdown-toggle="dropdown"
           className="text-white px-4 py-2.5 text-center inline-flex items-center"
@@ -111,8 +111,8 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-        </div>
-      </div>
+        </div> */}
+      <MenuDropdown />
     </menu>
   );
 };

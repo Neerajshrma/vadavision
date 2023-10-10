@@ -3,6 +3,9 @@ import { GoChevronDown } from "react-icons/go";
 import { AiFillInstagram } from "react-icons/ai";
 import { BiLogoLinkedin, BiLogoFacebook } from "react-icons/bi";
 import Link from "next/link";
+import ServicesDropdown from "./ServicesDropdown";
+import CompanyDropdown from "./CompanyDropdown";
+import SocialMediaDropdown from "./SocialMediaDropdown";
 const FooterLinks = () => {
   return (
     <div>
@@ -101,193 +104,13 @@ const FooterLinks = () => {
       </div>
       <div className="mobile-footer">
         <div>
-          <button
-            id="dropdownDefaultButton"
-            data-dropdown-toggle="dropdown"
-            className="Montserrat text-white px-4 py-2.5 inline-flex items-center"
-            type="button"
-          >
-            Services
-            <span className="inline-block">
-              <GoChevronDown size="25px" />
-            </span>
-          </button>
-          <div
-            id="dropdown"
-            className="z-10 hidden bg-[#111319] divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
-          >
-            <ul
-              className="py-2 text-sm text-gray-700 dark:text-gray-200"
-              aria-labelledby="dropdownDefaultButton"
-            >
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Web Development
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  App Development
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  UI/UX Design
-                </a>
-              </li>
-            </ul>
-          </div>
+          <ServicesDropdown />
         </div>
         <div>
-          <button
-            id="dropdownDefaultButton"
-            data-dropdown-toggle="dropdown"
-            className="Montserrat text-white px-4 py-2.5 inline-flex items-center"
-            type="button"
-          >
-            Company
-            <span className="inline-block">
-              <GoChevronDown size="25px" />
-            </span>
-          </button>
-          <div
-            id="dropdown"
-            className="z-10 hidden bg-[#111319] divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
-          >
-            <ul
-              className="py-2 text-sm text-gray-700 dark:text-gray-200"
-              aria-labelledby="dropdownDefaultButton"
-            >
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Service
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Help & Support
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </div>
+          <CompanyDropdown />
         </div>
         <div>
-          <button
-            id="dropdownDefaultButton"
-            data-dropdown-toggle="dropdown"
-            className="Montserrat text-white px-4 py-2.5 inline-flex items-center"
-            type="button"
-          >
-            Our Social Media
-            <span className="inline-block">
-              <GoChevronDown size="25px" />
-            </span>
-          </button>
-          <div
-            id="dropdown"
-            className="z-10 hidden bg-[#111319] divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
-          >
-            <ul
-              className="py-2 text-sm text-gray-700 dark:text-gray-200"
-              aria-labelledby="dropdownDefaultButton"
-            >
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Dribbble
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Behance
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Medium
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Instagram
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Facebook
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Twitter
-                </a>
-              </li>
-            </ul>
-          </div>
+          <SocialMediaDropdown />
         </div>
       </div>
     </div>

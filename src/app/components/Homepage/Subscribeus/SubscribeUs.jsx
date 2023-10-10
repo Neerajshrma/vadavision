@@ -33,7 +33,7 @@ const SubscribeUs = () => {
           />
           <div className="overflow-hidden cursor-pointer rounded-full bg-[#DD4242]">
             <RippleEffect>
-              <button backgroundColor="#DD4242" className="p-3">
+              <button className="p-3">
                 <span className="text-white">
                   <TbSend size="20px" />
                 </span>
