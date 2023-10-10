@@ -3,14 +3,14 @@ import React from "react";
 
 const StandardInsights = () => {
   return (
-    <div className="mt-10 bg-[#191C26] py-10 px-8 flex items-center gap-8">
+    <div className="mt-10 bg-[#191C26] py-10 px-8 flex items-center gap-8 our-projects">
       <div className="">
         <div
-          className="py-10 bg-no-repeat min-w-[400px] min-h-[330px] bg-cover"
+          className="py-10 bg-no-repeat portfolio-img min-w-[400px] min-h-[330px] bg-cover"
           style={{ backgroundImage: "url(images/portfolio-bg.png)" }}
         >
           <img
-            className="mx-auto max-w-[370px]"
+            className="mx-auto portfolio-img max-w-[370px]"
             src="/images/standardinsight.png"
             alt=""
           />

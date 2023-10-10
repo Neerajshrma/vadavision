@@ -18,7 +18,7 @@ const OurServiceses = () => {
         <h1 className="text-4xl hero-heading leading-[120%] font-semibold text-[#DD4242]">
           Our UI-UX Design Service
         </h1>
-        <p className="mt-8 text-[#A9AFC3] font-normal text-base w-[650px] mx-auto leading-[40px]">
+        <p className="mt-8 text-[#A9AFC3] font-normal text-base  mx-auto leading-[40px]">
           We always try to implement our creative ideas at the highest level.
           You can see it by looking at our portfolio.
         </p>

@@ -3,7 +3,7 @@ import React from "react";
 const RecentPosts = () => {
   return (
     <div>
-      <div className="bg-[#1E2024] py-5 px-6 w-[410px]">
+      <div className="bg-[#1E2024] py-5 px-6 w-[410px] tech-stack">
         <div>
           <div className="text-[#DD4242] text-2xl Montserrat font-semibold leading-[110%]">
             Andriod App

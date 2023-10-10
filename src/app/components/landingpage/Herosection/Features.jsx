@@ -2,7 +2,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div className="flex justify-center gap-6 items-center pb-10">
+    <div className="flex justify-center gap-6 flex-wrap items-center pb-10">
       <div className="text-center max-w-[200px]">
         <div className="">
           <svg
@@ -59,7 +59,7 @@ const Features = () => {
         </div>
         <div>
           <span className="text-[#141619] leading-[28px] font-semibold text-[16px] Montserrat">
-            Ios App Development
+            Ios App <br /> Development
           </span>
         </div>
       </div>

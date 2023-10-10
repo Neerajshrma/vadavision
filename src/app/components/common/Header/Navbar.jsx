@@ -112,7 +112,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div> */}
-      <MenuDropdown />
+      <MenuDropdown svgcolor="#333542" />
     </menu>
   );
 };

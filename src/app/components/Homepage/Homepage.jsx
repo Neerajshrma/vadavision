@@ -92,7 +92,7 @@ const Homepage = () => {
           </h1>
         </div>
         <div className="flex gap-20 responsive-faqs">
-          <div className="w-1/2 faq-accordian">
+          <div className="w-1/2 mt-8 faq-accordian">
             <Accordion />
           </div>
           <div className="w-1/2 faq-tabs">

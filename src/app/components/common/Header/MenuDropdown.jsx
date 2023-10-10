@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const MenuDropdown = () => {
+const MenuDropdown = ({ svgcolor }) => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -24,7 +24,7 @@ const MenuDropdown = () => {
         >
           <path
             d="M-7.15256e-07 10.6001L18 10.6001M-7.15256e-07 1.0001L10.8 1.0001M-7.15256e-07 5.8001L7.2 5.8001"
-            stroke="#333542"
+            stroke={svgcolor}
             strokeWidth="1.4"
           />
         </svg>
@@ -36,7 +36,7 @@ const MenuDropdown = () => {
         } absolute text-start right-2 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700`}
       >
         <ul
-          className="text-sm text-gray-700 dark:text-gray-200"
+          className="mt-2 text-sm text-gray-700 dark:text-gray-200"
           aria-labelledby="dropdownDefaultButton"
         >
           <li>

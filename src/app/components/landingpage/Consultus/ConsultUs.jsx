@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../common/Button";
+import Link from "next/link";
 
 const ConsultUs = ({ backgroundColor, color }) => {
   return (
@@ -10,22 +11,24 @@ const ConsultUs = ({ backgroundColor, color }) => {
       >
         <div>
           <h1
-            className="text-5xl Montserrat font-bold leading-[130%] w-7/12 mx-auto"
+            className="text-5xl Montserrat font-bold leading-[130%] w-7/12 mx-auto consult-us-width"
             style={{ color: color }}
           >
             Consult with us for any help in your business
           </h1>
         </div>
         <div className="mt-10">
-          <Button
-            backgroundColor="#DD4242"
-            fontFamily="Montserrat"
-            fontWeight="500"
-            padding="10px 20px"
-            Color="#ffffff"
-            fontSize="18px"
-            name="Know More"
-          />
+          <Link href="/aboutus">
+            <Button
+              backgroundColor="#DD4242"
+              fontFamily="Montserrat"
+              fontWeight="500"
+              padding="10px 20px"
+              Color="#ffffff"
+              fontSize="18px"
+              name="Know More"
+            />
+          </Link>
         </div>
       </div>
     </div>

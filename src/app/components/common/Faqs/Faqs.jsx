@@ -37,7 +37,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="py-8 mt-5">
+    <div className="pb-10 pt-5 mt-">
       <div className="accordion">
         {questionsData.map((item) => (
           <div key={item.id} className="accordion-item">
