@@ -90,7 +90,7 @@ const CurrentJob = () => {
               <input
                 type="Search job Title"
                 placeholder="Search job Title"
-                className="pl-4 w-full flex flex-wrap  border-none borderless"
+                className="pl-4 w-full flex flex-wrap text-sm border-none borderless"
               />
             </div>
             <div className="mobilesearchbutton">
@@ -116,10 +116,11 @@ const CurrentJob = () => {
             </div>
             <div className="pr-6 py-5">
             {openAccordion === item.id ? (
-                  <BiChevronDown style={{ fontSize: "25px",color:'white' }} />
+                                <BiChevronRight style={{ fontSize: "25px",color:'white' }} />
+
 
                 ) : (
-                  <BiChevronRight style={{ fontSize: "25px",color:'white' }} />
+                  <BiChevronDown style={{ fontSize: "25px",color:'white' }} />
 
                 )}
                     
