@@ -5,33 +5,33 @@ import RippleEffect from "../RippleEffect";
 import Menu from "./Menu";
 import MenuDropdown from "./MenuDropdown";
 
-const Navbar = () => {
+const Navbar = ({ color, backgroundColor }) => {
   return (
     <menu style={{ fontFamily: "Poppins" }}>
       <div className="nav-bar flex gap-10 items-center">
         <div>
           <Link href="/landingpage">
-            <Menu menuname="Mobile App" color="#141619" />
+            <Menu menuname="Mobile App" color={color} />
           </Link>
         </div>
         <div>
           <Link href="/uiuxpage">
-            <Menu menuname="UI UX" color="#141619" />
+            <Menu menuname="UI UX" color={color} />
           </Link>
         </div>
         <div>
           <Link href="/aboutus">
-            <Menu menuname="About Us" color="#141619" />
+            <Menu menuname="About Us" color={color} />
           </Link>
         </div>
         <div>
           <Link href="/contactus">
-            <Menu menuname="Contact Us" color="#141619" />
+            <Menu menuname="Contact Us" color={color} />
           </Link>
         </div>
         <div>
-          <Link href="/landingpage">
-            <Menu menuname="Career" color="#141619" />
+          <Link href="/Carrer">
+            <Menu menuname="Career" color={color} />
           </Link>
         </div>
         <div>
@@ -43,7 +43,7 @@ const Navbar = () => {
                 padding="7px 22px"
                 Color="#FFFFFF"
                 fontSize="12px"
-                backgroundColor="#141619"
+                backgroundColor={backgroundColor}
                 name="GET IN TOUCH"
               />
             </RippleEffect>

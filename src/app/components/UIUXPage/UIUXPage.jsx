@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./Header/Header";
 import Herosection from "./Herosection/Herosection";
 import RecognizedBy from "./Herosection/RecognizedBy";
 import OurCustomers from "./OurSatisfyCustomers/OurCustomers";
@@ -13,6 +12,7 @@ import WhyChooseUs from "../landingpage/WhyUs/WhyChooseUs";
 import Footer from "../common/Footer/Footer";
 import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
 import SplideSlider from "../Splide/SplideSlider";
+import Header from "../common/Header/Header";
 
 const UIUXPage = () => {
   return (
@@ -23,7 +23,7 @@ const UIUXPage = () => {
           style={{ backgroundImage: "URL(images/ui-bg-img.png)" }}
         >
           <div>
-            <Header />
+            <Header color="white" backgroundColor="#DD4242" />
           </div>
           <div>
             <Herosection />

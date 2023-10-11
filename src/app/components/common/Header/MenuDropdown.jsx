@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 
 const MenuDropdown = ({ svgcolor }) => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -41,36 +42,44 @@ const MenuDropdown = ({ svgcolor }) => {
           aria-labelledby="dropdownDefaultButton"
         >
           <li>
-            <a
-              href="#"
+            <Link
+              href="/landingpage"
               className="block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
               Mobile App
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              href="/uiuxpage"
               className="block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
               UIUX
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              href="/aboutus"
               className="block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
               About Us
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              href="/contactus"
               className="block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
               Contact Us
-            </a>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/Carrer"
+              className="block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            >
+              Career
+            </Link>
           </li>
         </ul>
       </div>

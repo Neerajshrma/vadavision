@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../UIUXPage/Header/Header";
 import Herosection from "./Herosection/Herosection";
 import AboutUs from "./AboutUs/AboutUs";
 import MissionVision from "./Missionvision/MissionVision";
@@ -12,12 +11,13 @@ import OurWorkCulture from "./OurWorkCulture/OurWorkCulture";
 import Accordion from "../common/Faqs/Faqs";
 import Tabs from "../common/Faqs/Tabs/Tabs";
 import ServiseCards from "./ServiceCards/ServiseCards";
+import Header from "../common/Header/Header";
 
 const AboutUsPage = () => {
   return (
     <div className="bg-[#141619]">
       <div>
-        <Header />
+        <Header color="white" backgroundColor="#DD4242" />
       </div>
       <div>
         <Herosection />

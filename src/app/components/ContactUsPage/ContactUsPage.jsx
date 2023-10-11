@@ -3,17 +3,16 @@ import SendMessage from "./SendMessagePage/SendMessage";
 import MessageInfo from "./MessageInfoPage/MessageInfo";
 import SubscribeUs from "../Homepage/Subscribeus/SubscribeUs";
 import Footer from "../common/Footer/Footer";
-import Header from "../UIUXPage/Header/Header";
 import Accordion from "../common/Faqs/Faqs";
 import Tabs from "../common/Faqs/Tabs/Tabs";
-import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
+import Header from "../common/Header/Header";
 
 const ContactUsPage = () => {
   return (
     <>
       <div className="bg-[#141619] responsive-width  mobile-width">
         <div>
-          <Header />
+          <Header color="white" backgroundColor="#DD4242" />
         </div>
         <div className="py-10 gap-10 flex justify-between responsive-width mobile-width px-40">
           <div className="w-1/2">

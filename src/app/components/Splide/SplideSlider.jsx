@@ -124,19 +124,19 @@ const SplideSlider = () => {
             </div>
           </SplideSlide>
         </Splide>
-        <div className="splide__arrows relative">
-          <button
-            className="absolute custom-arrow-prev"
-            onClick={handlePrevClick}
-          >
-            <BsArrowUp size={18} color="#DD4242" />
-          </button>
-          <button
-            className="absolute custom-arrow-next"
-            onClick={handleNextClick}
-          >
-            <BsArrowDown size={18} color="#DD4242" />
-          </button>
+        <div className="h-[150px] absolute custom-arrows">
+          <div className="h-full relative">
+            <div className="absolute acustom-arrow-prev">
+              <button className="" onClick={handlePrevClick}>
+                <BsArrowUp size={18} color="#DD4242" />
+              </button>
+            </div>
+            <div className="absolute custom-arrow-next">
+              <button className="" onClick={handleNextClick}>
+                <BsArrowDown size={18} color="#DD4242" />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -3,9 +3,9 @@ import Head from "next/head";
 import Navbar from "./Navbar";
 import Link from "next/link";
 
-const Header = () => {
+const Header = ({ color, backgroundColor }) => {
   return (
-    <header className="header bg-white px-40 mx-auto py-10 responsive-width">
+    <header className="header px-40 mx-auto py-10 responsive-width">
       <div className="flex justify-between items-center">
         <div className="flex gap-2 items-center cursor-pointer">
           <div>
@@ -40,7 +40,7 @@ const Header = () => {
             </h1>
           </div>
         </div>
-        <Navbar />
+        <Navbar color={color} backgroundColor={backgroundColor} />
       </div>
     </header>
   );

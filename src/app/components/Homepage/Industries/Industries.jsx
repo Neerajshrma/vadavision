@@ -161,7 +161,7 @@ const Industries = () => {
             </span>
           </div>
         </div>
-        <div className="py-5 industries-width w-full">
+        <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
             <div className="text-[#DD4242]">
               <svg
