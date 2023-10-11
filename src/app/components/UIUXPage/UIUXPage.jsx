@@ -19,7 +19,7 @@ const UIUXPage = () => {
     <div className="bg-[#141619] pb-10">
       <div className="ui-page-bg herosection-uiux">
         <div
-          className="bg-cover h-screen herosection-uiux"
+          className="bg-cover h-[82vh] herosection-uiux"
           style={{ backgroundImage: "URL(images/ui-bg-img.png)" }}
         >
           <div>

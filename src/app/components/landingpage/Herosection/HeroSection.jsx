@@ -6,7 +6,7 @@ import Script from "next/script";
 const HeroSection = () => {
   return (
     <>
-      <div className="flex px-40 responsive-width mobile-width mt-2">
+      <div className="flex flex-wrap px-40 responsive-width mobile-width mt-2">
         <div
           style={{ fontFamily: "Montserrat" }}
           className="mt-5 w-7/12 hero-section "
@@ -53,8 +53,15 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="mt-5 w-5/12">
-          <div className="calendly-inline-widget" data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1" style={{minWidth:'320px', height:'700px'}}></div>
-          <Script src="https://assets.calendly.com/assets/external/widget.js" async={true}></Script>
+          <div
+            className="calendly-inline-widget"
+            data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1"
+            style={{ minWidth: "320px", height: "700px" }}
+          ></div>
+          <Script
+            src="https://assets.calendly.com/assets/external/widget.js"
+            async={true}
+          ></Script>
         </div>
       </div>
       <div className="mt-20 mx-auto">
