@@ -39,7 +39,7 @@ const SplideSlider = () => {
                 <div>
                   <p
                     style={{ fontFamily: "Montserrat" }}
-                    className="text-center text-white font-semibold text-2xl leading-[56px]"
+                    className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
                     I am very happy with the services provided, it is very
                     helpful, starting from the insight that the company gave
@@ -47,15 +47,15 @@ const SplideSlider = () => {
                     got knowledge and made my website look better
                   </p>
                 </div>
-                <div className="mt-10 flex justify-center gap-4 items-center">
-                  <div>
-                    <img src="/images/client.png" alt="" />
+                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
+                  <div className="profile-img">
+                    <img className="w-full" src="/images/client.png" alt="" />
                   </div>
                   <div>
-                    <h6 className="text-xl font-bold leading-[32px] text-[#DD4242]">
+                    <h6 className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]">
                       Clay Johnson
                     </h6>
-                    <p className="text-base font-normal text-[#959596] leading-[150%]">
+                    <p className="text-base testimonial-content font-normal text-[#959596] leading-[150%]">
                       Business Director at Wax Inc
                     </p>
                   </div>
