@@ -670,25 +670,11 @@ body {
   flex-direction: column;
   left: auto;
   padding: 5px 0;
-  right: 9px !important;
-  top: 2% !important;
+  right: 15% !important;
   height: 200px;
+  top: 50% !important;
+  transform: translate(0, -50%);
 }
-
-/* @media screen and (max-width: 1300px) {
-  .splide__pagination--ttb {
-    bottom: 0;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    left: auto;
-    padding: 5px 0;
-    right: 9px !important;
-    top: 1% !important;
-    height: 200px;
-  }
-} */
 
 .ripple-container {
   position: relative;
@@ -811,4 +797,11 @@ body {
   .ui-upwork {
     width: 90%;
   }
+}
+
+.testimonials{
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  transform: translate(50%, -50%);
 }

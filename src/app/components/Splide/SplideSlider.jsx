@@ -18,7 +18,7 @@ const SplideSlider = () => {
   };
   return (
     <div
-      className="bg-[#141619] pt-36 px-40 bg-center bg-contain bg-no-repeat"
+      className="bg-[#141619] bg-center bg-contain bg-no-repeat"
       style={{ backgroundImage: "url(images/bg-1.png)" }}
     >
       <div className="relative">
@@ -35,7 +35,7 @@ const SplideSlider = () => {
         >
           <SplideSlide>
             <div className="" data-carousel-item>
-              <div className="mt-5 w-7/12 mx-auto">
+              <div className="testimonials mt-5 w-7/12 mx-auto">
                 <div>
                   <p
                     style={{ fontFamily: "Montserrat" }}
@@ -124,7 +124,7 @@ const SplideSlider = () => {
             </div>
           </SplideSlide>
         </Splide>
-        <div className="splide__arrows">
+        <div className="splide__arrows relative">
           <button
             className="absolute custom-arrow-prev"
             onClick={handlePrevClick}
