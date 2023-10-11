@@ -1,12 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Script from 'next/script'
-import Hotjar from '@hotjar/browser';
-
-const siteId = 3689588;
-const hotjarVersion = 6;
-
-Hotjar.init(siteId, hotjarVersion);
 
 const inter = Inter({ subsets: ['latin'] })
 
