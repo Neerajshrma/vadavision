@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       {children}
       <Script src="../path/to/flowbite/dist/flowbite.min.js"></Script>
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></Script>
-
+      <Script src="https://assets.calendly.com/assets/external/widget.js" async={true}></Script>
       </body>
     </html>
   )

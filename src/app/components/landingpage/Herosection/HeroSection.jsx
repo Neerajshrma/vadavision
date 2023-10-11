@@ -54,7 +54,6 @@ const HeroSection = () => {
         </div>
         <div className="mt-5 w-5/12">
           <div className="calendly-inline-widget" data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1" style={{minWidth:'320px', height:'700px'}}></div>
-          <Script src="https://assets.calendly.com/assets/external/widget.js" async={true}></Script>
         </div>
       </div>
       <div className="mt-20 mx-auto">
