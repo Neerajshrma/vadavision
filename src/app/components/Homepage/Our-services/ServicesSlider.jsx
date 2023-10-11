@@ -27,7 +27,6 @@ const ServicesSlider = () => {
           ref={splideRef}
           options={{
             rewind: true,
-            gap: "1rem",
             isNavigation: true,
             speed: 900,
             direction: "horizontal",
@@ -37,7 +36,6 @@ const ServicesSlider = () => {
             breakpoints: {
               768: {
                 perPage: 2,
-                width: `${100 / 2}%`,
               },
               640: {
                 perPage: 1,
