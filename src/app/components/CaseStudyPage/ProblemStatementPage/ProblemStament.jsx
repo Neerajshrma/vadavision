@@ -12,7 +12,7 @@ const ProblemStament = () => {
         </div>
         <div className="text-center flex justify-center  item-center font-semibold">
           <p className=" ">
-            "Users are increasingly looking for immersive and interactive ways
+            Users are increasingly looking for immersive and interactive ways
             to capture and share their experiences through photos and videos.
             While panoramic photos and videos offer a wider perspective, the
             ability to capture a full 360-degree view of their surroundings

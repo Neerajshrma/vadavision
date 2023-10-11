@@ -7,46 +7,39 @@ const questionsData = [
   {
     id: 1,
     designation: "UX Designer",
-    place:'New York',
-    info:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum."
+    place: "New York",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum.",
   },
   {
     id: 2,
     designation: "UX Designer",
-    place:'Los Angeles, USA',
-    info:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum."
+    place: "Los Angeles, USA",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum.",
   },
   {
     id: 3,
     designation: "Copy Writer",
-    place:'New York',
-    info:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum."
+    place: "New York",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum.",
   },
   {
     id: 4,
     designation: "Front-End Designer",
-    place:'San Fransisco, CA, USA',
-    info:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum."
+    place: "San Fransisco, CA, USA",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum.",
   },
   {
     id: 5,
     designation: "Front-End Engineer",
-    place:'San Fransisco, CA, USA',
-    info:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum."
+    place: "San Fransisco, CA, USA",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum.",
   },
   {
     id: 6,
     designation: "Senior Back-end Developer",
-    place:'New York, USA',
-    info:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum."
+    place: "New York, USA",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non molestiae rerum, esse repellat voluptate. Iure perspiciatis, accusantium eum voluptate, laudantium magnam quam nam debitis aspernatur iusto eos, fuga earum.",
   },
- 
 ];
 
 const CurrentJob = () => {
@@ -94,43 +87,38 @@ const CurrentJob = () => {
               />
             </div>
             <div className="mobilesearchbutton">
-            <button className="px-4 py-2  text-white bg-red-500">Search</button>
-
+              <button className="px-4 py-2  text-white bg-red-500">
+                Search
+              </button>
             </div>
           </div>
-
         </div>
 
         <div className="space-y-4 pb-10">
-        {questionsData.map((item) => (
-
-          <div className="flex flex-row justify-between bg-[#41464B]  border border-white-500	rounded-md currentjob	" onClick={() => toggleAccordion(item.id)}>
-          
-
-            <div className="flex flex-col space-y-2 py-2 pl-6 text-white 	">
-              <h1 className="text-xl">{item.designation}</h1>
-              <h5 style={{ fontSize: "10px" }}>{item.place}</h5>
-              {openAccordion === item.id && (
-              <div className="text-sm job-content">{item.info}</div>
-            )}
-            </div>
-            <div className="pr-6 py-5">
-            {openAccordion === item.id ? (
-                                <BiChevronRight style={{ fontSize: "25px",color:'white' }} />
-
-
-                ) : (
-                  <BiChevronDown style={{ fontSize: "25px",color:'white' }} />
-
+          {questionsData.map((item) => (
+            <div
+              key={item.id}
+              className="flex flex-row justify-between bg-[#41464B]  border border-white-500	rounded-md currentjob	"
+              onClick={() => toggleAccordion(item.id)}
+            >
+              <div className="flex flex-col space-y-2 py-2 pl-6 text-white 	">
+                <h1 className="text-xl">{item.designation}</h1>
+                <h5 style={{ fontSize: "10px" }}>{item.place}</h5>
+                {openAccordion === item.id && (
+                  <div className="text-sm job-content">{item.info}</div>
                 )}
-                    
-
+              </div>
+              <div className="pr-6 py-5">
+                {openAccordion === item.id ? (
+                  <BiChevronRight
+                    style={{ fontSize: "25px", color: "white" }}
+                  />
+                ) : (
+                  <BiChevronDown style={{ fontSize: "25px", color: "white" }} />
+                )}
+              </div>
             </div>
-         
-          </div>
-                  ))}
-
-        
+          ))}
         </div>
       </div>
     </>
