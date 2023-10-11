@@ -27,7 +27,7 @@ const OurMilestones = () => {
               eiusmodtempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div className="w-8/12 mx-auto flex justify-between bg-white py-6 px-10 mt-10 rounded-lg">
+          <div className="w-8/12 mx-auto flex flex-wrap justify-between bg-white py-6 px-10 mt-10 rounded-lg">
             <div className="">
               <span
                 style={{ fontFamily: "Raleway" }}

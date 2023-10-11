@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../common/Button";
-
+import Link from "next/link";
 const ConsultWithUs = () => {
   return (
     <div className="bg-black px-40 responsive-width py-20">
@@ -13,22 +13,24 @@ const ConsultWithUs = () => {
         <div className="w-4/12 full-width-responsive">
           <div className="flex border-l border-[#DD4242] consult-btn">
             <div className="border-l-2 border-[#DD4242] h-14 consult-btn"></div>
-            <p className="Montserrat font-medium leading-[29px] pl-8 consult-btn text-lg text-white description">
+            <p className="Montserrat font-medium leading-[22px] pl-8 consult-btn text-basi text-white description">
               Bearable only through love of hydrogen atoms bits of moving fluff
               culture shores of the on cosmic ocean blue sky.
             </p>
           </div>
           <div className="pt-10 h-16 border-l border-[#DD4242] consult-btn">
             <div className="pl-8 consult-btn">
-              <Button
-                fontFamily="Poppins"
-                fontWeight="500"
-                padding="14px 28px"
-                Color="#FFFFFF"
-                fontSize="20px"
-                backgroundColor="#DD4242"
-                name="Consult with us"
-              />
+              <Link href="/contactus">
+                <Button
+                  fontFamily="Poppins"
+                  fontWeight="500"
+                  padding="10px 22px"
+                  Color="#FFFFFF"
+                  fontSize="16px"
+                  backgroundColor="#DD4242"
+                  name="Consult with us"
+                />
+              </Link>
             </div>
           </div>
         </div>

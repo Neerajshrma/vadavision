@@ -6,9 +6,9 @@ const SomeFacts = () => {
       className="bg-[#111319] py-10 px-40 responsive-width bg-contain"
       style={{ backgroundImage: "url(images/bg-object6.png)" }}
     >
-      <div className="my-5 mx-auto w-7/12 text-center">
+      <div className="my-5 mx-auto w-7/12 min-w-[300px] text-center">
         <div>
-          <h1 className="Montserrat text-white text-5xl font-bold heading leading-[63px]">
+          <h1 className="Montserrat text-white text-4xl font-bold heading leading-[63px]">
             How about some fact number about us
           </h1>
         </div>

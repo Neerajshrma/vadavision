@@ -42,7 +42,7 @@ const Payments = () => {
               className="accordion-header"
               onClick={() => toggleAccordion(item.id)}
             >
-              <div className="flex justify-between accordion-title">
+              <div className="flex gap-2 justify-between accordion-title">
                 <div className="Montserrat text-[#CFD3D7] text-sm leading-[24px] font-normal">
                   {item.questions}{" "}
                 </div>
@@ -50,7 +50,7 @@ const Payments = () => {
                   {openAccordion === item.id ? (
                     <RiCloseLine size={18} color="#A2A9B0" />
                   ) : (
-                    <AiOutlinePlus size={18} color="#DD4242" />
+                    <AiOutlinePlus size={16} color="#DD4242" />
                   )}
                 </div>
               </div>

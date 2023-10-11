@@ -57,7 +57,7 @@ const Footer = () => {
               <MdOutlineLocationOn size="18px" />
             </span>
             <span className="font-medium text-white Montserrat text-sm">
-              8819 Ohio St. South Gate, California 90280
+              Plot 337, Phase 2 Chandigarh, India, 160002
             </span>
           </div>
           <div className="flex items-center gap-1">
@@ -76,7 +76,7 @@ const Footer = () => {
               </svg>
             </span>
             <span className="font-medium text-white Montserrat text-sm">
-              legal@Vadavision.ca
+              info@vadavision.ca
             </span>
           </div>
           <div className="flex items-center gap-1">
@@ -84,7 +84,7 @@ const Footer = () => {
               <HiOutlinePhone size="18px" />
             </span>
             <span className="font-medium text-white Montserrat text-sm">
-              +271 386-647-3637
+              +91 62800-07001
             </span>
           </div>
         </div>

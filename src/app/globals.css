@@ -68,10 +68,6 @@ body {
   ;
 }
 
-.splide__slide{
-  width: auto!important;
-}
-
 .splide__arrow{
   background: none!important;
   color: #ffffff;
@@ -299,11 +295,11 @@ body {
   }
 }
 
-@media screen and (max-width: 1100px) {
+/* @media screen and (max-width: 1100px) {
   .faq-tabs{
    display: none;
   }
-}
+} */
  
 @media screen and (max-width: 1100px) {
   .tabs{
@@ -582,7 +578,6 @@ body {
 .accordion {
   width: 100%;
   max-width: 500px;
-  margin: 0 auto;
 }
 
 .accordion-item {
@@ -610,7 +605,6 @@ body {
 .tab-container {
   display: flex;
   gap: 2px;
-  justify-content: center;
 }
 
 .tab {
@@ -713,7 +707,102 @@ body {
 }
 
 .services-slider > .splide > .splide__track > .splide__list > .splide__slide{
-  width: 25% !important;
-  border: none !important;
-  margin: 0 !important;
+  border: none;
+}
+
+@media screen and (max-width: 800px) {
+  .industries-we-work{
+   justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .industries-width{
+   width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 800px) {
+  .responsive-faqs{
+   display: block;
+  }
+} */
+
+@media screen and (max-width: 900px) {
+  .faq-accordian{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .faq-tabs{
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tab-container {
+    gap: 1px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .our-projects {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .faq-accordian-width {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .faq-accordian-width {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .portfolio-img {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    min-height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tech-stack {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .consult-us-width {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cost-Calculator {
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .herosection-uiux{
+    height: 700px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .ui-upwork {
+    width: 90%;
+  }
 }

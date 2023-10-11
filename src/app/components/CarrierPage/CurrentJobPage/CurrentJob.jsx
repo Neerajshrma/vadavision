@@ -97,7 +97,7 @@ const CurrentJob = () => {
         <div className="space-y-4 pb-10">
           {questionsData.map((item) => (
             <div
-              key={item.id}
+              key={index}
               className="flex flex-row justify-between bg-[#41464B]  border border-white-500	rounded-md currentjob	"
               onClick={() => toggleAccordion(item.id)}
             >

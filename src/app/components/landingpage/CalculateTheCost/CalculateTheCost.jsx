@@ -33,7 +33,7 @@ const CalculateTheCost = () => {
             Your Name
           </label>
           <input
-            className="input-calculator p-4 bg-transparent rounded-[8px] mt-1 w-full placeholder:text-[#CFCFCF]"
+            className="input-calculator p-3.5 bg-transparent rounded-[8px] mt-1 w-full placeholder:font-light"
             type="email"
             placeholder="Insert your first name here"
           />

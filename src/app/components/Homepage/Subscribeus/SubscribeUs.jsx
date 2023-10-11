@@ -1,6 +1,7 @@
 import React from "react";
 import { TbSend } from "react-icons/tb";
 import RippleEffect from "../../common/RippleEffect";
+import Button from "../../common/Button";
 
 const SubscribeUs = () => {
   return (
@@ -30,13 +31,13 @@ const SubscribeUs = () => {
             type="email"
             placeholder="Email"
           />
-          <div className="cursor-pointer rounded-full bg-[#DD4242]">
+          <div className="overflow-hidden cursor-pointer rounded-full bg-[#DD4242]">
             <RippleEffect>
-              <div className=" p-3 ">
+              <button className="p-3">
                 <span className="text-white">
                   <TbSend size="20px" />
                 </span>
-              </div>
+              </button>
             </RippleEffect>
           </div>
         </div>
