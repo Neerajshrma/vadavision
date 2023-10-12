@@ -4,7 +4,7 @@ const SendMessage = () => {
   return (
     <>
       <div className="">
-        <div className="">
+        <div className="contact-us">
           <div className="mt-10 flex gap-3 items-center">
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
             <div
@@ -15,15 +15,15 @@ const SendMessage = () => {
             </div>
           </div>
         </div>
-        <div className="mt-3">
+        <div className="mt-3 flex flex-wrap responsive-message creative-idea text-sm uppercase font-normal ">
           <h1 className="text-5xl hero-heading leading-[120%] font-semibold text-white whitespace-nowrap">
             Send a Message
           </h1>
         </div>
-        <div className="mt-5 pb-10  responsive-width mobile-width">
+        <div className="mt-5 pb-10  responsiveFullWidth">
           <p
             style={{ fontFamily: "Mulish" }}
-            className="mt-4 text-[#A9AFC3] font-light text-sm  leading-[33px]"
+            className="mt-4 text-[#A9AFC3] font-light text-sm  "
           >
             We always try to implement our creative ideas at the highest level.
             Tell us about your project and we will make it work.
@@ -57,8 +57,8 @@ const SendMessage = () => {
             rows="4"
           ></textarea>
         </div>
-        <div className=" w-[35%] pt-6 pb-4 ">
-          <button className="text-sm text-white rounded-full border border-[#DD4242] px-5 py-2.5">
+        <div className="  pt-6 pb-4 ">
+          <button className="text-sm center-button text-white rounded-full border border-[#DD4242] px-5 py-2.5">
             Send Message
           </button>
         </div>

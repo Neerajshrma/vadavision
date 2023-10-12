@@ -3,7 +3,7 @@ import React from "react";
 const MessageInfo = () => {
   return (
     <>
-      <div className="mt-10">
+      <div className="mt-10 ">
         <div className="w-full">
           <div
             className="bg-[#191C26] text-white"

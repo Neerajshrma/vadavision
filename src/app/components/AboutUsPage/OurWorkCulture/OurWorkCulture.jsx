@@ -35,47 +35,55 @@ const OurWorkCulture = () => {
             You can see it by looking at our portfolio.
           </p>
         </div>
-        <div className="flex gap-10">
-          <div className="">
-            <div className="flex pb-4 items-center">
+        <div className="flex flex-col gap-10 pl-4 ">
+          <div className="flex flex-row  flex-wrap ">
+            <div className="flex  items-center pb-2 ">
               <img className="h-5" src="images/check-circle.svg" alt="" />
               <span className="pl-2 pr-8 font-medium text-white">
-                Modern Technologies
+              Modern Technologies
               </span>
             </div>
-            <div className="flex pb-4 items-center ">
+            <div className="flex  items-center pb-2 ">
               <img className="h-5" src="images/check-circle.svg" alt="" />
               <span className="pl-2 font-medium text-white">
                 Modern Technologies
               </span>
             </div>
-            <div className="flex pb-4 items-center">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
-              <span className="pl-2 font-medium text-white">
-                Modern Technologies
-              </span>
-            </div>
+           
           </div>
-          <div className="">
-            <div className="flex pb-4 items-center">
+          <div className="flex flex-row flex-wrap  responsivePerksList ">
+            <div className="flex  items-center pb-2 ">
+              <img className="h-5" src="images/check-circle.svg" alt="" />
+              <span className="pl-2 pr-8 font-medium text-white">
+              Modern Technologies
+                        </span>
+            </div>
+            <div className="flex  items-center pb-2 ">
               <img className="h-5" src="images/check-circle.svg" alt="" />
               <span className="pl-2 font-medium text-white">
                 Modern Technologies
               </span>
             </div>
-            <div className="flex pb-4 items-center">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
-              <span className="pl-2 font-medium text-white">
-                Modern Technologies
-              </span>
-            </div>
-            <div className="flex  pb-4 items-center">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
-              <span className="pl-2 font-medium text-white">
-                Modern Technologies
-              </span>
-            </div>
+           
           </div>
+          <div className="flex flex-row flex-wrap responsivePerksList">
+            <div className="flex  items-center pb-2 ">
+              <img className="h-5" src="images/check-circle.svg" alt="" />
+              <span className="pl-2 pr-8 font-medium text-white">
+              Modern Technologies
+                          </span>
+            </div>
+            <div className="flex  items-center pb-2">
+              <img className="h-5" src="images/check-circle.svg" alt="" />
+              <span className="pl-2 font-medium text-white">
+                Modern Technologies
+              </span>
+            </div>
+           
+          </div>
+          
+
+         
         </div>
       </div>
     </>
