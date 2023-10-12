@@ -4,7 +4,7 @@ const MessageInfo = () => {
   return (
     <>
       <div className="mt-10 ">
-        <div className="w-full">
+        <div className="">
           <div
             className="bg-[#191C26] text-white"
             style={{ width: "350px", height: "120px" }}
@@ -53,7 +53,7 @@ const MessageInfo = () => {
           </div>
         </div>
 
-        <div className="pt-6 w-full">
+        <div className="pt-6 ">
           <div
             className="bg-[#191C26] text-white"
             style={{ width: "350px", height: "120px" }}
@@ -103,7 +103,7 @@ const MessageInfo = () => {
           </div>
         </div>
 
-        <div className="pt-6 w-full">
+        <div className="pt-6 ">
           <div
             className="bg-[#191C26] text-white"
             style={{ width: "350px", height: "120px" }}
