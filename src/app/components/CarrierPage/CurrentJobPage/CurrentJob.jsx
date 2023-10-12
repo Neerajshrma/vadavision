@@ -16,7 +16,7 @@ const CurrentJob = () => {
               style={{ fontFamily: "Poppins" }}
               className="creative-idea text-sm uppercase  font-normal leading-[150%] text-[#A9AFC3]"
             >
-              a few words
+              Join our cool workplace
             </div>
           </div>
         </div>
