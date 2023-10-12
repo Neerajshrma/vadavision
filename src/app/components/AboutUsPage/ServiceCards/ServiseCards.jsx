@@ -36,7 +36,7 @@ const ServiseCards = () => {
         </div>
       </div>
 
-      <div className="flex flex-row  px-40 responsive-width mobile-width ">
+      <div className="flex flex-row   px-40 responsive-width mobile-width ">
         <div className=" w-[25%] bg-[#2a2b2a] grid justify-items-center pt-10">
           <img src="images/iconbranding.svg" alt="" />
           <span className="pt-5 text-white">UI/UX and</span>

@@ -15,7 +15,7 @@ const ContactUsPage = () => {
           <Header color="white" backgroundColor="#DD4242" />
         </div>
         <div className="py-10 gap-10 flex justify-between responsive-width mobile-width px-40">
-          <div className="w-1/2">
+          <div className="w-1/2 hide-cards">
             <MessageInfo />
           </div>
           <div className="w-1/2">
