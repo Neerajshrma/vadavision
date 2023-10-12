@@ -3,32 +3,39 @@ import React from "react";
 const SendMessage = () => {
   return (
     <>
-      <div className="">
-        <div className="contact-us">
-          <div className="mt-10 flex gap-3 items-center">
+      <div className=" ">
+        <div className="">
+          <div className="mt-10  flex gap-3 items-center">
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
             <div
               style={{ fontFamily: "Poppins" }}
-              className="creative-idea text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
+              className="creative-idea  text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
             >
               Contact Us
             </div>
           </div>
         </div>
-        <div className="mt-3 flex flex-wrap responsive-message creative-idea text-sm uppercase font-normal ">
-          <h1 className="text-5xl hero-heading leading-[120%] font-semibold text-white whitespace-nowrap">
+        <div
+          className="mt-3  flex flex-col   text-sm uppercase font-normal "
+          style={{ fontFamily: "Mulish" }}
+        >
+          <h1
+            style={{ fontFamily: "Poppins" }}
+            className="message-responsiness hero-heading leading-[120%] font-semibold text-white whitespace-nowrap"
+          >
             Send a Message
           </h1>
+          <div className="mt-5 pb-10  ">
+            <p
+              style={{ fontFamily: "Mulish" }}
+              className="mt-4 text-[#A9AFC3] display-message w-full font-light text-sm  "
+            >
+              We always try to implement our creative ideas at the highest
+              level. Tell us about your project and we will make it work.
+            </p>
+          </div>
         </div>
-        <div className="mt-5 pb-10  responsiveFullWidth">
-          <p
-            style={{ fontFamily: "Mulish" }}
-            className="mt-4 text-[#A9AFC3] font-light text-sm  "
-          >
-            We always try to implement our creative ideas at the highest level.
-            Tell us about your project and we will make it work.
-          </p>
-        </div>
+
         <div className="flex flex-row gap-6">
           <div className=" ">
             <input

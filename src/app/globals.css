@@ -202,21 +202,14 @@ body {
     padding-right: 10px;
   }
 }
-@media screen and (max-width: 480px) {
-  .responsiveFullWidth {
-    display: block;
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 1164px) {
   .responsiveFullWidth {
-    display: block;
+    
+    justify-content: center;
+    padding-left: 20px;
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
   }
 }
 .background {
@@ -228,10 +221,10 @@ body {
 }
 
 .borderless-input {
-  border: none !important;
+  border: none ;
   box-shadow: none !important;
   border-bottom: 1px solid #3a3f50 !important;
-  outline: none !important;
+  outline: none ;
 }
 
 @media screen and (max-width: 1100px) {
@@ -343,7 +336,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1164px) {
   .hide-cards {
     display: none;
   }
@@ -358,9 +351,10 @@ body {
   width: 100%;
 }
 
-@media screen and(max-width:860px) {
+
+@media screen and(max-width:1024px) {
   .contact-us {
-    margin-right: 100px;
+    justify-content: center;
     width: 100%;
   }
 }
@@ -444,6 +438,41 @@ body {
   }
 }
 
+.message-responsiness{
+  font-size: xx-large;
+  
+}
+
+@media screen and (max-width:480px) {
+  .message-responsiness{
+    font-size: small;
+  }
+  
+}
+
+@media screen and (max-width: 1200px) {
+  .centered-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .centered-contain{
+   justify-content: center;
+   padding-left: 50px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .display-message{
+    width: 100%;
+  }
+  
+}
 @media screen and (max-width: 480px) {
   .reverse-columm {
     flex-direction: column-reverse;
@@ -478,6 +507,21 @@ display: none;  }
   
 }
 
+@media screen and (max-width:2000px) {
+  .responsive-dash{
+    padding-right: 50px;
+
+  }
+  
+}
+
+@media screen and (max-width:1700px) {
+  .responsive-dash{
+    padding-right: 60px;
+
+  }
+  
+}
 @media screen and (max-width:1001px) {
 
   .hide-data{
@@ -496,6 +540,7 @@ display: none;  }
 
 @media (max-width: 480px) {
   .responsive-message {
+    font-size: small;
     justify-content: center;
     padding-left: 100px;
   }
@@ -600,7 +645,7 @@ display: none;  }
 }
 @media screen and (max-width: 480px) {
   .jobOpening {
-    width: 100% !important;
+    width: 100% ;
   }
 }
 
