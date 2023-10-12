@@ -1064,3 +1064,9 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+/* Career Page */
+
+div#join-widget > div {
+  padding: 0 !important;
+}
