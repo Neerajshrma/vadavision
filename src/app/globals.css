@@ -446,6 +446,13 @@ display: none;  }
   
 }
 
+@media screen and (max-width:1290px) {
+  .responsive-dash{
+    padding-right: 60px;
+  }
+  
+}
+
 @media screen and (max-width:1001px) {
 
   .hide-data{
