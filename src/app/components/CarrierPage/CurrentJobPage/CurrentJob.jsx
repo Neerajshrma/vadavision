@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { BiChevronRight } from "react-icons/bi";
+import { BiChevronUp } from "react-icons/bi";
 import { BiChevronDown } from "react-icons/bi";
 
 const questionsData = [
@@ -70,11 +70,10 @@ const CurrentJob = () => {
         </div>
         <div className="flex flex-row flex-wrap justify-between pb-10 ">
           <div className="flex text-4xl  hero-heading leading-[120%] font-bold text-white  ">
-            <h1 className="currentJobResponsive ">Current Job Openings</h1>
+            <h1 className="currentJobResponsive">Current Job Openings</h1>
           </div>
-
-          <div className="flex flex-row flex-wrap searchResponsive  ">
-            <div className=" flex flex-row py-2 pl-4 bg-[#fff]">
+          <div className="flex flex-wrap searchResponsive  ">
+            <div className="flex items-center py-1 pl-4 bg-[#fff]">
               <img
                 src="images/search.png"
                 alt=""
@@ -87,17 +86,16 @@ const CurrentJob = () => {
               />
             </div>
             <div className="mobilesearchbutton">
-              <button className="px-4 py-2  text-white bg-red-500">
+              <button className="px-4 py-2 text-white bg-red-500">
                 Search
               </button>
             </div>
           </div>
         </div>
-
         <div className="space-y-4 pb-10">
           {questionsData.map((item) => (
             <div
-              key={index}
+              key={item}
               className="flex flex-row justify-between bg-[#41464B]  border border-white-500	rounded-md currentjob	"
               onClick={() => toggleAccordion(item.id)}
             >
@@ -110,9 +108,7 @@ const CurrentJob = () => {
               </div>
               <div className="pr-6 py-5">
                 {openAccordion === item.id ? (
-                  <BiChevronRight
-                    style={{ fontSize: "25px", color: "white" }}
-                  />
+                  <BiChevronUp style={{ fontSize: "25px", color: "white" }} />
                 ) : (
                   <BiChevronDown style={{ fontSize: "25px", color: "white" }} />
                 )}

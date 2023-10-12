@@ -18,7 +18,7 @@ const SplideSlider = () => {
   };
   return (
     <div
-      className="bg-[#141619] pt-36 px-40 bg-center bg-contain bg-no-repeat"
+      className="bg-[#141619] bg-center bg-contain bg-no-repeat"
       style={{ backgroundImage: "url(images/bg-1.png)" }}
     >
       <div className="relative">
@@ -35,11 +35,11 @@ const SplideSlider = () => {
         >
           <SplideSlide>
             <div className="" data-carousel-item>
-              <div className="mt-5 w-7/12 mx-auto">
+              <div className="testimonials mt-5 w-7/12 mx-auto">
                 <div>
                   <p
                     style={{ fontFamily: "Montserrat" }}
-                    className="text-center text-white font-semibold text-2xl leading-[56px]"
+                    className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
                     I am very happy with the services provided, it is very
                     helpful, starting from the insight that the company gave
@@ -47,15 +47,15 @@ const SplideSlider = () => {
                     got knowledge and made my website look better
                   </p>
                 </div>
-                <div className="mt-10 flex justify-center gap-4 items-center">
-                  <div>
-                    <img src="/images/client.png" alt="" />
+                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
+                  <div className="profile-img">
+                    <img className="w-full" src="/images/client.png" alt="" />
                   </div>
                   <div>
-                    <h6 className="text-xl font-bold leading-[32px] text-[#DD4242]">
+                    <h6 className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]">
                       Clay Johnson
                     </h6>
-                    <p className="text-base font-normal text-[#959596] leading-[150%]">
+                    <p className="text-base testimonial-content font-normal text-[#959596] leading-[150%]">
                       Business Director at Wax Inc
                     </p>
                   </div>
@@ -124,19 +124,19 @@ const SplideSlider = () => {
             </div>
           </SplideSlide>
         </Splide>
-        <div className="splide__arrows">
-          <button
-            className="absolute custom-arrow-prev"
-            onClick={handlePrevClick}
-          >
-            <BsArrowUp size={18} color="#DD4242" />
-          </button>
-          <button
-            className="absolute custom-arrow-next"
-            onClick={handleNextClick}
-          >
-            <BsArrowDown size={18} color="#DD4242" />
-          </button>
+        <div className="h-[150px] absolute custom-arrows">
+          <div className="h-full relative">
+            <div className="absolute acustom-arrow-prev">
+              <button className="" onClick={handlePrevClick}>
+                <BsArrowUp size={18} color="#DD4242" />
+              </button>
+            </div>
+            <div className="absolute custom-arrow-next">
+              <button className="" onClick={handleNextClick}>
+                <BsArrowDown size={18} color="#DD4242" />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
