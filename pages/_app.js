@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }) {
           <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
           <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+          <link href="https://static.zohocdn.com/recruit/embed_careers_site/css/v1.0/embed_jobs.2adf19016c407ddf2323624dc049766c.css" rel="stylesheet" />
         </Head>
          <Component {...pageProps} />
       </main>
