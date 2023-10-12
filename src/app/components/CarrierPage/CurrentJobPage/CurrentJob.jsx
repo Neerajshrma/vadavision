@@ -1,11 +1,26 @@
 "use client";
 import Script from "next/script";
-import React from "react";
+import React, { useEffect } from "react";
+import useScripts from "../../hooks/UseScripts";
+
 
 const CurrentJob = () => {
+
+  useScripts([
+    'https://static.zohocdn.com/recruit/embed_careers_site/javascript/v1.0/embed_jobs.5a71e72320d517a462350c6022ccfe36.js'
+  ], () => {
+    rec_embed_js.load({
+      widget_id:"rec_job_listing_div",
+      page_name:"Careers",
+      source:"CareerSite",
+      site:"https://vadavision.zohorecruit.in",
+      empty_job_msg:"No current Openings"
+    });
+  });
+
   return (
     <>
-      <div className="responsive-width mobile-width px-40">
+      <div className="responsive-width px-40">
         <div
           style={{ fontFamily: "Montserrat" }}
           className="responsive-width pb-4"
@@ -26,13 +41,12 @@ const CurrentJob = () => {
           </div>
         </div>
         <div className="space-y-4 pb-10">
-          <div id="join-widget">
-          <Script
-            defer
-            type="text/javascript"
-            data-mount-in="#join-widget"
-            src="https://join.com/api/widget/bundle/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXR0aW5ncyI6eyJzaG93Q2F0ZWdvcnlGaWx0ZXIiOnRydWUsInNob3dMb2NhdGlvbkZpbHRlciI6dHJ1ZSwic2hvd0VtcGxveW1lbnRUeXBlRmlsdGVyIjp0cnVlLCJsYW5ndWFnZSI6ImVuIiwiam9ic1BlclBhZ2UiOjI1fSwiam9icyI6e30sImRlc2lnbiI6eyJzaG93TG9nbyI6dHJ1ZSwic2hvd0xvY2F0aW9uIjp0cnVlLCJzaG93RW1wbG95bWVudFR5cGUiOnRydWUsInNob3dDYXRlZ29yeSI6dHJ1ZSwiY29sb3JzIjp7IndpZGdldCI6eyJiYWNrZ3JvdW5kIjoiIzAwMDAwMCIsImZpbHRlckJvcmRlciI6IiNmZmZmZmYiLCJwYWdpbmF0aW9uIjoiI2ZmZmZmZiJ9LCJqb2JDYXJkIjp7ImJvcmRlciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kIjoiIzQxNDY0QiIsInByaW1hcnlUZXh0IjoiI2ZmZmZmZiIsInNlY29uZGFyeVRleHQiOiIjZmZmZmZmIn19fSwidmVyc2lvbiI6MiwiY29tcGFueVB1YmxpY0lkIjoiMjY5NTQzOWEwZDUxYzM5ZmY3NmFjODE1NWRlN2RjYWQiLCJpYXQiOjE2OTcxMTYyNTQsImp0aSI6IjM1ZDk1NDNiLTE1YmItNDkyYy1hMDIxLWU0ZTNiZDNmODJlMyJ9.S8GGuTsW6UOcg033Y_nU58L6XmpCRgN84oSJh9D4sWE"
-          ></Script>
+          <div className="embed_jobs_head embed_jobs_with_style_3">
+            <div className="embed_jobs_head2">
+              <div className="embed_jobs_head3">
+                <div id="rec_job_listing_div"> </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
