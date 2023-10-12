@@ -16,7 +16,7 @@ const SendMessage = () => {
           </div>
         </div>
         <div
-          className="mt-3  flex flex-col   text-sm uppercase font-normal "
+          className="mt-3    text-sm uppercase font-normal "
           style={{ fontFamily: "Mulish" }}
         >
           <h1
