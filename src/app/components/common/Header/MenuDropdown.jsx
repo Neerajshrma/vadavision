@@ -75,7 +75,7 @@ const MenuDropdown = ({ svgcolor }) => {
           </li>
           <li>
             <Link
-              href="/Carrer"
+              href="/Career"
               className="block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
               Career

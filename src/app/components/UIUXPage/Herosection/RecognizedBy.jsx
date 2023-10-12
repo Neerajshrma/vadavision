@@ -3,7 +3,7 @@ import React from "react";
 const RecognizedBy = () => {
   return (
     <div className="w-7/12 mx-auto px-5 py-2 ui-upwork">
-      <div className="flex flex-wrap gap-7 items-center justify-evenly ">
+      <div className="flex flex-wrap gap-7 items-center justify-evenly recognize-by">
         <div>
           <div className="w-[95px] mt-2">
             <img src="/images/google.png" alt="" />
@@ -65,7 +65,7 @@ const RecognizedBy = () => {
                 />
               </svg>
             </div>
-            <div className="text-white font-medium text-sm leading-[120%] reviwes">
+            <div className="text-white font-medium text-sm leading-[120%]">
               (33 REVIEWS)
             </div>
           </div>
@@ -181,7 +181,7 @@ const RecognizedBy = () => {
                 />
               </svg>
             </div>
-            <div className="text-white font-normal text-base leading-[120%] reviwes">
+            <div className="text-white font-normal text-base leading-[120%]">
               (33 REVIEWS)
             </div>
           </div>

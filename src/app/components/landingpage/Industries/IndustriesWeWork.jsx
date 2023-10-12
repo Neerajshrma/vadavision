@@ -13,13 +13,13 @@ const IndustriesWeWork = () => {
         </div>
         <div className="mt-4">
           <h1 className="Montserrat capitalize text-white text-4xl font-semibold heading leading-[110%]">
-            Industries we work with
+            Types of Industries We Partner With{" "}
           </h1>
         </div>
         <div className="w-7/12 mt-4 description">
           <p className="Montserrat text-[#A9AFC3] text-base leading-[140%] description">
-            We always try to implement our creative ideas at the highest level.
-            You can see it by looking at our portfolio.
+            Explore the Various Industries We Proudly Collaborate and Partner
+            With!
           </p>
         </div>
       </div>

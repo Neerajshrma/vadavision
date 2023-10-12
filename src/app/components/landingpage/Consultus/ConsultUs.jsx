@@ -14,7 +14,7 @@ const ConsultUs = ({ backgroundColor, color }) => {
             className="text-5xl Montserrat font-bold leading-[130%] w-7/12 mx-auto consult-us-width"
             style={{ color: color }}
           >
-            Consult with us for any help in your business
+            Consult with us for your business assistance.{" "}
           </h1>
         </div>
         <div className="mt-10">

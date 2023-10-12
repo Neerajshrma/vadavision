@@ -17,7 +17,7 @@ const HeroSection = () => {
               style={{ fontFamily: "Poppins" }}
               className="creative-idea text-sm uppercase font-normal leading-[150%]"
             >
-              Creative ideas
+              Startup{"'"}s studio
             </div>
           </div>
           <div>

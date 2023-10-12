@@ -39,8 +39,9 @@ const Services = () => {
           </div>
           <div>
             <p className="Montserrat text-white text-base font-medium">
-              Quickly leverage other’s distributed internal or “organic” sources
-              rather than empowered materials.
+              We deliver highly engaging mobile app solutions. Our iOS experts
+              make sure your business shines online. We provide easy and
+              creative solutions that your audience will love.
             </p>
           </div>
         </div>
@@ -71,8 +72,9 @@ const Services = () => {
           </div>
           <div>
             <p className="Montserrat text-white text-base font-medium">
-              Quickly leverage other’s distributed internal or “organic” sources
-              rather than empowered materials.
+              We deliver engaging mobile apps and customized software,
+              simplifying your business tasks. Our Android team ensures your
+              online presence stands out
             </p>
           </div>
         </div>
@@ -103,8 +105,8 @@ const Services = () => {
           </div>
           <div>
             <p className="Montserrat text-white text-base font-medium">
-              Quickly leverage other’s distributed internal or “organic” sources
-              rather than empowered materials.
+              Delivering clever design solutions and hassle-free upgrades. Your
+              satisfaction is our commitment.
             </p>
           </div>
         </div>
@@ -145,8 +147,8 @@ const Services = () => {
           </div>
           <div>
             <p className="Montserrat text-white text-base font-medium">
-              Quickly leverage other’s distributed internal or “organic” sources
-              rather than empowered materials.
+              We design apps for all platforms, ensuring simplicity in
+              cross-platform development.
             </p>
           </div>
         </div>

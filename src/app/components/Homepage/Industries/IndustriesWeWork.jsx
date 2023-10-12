@@ -18,8 +18,8 @@ const IndustriesWeWork = () => {
         </div>
         <div className="w-7/12 mt-4 description">
           <p className="Montserrat text-[#A9AFC3] text-base leading-[140%] description">
-            Experience our top-notch creativity firsthand! Explore our portfolio
-            and witness our innovative ideas come to life.
+            We bring our best creative ideas to life! Just check out our
+            portfolio and see for yourself.
           </p>
         </div>
       </div>

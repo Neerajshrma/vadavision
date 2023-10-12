@@ -3,7 +3,7 @@ import React from "react";
 const PerksPage = () => {
   return (
     <>
-      <div className="px-40 responsive-width mobile-width">
+      <div className="px-40 responsive-width">
         <div
           style={{ fontFamily: "Montserrat" }}
           className="responsive-width pb-4"

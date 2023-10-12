@@ -14,14 +14,14 @@ const HeroSection = () => {
           <div className="bg-hero">
             <div>
               <h1 className="text-[55px] hero-heading leading-[120%] font-bold">
-                Unlock the Power of Cutting-Edge Mobile App Development{" "}
+                Your Hassle-Free Mobile App Journey Begins Here{" "}
                 <span className="heading-dot inline-block w-5 h-5 ml-[-12px] bg-[#DD4242] rounded-full"></span>
               </h1>
             </div>
             <div>
               <h4 className="text-base hero-description font-medium leading-[120%] text-[#A9AFC3] w-10/12 mt-4">
-                Transform your business with intelligent mobile solutions
-                powered by AI
+                Boost your business using clever mobile solutions driven by AI
+                technology.
               </h4>
             </div>
             <div className="flex gap-4 mt-8">

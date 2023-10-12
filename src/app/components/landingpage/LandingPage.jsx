@@ -6,11 +6,11 @@ import IndustriesWeWork from "./Industries/IndustriesWeWork";
 import TechStack from "./TechStack/TechStack";
 import Portfolio from "./Portfolio/Portfolio";
 import SomeFacts from "./SomeFacts/SomeFacts";
-import WhyChooseUs from "./WhyUs/WhyChooseUs";
 import CalculateTheCost from "./CalculateTheCost/CalculateTheCost";
 import Footer from "../common/Footer/Footer";
 import Header from "../common/Header/Header";
 import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
+import WhyChooseUs from "../Homepage/Whychooseus/WhyChooseUs";
 
 const LandingPage = () => {
   return (

@@ -58,9 +58,9 @@ const UIUXPage = () => {
       <div className="mt-5">
         <ConsultUs backgroundColor="#1E2533" color="white" />
       </div>
-      <div className="bg-white">
+      {/* <div className="bg-white">
         <DesigningTools />
-      </div>
+      </div> */}
       <div>
         <OurMilestones />
       </div>

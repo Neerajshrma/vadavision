@@ -9,7 +9,7 @@ const SomeFacts = () => {
       <div className="my-5 mx-auto w-7/12 min-w-[300px] text-center">
         <div>
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[63px]">
-            How about some fact number about us
+            Learn interesting facts and numbers about us.{" "}
           </h1>
         </div>
         <div className="flex justify-between">

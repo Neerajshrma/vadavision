@@ -3,7 +3,7 @@ import React from "react";
 const WhyJoinUs = () => {
   return (
     <>
-      <div className="mt-20 px-40 responsive-width mobile-width">
+      <div className="mt-20 px-40 responsive-width">
         <div className="">
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
             Why Join Us
