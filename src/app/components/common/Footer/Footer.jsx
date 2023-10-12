@@ -53,11 +53,16 @@ const Footer = () => {
       <div className="mt-20">
         <div className="flex flex-wrap items-center gap-4">
           <div className="flex items-center gap-1">
+            <span className="font-medium text-white Montserrat text-sm">
+              Vadavision Private Limited(CRN: U62099CH2023PTC045004)
+            </span>
+          </div>
+          <div className="flex items-center gap-1">
             <span className="font-medium text-white">
               <MdOutlineLocationOn size="18px" />
             </span>
             <span className="font-medium text-white Montserrat text-sm">
-              Vadavision Private Limited(CRN: U62099CH2023PTC045004) Plot 337, Phase 2 Chandigarh, India, 160002
+              Plot 337, Phase 2 Chandigarh, India, 160002
             </span>
           </div>
           <div className="flex items-center gap-1">
