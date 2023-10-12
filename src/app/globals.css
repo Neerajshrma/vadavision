@@ -74,10 +74,6 @@ body {
   top: 0%!important;
   width: auto!important;
 }
-/* .splide__arrow--prev{
-  right: -50rem!important;
-  left: 0;
-} */
 
 .responsive-header {
   display: none;
@@ -576,8 +572,9 @@ body {
 }
 
 .accordion {
-  width: 100%;
-  max-width: 500px;
+  width: 70%;
+  margin: 30px auto;
+  min-width: 250px;
 }
 
 .accordion-item {
@@ -625,12 +622,6 @@ body {
   width: 7px !important;
   height:  7px !important;
 }
-
-/* [type=button], [type=reset], [type=submit], button {
-  -webkit-appearance: button;
-  background-color: inherit !important;
-  background-image: none;
-} */
 
 .splide__pagination__page{
   background: #DD4242 !important;

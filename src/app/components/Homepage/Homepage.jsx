@@ -84,7 +84,6 @@ const Homepage = () => {
         <ConsultWithUs />
       </div>
       {/* consult with us end */}
-
       <div className="bg-[#141619] py-10 px-40 responsive-width">
         <div className="w-1/2">
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">

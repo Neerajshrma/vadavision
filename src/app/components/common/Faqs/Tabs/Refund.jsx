@@ -35,7 +35,7 @@ const Refund = () => {
   };
   return (
     <div>
-      <div className="accordion">
+      <div className="w-full min-w-[200px]">
         {questionsData.map((item) => (
           <div key={item.id} className="accordion-item">
             <div
