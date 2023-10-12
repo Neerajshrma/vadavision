@@ -7,7 +7,7 @@ const MessageInfo = () => {
         <div className="">
           <div
             className="bg-[#191C26] text-white"
-            style={{ width: "350px", height: "120px" }}
+            style={{ width: "360px"}}
           >
             <div className="flex flex-row">
               <div className="pt-10 pl-6">
@@ -43,10 +43,15 @@ const MessageInfo = () => {
                   </defs>
                 </svg>
               </div>
-              <div className="pt-7 px-8">
+              <div className="py-7 px-8">
+                <p className="text-[#A9AFC3] text-sm">
+                  Vadavision Private Limited
+                  <br />
+                  CRN: U62099CH2023PTC045004
+                  </p>
                 <span className="text-sm">Address</span>
                 <p className="text-[#A9AFC3] text-sm">
-                  27 Division St, New York, NY 10002, USA
+                  Plot 337, Phase 2 Chandigarh, India, 160002
                 </p>
               </div>
             </div>
@@ -56,7 +61,7 @@ const MessageInfo = () => {
         <div className="pt-6 ">
           <div
             className="bg-[#191C26] text-white"
-            style={{ width: "350px", height: "120px" }}
+            style={{ width: "360px" }}
           >
             <div className="flex flex-row">
               <div className="pt-10 pl-6">
@@ -93,10 +98,10 @@ const MessageInfo = () => {
                   />
                 </svg>
               </div>
-              <div className="pt-7 px-8">
+              <div className="py-7 px-8">
                 <span className="text-sm">Hit us up:</span>
                 <p className="text-[#A9AFC3] text-sm">
-                  +1 845 631 78 49 <br /> Vadavision.ca{" "}
+                  +91 62800-07001 <br /> info@vadavision.ca{" "}
                 </p>
               </div>
             </div>
@@ -106,7 +111,7 @@ const MessageInfo = () => {
         <div className="pt-6 ">
           <div
             className="bg-[#191C26] text-white"
-            style={{ width: "350px", height: "120px" }}
+            style={{ width: "360px" }}
           >
             <div className="flex flex-row">
               <div className="pt-10 pl-6">
@@ -182,7 +187,7 @@ const MessageInfo = () => {
                   </defs>
                 </svg>
               </div>
-              <div className="pt-7 px-8">
+              <div className="py-7 px-8">
                 <span className="text-sm">Working Schedule:</span>
                 <p className="text-[#A9AFC3] text-sm">
                   Mon - Fri: 9 am - 6 pm Sat, Sun: Holiday{" "}
