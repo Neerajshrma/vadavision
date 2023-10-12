@@ -125,7 +125,7 @@ const SplideSlider = () => {
           </SplideSlide>
         </Splide>
         <div className="h-[150px] absolute custom-arrows">
-          <div className="h-full relative">
+          <div className="h-full relative w-[18px]">
             <div className="absolute acustom-arrow-prev">
               <button className="" onClick={handlePrevClick}>
                 <BsArrowUp size={18} color="#DD4242" />

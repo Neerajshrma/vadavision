@@ -5,7 +5,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 const Herosection = () => {
   return (
     <div className="text-center responsive-width mobile-width px-40">
-      <div className="mt-8 flex gap-3 justify-center items-center">
+      <div className="mt-6 flex gap-3 justify-center items-center">
         <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
         <div
           style={{ fontFamily: "Poppins" }}
@@ -14,7 +14,7 @@ const Herosection = () => {
           our services
         </div>
       </div>
-      <div className="mt-4">
+      <div className="mt-3">
         <h1 className="text-[50px] hero-heading leading-[120%] font-bold text-white">
           UI/UX Design Services
         </h1>

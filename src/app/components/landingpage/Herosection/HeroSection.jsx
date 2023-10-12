@@ -52,9 +52,9 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5 w-5/12">
+        <div className="mt-5 w-5/12 hero-calender">
           <div
-            className="calendly-inline-widget"
+            className="calendly-inline-widget no-scrollbar overflow"
             data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1"
             style={{ minWidth: "320px", height: "700px" }}
           ></div>

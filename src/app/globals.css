@@ -140,6 +140,15 @@ body {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .hero-calender {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .responsive-header {
     display: block;
@@ -793,9 +802,10 @@ display: none;  }
   left: auto;
   padding: 5px 0;
   right: 15% !important;
-  height: 200px;
+  height: 150px;
   top: 50% !important;
   transform: translate(0, -50%);
+  width: 18px;
 }
 
 .ripple-container {
@@ -928,7 +938,19 @@ display: none;  }
 .custom-arrows{
   top: 50%;
   transform: translate(0, -50%);
-  right: 16%;
+  right: 15%;
+}
+
+.custom-arrows{
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 15%;
+}
+
+@media screen and (max-width: 500px) {
+  .custom-arrows{
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 1050px) {
@@ -986,3 +1008,20 @@ display: none;  }
   }
 }
 
+@media screen and (max-width: 480px) {
+  .recognize-by{
+   justify-content: center; 
+  }
+}
+
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

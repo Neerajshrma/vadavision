@@ -54,9 +54,9 @@ const LandingPage = () => {
       <div>
         <WhyChooseUs />
       </div>
-      <div>
+      {/* <div>
         <CalculateTheCost />
-      </div>
+      </div> */}
       <div className="bg-[#141619]">
         <FrequentlyAksedQuestions />
       </div>
