@@ -484,6 +484,21 @@ display: none;  }
   
 }
 
+@media screen and (max-width:2000px) {
+  .responsive-dash{
+    padding-right: 50px;
+
+  }
+  
+}
+
+@media screen and (max-width:1700px) {
+  .responsive-dash{
+    padding-right: 60px;
+
+  }
+  
+}
 @media screen and (max-width:1001px) {
 
   .hide-data{
