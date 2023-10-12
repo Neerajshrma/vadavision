@@ -5,7 +5,7 @@ import RippleEffect from "../RippleEffect";
 import Menu from "./Menu";
 import MenuDropdown from "./MenuDropdown";
 
-const Navbar = ({ color, backgroundColor }) => {
+const Navbar = ({ color, backgroundColor, svgcolor }) => {
   return (
     <menu style={{ fontFamily: "Poppins" }}>
       <div className="nav-bar flex gap-10 items-center">
@@ -112,7 +112,7 @@ const Navbar = ({ color, backgroundColor }) => {
             </li>
           </ul>
         </div> */}
-      <MenuDropdown svgcolor="#333542" />
+      <MenuDropdown svgcolor={svgcolor} />
     </menu>
   );
 };

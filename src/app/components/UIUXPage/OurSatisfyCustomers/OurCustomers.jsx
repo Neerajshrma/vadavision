@@ -31,7 +31,7 @@ const OurCustomers = () => {
           </h1>
         </div>{" "}
       </div>
-      <div className="mt-20 text-center w-8/12 mx-auto min-w-[400px]">
+      <div className="mt-20 text-center w-8/12 mx-auto min-w-[400px] mobile-full-width">
         <p className="text-white text-sm">
           Mobile app development is the act or process by which a mobile app is
           developed for mobile devices, such as personal digital assistants,

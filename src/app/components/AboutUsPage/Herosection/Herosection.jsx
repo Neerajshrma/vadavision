@@ -7,7 +7,7 @@ const Herosection = () => {
         <h1 className="text-4xl hero-heading leading-[120%] font-bold text-white">
           About Vadavision
         </h1>
-        <p className="mt-8 text-white font-light text-sm leading-[40px] mx-auto min-w-[280px] w-10/12">
+        <p className="mt-8 text-white font-light text-sm leading-[40px] mx-auto min-w-[280px] mobile-full-width w-10/12">
           Space is the collaboration hub that brings the right people,
           information, and tools together to get work done. From Fortune 100
           companies to corner markets, millions of people around the world use

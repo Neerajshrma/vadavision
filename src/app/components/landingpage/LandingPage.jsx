@@ -17,7 +17,7 @@ const LandingPage = () => {
     <div>
       <div>
         {/* header start */}
-        <Header color="black" backgroundColor="#141619" />
+        <Header color="black" backgroundColor="#141619" svgcolor="#333542" />
         {/* header end */}
       </div>
       <div>

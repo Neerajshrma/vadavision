@@ -12,7 +12,7 @@ const ContactUsPage = () => {
     <>
       <div className="bg-[#141619] responsive-width  mobile-width">
         <div>
-          <Header color="white" backgroundColor="#DD4242" />
+          <Header color="white" backgroundColor="#DD4242" svgcolor="#ffffff" />
         </div>
         <div className="py-10 gap-10 flex justify-between responsive-width mobile-width px-40">
           <div className="w-1/2 hide-cards">

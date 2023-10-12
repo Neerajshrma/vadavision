@@ -27,7 +27,7 @@ const Homepage = () => {
       </Head>
       {/* header start */}
       <div>
-        <Header color="black" backgroundColor="#141619" />
+        <Header color="black" backgroundColor="#141619" svgcolor="#333542" />
       </div>
       {/* header end */}
 

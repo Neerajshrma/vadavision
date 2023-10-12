@@ -146,19 +146,10 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .responsivePerksList {
     display: block;
     width: 100%;
-    margin-top: -40px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .responsivePerksList {
-    display: block;
-    width: 100%;
-    margin-top: -40px;
   }
 }
 
@@ -374,9 +365,11 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
   .responsive-row {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -408,13 +401,40 @@ body {
   }
 }
 
-
-
-@media screen and (max-width: 480px) {
-  .direction {
+@media screen and (max-width: 800px) {
+  .Our-experience {
     flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .our-approach {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .our-approach {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .responsive-heading {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .ball2 {
+  margin: auto;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .reverse-columm {
     flex-direction: column-reverse;
@@ -458,38 +478,11 @@ display: none;  }
   
 }
 
-
-/* @media screen and (max-width: 480px) {
-  .svg-move {
-    margin-top: -300px;
-    padding-left: 130px;
- }
-} */
-
-@media screen and (max-width: 480px) {
-  .ball2 {
-    padding-left: 70px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .ball {
-    padding-right: 70px;
-  }
-}
-
 @media screen and (max-width:480px) {
   .text-change{
     color: #e9dada;
   }
   
-}
-
-
-@media screen and (max-width: 480px) {
-  .ball3 {
-    padding-left: 70px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -514,9 +507,16 @@ display: none;  }
 
 @media screen and (max-width: 480px) {
   .hero-heading {
-    font-size: 34px !important;
+    font-size: 30px !important;
     color: #ffffff !important;
     margin-top: 2px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-full-width {
+    width: 100%;
+    min-width: 100%;
   }
 }
 
@@ -575,7 +575,7 @@ display: none;  }
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .description {
     font-size: 16px !important;
     font-weight: 400;

@@ -23,7 +23,11 @@ const UIUXPage = () => {
           style={{ backgroundImage: "URL(images/ui-bg-img.png)" }}
         >
           <div>
-            <Header color="white" backgroundColor="#DD4242" />
+            <Header
+              color="white"
+              backgroundColor="#DD4242"
+              svgcolor="#ffffff"
+            />
           </div>
           <div>
             <Herosection />

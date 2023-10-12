@@ -3,7 +3,7 @@ import React from "react";
 const OurWorkCulture = () => {
   return (
     <>
-      <div className="px-40 responsive-width mobile-width">
+      <div className="px-40 responsive-width">
         <div
           style={{ fontFamily: "Montserrat" }}
           className="responsive-width pb-4"
@@ -25,65 +25,49 @@ const OurWorkCulture = () => {
           </span>
         </div>
         <div className="">
-          <span className="text-4xl hero-heading leading-[120%] font-bold text-white">
+          <span className="text-4xl responsive-heading hero-heading leading-[120%] font-bold text-white">
             Culture Company’s
           </span>
         </div>
-        <div className="mt-5 w-6/12 pb-12">
-          <p className="mt-4 text-[#A9AFC3] font-light text-sm  mx-auto leading-[33px]">
+        <div className="mt-5 w-6/12 pb-12 mobile-full-width">
+          <p className="mt-4 text-[#A9AFC3] font-light text-sm mx-auto leading-[33px]">
             We always try to implement our creative ideas at the highest level.
             You can see it by looking at our portfolio.
           </p>
         </div>
-        <div className="flex flex-col gap-10 pl-4 ">
-          <div className="flex flex-row  flex-wrap ">
-            <div className="flex  items-center pb-2 ">
+        <div>
+          <div className="flex flex-row flex-wrap w-1/2 responsivePerksList">
+            <div className="flex items-center py-2">
               <img className="h-5" src="images/check-circle.svg" alt="" />
               <span className="pl-2 pr-8 font-medium text-white">
-              Modern Technologies
-              </span>
-            </div>
-            <div className="flex  items-center pb-2 ">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
-              <span className="pl-2 font-medium text-white">
                 Modern Technologies
               </span>
             </div>
-           
-          </div>
-          <div className="flex flex-row flex-wrap  responsivePerksList ">
-            <div className="flex  items-center pb-2 ">
+            <div className="flex items-center py-2">
               <img className="h-5" src="images/check-circle.svg" alt="" />
               <span className="pl-2 pr-8 font-medium text-white">
-              Modern Technologies
-                        </span>
-            </div>
-            <div className="flex  items-center pb-2 ">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
-              <span className="pl-2 font-medium text-white">
                 Modern Technologies
               </span>
             </div>
-           
-          </div>
-          <div className="flex flex-row flex-wrap responsivePerksList">
-            <div className="flex  items-center pb-2 ">
+            <div className="flex items-center py-2">
               <img className="h-5" src="images/check-circle.svg" alt="" />
               <span className="pl-2 pr-8 font-medium text-white">
-              Modern Technologies
-                          </span>
-            </div>
-            <div className="flex  items-center pb-2">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
-              <span className="pl-2 font-medium text-white">
                 Modern Technologies
               </span>
             </div>
-           
+            <div className="flex items-center py-2">
+              <img className="h-5" src="images/check-circle.svg" alt="" />
+              <span className="pl-2 pr-8 font-medium text-white">
+                Modern Technologies
+              </span>
+            </div>
+            <div className="flex items-center py-2">
+              <img className="h-5" src="images/check-circle.svg" alt="" />
+              <span className="pl-2 pr-8 font-medium text-white">
+                Modern Technologies
+              </span>
+            </div>
           </div>
-          
-
-         
         </div>
       </div>
     </>
