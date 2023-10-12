@@ -30,7 +30,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div>
-          <Link href="/landingpage">
+          <Link href="/career">
             <Menu menuname="Career" color="#fff" />
           </Link>
         </div>
