@@ -1,7 +1,7 @@
 import CarrierPage from '@/app/components/CarrierPage/CarrierPage'
 import React from 'react'
 
-const Career = () => {
+const career = () => {
   return (
     <div>
         <CarrierPage />
@@ -9,4 +9,4 @@ const Career = () => {
   )
 }
 
-export default Career
+export default career
