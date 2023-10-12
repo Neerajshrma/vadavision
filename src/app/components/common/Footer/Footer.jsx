@@ -57,7 +57,7 @@ const Footer = () => {
               <MdOutlineLocationOn size="18px" />
             </span>
             <span className="font-medium text-white Montserrat text-sm">
-              Plot 337, Phase 2 Chandigarh, India, 160002
+              Vadavision Private Limited(CRN: U62099CH2023PTC045004) Plot 337, Phase 2 Chandigarh, India, 160002
             </span>
           </div>
           <div className="flex items-center gap-1">
