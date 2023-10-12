@@ -30,7 +30,7 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
           </Link>
         </div>
         <div>
-          <Link href="/Career">
+          <Link href="/career">
             <Menu menuname="Career" color={color} />
           </Link>
         </div>
