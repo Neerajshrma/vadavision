@@ -49,13 +49,8 @@ body {
   background: linear-gradient(180deg, #080a12 0%, rgba(25, 28, 38, 0) 100%);
 }
 
-<<<<<<< HEAD
-.bg-subscribe-us {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-=======
 .bg-subscribe-us{
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
->>>>>>> e3fe8c532fc975559a340a21e8814e747b370aa3
   mix-blend-mode: luminosity;
 }
 
@@ -676,25 +671,11 @@ display: none;  }
   }
 }
 
-<<<<<<< HEAD
-.link-border {
-  border-bottom: #dd4242 !important;
-}
-.ui-page-bg {
-  background: linear-gradient(
-    283.46deg,
-    rgba(221, 66, 66, 0.61) 0.52%,
-    rgba(221, 66, 66, 0.26) 68.92%
-  );
-  height: 100vh;
-}
-=======
- }
+ 
  .ui-page-bg{
   background: linear-gradient(283.46deg, rgba(221, 66, 66, 0.61) 0.52%, rgba(221, 66, 66, 0.26) 68.92%);
   height: 82vh;
  }
->>>>>>> e3fe8c532fc975559a340a21e8814e747b370aa3
 
 .ui-upwork {
   background: #141619;
@@ -797,23 +778,12 @@ display: none;  }
   height: 0 !important;
 }
 
-<<<<<<< HEAD
-.custom-arrow-prev {
-  right: 7px;
-  top: 12%;
-}
-
-.custom-arrow-next {
-  right: 7px;
-  top: 28%;
-=======
 .custom-arrow-prev{
   top: 0;
 }
 
 .custom-arrow-next{
   bottom: 0;
->>>>>>> e3fe8c532fc975559a340a21e8814e747b370aa3
 }
 
 .splide__pagination--ttb {

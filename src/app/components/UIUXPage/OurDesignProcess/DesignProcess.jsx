@@ -568,6 +568,18 @@ const DesignProcess = () => {
         </div>
       </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
       <div className="mt-10 hide-data">
         <div className="flex items-center justify-between">
           <div className="flex items-center w-[85%] design-process-content">
@@ -580,8 +592,8 @@ const DesignProcess = () => {
               Detailed Consultation
             </div>
           </div>
-          <div className="border border-white border-dashed w-[9%]"></div>
-          <div className="w-[6%] relative design-process-icon">
+          <div className="border border-white border-dashed w-[20%]"></div>
+          <div className="w-[5%] relative design-process-icon">
             <div className="flex justify-center items-center bg-[#FFE7DF] rounded-full h-[65px] w-[65px]">
               <svg
                 width="45"
@@ -693,8 +705,8 @@ const DesignProcess = () => {
               User Research
             </div>
           </div>
-          <div className="border border-white border-dashed w-[9%]"></div>
-          <div className="w-[6%] relative design-process-icon">
+          <div className="border border-white border-dashed w-[20%]"></div>
+          <div className="w-[5%] relative design-process-icon">
             <div className="flex justify-center items-center bg-[#ABCDFF] rounded-full h-[65px] w-[65px]">
               <svg
                 width="45"
@@ -806,8 +818,8 @@ const DesignProcess = () => {
               Analysis & Planning
             </div>
           </div>
-          <div className="border border-white border-dashed w-[9%]"></div>
-          <div className="w-[6%] relative design-process-icon">
+          <div className="border border-white border-dashed w-[20%]"></div>
+          <div className="w-[5%] relative design-process-icon">
             <div className="flex justify-center items-center bg-[#D7B2FF] rounded-full h-[65px] w-[65px]">
               <svg
                 width="45"
@@ -864,7 +876,7 @@ const DesignProcess = () => {
             </div>
           </div>
           <div className="border border-white border-dashed w-[9%]"></div>
-          <div className="w-[6%] relative design-process-icon">
+          <div className="w-[5%] relative design-process-icon">
             <div className="flex justify-center items-center bg-[#BAFFC7] rounded-full h-[65px] w-[65px]">
               <svg
                 width="35"
