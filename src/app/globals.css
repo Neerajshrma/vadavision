@@ -59,7 +59,11 @@ body {
 }
 
 .splide__arrow {
-  background: none !important;
+  width: 0 !important;
+}
+
+.splide__track--nav > .splide__list > .splide__slide.is-active {
+  border: none !important;
 }
 
 .responsive-header {
@@ -739,7 +743,7 @@ body {
 }
 
 .accordion {
-  width: 70%;
+  width: 85%;
   margin: 30px auto;
   min-width: 250px;
 }

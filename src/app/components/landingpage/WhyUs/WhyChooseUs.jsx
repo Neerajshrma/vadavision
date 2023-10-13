@@ -4,13 +4,13 @@ import RecognizedBy from "./RecognizedBy";
 
 const WhyChooseUs = () => {
   return (
-    <div className="bg-[#111319] w-full py-10 pl-40 pr-24 responsive-width">
+    <div className="bg-[#111319] w-full py-10 pl-40 pr-36 responsive-width">
       <div className="flex why-us gap-14 pr-16">
         <div
           className="bg-cover"
           style={{ backgroundImage: "url(images/bg-object4.png)" }}
         >
-          <div className="flex justify-between gap-6 features items-center pl-24">
+          <div className="flex justify-between gap-6 features items-center pl-20">
             <div className="">
               <div className="flex justify-center items-center features-bg features-width w-[170px] h-[170px]">
                 <div className="">

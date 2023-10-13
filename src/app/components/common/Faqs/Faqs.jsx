@@ -38,7 +38,7 @@ const Accordion = () => {
 
   return (
     <div className="pb-10 pt-5 mt-">
-      <div className="w-ful[l">
+      <div className="w-full">
         {questionsData.map((item) => (
           <div key={item.id} className="accordion-item">
             <div

@@ -19,9 +19,9 @@ const Herosection = () => {
           UI/UX Design Services
         </h1>
         <p className="mt-6 text-white font-normal text-base leading-[40px]">
-          Mobile app development is the act or process by which a mobile app is
-          developed for mobile devices, such as personal digital assistants,
-          enterprise digital assistants or mobile phones.{" "}
+          We create user-friendly designs for websites and apps, making digital
+          experiences seamless and enjoyable for everyone. Your go-to partner
+          for enhancing online interactions
         </p>
       </div>
       <div className="mt-8 bg-[#DD4242] flex gap-2 items-center justify-center w-60 mx-auto py-1.5 px-2">

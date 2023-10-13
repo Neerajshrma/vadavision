@@ -19,8 +19,8 @@ const OurServiceses = () => {
           Our UI-UX Design Service
         </h1>
         <p className="mt-8 text-[#A9AFC3] font-normal text-base  mx-auto leading-[40px]">
-          We always try to implement our creative ideas at the highest level.
-          You can see it by looking at our portfolio.
+          We bring creativity to life through our work. Explore our portfolio
+          and see our imaginative ideas in action.
         </p>
       </div>
       <div>
@@ -67,8 +67,9 @@ const OurServiceses = () => {
               </div>
               <div>
                 <p className="mt-2 Montserrat text-white text-base font-medium">
-                  Quickly leverage other’s distributed internal or “organic”
-                  sources rather than empowered materials.
+                  We make websites and mobile apps look great and easy to use.
+                  Our designs focus on what users like, ensuring a smooth
+                  experience online.
                 </p>
               </div>
             </div>
@@ -158,13 +159,14 @@ const OurServiceses = () => {
             <div>
               <div>
                 <h2 className="text-[#DD4242] Montserrat text-xl font-bold">
-                  Animation
+                  UX Strategy
                 </h2>
               </div>
               <div>
                 <p className="mt-2 Montserrat text-white text-base font-medium">
-                  Quickly leverage other’s distributed internal or “organic”
-                  sources rather than empowered materials.
+                  We create easy and enjoyable online experiences through our UX
+                  strategy. We focus on what users want, making websites and
+                  apps user-friendly.
                 </p>
               </div>
             </div>

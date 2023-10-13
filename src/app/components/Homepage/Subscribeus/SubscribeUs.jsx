@@ -43,10 +43,41 @@ const SubscribeUs = () => {
         </div>
       </div>
       <div
-        className="full-width-responsive w-6/12  bg-cover"
-        style={{ backgroundImage: "url(images/team.jpg)" }}
+        className="full-width-responsive w-6/12 bg-cover"
+        style={{
+          backgroundImage: "url(images/team.jpg)",
+          fontFamily: "Montserrat",
+        }}
       >
-        <div className="bg-subscribe-us min-h-[450px]"></div>
+        <div className="bg-subscribe-us min-h-[450px]">
+          {/* <div className="py-14 px-12">
+            <div className="flex gap-4 items-center">
+              <img
+                className="rounded-full h-12 w-12"
+                src="images/img.jpg"
+                alt=""
+              />
+              <div>
+                <p className="text-white text-sm font-semibold">
+                  Katerina Wilson
+                </p>
+                <p className="mt-1 text-xs font-normal text-[#A9AFC3]">
+                  CEO at Vadavision
+                </p>
+              </div>
+            </div>
+            <div
+              style={{
+                backgroundImage: "url(images/icon-quote.png)",
+                backgroundPosition: "right bottom",
+              }}
+              className="w-[300px] pt-10 pb-20 text-base text-white font-normal bg-no-repeat bg-auto"
+            >
+              We never give up. Сhallenges make us stronger and more
+              professional. Keep in mind. Beware
+            </div>
+          </div> */}
+        </div>
       </div>
     </div>
   );
