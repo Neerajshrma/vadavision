@@ -11,6 +11,7 @@ import Footer from "../common/Footer/Footer";
 import Header from "../common/Header/Header";
 import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
 import WhyChooseUs from "../Homepage/Whychooseus/WhyChooseUs";
+import SplideSlider from "./Testimonials/Testimonials";
 
 const LandingPage = () => {
   return (
@@ -24,9 +25,9 @@ const LandingPage = () => {
         {/* herosection start */}
         <HeroSection />
       </div>
-      {/* <div>
-        <Sliders />
-      </div> */}
+      <div>
+        <SplideSlider />
+      </div>
       <div className="">
         <ConsultUs backgroundColor="#14EFA5" />
       </div>

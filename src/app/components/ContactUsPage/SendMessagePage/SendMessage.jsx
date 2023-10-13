@@ -26,15 +26,15 @@ const SendMessage = () => {
             Send a Message
           </h1>
           <div className="mt-5 pb-10  ">
-          <div className="w-6/12 mt-4 msg-info">
-          <p className="Mulish text-[#A9AFC3] text-base leading-[140%] msg-info">
-          We always try to implement our creative ideas at the highest level. Tell us about your project and we will make it work.
-          </p>
-        </div>
+            <div className="mt-4 msg-info">
+              <p className="Mulish text-[#A9AFC3] text-base leading-[140%] msg-info">
+                We always try to implement our creative ideas at the highest
+                level. Tell us about your project and we will make it work.
+              </p>
+            </div>
           </div>
         </div>
-
-        <div className="flex flex-row gap-6">
+        <div className="send-message flex flex-row gap-6">
           <div className=" ">
             <input
               style={{ backgroundColor: "inherit" }}
@@ -52,7 +52,7 @@ const SendMessage = () => {
             />
           </div>
         </div>
-        <div className="pt-6  ">
+        <div className="send-message pt-6">
           <textarea
             style={{ backgroundColor: "inherit" }}
             placeholder="Message"

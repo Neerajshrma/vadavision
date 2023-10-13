@@ -5,7 +5,7 @@ const IdelogyPage = () => {
     <>
       <div
         style={{ fontFamily: "Montserrat" }}
-        className="mt-10 px-40 responsive-width mobile-width pt-10 responsive-mobile idealogy"
+        className="mt-10 px-40 responsive-width pt-10 responsive-mobile idealogy"
       >
         <h1 className="text-4xl text-[#DD4242] font-semibold">Team Ideology</h1>
         <p className="pt-4 pb-10 text-white text-sm leading-[28px]">
@@ -20,7 +20,7 @@ const IdelogyPage = () => {
           business forward.
         </p>
       </div>
-      <div className="px-40 responsive-width mobile-width responsive-mobile idealogy">
+      <div className="px-40 responsive-width responsive-mobile idealogy">
         <h1 className="text-4xl text-[#DD4242] font-semibold">How we Work</h1>
         <p className="pt-4 pb-10 text-white text-sm leading-[28px]">
           Space is the collaboration hub that brings the right people,

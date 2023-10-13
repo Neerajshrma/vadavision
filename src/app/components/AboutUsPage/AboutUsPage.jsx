@@ -49,7 +49,7 @@ const AboutUsPage = () => {
       </div>
       <div className="bg-[#141619] py-10 px-40 responsive-width">
         <div className="w-1/2">
-          <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
+          <h1 className="Montserrat text-white text-4xl font-bold hero-heading leading-[130%]">
             Frequently Asked Questions
           </h1>
         </div>
