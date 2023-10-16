@@ -5,7 +5,7 @@ import TermsAndConditionPage from "./components/TermsAndConditionPage/TermsAndCo
 export default function Home() {
   return (
     <div>
-      <TermsAndConditionPage   />
+      <Homepage   />
     </div>
   )
 }
