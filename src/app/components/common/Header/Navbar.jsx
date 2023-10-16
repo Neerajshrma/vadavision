@@ -48,20 +48,15 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
           </Link>
         </div>
         <div>
-          {/* */}
-
-          <div className="p-4">
-            <RippleEffect>
-              <button
-                onClick={openModal}
-                className="bg-[#141619] text-white font-normal py-2 px-4"
-              >
-                GET IN TOUCH{" "}
-              </button>
-            </RippleEffect>
-
-            <Modals isOpen={modalIsOpen} onClose={closeModal} />
-          </div>
+          <Button
+            fontFamily="Poppins"
+            fontWeight="600"
+            padding="7px 22px"
+            Color="#FFFFFF"
+            fontSize="12px"
+            backgroundColor={backgroundColor}
+            name="GET IN TOUCH"
+          />
         </div>
       </div>
       {/* <button

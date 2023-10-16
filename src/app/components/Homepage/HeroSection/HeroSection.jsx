@@ -45,26 +45,26 @@ const HeroSection = () => {
           </div>
           <div className="flex gap-2 mt-8">
             <div>
-            <RippleEffect>
-            <button
-              onClick={openModal}
-              className="bg-[#141619] text-white font-bold py-3 px-4 "
-            >
-              Consult With US
-            </button>
-            </RippleEffect>
-        
-
-            <Modals isOpen={modalIsOpen} onClose={closeModal} />
+              <Link href="/aboutus">
+                <Button
+                  fontFamily="Poppins"
+                  fontWeight="500"
+                  padding="7px 22px"
+                  Color="#FFFFFF"
+                  fontSize="16px"
+                  backgroundColor="#141619"
+                  name="Consult with us"
+                />
+              </Link>
             </div>
             <div>
               <Link href="/aboutus">
                 <Button
                   fontFamily="Poppins"
                   fontWeight="500"
-                  padding="10px 26px"
+                  padding="7px 22px"
                   Color="#FFFFFF"
-                  fontSize="18px"
+                  fontSize="16px"
                   backgroundColor="#959596"
                   name="Know More"
                 />
