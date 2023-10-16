@@ -54,7 +54,7 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
             <RippleEffect>
             <button
               onClick={openModal}
-              className="bg-[#DD4242] text-white font-bold py-2 px-4 rounded"
+              className="bg-[#DD4242] text-white font-normal py-2 px-4 "
             >
               Get In Touch
             </button>

@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../../common/Button";
 import RecognizedBy from "./RecognizedBy";
 import Link from "next/link";
+import RippleEffect from "../../common/RippleEffect";
+import Modals from "../../common/Modals";
 
 const HeroSection = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
   return (
     <div className="flex items-center px-40 responsive-width mobile-width mt-2">
       <div
@@ -34,17 +45,17 @@ const HeroSection = () => {
           </div>
           <div className="flex gap-2 mt-8">
             <div>
-              <Link href="/Contactus">
-                <Button
-                  fontFamily="Poppins"
-                  fontWeight="500"
-                  padding="10px 26px"
-                  Color="#FFFFFF"
-                  fontSize="18px"
-                  backgroundColor="#141619"
-                  name="Consult with us"
-                />
-              </Link>
+            <RippleEffect>
+            <button
+              onClick={openModal}
+              className="bg-[#141619] text-white font-bold py-3 px-4 "
+            >
+              Consult With US
+            </button>
+            </RippleEffect>
+        
+
+            <Modals isOpen={modalIsOpen} onClose={closeModal} />
             </div>
             <div>
               <Link href="/aboutus">
