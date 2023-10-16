@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../../common/Button";
 import Link from "next/link";
+import Modals from "../../common/Modals";
+import RippleEffect from "../../common/RippleEffect";
 
 const ConsultUs = ({ backgroundColor, color }) => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
   return (
     <div>
       <div
@@ -18,17 +29,17 @@ const ConsultUs = ({ backgroundColor, color }) => {
           </h1>
         </div>
         <div className="mt-10">
-          <Link href="/aboutus">
-            <Button
-              backgroundColor="#DD4242"
-              fontFamily="Montserrat"
-              fontWeight="500"
-              padding="10px 20px"
-              Color="#ffffff"
-              fontSize="18px"
-              name="Know More"
-            />
-          </Link>
+        <RippleEffect>
+            <button
+              onClick={openModal}
+              className="bg-[#DD4242] text-white font-bold py-2 px-4 rounded"
+            >
+              Get In Touch
+            </button>
+            </RippleEffect>
+        
+
+            <Modals isOpen={modalIsOpen} onClose={closeModal} />
         </div>
       </div>
     </div>

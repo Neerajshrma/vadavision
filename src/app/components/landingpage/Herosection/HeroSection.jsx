@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Button from "../../common/Button";
 import Features from "./Features";
 import Script from "next/script";
+import SkeletonLoader from "../../common/SkeletonLoader";
 
 const HeroSection = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      
+      setLoading(false);
+    }, 2000);
+  }, []);
   return (
     <>
       <div className="flex flex-wrap px-40 responsive-width mobile-width mt-2">
@@ -53,15 +62,21 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="mt-5 w-5/12 hero-calender">
-          <div
-            className="calendly-inline-widget no-scrollbar overflow"
-            data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1"
-            style={{ minWidth: "320px", height: "700px" }}
-          ></div>
-          <Script
-            src="https://assets.calendly.com/assets/external/widget.js"
-            async={true}
-          ></Script>
+          {loading ? (
+            <SkeletonLoader />
+          ) : (
+            <div>
+              <div
+                className="calendly-inline-widget no-scrollbar overflow"
+                data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1"
+                style={{ minWidth: "320px", height: "700px" }}
+              ></div>
+              <Script
+                src="https://assets.calendly.com/assets/external/widget.js"
+                async={true}
+              ></Script>
+            </div>
+          )}
         </div>
       </div>
       <div className="mt-20 mx-auto">

@@ -1,11 +1,24 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Button from "../Button";
 import RippleEffect from "../RippleEffect";
 import Menu from "./Menu";
 import MenuDropdown from "./MenuDropdown";
 
+import Script from "next/script";
+import Modals from "../Modals";
+
 const Navbar = ({ color, backgroundColor, svgcolor }) => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
   return (
     <menu style={{ fontFamily: "Poppins" }}>
       <div className="nav-bar flex gap-10 items-center">
@@ -35,19 +48,23 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
           </Link>
         </div>
         <div>
-          <Link href="/contactus">
+          {/* */}
+
+          <div className="p-4">
             <RippleEffect>
-              <Button
-                fontFamily="Poppins"
-                fontWeight="500"
-                padding="7px 22px"
-                Color="#FFFFFF"
-                fontSize="12px"
-                backgroundColor={backgroundColor}
-                name="GET IN TOUCH"
-              />
+            <button
+              onClick={openModal}
+              className="bg-[#DD4242] text-white font-bold py-2 px-4 rounded"
+            >
+              Get In Touch
+            </button>
             </RippleEffect>
-          </Link>
+        
+
+            <Modals isOpen={modalIsOpen} onClose={closeModal} />
+          </div>
+          
+                 
         </div>
       </div>
       {/* <button
