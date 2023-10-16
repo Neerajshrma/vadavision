@@ -1,7 +1,5 @@
 "use client"
 import React, { useState } from "react";
-import Button from "../../common/Button";
-import Link from "next/link";
 import RippleEffect from "../../common/RippleEffect";
 import Modals from "../../common/Modals";
 const ConsultWithUs = () => {

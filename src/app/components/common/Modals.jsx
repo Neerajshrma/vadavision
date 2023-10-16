@@ -1,4 +1,3 @@
-"use client"
 import Script from "next/script";
 import React, { useState, useEffect } from "react";
 import SkeletonLoader from "./SkeletonLoader";
@@ -23,8 +22,6 @@ const Modals = ({ isOpen, onClose }) => {
           {isLoading ? (
             <SkeletonLoader />
           ) : (
-            
-        
             <div>
               <div
                 className="calendly-inline-widget no-scrollbar overflow"
@@ -36,8 +33,6 @@ const Modals = ({ isOpen, onClose }) => {
                 async={true}
               ></Script>
             </div>
-          
-        
           )}
 
           <button
