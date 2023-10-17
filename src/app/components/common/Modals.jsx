@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 import SkeletonLoader from "./SkeletonLoader";
 
 const Modals = ({ isOpen, onClose }) => {
-  const [isLoading, setIsLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
-      setIsLoading(false);
+      setLoading(false);
     }, 2000);
   }, []);
 
@@ -19,7 +19,7 @@ const Modals = ({ isOpen, onClose }) => {
         }`}
       >
         <div className="bg-white p-4 rounded-md shadow-lg">
-          {isLoading ? (
+          {loading ? (
             <SkeletonLoader />
           ) : (
             <div>

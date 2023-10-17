@@ -30,12 +30,18 @@ const ConsultUs = ({ backgroundColor, color }) => {
         </div>
         <div className="mt-10">
         <RippleEffect>
-            <button
-              onClick={openModal}
-              className="bg-[#DD4242] text-white font-bold py-2 px-4 rounded"
-            >
-              Get In Touch
-            </button>
+        <div onClick={openModal}>
+                <Button
+                  fontFamily="Poppins"
+                  fontWeight="500"
+                  padding="7px 22px"
+                  Color="#FFFFFF"
+                  fontSize="16px"
+                  backgroundColor="#DD4242"
+                  name="Consult with us"
+                />
+              </div>
+
             </RippleEffect>
         
 
