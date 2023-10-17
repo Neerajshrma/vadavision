@@ -14,14 +14,13 @@ const DesignProcess = () => {
       </div>
       <div className="mt-5">
         <h1 className="text-5xl hero-heading leading-[120%] font-bold text-white">
-          Our UI/UX Design Process
+          Our UI/UX Design Methodology
         </h1>
         <p className="mt-5 text-[#A9AFC3] font-normal text-base leading-[40px]">
-          We always try to implement our creative ideas at the highest level.
-          You can see it by looking at our portfolio.
+          At Vadavision, we tirelessly refine creative ideas, crafting websites
+          that delight and simplify user experiences for everyone.
         </p>
       </div>
-
       <div className="mt-3 flex flex-col space-y-6 hidden display-show">
         <div>
           <div className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
@@ -126,9 +125,8 @@ const DesignProcess = () => {
             Detailed Consultation
           </div>
           <div className="bg-white font-medium flex-wrap text-base p-4 ">
-            Mobile app development is the act or process by which a mobile app
-            is developed for mobile devices, such as personal digital
-            assistants, enterprise digital assistants or mobile phones.
+            Vadavision provides detailed discussions to grasp your needs, making
+            sure our designs match your business goals and what your users want.
           </div>
         </div>
         <div>
@@ -231,12 +229,11 @@ const DesignProcess = () => {
             </svg>
           </div>
           <div className="text-xl flex flex-wrap text-white bg-[#005CE5] font-extrabold p-4 flex items-center justify-center">
-            User Research{" "}
+            User Research
           </div>
           <div className="bg-white font-medium flex-wrap text-base p-4 ">
-            Mobile app development is the act or process by which a mobile app
-            is developed for mobile devices, such as personal digital
-            assistants, enterprise digital assistants or mobile phones.
+            At Vadavision, we deeply understand your audience, customizing
+            designs to perfectly match their distinct needs and preferences.
           </div>
         </div>
         <div>
@@ -339,12 +336,11 @@ const DesignProcess = () => {
             </svg>
           </div>
           <div className="text-xl flex flex-wrap text-white bg-[#6E00E4] font-extrabold p-4 flex items-center justify-center">
-            Analysis & Planning{" "}
+            Analysis & Planning
           </div>
           <div className="bg-white font-medium flex-wrap text-base p-4 ">
-            Mobile app development is the act or process by which a mobile app
-            is developed for mobile devices, such as personal digital
-            assistants, enterprise digital assistants or mobile phones.
+            Vadavision analyzes data and plans interfaces, ensuring seamless
+            user experiences through strategic layout and design.
           </div>{" "}
         </div>
 
@@ -448,12 +444,11 @@ const DesignProcess = () => {
             </svg>
           </div>
           <div className="text-xl flex flex-wrap text-white bg-[#00EC2C] font-extrabold p-4 flex items-center justify-center">
-            Wireframming{" "}
+            Wireframing{" "}
           </div>
           <div className="bg-white font-medium flex-wrap text-base p-4 ">
-            Mobile app development is the act or process by which a mobile app
-            is developed for mobile devices, such as personal digital
-            assistants, enterprise digital assistants or mobile phones.
+            Vadavision designs fundamental layouts, ensuring smooth user
+            experiences by outlining interface structures and functionalities.
           </div>
         </div>
 
@@ -557,25 +552,24 @@ const DesignProcess = () => {
             </svg>
           </div>
           <div className="text-xl flex flex-wrap text-white bg-[#B2004A] font-extrabold p-4 flex items-center justify-center">
-            Design & Prototype{" "}
+            Designing & Prototype
           </div>
           <div className="bg-white font-medium flex-wrap text-base p-4 ">
-            Mobile app development is the act or process by which a mobile app
-            is developed for mobile devices, such as personal digital
-            assistants, enterprise digital assistants or mobile phones.
+            Vadavision crafts engaging designs, using colors, fonts, and
+            interactive prototypes for user feedback and flawless
+            implementation.
           </div>
         </div>
       </div>
-
       <div className="mt-10 hide-data">
         <div className="flex items-center justify-between">
           <div className="flex items-center w-[85%] design-process-content">
-            <div className="bg-white font-medium text-base p-4 h-[100px]">
-              Mobile app development is the act or process by which a mobile app
-              is developed for mobile devices, such as personal digital
-              assistants, enterprise digital assistants or mobile phones.
+            <div className="bg-white font-medium text-base p-4 h-[80px]">
+              Vadavision provides detailed discussions to grasp your needs,
+              making sure our designs match your business goals and what your
+              users want.
             </div>
-            <div className="text-xl text-white bg-[#CE3400] font-extrabold p-4 min-w-[150px] h-[100px] flex items-center justify-center">
+            <div className="text-xl text-white bg-[#CE3400] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
               Detailed Consultation
             </div>
           </div>
@@ -683,12 +677,11 @@ const DesignProcess = () => {
         </div>
         <div className="mt-32 flex items-center justify-between flex-row-reverse">
           <div className="flex items-center w-[85%] design-process-content flex-row-reverse">
-            <div className="bg-white font-medium text-base p-4 h-[100px]">
-              Mobile app development is the act or process by which a mobile app
-              is developed for mobile devices, such as personal digital
-              assistants, enterprise digital assistants or mobile phones.
+            <div className="bg-white font-medium text-base p-4 h-[80px]">
+              At Vadavision, we deeply understand your audience, customizing
+              designs to perfectly match their distinct needs and preferences.
             </div>
-            <div className="text-xl text-white bg-[#005CE5] font-extrabold p-4 min-w-[150px] h-[100px] flex items-center justify-center">
+            <div className="text-xl text-white bg-[#005CE5] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
               User Research
             </div>
           </div>
@@ -796,12 +789,11 @@ const DesignProcess = () => {
         </div>
         <div className="mt-32 flex items-center justify-between">
           <div className="flex items-center w-[85%] design-process-content">
-            <div className="bg-white font-medium text-base p-4 h-[100px]">
-              Mobile app development is the act or process by which a mobile app
-              is developed for mobile devices, such as personal digital
-              assistants, enterprise digital assistants or mobile phones.
+            <div className="bg-white font-medium text-base p-4 h-[80px]">
+              Vadavision analyzes data and plans interfaces, ensuring seamless
+              user experiences through strategic layout and design.
             </div>
-            <div className="text-xl text-white bg-[#6E00E4] font-extrabold p-4 min-w-[150px] h-[100px] flex items-center justify-center">
+            <div className="text-xl text-white bg-[#6E00E4] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
               Analysis & Planning
             </div>
           </div>
@@ -853,12 +845,11 @@ const DesignProcess = () => {
         </div>
         <div className="mt-32 flex items-center justify-between flex-row-reverse">
           <div className="flex items-center w-[85%] design-process-content flex-row-reverse">
-            <div className="bg-white font-medium text-base p-4 h-[100px]">
-              Mobile app development is the act or process by which a mobile app
-              is developed for mobile devices, such as personal digital
-              assistants, enterprise digital assistants or mobile phones.
+            <div className="bg-white font-medium text-base p-4 h-[80px]">
+              Vadavision designs fundamental layouts, ensuring smooth user
+              experiences by outlining interface structures and functionalities.
             </div>
-            <div className="text-xl text-white bg-[#00EC2C] font-extrabold p-4 min-w-[150px] h-[100px] flex items-center justify-center">
+            <div className="text-xl text-white bg-[#00EC2C] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
               Wireframing
             </div>
           </div>
@@ -991,14 +982,14 @@ const DesignProcess = () => {
             </div>
           </div>
         </div>
-        <div className="mt-32 flex items-center justify-between">
+        <div className="mt-32 flex items-center justify-between items-center">
           <div className="flex items-center w-[85%] design-process-content">
-            <div className="bg-white font-medium text-base p-4 h-[100px]">
-              Mobile app development is the act or process by which a mobile app
-              is developed for mobile devices, such as personal digital
-              assistants, enterprise digital assistants or mobile phones.
+            <div className="bg-white font-medium text-base p-4 h-[80px]">
+              Vadavision crafts engaging designs, using colors, fonts, and
+              interactive prototypes for user feedback and flawless
+              implementation.
             </div>
-            <div className="text-xl text-white bg-[#B2004A] font-extrabold p-4 min-w-[150px] h-[100px] flex items-center justify-center">
+            <div className="text-xl text-white bg-[#B2004A] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
               Designing & Prototype
             </div>
           </div>

@@ -7,7 +7,7 @@ const AboutUs = () => {
         className="bg-no-repeat bg-auto bg-right"
         style={{ backgroundImage: "url(images/bg-object7.png)" }}
       >
-        <div className="responsive-width pb-4 mobile-width px-40">
+        <div className="responsive-width pb-4">
           <div className="mt-10 flex gap-3 items-center">
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
             <div
@@ -23,14 +23,11 @@ const AboutUs = () => {
             <h1 className="text-5xl hero-heading fontchange text-change leading-[120%] font-bold text-white heading-width">
               We are creative & strong team
             </h1>
-            <p className="mt-8 text-[#A9AFC3] font-light text-sm  mx-auto leading-[33px]">
+            <p className="text-[#A9AFC3] font-light text-sm  mx-auto leading-[33px]">
               Our creative and professional agency has been developing products
-              for 15 years. We are special.
-            </p>
-            <p className="mt-5 text-[#A9AFC3] font-light text-sm  mx-auto leading-[33px]">
-              We’ve got a lot of awards for our work and develop applications
-              that became popular in the world. We try not to miss important
-              details in each area.{" "}
+              for 15 years. We are special. We’ve got a lot of awards for our
+              work and develop applications that became popular in the world. We
+              try not to miss important details in each area.{" "}
             </p>
           </div>
           <div className="pt-20 flex flex-wrap ball bg-cover flex justify-end">
@@ -50,7 +47,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="flex Our-experience gap-2 justify-between">
+        <div className="flex items-center Our-experience gap-4 justify-between">
           <div className="pt-20 ">
             <div className="w-[200px] h-[200px] ball2 border border-2 rounded-full border-[#DD4242] flex justify-center items-center">
               <div>
@@ -70,18 +67,16 @@ const AboutUs = () => {
             <h1 className="hero-heading fontchange text-base leading-[120%] font-medium text-white">
               How our working day starts{" "}
             </h1>
-            <p className="mt-8 text-[#A9AFC3] font-light text-sm mx-auto leading-[33px]">
+            <p className="mt-5 text-[#A9AFC3] font-light text-sm mx-auto leading-[33px]">
               Every morning in our company begins with hot coffee and a
               stand-up. Discussion is an important thing in the development
-              process.
-            </p>
-            <p className="mt-5 text-[#A9AFC3] font-light text-sm mx-auto leading-[33px]">
-              Thus new ideas and ingenious solutions are born. Then we get to
-              work with renewed vigor and inspiration. We are never bored.{" "}
+              process. Thus new ideas and ingenious solutions are born. Then we
+              get to work with renewed vigor and inspiration. We are never
+              bored.{" "}
             </p>
           </div>
         </div>
-        <div className="flex pb-10 our-approach">
+        <div className="flex pb-10 justify-between our-approach">
           <div className="mt-5 pt-12">
             <h1 className="text-base hero-heading pt-10 leading-[120%] font-medium text-white">
               Individual approach

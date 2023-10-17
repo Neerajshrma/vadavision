@@ -201,13 +201,14 @@ const OurServiceses = () => {
             <div>
               <div>
                 <h2 className="text-[#DD4242] Montserrat text-xl font-bold">
-                  UX Strategy
+                  Wireframing
                 </h2>
               </div>
               <div>
                 <p className="mt-2 Montserrat text-white text-base font-medium">
-                  Quickly leverage other’s distributed internal or “organic”
-                  sources rather than empowered materials.
+                  Explore our Wireframing Services, where we create website
+                  blueprints for easy navigation. We design user-friendly
+                  layouts, turning ideas into accessible web experiences
                 </p>
               </div>
             </div>
@@ -349,13 +350,14 @@ const OurServiceses = () => {
             <div>
               <div>
                 <h2 className="text-[#DD4242] Montserrat text-xl font-bold">
-                  High-fi Prototyping
+                  Animation
                 </h2>
               </div>
               <div>
                 <p className="mt-2 Montserrat text-white text-base font-medium">
-                  Quickly leverage other’s distributed internal or “organic”
-                  sources rather than empowered materials.
+                  We bring ideas to life with lively, engaging visuals. Our
+                  animations create memorable digital experiences for your
+                  audience.
                 </p>
               </div>
             </div>
@@ -418,13 +420,14 @@ const OurServiceses = () => {
             <div>
               <div>
                 <h2 className="text-[#DD4242] Montserrat text-xl font-bold">
-                  Wireframing
+                  High-fi Prototyping
                 </h2>
               </div>
               <div>
                 <p className="mt-2 Montserrat text-white text-base font-medium">
-                  Quickly leverage other’s distributed internal or “organic”
-                  sources rather than empowered materials.
+                  Turning ideas into interactive digital experiences. We create
+                  detailed prototypes for smooth user interactions and precise
+                  design.
                 </p>
               </div>
             </div>
@@ -575,8 +578,9 @@ const OurServiceses = () => {
               </div>
               <div>
                 <p className="mt-2 Montserrat text-white text-base font-medium">
-                  Quickly leverage other’s distributed internal or “organic”
-                  sources rather than empowered materials.
+                  We turn concepts into vibrant visuals, adding a special touch
+                  to your projects. Our illustrations tell unique and engaging
+                  stories, crafted specifically for your vision.
                 </p>
               </div>
             </div>

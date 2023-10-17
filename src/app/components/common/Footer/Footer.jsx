@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
           <div className="mt-10">
             <h1 className="Montserrat capitallize text-white text-5xl font-semibold leading-[68px] heading">
-              Let’s Collaborate with World-Class Contractor Service
+              Let's Innovate, Create Fresh, New Experiences Together
             </h1>
           </div>
         </div>

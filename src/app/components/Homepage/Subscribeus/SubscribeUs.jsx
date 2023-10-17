@@ -50,7 +50,7 @@ const SubscribeUs = () => {
         }}
       >
         <div className="bg-subscribe-us min-h-[450px]">
-          {/* <div className="py-14 px-12">
+          <div className="py-14 px-12">
             <div className="flex gap-4 items-center">
               <img
                 className="rounded-full h-12 w-12"
@@ -76,7 +76,7 @@ const SubscribeUs = () => {
               We never give up. Сhallenges make us stronger and more
               professional. Keep in mind. Beware
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
