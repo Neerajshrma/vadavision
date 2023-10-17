@@ -16,7 +16,3 @@ export default function App({ Component, pageProps }) {
       </main>
     );
   }
-
-  const demo = () => {
-    return 'hello';
-  };
