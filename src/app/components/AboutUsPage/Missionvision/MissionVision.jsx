@@ -27,7 +27,7 @@ const MissionVision = () => {
         <div className="margin-res">
           <h1 className="text-4xl text-[#DD4242] font-semibold">Vision</h1>
           <p className="pt-4 pb-10 text-white text-[14px] leading-[28px]">
-            At Vadavision, dreams are our starting point. It's a place where
+            At Vadavision, dreams are our starting point. {"It's"} a place where
             creativity and technology come together, and ideas become reality.
             Our dedicated team explores new horizons, creating innovative
             solutions that the market loves. Challenges make us grow, and our
@@ -46,10 +46,10 @@ const MissionVision = () => {
             Work Culture at Vadavision
           </h1>
           <p className="pt-4 pb-10 text-white text-[14px] leading-[28px]">
-            At Vadavision, work feels like crafting a story. We're characters
-            shaping creativity and teamwork from our spaces. Ideas flow freely
-            in our virtual world, unrestricted by office boundaries. Together,
-            we tackle challenges, crafting a tale of adaptability and
+            At Vadavision, work feels like crafting a story. {"We're"}{" "}
+            characters shaping creativity and teamwork from our spaces. Ideas
+            flow freely in our virtual world, unrestricted by office boundaries.
+            Together, we tackle challenges, crafting a tale of adaptability and
             excellence. In this imaginative setting, our work culture
             flourishes, and boundaries vanish.
           </p>

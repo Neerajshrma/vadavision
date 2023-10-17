@@ -19,7 +19,7 @@ const Portfolio = () => {
         <div className="w-6/12 mt-4 description">
           <p className="Montserrat text-[#A9AFC3] text-base leading-[140%] description">
             Get personalized solutions for your business challenges from
-            Vadavision. We're here to guide and assist you.
+            Vadavision. We{"'"}re here to guide and assist you.
           </p>
         </div>
       </div>
