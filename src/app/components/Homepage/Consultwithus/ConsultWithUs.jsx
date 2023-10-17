@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import RippleEffect from "../../common/RippleEffect";
 import Modals from "../../common/Modals";
@@ -31,20 +31,21 @@ const ConsultWithUs = () => {
           </div>
           <div className="pt-10 h-16 border-l border-[#DD4242] consult-btn">
             <div className="pl-8 consult-btn">
-            <div onClick={openModal}>
-            <Button
-              fontFamily="Poppins"
-              fontWeight="600"
-              padding="7px 22px"
-              Color="#FFFFFF"
-              fontSize="12px"
-              backgroundColor={'#DD4242'}
-              name="Consult With Us"
-            />
-          </div>
-        
+              <RippleEffect>
+                <div onClick={openModal}>
+                  <Button
+                    fontFamily="Poppins"
+                    fontWeight="600"
+                    padding="7px 22px"
+                    Color="#FFFFFF"
+                    fontSize="12px"
+                    backgroundColor={"#DD4242"}
+                    name="Consult With Us"
+                  />
+                </div>
+              </RippleEffect>
 
-            <Modals isOpen={modalIsOpen} onClose={closeModal} />
+              <Modals isOpen={modalIsOpen} onClose={closeModal} />
             </div>
           </div>
         </div>

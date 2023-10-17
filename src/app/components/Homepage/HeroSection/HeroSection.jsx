@@ -45,17 +45,20 @@ const HeroSection = () => {
           </div>
           <div className="flex gap-2 mt-8">
             <div>
-              <div onClick={openModal}>
-                <Button
-                  fontFamily="Poppins"
-                  fontWeight="500"
-                  padding="7px 22px"
-                  Color="#FFFFFF"
-                  fontSize="16px"
-                  backgroundColor="#141619"
-                  name="Consult with us"
-                />
-              </div>
+              <RippleEffect>
+                {" "}
+                <div onClick={openModal}>
+                  <Button
+                    fontFamily="Poppins"
+                    fontWeight="500"
+                    padding="7px 22px"
+                    Color="#FFFFFF"
+                    fontSize="16px"
+                    backgroundColor="#141619"
+                    name="Consult with us"
+                  />
+                </div>
+              </RippleEffect>
 
               <Modals isOpen={modalIsOpen} onClose={closeModal} />
             </div>

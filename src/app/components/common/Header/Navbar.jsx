@@ -48,6 +48,7 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
           </Link>
         </div>
         <div>
+          <RippleEffect>
           <div onClick={openModal}>
             <Button
               fontFamily="Poppins"
@@ -60,6 +61,8 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
             />
           </div>
 
+          </RippleEffect>
+         
           <Modals isOpen={modalIsOpen} onClose={closeModal} />
         </div>
       </div>
