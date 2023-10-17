@@ -45,7 +45,7 @@ const HeroSection = () => {
           </div>
           <div className="flex gap-2 mt-8">
             <div>
-              <Link href="/aboutus">
+              <div onClick={openModal}>
                 <Button
                   fontFamily="Poppins"
                   fontWeight="500"
@@ -55,7 +55,9 @@ const HeroSection = () => {
                   backgroundColor="#141619"
                   name="Consult with us"
                 />
-              </Link>
+              </div>
+
+              <Modals isOpen={modalIsOpen} onClose={closeModal} />
             </div>
             <div>
               <Link href="/aboutus">

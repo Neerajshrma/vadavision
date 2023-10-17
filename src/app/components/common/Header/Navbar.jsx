@@ -48,15 +48,19 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
           </Link>
         </div>
         <div>
-          <Button
-            fontFamily="Poppins"
-            fontWeight="600"
-            padding="7px 22px"
-            Color="#FFFFFF"
-            fontSize="12px"
-            backgroundColor={backgroundColor}
-            name="GET IN TOUCH"
-          />
+          <div onClick={openModal}>
+            <Button
+              fontFamily="Poppins"
+              fontWeight="600"
+              padding="7px 22px"
+              Color="#FFFFFF"
+              fontSize="12px"
+              backgroundColor={backgroundColor}
+              name="GET IN TOUCH"
+            />
+          </div>
+
+          <Modals isOpen={modalIsOpen} onClose={closeModal} />
         </div>
       </div>
       {/* <button

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import RippleEffect from "../../common/RippleEffect";
 import Modals from "../../common/Modals";
+import Button from "../../common/Button";
 const ConsultWithUs = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -30,14 +31,17 @@ const ConsultWithUs = () => {
           </div>
           <div className="pt-10 h-16 border-l border-[#DD4242] consult-btn">
             <div className="pl-8 consult-btn">
-            <RippleEffect>
-            <button
-              onClick={openModal}
-              className="bg-[#DD4242] text-white font-bold py-2 px-4 rounded"
-            >
-              Consult With US
-            </button>
-            </RippleEffect>
+            <div onClick={openModal}>
+            <Button
+              fontFamily="Poppins"
+              fontWeight="600"
+              padding="7px 22px"
+              Color="#FFFFFF"
+              fontSize="12px"
+              backgroundColor={'#DD4242'}
+              name="Consult With Us"
+            />
+          </div>
         
 
             <Modals isOpen={modalIsOpen} onClose={closeModal} />
