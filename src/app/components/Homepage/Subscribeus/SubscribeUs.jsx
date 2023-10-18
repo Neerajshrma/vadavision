@@ -50,16 +50,16 @@ const SubscribeUs = () => {
         }}
       >
         <div className="bg-subscribe-us min-h-[450px]">
-          {/* <div className="py-14 px-12">
+          <div className="py-14 px-12">
             <div className="flex gap-4 items-center">
               <img
                 className="rounded-full h-12 w-12"
-                src="images/img.jpg"
+                src="images/sahil.jpeg"
                 alt=""
               />
               <div>
                 <p className="text-white text-sm font-semibold">
-                  Katerina Wilson
+                  Sahil Salaria
                 </p>
                 <p className="mt-1 text-xs font-normal text-[#A9AFC3]">
                   CEO at Vadavision
@@ -76,7 +76,7 @@ const SubscribeUs = () => {
               We never give up. Сhallenges make us stronger and more
               professional. Keep in mind. Beware
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
