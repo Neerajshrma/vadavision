@@ -1,6 +1,9 @@
 import Script from "next/script";
 import React, { useState, useEffect } from "react";
 import SkeletonLoader from "./SkeletonLoader";
+import Button from "./Button";
+import { ImCross } from 'react-icons/im';
+
 
 const Modals = ({ isOpen, onClose }) => {
   const [loading, setLoading] = useState(true);
@@ -22,7 +25,10 @@ const Modals = ({ isOpen, onClose }) => {
           {loading ? (
             <SkeletonLoader />
           ) : (
-            <div>
+            <div className="pb-4">
+              <div className="flex flex-row-reverse pb-6  " onClick={onClose}>
+              <ImCross style={{color:'#8c8f8d'}}/>
+              </div>
               <div
                 className="calendly-inline-widget no-scrollbar overflow"
                 data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1"
@@ -35,12 +41,7 @@ const Modals = ({ isOpen, onClose }) => {
             </div>
           )}
 
-          <button
-            onClick={onClose}
-            className="mt-6 float-direction bg-red-500 mr-10  text-white px-3 py-2 rounded hover:bg-red-600"
-          >
-            Close
-          </button>
+         
         </div>
       </div>
     </>

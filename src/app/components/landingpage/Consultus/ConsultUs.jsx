@@ -29,23 +29,19 @@ const ConsultUs = ({ backgroundColor, color }) => {
           </h1>
         </div>
         <div className="mt-10">
-        <RippleEffect>
-        <div onClick={openModal}>
-                <Button
-                  fontFamily="Poppins"
-                  fontWeight="500"
-                  padding="7px 22px"
-                  Color="#FFFFFF"
-                  fontSize="16px"
-                  backgroundColor="#DD4242"
-                  name="Consult with us"
-                />
-              </div>
-
-            </RippleEffect>
-        
-
-            <Modals isOpen={modalIsOpen} onClose={closeModal} />
+            <div className="inline-block" onClick={openModal}>
+              <Button
+                fontFamily="Poppins"
+                fontWeight="500"
+                padding="7px 22px"
+                Color="#FFFFFF"
+                fontSize="16px"
+                backgroundColor="#DD4242"
+                name="Consult with us"
+              />
+            </div>
+          
+          <Modals isOpen={modalIsOpen} onClose={closeModal} />
         </div>
       </div>
     </div>
