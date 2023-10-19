@@ -1,17 +1,14 @@
 import React from "react";
 
-const ProblemStament = () => {
+const ProblemStatement = () => {
   return (
-    <>
-      <div
-        style={{ fontFamily: "Montserrat" }}
-        className="px-40 responsive-width mobile-width pt-10"
-      >
-        <div className="flex justify-center text-3xl font-bold	">
+    <div className="px-4 pt-10 lg:px-40 content-responsive">
+      <div style={{ fontFamily: "Montserrat" }}>
+        <div className="text-center text-3xl font-bold">
           Problem Statement
         </div>
-        <div className="text-center flex justify-center  item-center font-semibold">
-          <p className=" ">
+        <div className="font-semibold ">
+          <p className="text-sm lg:text-base xl:text-lg">
             Users are increasingly looking for immersive and interactive ways to
             capture and share their experiences through photos and videos. While
             panoramic photos and videos offer a wider perspective, the ability
@@ -22,8 +19,8 @@ const ProblemStament = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default ProblemStament;
+export default ProblemStatement;

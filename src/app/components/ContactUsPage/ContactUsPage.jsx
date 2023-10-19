@@ -10,7 +10,7 @@ import Header from "../common/Header/Header";
 const ContactUsPage = () => {
   return (
     <>
-      <div className="bg-[#141619] responsive-width  mobile-width">
+      <div className="bg-[#141619]">
         <div>
           <Header color="white" backgroundColor="#DD4242" svgcolor="#ffffff" />
         </div>

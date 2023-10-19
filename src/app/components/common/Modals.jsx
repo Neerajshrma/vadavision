@@ -26,7 +26,7 @@ const Modals = ({ isOpen, onClose }) => {
             <SkeletonLoader />
           ) : (
             <div className="pb-4">
-              <div className="flex flex-row-reverse pb-6  " onClick={onClose}>
+              <div className="flex flex-row-reverse pb-6 cursor-pointer  " onClick={onClose}>
               <ImCross style={{color:'#8c8f8d'}}/>
               </div>
               <div
