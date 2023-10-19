@@ -13,7 +13,7 @@ const MajorScreen = () => {
             Home Screen
           </h1>
 
-          <div class="flex justify-center items-center h-screen">
+          <div className="flex justify-center items-center h-screen">
             <img
               src="images/homescreen.png"
               alt=""
@@ -25,14 +25,14 @@ const MajorScreen = () => {
             Profile
           </h1>
 
-          <div class="flex justify-center items-center h-screen">
+          <div className="flex justify-center items-center h-screen">
             <img src="images/profile.png" alt="" style={{ height: "550px" }} />
           </div>
-               
+
           <h1 className="flex justify-center text-2xl font-bold pt-10">
-          Gallery
+            Gallery
           </h1>
-          <div class="flex justify-center items-center h-screen">
+          <div className="flex justify-center items-center h-screen">
             <img src="images/gallery.png" alt="" style={{ height: "550px" }} />
           </div>
         </div>
