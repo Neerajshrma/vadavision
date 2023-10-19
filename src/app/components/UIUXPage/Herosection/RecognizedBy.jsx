@@ -65,6 +65,27 @@ const RecognizedBy = () => {
                 />
               </svg>
             </div>
+            <div>
+              <svg
+                width="22"
+                height="20"
+                viewBox="0 0 388 388"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1989_1039)">
+                  <path
+                    d="M194 258.149L262.66 296.577L247.318 219.414L305.081 165.983L226.948 156.72L194 85.2791V258.149ZM194 295.203L79.9764 359.029L105.439 230.86L9.48975 142.137L139.26 126.747L194 8.08325L248.74 126.747L378.51 142.137L282.561 230.86L308.023 359.029L194 295.203Z"
+                    fill="#FFC01F"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1989_1039">
+                    <rect width="388" height="388" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
             <div className="text-white font-medium text-sm leading-[120%]">
               (33 REVIEWS)
             </div>
@@ -125,6 +146,20 @@ const RecognizedBy = () => {
             </svg>
           </div>
           <div className="flex items-center gap-1 mt-1">
+            <div>
+              <svg
+                width="22"
+                height="20"
+                viewBox="0 0 30 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                  fill="#FFC01F"
+                />
+              </svg>
+            </div>
             <div>
               <svg
                 width="22"

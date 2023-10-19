@@ -27,7 +27,7 @@ const SplideSlider = () => {
             rewind: true,
             gap: "1rem",
             direction: "ttb",
-            heightRatio: 0.5, // Adjust the value as needed
+            heightRatio: 0.6, // Adjust the value as needed
             isNavigation: true,
             speed: 900,
           }}
@@ -36,20 +36,20 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
-                <div className="w-1/3">
+                <div className="w-1/3 mob-testimonials-img">
                   <img className="w-full" src="images/client-img.png" alt="" />
                 </div>
-                <div className="w-2/3">
+                <div className="w-2/3 mob-testimonials-content">
                   <div
                     style={{ fontFamily: "Montserrat" }}
-                    className="text-[#141414] text-2xl font-bold"
+                    className="text-[#141414] text-2xl font-bold testimonials-heading"
                   >
                     Very Excellent !!
                   </div>
                   <div>
                     <p
                       style={{ fontFamily: "Montserrat" }}
-                      className="testimonial-content text-black font-normal text-lg leading-[56px]"
+                      className="mob-testimonial-content text-black font-normal text-lg leading-[56px]"
                     >
                       I am very happy with the services provided, it is very
                       helpful, starting from the insight that the company gave
@@ -57,8 +57,20 @@ const SplideSlider = () => {
                       got knowledge and made my website look better
                     </p>
                   </div>
-                  <div className="text-black font-semibold mt-5 text-base">
-                    Robertsen Andrew
+                  <div className="flex gap-2 items-center mob-testimonials-profile">
+                    <div className="w-10 mt-3 mob-testimonials-img2 hidden">
+                      <img
+                        className="w-full"
+                        src="images/client-img.png"
+                        alt=""
+                      />
+                    </div>
+                    <div className="text-black font-semibold mt-5 text-base testimonial-content">
+                      Robertsen Andrew
+                      <div className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
+                        Business Director at Wax Inc
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -67,20 +79,20 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
-                <div className="w-1/3">
+                <div className="w-1/3 mob-testimonials-img">
                   <img className="w-full" src="images/client-img.png" alt="" />
                 </div>
-                <div className="w-2/3">
+                <div className="w-2/3 mob-testimonials-content">
                   <div
                     style={{ fontFamily: "Montserrat" }}
-                    className="text-[#141414] text-2xl font-bold"
+                    className="text-[#141414] text-2xl font-bold testimonials-heading"
                   >
                     Very Excellent !!
                   </div>
                   <div>
                     <p
                       style={{ fontFamily: "Montserrat" }}
-                      className="testimonial-content text-black font-normal text-lg leading-[56px]"
+                      className="mob-testimonial-content text-black font-normal text-lg leading-[56px]"
                     >
                       I am very happy with the services provided, it is very
                       helpful, starting from the insight that the company gave
@@ -88,8 +100,20 @@ const SplideSlider = () => {
                       got knowledge and made my website look better
                     </p>
                   </div>
-                  <div className="text-black font-semibold mt-5 text-base">
-                    Robertsen Andrew
+                  <div className="flex gap-2 items-center mob-testimonials-profile">
+                    <div className="w-10 mt-3 mob-testimonials-img2 hidden">
+                      <img
+                        className="w-full"
+                        src="images/client-img.png"
+                        alt=""
+                      />
+                    </div>
+                    <div className="text-black font-semibold mt-5 text-base testimonial-content">
+                      Robertsen Andrew
+                      <div className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
+                        Business Director at Wax Inc
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -98,20 +122,20 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
-                <div className="w-1/3">
+                <div className="w-1/3 mob-testimonials-img">
                   <img className="w-full" src="images/client-img.png" alt="" />
                 </div>
-                <div className="w-2/3">
+                <div className="w-2/3 mob-testimonials-content">
                   <div
                     style={{ fontFamily: "Montserrat" }}
-                    className="text-[#141414] text-2xl font-bold"
+                    className="text-[#141414] text-2xl font-bold testimonials-heading"
                   >
                     Very Excellent !!
                   </div>
                   <div>
                     <p
                       style={{ fontFamily: "Montserrat" }}
-                      className="testimonial-content text-black font-normal text-lg leading-[56px]"
+                      className="mob-testimonial-content text-black font-normal text-lg leading-[56px]"
                     >
                       I am very happy with the services provided, it is very
                       helpful, starting from the insight that the company gave
@@ -119,8 +143,20 @@ const SplideSlider = () => {
                       got knowledge and made my website look better
                     </p>
                   </div>
-                  <div className="text-black font-semibold mt-5 text-base">
-                    Robertsen Andrew
+                  <div className="flex gap-2 items-center mob-testimonials-profile">
+                    <div className="w-10 mt-3 mob-testimonials-img2 hidden">
+                      <img
+                        className="w-full"
+                        src="images/client-img.png"
+                        alt=""
+                      />
+                    </div>
+                    <div className="text-black font-semibold mt-5 text-base testimonial-content">
+                      Robertsen Andrew
+                      <div className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
+                        Business Director at Wax Inc
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

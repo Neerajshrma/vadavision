@@ -20,7 +20,6 @@ const MajorScreen = () => {
               style={{ height: "550px" }}
             />
           </div>
-
           <h1 className="flex justify-center text-2xl font-bold pt-10">
             Profile
           </h1>

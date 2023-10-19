@@ -2,8 +2,7 @@ import Script from "next/script";
 import React, { useState, useEffect } from "react";
 import SkeletonLoader from "./SkeletonLoader";
 import Button from "./Button";
-import { ImCross } from 'react-icons/im';
-
+import { RxCross2 } from "react-icons/rx";
 
 const Modals = ({ isOpen, onClose }) => {
   const [loading, setLoading] = useState(true);
@@ -23,11 +22,14 @@ const Modals = ({ isOpen, onClose }) => {
       >
         <div className="bg-white p-4 rounded-md shadow-lg">
           {loading ? (
-            <SkeletonLoader />
+            <SkeletonLoader size={24} />
           ) : (
             <div className="pb-4">
-              <div className="flex flex-row-reverse pb-6  " onClick={onClose}>
-              <ImCross style={{color:'#8c8f8d'}}/>
+              <div
+                className="flex flex-row-reverse pb-6 cursor-pointer"
+                onClick={onClose}
+              >
+                <RxCross2 style={{ color: "#8c8f8d" }} />
               </div>
               <div
                 className="calendly-inline-widget no-scrollbar overflow"
@@ -40,8 +42,6 @@ const Modals = ({ isOpen, onClose }) => {
               ></Script>
             </div>
           )}
-
-         
         </div>
       </div>
     </>
