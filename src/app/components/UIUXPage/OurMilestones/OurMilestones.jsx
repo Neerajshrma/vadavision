@@ -33,10 +33,10 @@ const OurMilestones = () => {
                 style={{ fontFamily: "Raleway" }}
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
-                1000
+                100+
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
-                Happy Client
+                satisfied Client
               </span>
             </div>
             <div className="">
@@ -44,7 +44,7 @@ const OurMilestones = () => {
                 style={{ fontFamily: "Raleway" }}
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
-                235
+                12
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
                 Our Team
@@ -55,7 +55,7 @@ const OurMilestones = () => {
                 style={{ fontFamily: "Raleway" }}
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
-                1100
+                100+
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
                 Our Client
@@ -66,7 +66,7 @@ const OurMilestones = () => {
                 style={{ fontFamily: "Raleway" }}
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
-                1200
+                10
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
                 Awards

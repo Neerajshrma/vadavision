@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
                       className="font-bold mt-3 text-white text-4xl leading-[100%] ml-3"
                       style={{ fontFamily: "Mulish" }}
                     >
-                      235
+                      100+
                     </h1>
                     <div className="mt-2 text-[#DD4242]">
                       <BsPlus />
@@ -36,7 +36,7 @@ const WhyChooseUs = () => {
                       className="font-bold mt-3 text-white text-4xl leading-[100%] ml-3"
                       style={{ fontFamily: "Mulish" }}
                     >
-                      39
+                      12
                     </h1>
                     <div className="mt-2 text-[#DD4242]">
                       <BsPlus />
