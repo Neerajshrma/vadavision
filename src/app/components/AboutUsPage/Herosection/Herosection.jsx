@@ -7,7 +7,7 @@ const Herosection = () => {
         <h1 className="text-4xl hero-heading leading-[120%] font-bold text-white">
           About us
         </h1>
-        <p className="mt-8 text-white font-light text-sm leading-[40px] mx-auto min-w-[280px] mobile-full-width w-10/12">
+        <p className="mt-8 text-white font-light text-sm leading-[40px] px-4 mx-auto min-w-[280px] mobile-full-width w-10/12">
           At Vadavision, we chose the word {"'Vada'"} to represent trust,
           reliability, and integrity in our services. It signifies the strong
           foundation of trust we build with our clients. {"'Vision'"} embodies

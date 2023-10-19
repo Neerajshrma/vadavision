@@ -16,7 +16,7 @@ const HeroSection = () => {
     setModalIsOpen(false);
   };
   return (
-    <div className="flex items-center px-40 responsive-width mobile-width mt-2">
+    <div className="flex items-center px-40 responsive-width mobile-width mt-2 mb-6">
       <div
         style={{ fontFamily: "Montserrat" }}
         className="w-8/12 hero-section "
