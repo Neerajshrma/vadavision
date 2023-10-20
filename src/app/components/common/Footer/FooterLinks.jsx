@@ -21,12 +21,12 @@ const FooterLinks = () => {
                 Web Development
               </li>
             </a> */}
-            <Link href="/landingpage">
+            <Link href="/landing-page">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 App Development
               </li>
             </Link>
-            <Link href="/uiuxpage">
+            <Link href="/uiux-page">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 UI/UX Design
               </li>
@@ -47,12 +47,12 @@ const FooterLinks = () => {
             Company
           </h1>
           <ul className="pt-3">
-            <Link href="/privacypolicy">
+            <Link href="/privacy-policy">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Privacy Policy
               </li>
             </Link>
-            <a href="/termscondition">
+            <a href="/terms-condition">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Help & Support
               </li>
@@ -67,7 +67,7 @@ const FooterLinks = () => {
                 Blogs
               </li>
             </a>
-            <Link href="/contactuspage">
+            <Link href="/contactus=page">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Contact Us
               </li>
@@ -102,7 +102,10 @@ const FooterLinks = () => {
                 </div>
               </li>
             </a>
-            <a href="">
+            <a
+              href="https://www.facebook.com/profile.php?id=100090359760736&mibextid=ZbWKwL"
+              target="_blank"
+            >
               <li className="flex gap-2 items-center">
                 <div className="text-black bg-white p-[3px] rounded-full">
                   <BiLogoFacebook size={20} />

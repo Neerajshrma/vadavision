@@ -23,22 +23,22 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
     <menu style={{ fontFamily: "Poppins" }}>
       <div className="nav-bar flex gap-10 items-center">
         <div>
-          <Link href="/landingpage">
+          <Link href="/landing-page">
             <Menu menuname="Mobile App" color={color} />
           </Link>
         </div>
         <div>
-          <Link href="/uiuxpage">
+          <Link href="/uiux-page">
             <Menu menuname="UI UX" color={color} />
           </Link>
         </div>
         <div>
-          <Link href="/aboutus">
+          <Link href="/about-us">
             <Menu menuname="About Us" color={color} />
           </Link>
         </div>
         <div>
-          <Link href="/contactus">
+          <Link href="/contact-us">
             <Menu menuname="Contact Us" color={color} />
           </Link>
         </div>
