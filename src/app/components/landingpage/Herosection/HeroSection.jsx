@@ -3,13 +3,13 @@ import Button from "../../common/Button";
 import Features from "./Features";
 import Script from "next/script";
 import SkeletonLoader from "../../common/SkeletonLoader";
+import Calender from "../../common/Calender";
 
 const HeroSection = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
-      
       setLoading(false);
     }, 2000);
   }, []);
