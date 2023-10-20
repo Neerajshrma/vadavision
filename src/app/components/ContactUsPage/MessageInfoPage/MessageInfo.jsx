@@ -1,4 +1,5 @@
 import React from "react";
+import Obfuscate from 'react-obfuscate';
 
 const MessageInfo = () => {
   return (
@@ -101,7 +102,7 @@ const MessageInfo = () => {
               <div className="py-7 px-8">
                 <span className="text-sm">Hit us up:</span>
                 <p className="text-[#A9AFC3] text-sm">
-                  +91 62800-07001 <br /> info@vadavision.ca{" "}
+                <Obfuscate tel="+91 62 8000 7001" /> <br /> <Obfuscate email="info@vadavision.ca" />{" "}
                 </p>
               </div>
             </div>

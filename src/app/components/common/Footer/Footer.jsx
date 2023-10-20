@@ -2,6 +2,7 @@ import React from "react";
 import FooterLinks from "./FooterLinks";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { HiOutlinePhone } from "react-icons/hi";
+import Obfuscate from 'react-obfuscate';
 
 const Footer = () => {
   return (
@@ -81,7 +82,7 @@ const Footer = () => {
               </svg>
             </span>
             <span className="font-medium text-white Montserrat text-sm">
-              info@vadavision.ca
+              <Obfuscate email="info@vadavision.ca" />
             </span>
           </div>
           <div className="flex items-center gap-1">
@@ -89,7 +90,7 @@ const Footer = () => {
               <HiOutlinePhone size="18px" />
             </span>
             <span className="font-medium text-white Montserrat text-sm">
-              +91 62800-07001
+              <Obfuscate tel="+91 62 8000 7001" />
             </span>
           </div>
         </div>
