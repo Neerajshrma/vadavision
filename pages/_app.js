@@ -11,6 +11,7 @@ export default function App({ Component, pageProps }) {
           <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
           <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+          <link rel="icon" href="/images/favicon.ico" sizes="any" />
         </Head>
          <Component {...pageProps} />
       </main>
