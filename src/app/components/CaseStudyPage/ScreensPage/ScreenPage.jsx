@@ -19,7 +19,7 @@ const ScreenPage = () => {
             <h1 className="flex justify-center pt-6">Login</h1>
           </div>
           <div className="flex flex-col pt-6">
-            <img src="images/iPhone3.png" alt="" style={{ height: "450px" }} />
+            <img src="images/iphone3.png" alt="" style={{ height: "450px" }} />
             <h1 className="flex justify-center pt-6">Personal Details</h1>
           </div>
         </div>
@@ -93,7 +93,7 @@ const ScreenPage = () => {
           {" "}
           <div className="flex flex-col pt-6">
             {" "}
-            <img src="images/iPhone.png" alt="" style={{ height: "450px" }} />
+            <img src="images/iPhone12.png" alt="" style={{ height: "450px" }} />
              <h1 className="flex justify-center pt-6"> </h1>
             {" "}
           </div>
