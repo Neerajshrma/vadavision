@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import SkeletonLoader from "./SkeletonLoader";
 import Button from "./Button";
 import { RxCross2 } from "react-icons/rx";
+import Calender from "./Calender";
 
 const Modals = ({ isOpen, onClose }) => {
   const [loading, setLoading] = useState(true);
@@ -20,26 +21,33 @@ const Modals = ({ isOpen, onClose }) => {
           isOpen ? "" : "hidden"
         }`}
       >
-        <div className="bg-white p-4 rounded-md shadow-lg">
+        <div className=" p-2 w-[80%] bg-[#faf7f0]  shadow-lg">
           {loading ? (
             <SkeletonLoader size={24} />
           ) : (
-            <div className="pb-4">
+            <div className="pt-4">
               <div
-                className="flex flex-row-reverse pb-6 cursor-pointer"
+                className="flex justify-end relative   cursor-pointer text-3xl"
                 onClick={onClose}
               >
-                <RxCross2 style={{ color: "#8c8f8d" }} />
+                <RxCross2  className="absolute rounded-full top-0 right-0 -mt-9 -mr-4" style={{ color: "#8c8f8d", background:'black' }} />
               </div>
-              <div
-                className="calendly-inline-widget no-scrollbar overflow"
-                data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1"
-                style={{ minWidth: "700px", height: "450px" }}
-              ></div>
-              <Script
-                src="https://assets.calendly.com/assets/external/widget.js"
-                async={true}
-              ></Script>
+              <div className="flex flex-row">
+                <div className="w-[50%] flex flex-col pl-6 ">
+                <h1 className="text-4xl  font-bold pb-6">Talk To Our EXPERT!</h1>
+
+                  <Calender justifyContent='left'/>
+                </div>
+                <div
+                  className="calendly-inline-widget no-scrollbar overflow w-[50%]  "
+                  data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1"
+                  style={{ minWidth: "450px", height: "520px" }}
+                ></div>
+                <Script
+                  src="https://assets.calendly.com/assets/external/widget.js"
+                  async={true}
+                ></Script>
+              </div>
             </div>
           )}
         </div>

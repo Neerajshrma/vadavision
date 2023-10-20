@@ -959,7 +959,9 @@ body {
     
   }
 }
-
+.erase-top-space{
+  padding: -300px;
+}
 
 @media screen and (max-width: 650px) {
   .herosection-uiux {

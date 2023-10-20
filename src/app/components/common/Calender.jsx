@@ -1,10 +1,10 @@
 import React from "react";
 import { SiGooglemeet } from "react-icons/si";
 
-const Calender = () => {
+const Calender = ({justifyContent}) => {
   return (
-    <div>
-      <div className="flex justify-center mt-2">
+    <div >
+      <div className="flex  mt-2"style={{justifyContent:justifyContent}}>
         <div className="text-center calender">
           <div className="w-16 mx-auto rounded-full">
             <img
