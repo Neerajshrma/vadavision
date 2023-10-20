@@ -37,9 +37,9 @@ const FooterLinks = () => {
           </h1>
           <div>
             <span className="text-[#E6E6E6] pr-2">legally</span>
-            <button className="font-Poppins bg-[#3A9AFC3] text-xs	 rounded-lg px-2 py-2 text-[#E6E6E6]  text-base border border-red-500">
+            <span className="font-Poppins bg-[#3A9AFC3] text-xs	rounded-lg p-[4px] text-[#E6E6E6] text-base border border-red-500">
               Coming Soon
-            </button>
+            </span>
           </div>
         </div>
         <div className="footer-link-width">
@@ -52,11 +52,11 @@ const FooterLinks = () => {
                 Privacy Policy
               </li>
             </Link>
-            <a href="/terms-condition">
+            <Link href="/termscondition">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Help & Support
               </li>
-            </a>
+            </Link>
             <a href="">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Portfolio

@@ -21,22 +21,28 @@ const Modals = ({ isOpen, onClose }) => {
           isOpen ? "" : "hidden"
         }`}
       >
-        <div className=" p-2 w-[80%] bg-[#faf7f0]  shadow-lg">
+        <div className=" p-2 w-[80%] bg-[#faf7f0] shadow-lg">
           {loading ? (
             <SkeletonLoader size={24} />
           ) : (
             <div className="pt-4">
               <div
-                className="flex justify-end relative   cursor-pointer text-3xl"
+                className="flex justify-end relative cursor-pointer text-3xl"
                 onClick={onClose}
               >
-                <RxCross2  className="absolute rounded-full top-0 right-0 -mt-9 -mr-4" style={{ color: "#8c8f8d", background:'black' }} />
+                <RxCross2
+                  size={20}
+                  className="absolute rounded-full top-0 right-0 -mt-9 -mr-4"
+                  style={{ color: "#8c8f8d", background: "black" }}
+                />
               </div>
               <div className="flex flex-row">
                 <div className="w-[50%] flex flex-col pl-6 ">
-                <h1 className="text-4xl  font-bold pb-6">Talk To Our EXPERT!</h1>
+                  <h1 className="text-4xl  font-bold pb-6">
+                    Talk To Our EXPERTS!
+                  </h1>
 
-                  <Calender justifyContent='left'/>
+                  <Calender justifyContent="left" />
                 </div>
                 <div
                   className="calendly-inline-widget no-scrollbar overflow w-[50%]  "
