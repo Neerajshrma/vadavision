@@ -6,20 +6,21 @@ import Link from "next/link";
 import ServicesDropdown from "./ServicesDropdown";
 import CompanyDropdown from "./CompanyDropdown";
 import SocialMediaDropdown from "./SocialMediaDropdown";
+import Button from "../Button";
 const FooterLinks = () => {
   return (
     <div>
       <div className="responsive-footer flex justify-between">
         <div className="footer-link-width">
           <h1 className="Montserrat text-white font-semibold text-base leading-[24px]">
-            Service
+            Services
           </h1>
           <ul className="pt-3">
-            <a href="">
+            {/* <a href="">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Web Development
               </li>
-            </a>
+            </a> */}
             <Link href="/landingpage">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 App Development
@@ -31,18 +32,27 @@ const FooterLinks = () => {
               </li>
             </Link>
           </ul>
+          <h1 className="Montserrat text-white font-semibold pb-4 text-base leading-[24px]">
+            Our Product
+          </h1>
+          <div>
+            <span className="text-[#E6E6E6] pr-2">legally</span>
+            <button className="font-Poppins bg-[#3A9AFC3] text-xs	 rounded-lg px-2 py-2 text-[#E6E6E6]  text-base border border-red-500">
+              Coming Soon
+            </button>
+          </div>
         </div>
         <div className="footer-link-width">
           <h1 className="Montserrat text-white font-semibold text-base leading-[24px]">
             Company
           </h1>
           <ul className="pt-3">
-            <Link href="">
+            <Link href="/privacypolicy">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Privacy Policy
               </li>
             </Link>
-            <a href="">
+            <a href="/termscondition">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Help & Support
               </li>
@@ -69,7 +79,7 @@ const FooterLinks = () => {
             Our Social Media
           </h1>
           <ul className="mt-3">
-            <a href="">
+            <a href="https://www.instagram.com/vadavision/  " target="_blank">
               <li className="flex gap-2 items-center">
                 <div className="text-black bg-white p-[3px] rounded-full">
                   <AiFillInstagram size={20} />
@@ -79,7 +89,10 @@ const FooterLinks = () => {
                 </div>
               </li>
             </a>
-            <a href="">
+            <a
+              href="https://www.linkedin.com/company/vadavision/"
+              target="_blank"
+            >
               <li className="flex gap-2 items-center">
                 <div className="text-black bg-white p-[3px] rounded-full">
                   <BiLogoLinkedin size={20} />

@@ -8,11 +8,11 @@ import Portfolio from "../landingpage/Portfolio/Portfolio";
 import DesignProcess from "./OurDesignProcess/DesignProcess";
 import DesigningTools from "./OurDesigningTools/DesigningTools";
 import OurMilestones from "./OurMilestones/OurMilestones";
-import WhyChooseUs from "../landingpage/WhyUs/WhyChooseUs";
 import Footer from "../common/Footer/Footer";
 import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
 import SplideSlider from "../Splide/SplideSlider";
 import Header from "../common/Header/Header";
+import WhyChooseUs from "../common/WhyChooseUs";
 
 const UIUXPage = () => {
   return (
@@ -69,6 +69,9 @@ const UIUXPage = () => {
       </div>
       <div>
         <WhyChooseUs />
+      </div>
+      <div>
+        <RecognizedBy/>
       </div>
       <div className="bg-[#141619]">
         <FrequentlyAksedQuestions />

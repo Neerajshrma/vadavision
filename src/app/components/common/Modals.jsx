@@ -34,7 +34,7 @@ const Modals = ({ isOpen, onClose }) => {
               <div
                 className="calendly-inline-widget no-scrollbar overflow"
                 data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1"
-                style={{ minWidth: "450px", height: "450px" }}
+                style={{ minWidth: "700px", height: "450px" }}
               ></div>
               <Script
                 src="https://assets.calendly.com/assets/external/widget.js"

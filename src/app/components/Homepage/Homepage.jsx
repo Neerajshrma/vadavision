@@ -7,7 +7,6 @@ import Tweekend from "../Portfolios/tweekend/Tweekend";
 import StandardInsights from "../Portfolios/standardinsights/StandardInsights";
 import Legalhub from "../Portfolios/legalhub/Legalhub";
 import IndustriesWeWork from "./Industries/IndustriesWeWork";
-import WhyChooseUs from "./Whychooseus/WhyChooseUs";
 import ConsultWithUs from "./Consultwithus/ConsultWithUs";
 import SubscribeUs from "./Subscribeus/SubscribeUs";
 import Footer from "../common/Footer/Footer";
@@ -15,6 +14,7 @@ import Header from "../common/Header/Header";
 import Tabs from "../common/Faqs/Tabs/Tabs";
 import Accordion from "../common/Faqs/Faqs";
 import SplideSlider from "../Splide/SplideSlider";
+import WhyChooseUs from "../common/WhyChooseUs";
 
 const Homepage = () => {
   return (

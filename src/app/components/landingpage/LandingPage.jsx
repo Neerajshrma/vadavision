@@ -10,8 +10,8 @@ import CalculateTheCost from "./CalculateTheCost/CalculateTheCost";
 import Footer from "../common/Footer/Footer";
 import Header from "../common/Header/Header";
 import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
-import WhyChooseUs from "../Homepage/Whychooseus/WhyChooseUs";
 import SplideSlider from "./Testimonials/Testimonials";
+import WhyChooseUs from "../common/WhyChooseUs";
 
 const LandingPage = () => {
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+import number from "../../common/Number";
 
 const SomeFacts = () => {
   return (
@@ -15,7 +16,7 @@ const SomeFacts = () => {
         <div className="flex justify-between">
           <div className="mt-10">
             <span className="block text-[#DD4242] Montserrat text-3xl font-bold">
-              1000
+              {number.ProjectComplete}
             </span>
             <span className="block text-[#DD4242] Montserrat text-xl font-medium">
               Project Complete
@@ -23,7 +24,7 @@ const SomeFacts = () => {
           </div>
           <div className="mt-10">
             <span className="block text-white Montserrat text-3xl font-bold">
-              235
+              {number.OurTeam}
             </span>
             <span className="block text-white Montserrat text-xl font-medium">
               Our Team
@@ -31,7 +32,7 @@ const SomeFacts = () => {
           </div>
           <div className="mt-10">
             <span className="block text-white Montserrat text-3xl font-bold">
-              1100
+              {number.Ourclient}
             </span>
             <span className="block text-white Montserrat text-xl font-medium">
               Our client

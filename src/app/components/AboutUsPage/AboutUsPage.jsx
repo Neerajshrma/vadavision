@@ -3,7 +3,6 @@ import Herosection from "./Herosection/Herosection";
 import AboutUs from "./AboutUs/AboutUs";
 import MissionVision from "./Missionvision/MissionVision";
 import OurCustomers from "../UIUXPage/OurSatisfyCustomers/OurCustomers";
-import WhyChooseUs from "../Homepage/Whychooseus/WhyChooseUs";
 import ConsultWithUs from "../Homepage/Consultwithus/ConsultWithUs";
 import Footer from "../common/Footer/Footer";
 import SubscribeUs from "../Homepage/Subscribeus/SubscribeUs";
@@ -13,6 +12,7 @@ import Tabs from "../common/Faqs/Tabs/Tabs";
 import ServiseCards from "./ServiceCards/ServiseCards";
 import Header from "../common/Header/Header";
 import OurServices from "../Homepage/Our-services/OurServices";
+import WhyChooseUs from "../common/WhyChooseUs";
 
 const AboutUsPage = () => {
   return (

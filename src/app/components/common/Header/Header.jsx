@@ -36,7 +36,7 @@ const Header = ({ color, backgroundColor, svgcolor }) => {
               className="text-3xl text-[#DD4242] leading-[120%] font-bold"
             >
               {" "}
-              <Link href="/homepage">Vada vision!</Link>
+              <Link href="">Vada vision!</Link>
             </h1>
           </div>
         </div>

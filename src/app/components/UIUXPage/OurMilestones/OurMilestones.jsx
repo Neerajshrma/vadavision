@@ -1,5 +1,6 @@
 import { Poppins, Raleway } from "next/font/google";
 import React from "react";
+import number from "../../common/Number";
 
 const OurMilestones = () => {
   return (
@@ -33,7 +34,7 @@ const OurMilestones = () => {
                 style={{ fontFamily: "Raleway" }}
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
-                100+
+                {number.SatisfiedClients}
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
                 satisfied Client
@@ -44,7 +45,7 @@ const OurMilestones = () => {
                 style={{ fontFamily: "Raleway" }}
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
-                12
+                {number.OurTeam}
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
                 Our Team
@@ -55,7 +56,7 @@ const OurMilestones = () => {
                 style={{ fontFamily: "Raleway" }}
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
-                100+
+                {number.Ourclient}
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
                 Our Client
@@ -66,7 +67,7 @@ const OurMilestones = () => {
                 style={{ fontFamily: "Raleway" }}
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
-                10
+                {number.AwardWinning}
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
                 Awards
