@@ -21,12 +21,12 @@ const FooterLinks = () => {
                 Web Development
               </li>
             </a> */}
-            <Link href="/landing-page">
+            <Link href="/mobile-hybrid-app-development-agency">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 App Development
               </li>
             </Link>
-            <Link href="/uiux-page">
+            <Link href="/top-ui-ux-design-agency">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 UI/UX Design
               </li>
@@ -67,7 +67,7 @@ const FooterLinks = () => {
                 Blogs
               </li>
             </a>
-            <Link href="/contactus=page">
+            <Link href="/contact-us">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Contact Us
               </li>
