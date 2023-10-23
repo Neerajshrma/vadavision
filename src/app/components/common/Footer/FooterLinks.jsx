@@ -36,8 +36,8 @@ const FooterLinks = () => {
             Our Product
           </h1>
           <div>
-            <span className="text-[#E6E6E6] pr-2">legally</span>
-            <span className="font-Poppins bg-[#3A9AFC3] text-xs	rounded-lg p-[4px] text-[#E6E6E6] text-base border border-red-500">
+            <span className="text-[#E6E6E6] pr-2">golegal.ly</span>
+            <span className="font-Poppins bg-[#3A9AFC3] text-xs	rounded-lg p-[4px] text-[#E6E6E6] cursor-pointer text-base border border-red-500">
               Coming Soon
             </span>
           </div>
@@ -52,7 +52,7 @@ const FooterLinks = () => {
                 Privacy Policy
               </li>
             </Link>
-            <Link href="/termscondition">
+            <Link href="/terms-condition">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Help & Support
               </li>

@@ -63,7 +63,7 @@ const HeroSection = () => {
               <Modals isOpen={modalIsOpen} onClose={closeModal} />
             </div>
             <div>
-              <Link href="/aboutus">
+              <Link href="/about-us">
                 <Button
                   fontFamily="Poppins"
                   fontWeight="500"
