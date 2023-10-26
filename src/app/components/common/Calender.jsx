@@ -1,5 +1,6 @@
 import React from "react";
 import { SiGooglemeet } from "react-icons/si";
+import { MdOutlineWatchLater } from "react-icons/md";
 
 const Calender = ({justifyContent}) => {
   return (
@@ -14,12 +15,17 @@ const Calender = ({justifyContent}) => {
             />
           </div>
           <div className="mt-2">
-            <span className="block font-bold text-sm">Pankil Joshi (CTO)</span>
-            <span className="block mt-2 text-2xl font-bold text-black">
+            <span className="block font-semibold		text-sm">Pankil Joshi (CTO)</span>
+            <span className="block mt-2 text-2xl font-semibold text-black	 ">
               Discovery
             </span>
           </div>
           <div className="flex gap-2 items-center mt-3 ">
+          <span>
+              <MdOutlineWatchLater size={25} />
+            </span>
+            <span className="text-sm font-medium calender">30 mins</span>
+            
             <span>
               <SiGooglemeet size={19} />
             </span>

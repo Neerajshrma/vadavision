@@ -21,12 +21,12 @@ const FooterLinks = () => {
                 Web Development
               </li>
             </a> */}
-            <Link href="/landingpage">
+            <Link href="/mobile-hybrid-app-development-agency">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 App Development
               </li>
             </Link>
-            <Link href="/uiuxpage">
+            <Link href="/top-ui-ux-design-agency">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 UI/UX Design
               </li>
@@ -36,7 +36,7 @@ const FooterLinks = () => {
             Our Product
           </h1>
           <div>
-            <span className="text-[#E6E6E6] pr-2">legally</span>
+            <span className="text-[#E6E6E6] pr-2">golegal.ly</span>
             <span className="font-Poppins bg-[#3A9AFC3] text-xs	rounded-lg p-[4px] text-[#E6E6E6] text-base border border-red-500">
               Coming Soon
             </span>
@@ -47,17 +47,17 @@ const FooterLinks = () => {
             Company
           </h1>
           <ul className="pt-3">
-            <Link href="/privacypolicy">
+            <Link href="/privacy-policy">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Privacy Policy
               </li>
             </Link>
-            <Link href="/termscondition">
+            <Link href="/terms-condition">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Help & Support
               </li>
             </Link>
-            <a href="">
+            {/* <a href="">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Portfolio
               </li>
@@ -66,8 +66,8 @@ const FooterLinks = () => {
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Blogs
               </li>
-            </a>
-            <Link href="/contactuspage">
+            </a> */}
+            <Link href="/contact-us">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Contact Us
               </li>
@@ -102,7 +102,10 @@ const FooterLinks = () => {
                 </div>
               </li>
             </a>
-            <a href="">
+            <a
+              href="https://www.facebook.com/profile.php?id=100090359760736&mibextid=ZbWKwL"
+              target="_blank"
+            >
               <li className="flex gap-2 items-center">
                 <div className="text-black bg-white p-[3px] rounded-full">
                   <BiLogoFacebook size={20} />
