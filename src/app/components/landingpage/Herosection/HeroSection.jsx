@@ -3,7 +3,6 @@ import Button from "../../common/Button";
 import Features from "./Features";
 import Script from "next/script";
 import SkeletonLoader from "../../common/SkeletonLoader";
-import Calender from "../../common/Calender";
 
 const HeroSection = () => {
   const [loading, setLoading] = useState(true);
@@ -69,7 +68,7 @@ const HeroSection = () => {
             <div>
               <div
                 className="calendly-inline-widget no-scrollbar overflow"
-                data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1"
+                data-url="https://calendly.com/pankil_joshi/discovery?hide_event_type_details=1&hide_gdpr_banner=1"
                 style={{ minWidth: "320px", height: "700px" }}
               ></div>
               <Script
