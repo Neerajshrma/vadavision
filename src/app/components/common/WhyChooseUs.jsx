@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsPlus } from "react-icons/bs";
 import number from './Number';
+import RecognizedBy from '../landingpage/WhyUs/RecognizedBy';
 
 
 const WhyChooseUs = () => {
@@ -222,6 +223,10 @@ const WhyChooseUs = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div className='pt-4'>
+          <RecognizedBy/>
+
           </div>
          
         </div>

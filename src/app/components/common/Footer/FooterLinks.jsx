@@ -37,7 +37,7 @@ const FooterLinks = () => {
           </h1>
           <div>
             <span className="text-[#E6E6E6] pr-2">golegal.ly</span>
-            <span className="font-Poppins bg-[#3A9AFC3] text-xs	rounded-lg p-[4px] text-[#E6E6E6] cursor-pointer text-base border border-red-500">
+            <span className="font-Poppins bg-[#3A9AFC3] text-xs	rounded-lg p-[4px] text-[#E6E6E6] text-base border border-red-500">
               Coming Soon
             </span>
           </div>
@@ -57,7 +57,7 @@ const FooterLinks = () => {
                 Help & Support
               </li>
             </Link>
-            <a href="">
+            {/* <a href="">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Portfolio
               </li>
@@ -66,7 +66,7 @@ const FooterLinks = () => {
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Blogs
               </li>
-            </a>
+            </a> */}
             <Link href="/contact-us">
               <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
                 Contact Us

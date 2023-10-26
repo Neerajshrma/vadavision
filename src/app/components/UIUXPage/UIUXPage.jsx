@@ -69,10 +69,9 @@ const UIUXPage = () => {
       </div>
       <div>
         <WhyChooseUs />
+
       </div>
-      <div>
-        <RecognizedBy/>
-      </div>
+      
       <div className="bg-[#141619]">
         <FrequentlyAksedQuestions />
       </div>
