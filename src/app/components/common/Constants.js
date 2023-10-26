@@ -1,4 +1,4 @@
-const number= {
+const Constants= {
 
     SatisfiedClients:'1000',
     AwardWinning:'20',
@@ -10,4 +10,4 @@ const number= {
 
 };
 
-export default number;
+export default Constants;

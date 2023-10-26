@@ -1,6 +1,6 @@
 import { Poppins, Raleway } from "next/font/google";
 import React from "react";
-import number from "../../common/Number";
+import number from "../../common/Constants";
 
 const OurMilestones = () => {
   return (
