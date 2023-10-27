@@ -19,7 +19,7 @@ const questionsData = [
       {
         id: 3,
         questions: "What often will results be reported?",
-        answerMobile:
+        answer:
           "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
       },
 ];
