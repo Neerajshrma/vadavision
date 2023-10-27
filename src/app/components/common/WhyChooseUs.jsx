@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
                       </div>
                     </div>
                     <p className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text">
-                      Setisfied Clients
+                      Satisfied Clients
                     </p>
                   </div>
                 </div>
@@ -58,14 +58,14 @@ const WhyChooseUs = () => {
                         className="font-bold mt-3 text-white text-4xl leading-[100%] ml-3"
                         style={{ fontFamily: "Mulish" }}
                       >
-                        {number.AwardWinning}
+                        {number.FiveStarReviews}
                       </h1>
                       <div className="mt-2 text-[#DD4242]">
                         <BsPlus />
                       </div>
                     </div>
                     <p className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text">
-                      Award Winning
+                      Five Star Reviews
                     </p>
                   </div>
                 </div>
@@ -224,7 +224,6 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-      
       </div>
     </>
   );

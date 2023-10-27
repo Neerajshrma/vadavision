@@ -13,7 +13,7 @@ import SplideSlider from "./Testimonials/Testimonials";
 import WhyChooseUs from "../common/WhyChooseUs";
 import FrequentlyAksedQuestions from "./FrequentlyAksedQuestions/FrequentlyAksedQuestions";
 
-const LandingPage = () => {
+const LandingPage = ({ minWidth }) => {
   return (
     <div>
       <div>
@@ -23,7 +23,7 @@ const LandingPage = () => {
       </div>
       <div>
         {/* herosection start */}
-        <HeroSection />
+        <HeroSection minWidth={minWidth} />
       </div>
       <div>
         <SplideSlider />
@@ -59,7 +59,7 @@ const LandingPage = () => {
         <CalculateTheCost />
       </div> */}
       <div className="bg-[#141619]">
-        < FrequentlyAksedQuestions/>
+        <FrequentlyAksedQuestions />
       </div>
       <div>
         <Footer />

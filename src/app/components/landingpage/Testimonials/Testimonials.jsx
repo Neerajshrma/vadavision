@@ -49,7 +49,7 @@ const SplideSlider = () => {
                   <div>
                     <p
                       style={{ fontFamily: "Montserrat" }}
-                      className="mob-testimonial-content text-black font-normal text-lg leading-[56px]"
+                      className="mob-testimonial-content text-black font-normal text-lg leading-[45px]"
                     >
                       I am very happy with the services provided, it is very
                       helpful, starting from the insight that the company gave

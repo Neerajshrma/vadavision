@@ -42,8 +42,9 @@ const Modals = ({ isOpen, onClose }) => {
 
               <Calender justifyContent="center" />
             </div>
-
-            <PopUp />
+            <div className="pb-4">
+              <PopUp minWidth={"550px"} />
+            </div>
           </div>
         </div>
       </div>
