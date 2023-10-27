@@ -1,6 +1,6 @@
 const Constants= {
 
-    SatisfiedClients:'1000',
+    SatisfiedClients:'100',
     AwardWinning:'20',
     TeamMembers:'12',
     successfulProjects:'400',

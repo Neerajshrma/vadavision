@@ -4,24 +4,24 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 
 const questionsData = [
-    {
-        id: 1,
-        questions: "How can I onboard experienced developers from Vadavision?",
-        answer:     "To hire skilled developers from Vadavision, simply reach out to us through our website or contact our team directly. We're here to bring your projects to life with expertise and innovation. "
-    },
-      {
-        id: 2,
-        questions: "Does Vadavision cover SaaS applications?        ",
-        answer:
-        " At Vadavision, our expertise encompasses various fields such as Websites, Web Applications, Mobile Apps, SaaS Applications, Business Applications, Blockchain, and AI. We're well-versed in a diverse range of technologies to cater to your needs effectively.        "
-      },
-      {
-        id: 3,
-        questions: "Do you establish Non-Disclosure Agreements with your clients? ",
-        answer:
-        "Absolutely, we sign Non-Disclosure Agreements with all clients, emphasizing our dedication to safeguarding their intellectual property and ensuring trust and confidentiality in our partnerships.        "
-      },
-      
+  {
+    id: 1,
+    questions: "How can I onboard experienced developers from Vadavision?",
+    answer:
+      "To hire skilled developers from Vadavision, simply reach out to us through our website or contact our team directly. We're here to bring your projects to life with expertise and innovation. ",
+  },
+  {
+    id: 2,
+    questions: "Does Vadavision cover SaaS applications?",
+    answer:
+      " At Vadavision, our expertise encompasses various fields such as Websites, Web Applications, Mobile Apps, SaaS Applications, Business Applications, Blockchain, and AI. We're well-versed in a diverse range of technologies to cater to your needs effectively.        ",
+  },
+  {
+    id: 3,
+    questions: "Do you establish Non-Disclosure Agreements with your clients? ",
+    answer:
+      "Absolutely, we sign Non-Disclosure Agreements with all clients, emphasizing our dedication to safeguarding their intellectual property and ensuring trust and confidentiality in our partnerships.        ",
+  },
 ];
 
 const Accordion = () => {

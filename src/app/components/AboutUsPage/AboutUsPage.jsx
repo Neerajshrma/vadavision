@@ -8,11 +8,10 @@ import Footer from "../common/Footer/Footer";
 import SubscribeUs from "../Homepage/Subscribeus/SubscribeUs";
 import OurWorkCulture from "./OurWorkCulture/OurWorkCulture";
 import Tabs from "../common/Faqs/Tabs/Tabs";
-import ServiseCards from "./ServiceCards/ServiseCards";
 import Header from "../common/Header/Header";
 import OurServices from "../Homepage/Our-services/OurServices";
 import WhyChooseUs from "../common/WhyChooseUs";
-import Faq from "./faq"
+import Accordion from "./Faq";
 const AboutUsPage = () => {
   return (
     <div className="bg-[#141619]">
@@ -54,7 +53,7 @@ const AboutUsPage = () => {
         </div>
         <div className="flex gap-20 responsive-faqs">
           <div className="w-1/2 mt-8 faq-accordian">
-            <Faq/>
+            <Accordion />
           </div>
           <div className="w-1/2 faq-tabs">
             <Tabs />
