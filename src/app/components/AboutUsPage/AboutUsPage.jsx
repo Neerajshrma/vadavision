@@ -12,7 +12,7 @@ import ServiseCards from "./ServiceCards/ServiseCards";
 import Header from "../common/Header/Header";
 import OurServices from "../Homepage/Our-services/OurServices";
 import WhyChooseUs from "../common/WhyChooseUs";
-import Faq from "./faq"
+import Faq from "./Faq"
 const AboutUsPage = () => {
   return (
     <div className="bg-[#141619]">
