@@ -71,6 +71,7 @@ const HeroSection = () => {
           {loading ? (
             <SkeletonLoader />
           ) : (
+            
             <PopUp/>
           )}
         </div>
