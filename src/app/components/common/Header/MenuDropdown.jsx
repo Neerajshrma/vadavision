@@ -43,7 +43,7 @@ const MenuDropdown = ({ svgcolor }) => {
         >
           <li>
             <Link
-              href="/landingpage"
+              href="/mobile-hybrid-app-development-agency"
               className="block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
               Mobile App
@@ -51,7 +51,7 @@ const MenuDropdown = ({ svgcolor }) => {
           </li>
           <li>
             <Link
-              href="/uiuxpage"
+              href="/top-ui-ux-design-agency"
               className="block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
               UIUX
@@ -59,7 +59,7 @@ const MenuDropdown = ({ svgcolor }) => {
           </li>
           <li>
             <Link
-              href="/aboutus"
+              href="/about-us"
               className="block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
               About Us
@@ -67,7 +67,7 @@ const MenuDropdown = ({ svgcolor }) => {
           </li>
           <li>
             <Link
-              href="/contactus"
+              href="/contact-us"
               className="block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
               Contact Us
