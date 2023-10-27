@@ -940,6 +940,19 @@ body {
     width: 100%;
   }
 }
+.color-change{
+  color: #EAEAEA;
+}
+@media screen and (max-width: 650px) {
+  .color-change {
+    color: red;
+    fill: red;
+  }
+}
+
+
+
+
 
 @media screen and (max-width: 650px) {
   .consult-us-width {
@@ -950,7 +963,7 @@ body {
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 480px) {
   .cost-Calculator {
     background-color: #fff;
     color: #dd4242 !important;
