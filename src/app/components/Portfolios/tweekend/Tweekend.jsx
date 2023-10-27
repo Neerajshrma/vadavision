@@ -27,21 +27,21 @@ const Tweekend = () => {
             </h1>
           </div>
           <div className="mt-10">
-            <p className=" Montserrat font-light text-white text-lg leading-[120%] ">
+            <p className=" Montserrat font-normal text-white text-sm leading-[120%] ">
               Our skilled developers made an easy-to-use app for booking social
               events. It makes planning and attending events simple, helping
               users find and join social gatherings effortlessly.
             </p>
           </div>
           <div className="mt-8 pr-5">
-            <p className="Montserrat font-light text-white text-lg leading-[120%] ">
+            <p className="Montserrat font-normal text-white text-sm leading-[120%] ">
               The app also lets users reserve tables at restaurants and venues,
               providing a comfortable space for events. This demonstrates our
               team{"'"} ability to create user-friendly apps and improve
               experiences using technology.
             </p>
           </div>
-          <div className="mt-10 w-[166px]">
+          <div className="mt-10 inline-block overflow-hidden">
             <Button
               fontFamily="Montserrat"
               fontWeight="500"

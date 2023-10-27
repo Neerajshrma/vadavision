@@ -34,12 +34,16 @@ const Modals = ({ isOpen, onClose }) => {
               <h1 className="text-4xl text-center  font-bold pb-6">
                 Talk To Our EXPERTS!
               </h1>
-              <p className="px-2 pb-4 font-medium calender	">Unlock the power of personalised solutions! Schedule a call with our Discovery Agent now and embark on a journey to fulfil your unique needs. Your success story begins here.</p>
+              <p className="px-2 pb-4 font-medium calender">
+                Unlock the power of personalised solutions! Schedule a call with
+                our Discovery Agent now and embark on a journey to fulfil your
+                unique needs. Your success story begins here.
+              </p>
 
               <Calender justifyContent="center" />
             </div>
 
-          <PopUp/>
+            <PopUp />
           </div>
         </div>
       </div>

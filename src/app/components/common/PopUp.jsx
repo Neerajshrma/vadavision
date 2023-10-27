@@ -2,7 +2,6 @@ import Script from "next/script";
 import React, { useState } from "react";
 
 const PopUp = () => {
-
   return (
     <>
       <div>
@@ -11,10 +10,6 @@ const PopUp = () => {
           data-url="https://calendly.com/pankil_joshi/discovery?hide_event_type_details=1&hide_gdpr_banner=1"
           style={{ minWidth: "570px", height: "500px" }}
         ></div>
-        <Script
-          src="https://assets.calendly.com/assets/external/widget.js"
-          async={true}
-        ></Script>
       </div>
     </>
   );

@@ -21,14 +21,14 @@ const TechStack = () => {
         </div>
         <div className="w-6/12 mt-4 description">
           <p className="Montserrat text-[#A9AFC3] text-base leading-[140%] description">
-            You may be interested in our technologies. We want to share more
-            helpful infomation with you about our digital life and methods.
+            Are you curious about our technologies? {"We're"} eager to provide
+            you with useful information about our digital tools and methods that
+            align with our topic.
           </p>
         </div>
       </div>
       <div className="mt-10 ">
         <RecentPosts />
-
       </div>
     </div>
   );

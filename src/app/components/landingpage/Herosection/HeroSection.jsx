@@ -65,15 +65,9 @@ const HeroSection = () => {
         </div>
         <div className="mt-5 w-5/12 mx-auto hero-calender">
           <div className="flex justify-center">
-          <Calender/>
-
+            <Calender />
           </div>
-          {loading ? (
-            <SkeletonLoader />
-          ) : (
-            
-            <PopUp/>
-          )}
+          {loading ? <SkeletonLoader /> : <PopUp />}
         </div>
       </div>
       <div className="mt-20 mx-auto">

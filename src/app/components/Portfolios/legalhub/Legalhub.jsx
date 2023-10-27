@@ -24,19 +24,19 @@ const Legalhub = () => {
             <img className="w-52" src="/images/legalhub-logo.png" alt="" />
           </div>
           <div className="mt-10">
-            <p className=" Montserrat font-light text-white text-lg leading-[120%]">
+            <p className=" Montserrat font-normal text-white text-sm leading-[120%]">
               Our creative and professional agency has been developing products
               for 15 years. We are special.
             </p>
           </div>
           <div className="mt-8 pr-5">
-            <p className="Montserrat font-light text-white text-lg leading-[120%] ">
+            <p className="Montserrat font-normal text-white text-sm leading-[120%] ">
               We’ve got a lot of awards for our work and develop applications
               that became popular in the world. We try not to miss important
               details in each area.
             </p>
           </div>
-          <div className="mt-10  w-[166px]">
+          <div className="mt-10 inline-block">
             <Button
               fontFamily="Montserrat"
               fontWeight="500"

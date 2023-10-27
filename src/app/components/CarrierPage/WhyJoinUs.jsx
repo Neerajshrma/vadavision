@@ -6,14 +6,21 @@ const WhyJoinUs = () => {
       <div className="mt-20 px-40 responsive-width">
         <div className="">
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
-            Why Join Us
+            Why pick Vadavision for your professional journey?{" "}
           </h1>
           <p className="pt-4 w-[80%] pb-10 text-white text-sm leading-[28px]">
-            Space is the collaboration hub that brings the right people,
-            information, and tools together to get work done. From Fortune 100
-            companies to corner markets, millions of people around the world use
-            Slack to connect their teams, unify their systems, and drive their
-            business forward.
+            At Vadavision, we prioritize our employees voices, valuing their
+            input before giving feedback. Our work setup is incredibly flexible,
+            allowing our team to work remotely in diverse environments, from the
+            tranquil mountains to the serene beaches, and even the comfort of
+            their own homes. We understand the importance of work-life balance,
+            offering flexible working hours that cater to individual preferences
+            and lifestyles.We work together as a team and help each other grow.
+            We believe in learning always, and we support your career
+            development. We care about your well-being, not just at work, but in
+            your personal life too. At Vadavision, you can have a satisfying job
+            where you are valued, and your skills are nurtured. Come join us for
+            a great career journey!
           </p>
         </div>
         <div className="space-y-4">

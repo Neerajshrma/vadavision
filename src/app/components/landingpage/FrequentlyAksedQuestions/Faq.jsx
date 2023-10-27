@@ -4,24 +4,26 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 
 const questionsData = [
-    {
-        id: 1,
-        questions: "What often will results be reported?",
-        answer:
-          "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
-      },
-      {
-        id: 2,
-        questions: "How can I make money from my mobile app? ",
-        answer:
-          "There are different ways to make money from your mobile app, such as in-app purchases, subscriptions, ads, or selling the app. The method you choose depends on your app's purpose, who it's for, and your business objectives.",
-      },
-      {
-        id: 3,
-        questions: "What often will results be reported?",
-        answerMobile:
-          "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
-      },
+  {
+    id: 1,
+    questions:
+      "What does mobile application development involve, and why is it crucial for my business?",
+    answer:
+      "Mobile app development means making software for phones and tablets. It's vital for your business because it helps you connect with more people, talk to customers directly, and provide easy services through their mobile devices.",
+  },
+  {
+    id: 2,
+    questions: "How can I make money from my mobile app? ",
+    answer:
+      "There are different ways to make money from your mobile app, such as in-app purchases, subscriptions, ads, or selling the app. The method you choose depends on your app's purpose, who it's for, and your business objectives.",
+  },
+  {
+    id: 3,
+    questions:
+      "How much time does it usually take to create a mobile app, and what things affect how long it takes?",
+    answerMobile:
+      "The time it takes to make a mobile app depends on how complicated it is, what features it has, and if it's for iOS, Android, or both. Simple apps can take a few months, but complex ones might take more than a year.",
+  },
 ];
 
 const Accordion = () => {

@@ -4,27 +4,26 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 
 const questionsData = [
-    {
-        id: 1,
-        questions:
-          "How do you make sure the design works well on different devices in UI/UX projects?",
-        answer:
-          "Responsive design is crucial for UI/UX, ensuring your interface works well on different devices. We make sure your design adapts smoothly to various screen sizes, providing a consistent user experience. Our approach involves meticulous planning, flexible elements, and rigorous testing for seamless performance across platforms.",
-      },
-    
-      {
-        id: 2,
-        questions: "How does branding impact UI/UX design?    ",
-        answer:
-          "Branding plays a vital role in UI/UX design by creating a consistent visual identity. By integrating brand elements like colors and logos, UI/UX designs enhance brand recognition and maintain a unified brand image.",
-      },
-      {
-        id: 3,
-        questions:
-          "How much time does it usually take to create a mobile app, and what things affect how long it takes?",
-        answer:
-          "User research is foundational at Vadavision. By understanding user behaviors and preferences, we create tailored, intuitive interfaces. Aligning designs with user needs enhances satisfaction, making research vital for our UI/UX services.",
-      },
+  {
+    id: 1,
+    questions:
+      "How do you make sure the design works well on different devices in UI/UX projects?",
+    answer:
+      "Responsive design is crucial for UI/UX, ensuring your interface works well on different devices. We make sure your design adapts smoothly to various screen sizes, providing a consistent user experience. Our approach involves meticulous planning, flexible elements, and rigorous testing for seamless performance across platforms.",
+  },
+
+  {
+    id: 2,
+    questions: "How does branding impact UI/UX design?    ",
+    answer:
+      "Branding plays a vital role in UI/UX design by creating a consistent visual identity. By integrating brand elements like colors and logos, UI/UX designs enhance brand recognition and maintain a unified brand image.",
+  },
+  {
+    id: 3,
+    questions: "Why is User Research Important in UI/UX Design?",
+    answer:
+      "User research is foundational at Vadavision. By understanding user behaviors and preferences, we create tailored, intuitive interfaces. Aligning designs with user needs enhances satisfaction, making research vital for our UI/UX services.",
+  },
 ];
 
 const Accordion = () => {

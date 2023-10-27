@@ -27,7 +27,7 @@ const Industries = () => {
               solutions tailored just for your business.
             </p>
           </div>
-          <div className="cursor-pointer flex gap-2 items-center">
+          {/* <div className="cursor-pointer flex gap-2 items-center">
             <button className="text-base text-[#DD4242] font-semibold leading-[27px]">
               See More
             </button>
@@ -45,7 +45,7 @@ const Industries = () => {
                 />
               </svg>
             </span>
-          </div>
+          </div> */}
         </div>
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
@@ -65,7 +65,7 @@ const Industries = () => {
               tools. Trust us to streamline your HR processes!
             </p>
           </div>
-          <div className="cursor-pointer flex gap-2 items-center">
+          {/* <div className="cursor-pointer flex gap-2 items-center">
             <button className="text-base text-[#DD4242] font-semibold leading-[27px]">
               See More
             </button>
@@ -83,7 +83,7 @@ const Industries = () => {
                 />
               </svg>
             </span>
-          </div>
+          </div> */}
         </div>
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
@@ -103,7 +103,7 @@ const Industries = () => {
               experiences.
             </p>
           </div>
-          <div className="cursor-pointer flex gap-2 items-center">
+          {/* <div className="cursor-pointer flex gap-2 items-center">
             <button className="text-base text-[#DD4242] font-semibold leading-[27px]">
               See More
             </button>
@@ -121,7 +121,7 @@ const Industries = () => {
                 />
               </svg>
             </span>
-          </div>
+          </div> */}
         </div>
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
@@ -141,7 +141,7 @@ const Industries = () => {
               business with our help.
             </p>
           </div>
-          <div className="cursor-pointer flex gap-2 items-center">
+          {/* <div className="cursor-pointer flex gap-2 items-center">
             <button className="text-base text-[#DD4242] font-semibold leading-[27px]">
               See More
             </button>
@@ -159,7 +159,7 @@ const Industries = () => {
                 />
               </svg>
             </span>
-          </div>
+          </div> */}
         </div>
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
@@ -333,7 +333,7 @@ const Industries = () => {
               your accounting business online!
             </p>
           </div>
-          <div className="cursor-pointer flex gap-2 items-center">
+          {/* <div className="cursor-pointer flex gap-2 items-center">
             <button className="text-base text-[#DD4242] font-semibold leading-[27px]">
               See More
             </button>
@@ -351,7 +351,7 @@ const Industries = () => {
                 />
               </svg>
             </span>
-          </div>
+          </div> */}
         </div>
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
@@ -453,7 +453,7 @@ const Industries = () => {
               with us for easy client interactions and growth.{" "}
             </p>
           </div>
-          <div className="cursor-pointer flex gap-2 items-center">
+          {/* <div className="cursor-pointer flex gap-2 items-center">
             <button className="text-base text-[#DD4242] font-semibold leading-[27px]">
               See More
             </button>
@@ -471,7 +471,7 @@ const Industries = () => {
                 />
               </svg>
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

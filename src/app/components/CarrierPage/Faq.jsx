@@ -4,25 +4,24 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 
 const questionsData = [
-    {
-        id: 1,
-        questions: "WWhat values are important at Vadavision?",
-        answer:     "At Vadavision, we believe in working together, being creative, and doing what's right. We create a friendly environment where everyone's ideas matter, and we encourage our employees to make a real difference. Honesty and doing the right thing are essential to how we work, making sure our workplace is positive and respectful for everyone.  "
-      },
-      {
-        id: 2,
-        questions: "What career opportunities does Vadavision offer?  ",
-        answer:
-        "At Vadavision, you can choose from various job options like software development, design, web and mobile app development, business development, and HR roles. We promote a creative and innovative workplace where our employees can thrive in their chosen careers.        "
-      },
-      {
-        id: 3,
-        questions: "What is the work culture like at Vadavision? ",
-        answer:
-        "At Vadavision, we create a friendly and team-oriented work environment. We like new ideas, and we help our employees learn and grow in their jobs. "
-      },
-     
-    
+  {
+    id: 1,
+    questions: "What values are important at Vadavision?",
+    answer:
+      "At Vadavision, we believe in working together, being creative, and doing what's right. We create a friendly environment where everyone's ideas matter, and we encourage our employees to make a real difference. Honesty and doing the right thing are essential to how we work, making sure our workplace is positive and respectful for everyone.  ",
+  },
+  {
+    id: 2,
+    questions: "What career opportunities does Vadavision offer?  ",
+    answer:
+      "At Vadavision, you can choose from various job options like software development, design, web and mobile app development, business development, and HR roles. We promote a creative and innovative workplace where our employees can thrive in their chosen careers.        ",
+  },
+  {
+    id: 3,
+    questions: "What is the work culture like at Vadavision? ",
+    answer:
+      "At Vadavision, we create a friendly and team-oriented work environment. We like new ideas, and we help our employees learn and grow in their jobs. ",
+  },
 ];
 
 const Accordion = () => {

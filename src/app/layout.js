@@ -20,6 +20,10 @@ export default function RootLayout({ children }) {
       <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVLS58QQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
       {children}
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></Script>
+      <Script
+          src="https://assets.calendly.com/assets/external/widget.js"
+          async={true}
+        ></Script>
       </body>
     </html>
   )

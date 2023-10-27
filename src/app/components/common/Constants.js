@@ -1,12 +1,12 @@
 const Constants= {
 
-    SatisfiedClients:'100',
-    AwardWinning:'20',
-    TeamMembers:'12',
-    successfulProjects:'400',
-    ProjectComplete:'1000',
-    OurTeam:'233',
-    Ourclient:'1100',
+    SatisfiedClients:'80+',
+    FiveStarReviews:'60+',
+    TeamMembers:'10+',
+    successfulProjects:'100+',
+    ProjectComplete:'100+',
+    OurTeam:'10+',
+    Ourclient:'80+',
     GoogleReview:'18',
     UpworkReview:'30',
 
