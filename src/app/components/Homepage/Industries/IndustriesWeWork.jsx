@@ -21,6 +21,7 @@ const IndustriesWeWork = () => {
             We bring our best creative ideas to life! Just check out our
             portfolio and see for yourself.
           </p>
+        
         </div>
       </div>
       <div>

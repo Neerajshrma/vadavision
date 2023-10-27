@@ -28,15 +28,18 @@ const Tweekend = () => {
           </div>
           <div className="mt-10">
             <p className=" Montserrat font-light text-white text-lg leading-[120%] ">
-              Our creative and professional agency has been developing products
-              for 15 years. We are special.
+            Our skilled developers made an easy-to-use app for booking social
+              events. It makes planning and attending events simple, helping
+              users find and join social gatherings effortlessly.
             </p>
           </div>
           <div className="mt-8 pr-5">
             <p className="Montserrat font-light text-white text-lg leading-[120%] ">
-              We’ve got a lot of awards for our work and develop applications
-              that became popular in the world. We try not to miss important
-              details in each area.
+               The app also
+              lets users reserve tables at restaurants and venues, providing a
+              comfortable space for events. This demonstrates our team's ability
+              to create user-friendly apps and improve experiences using
+              technology.
             </p>
           </div>
           <div className="mt-10 w-[166px]">

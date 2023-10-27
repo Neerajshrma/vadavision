@@ -3,6 +3,8 @@ import Button from "../../common/Button";
 import Features from "./Features";
 import Script from "next/script";
 import SkeletonLoader from "../../common/SkeletonLoader";
+import PopUp from "../../common/PopUp";
+import Calender from "../../common/Calender";
 
 const HeroSection = () => {
   const [loading, setLoading] = useState(true);
@@ -61,21 +63,15 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5 w-5/12 hero-calender">
+        <div className="mt-5 w-5/12 mx-auto hero-calender">
+          <div className="flex justify-center">
+          <Calender/>
+
+          </div>
           {loading ? (
             <SkeletonLoader />
           ) : (
-            <div>
-              <div
-                className="calendly-inline-widget no-scrollbar overflow"
-                data-url="https://calendly.com/pankil_joshi/discovery?hide_event_type_details=1&hide_gdpr_banner=1"
-                style={{ minWidth: "320px", height: "700px" }}
-              ></div>
-              <Script
-                src="https://assets.calendly.com/assets/external/widget.js"
-                async={true}
-              ></Script>
-            </div>
+            <PopUp/>
           )}
         </div>
       </div>

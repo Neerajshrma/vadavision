@@ -1,13 +1,13 @@
 import React from "react";
 import IdelogyPage from "./IdelogyPage";
 import PerksPage from "./PerksPage";
-import Accordion from "../common/Faqs/Faqs";
 import Tabs from "../common/Faqs/Tabs/Tabs";
 import SubscribeUs from "../Homepage/Subscribeus/SubscribeUs";
 import Footer from "../common/Footer/Footer";
 import WhyJoinUs from "./WhyJoinUs";
 import CurrentJob from "./CurrentJobPage/CurrentJob";
 import Header from "../common/Header/Header";
+import Faq from "./Faq"
 
 const CarrierPage = () => {
   return (
@@ -36,7 +36,7 @@ const CarrierPage = () => {
           </div>
           <div className="flex gap-20 responsive-faqs">
             <div className="w-1/2 mt-8 faq-accordian">
-              <Accordion />
+              <Faq/>
             </div>
             <div className="w-1/2 faq-tabs">
               <Tabs />

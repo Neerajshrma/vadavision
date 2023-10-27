@@ -4,6 +4,7 @@ import SkeletonLoader from "./SkeletonLoader";
 import Button from "./Button";
 import { RxCross2 } from "react-icons/rx";
 import Calender from "./Calender";
+import PopUp from "./PopUp";
 
 const Modals = ({ isOpen, onClose }) => {
   const [loading, setLoading] = useState(true);
@@ -21,41 +22,25 @@ const Modals = ({ isOpen, onClose }) => {
           isOpen ? "" : "hidden"
         }`}
       >
-        <div className=" p-2 w-[80%] relative bg-[#faf7f0] shadow-lg">
-          {loading ? (
-            <SkeletonLoader size={24} />
-          ) : (
-            <div className="">
-              <div
-                className="flex justify-end p-2 absolute rounded-full z-50 bg-black  top-0 right-0 -mt-4 -mr-4 cursor-pointer text-3xl"
-                onClick={onClose}
-              >
-                <RxCross2
-                  size={20}
-                  className=""
-                  style={{ color: "#8c8f8d" }}
-                />
-              </div>
-              <div className="flex flex-row">
-                <div className="w-[50%] flex flex-col pl-6 ">
-                  <h1 className="text-4xl text-center  font-bold pb-6">
-                    Talk To Our EXPERTS!
-                  </h1>
+        <div className="  w-[80%] relative bg-[#faf7f0] shadow-lg">
+          <div
+            className="flex justify-end p-2 absolute rounded-full z-50 bg-black  top-0 right-0 -mt-4 -mr-4 cursor-pointer text-3xl"
+            onClick={onClose}
+          >
+            <RxCross2 size={20} style={{ color: "white" }} />
+          </div>
+          <div className="flex flex-row">
+            <div className="w-[50%] flex flex-col pt-6 pl-6 ">
+              <h1 className="text-4xl text-center  font-bold pb-6">
+                Talk To Our EXPERTS!
+              </h1>
+              <p className="px-2 pb-4 font-medium calender	">Unlock the power of personalised solutions! Schedule a call with our Discovery Agent now and embark on a journey to fulfil your unique needs. Your success story begins here.</p>
 
-                  <Calender justifyContent="center" />
-                </div>
-                <div
-                  className="calendly-inline-widget no-scrollbar overflow w-[50%]  "
-                  data-url="https://calendly.com/pankil_joshi/discovery?hide_gdpr_banner=1"
-                  style={{ minWidth: "450px", height: "520px" }}
-                ></div>
-                <Script
-                  src="https://assets.calendly.com/assets/external/widget.js"
-                  async={true}
-                ></Script>
-              </div>
+              <Calender justifyContent="center" />
             </div>
-          )}
+
+          <PopUp/>
+          </div>
         </div>
       </div>
     </>
