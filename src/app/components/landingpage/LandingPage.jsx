@@ -9,9 +9,9 @@ import SomeFacts from "./SomeFacts/SomeFacts";
 import CalculateTheCost from "./CalculateTheCost/CalculateTheCost";
 import Footer from "../common/Footer/Footer";
 import Header from "../common/Header/Header";
-import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
 import SplideSlider from "./Testimonials/Testimonials";
 import WhyChooseUs from "../common/WhyChooseUs";
+import FrequentlyAksedQuestions from "./FrequentlyAksedQuestions/FrequentlyAksedQuestions";
 
 const LandingPage = () => {
   return (
@@ -59,7 +59,7 @@ const LandingPage = () => {
         <CalculateTheCost />
       </div> */}
       <div className="bg-[#141619]">
-        <FrequentlyAksedQuestions />
+        < FrequentlyAksedQuestions/>
       </div>
       <div>
         <Footer />

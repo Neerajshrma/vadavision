@@ -27,7 +27,7 @@ const Modals = ({ isOpen, onClose }) => {
             className="flex justify-end p-2 absolute rounded-full z-50 bg-black  top-0 right-0 -mt-4 -mr-4 cursor-pointer text-3xl"
             onClick={onClose}
           >
-            <RxCross2 size={20} className="" style={{ color: "#8c8f8d" }} />
+            <RxCross2 size={20} style={{ color: "white" }} />
           </div>
           <div className="flex flex-row">
             <div className="w-[50%] flex flex-col pt-6 pl-6 ">

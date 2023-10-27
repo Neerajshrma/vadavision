@@ -26,8 +26,9 @@ const TechStack = () => {
           </p>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 ">
         <RecentPosts />
+
       </div>
     </div>
   );

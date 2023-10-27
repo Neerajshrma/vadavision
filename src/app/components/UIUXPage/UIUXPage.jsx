@@ -9,10 +9,10 @@ import DesignProcess from "./OurDesignProcess/DesignProcess";
 import DesigningTools from "./OurDesigningTools/DesigningTools";
 import OurMilestones from "./OurMilestones/OurMilestones";
 import Footer from "../common/Footer/Footer";
-import FrequentlyAksedQuestions from "../common/Faqs/FrequentlyAksedQuestions";
 import SplideSlider from "../Splide/SplideSlider";
 import Header from "../common/Header/Header";
 import WhyChooseUs from "../common/WhyChooseUs";
+import FrequentlyAksedQuestions from "./FrequentlyAksedQuestions/FrequentlyAksedQuestions";
 
 const UIUXPage = () => {
   return (

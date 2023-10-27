@@ -4,6 +4,7 @@ import Features from "./Features";
 import Script from "next/script";
 import SkeletonLoader from "../../common/SkeletonLoader";
 import PopUp from "../../common/PopUp";
+import Calender from "../../common/Calender";
 
 const HeroSection = () => {
   const [loading, setLoading] = useState(true);
@@ -62,7 +63,11 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5 w-5/12 hero-calender">
+        <div className="mt-5 w-5/12 mx-auto hero-calender">
+          <div className="flex justify-center">
+          <Calender/>
+
+          </div>
           {loading ? (
             <SkeletonLoader />
           ) : (

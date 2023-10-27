@@ -1,5 +1,6 @@
-import React from "react";
-
+ 
+ import React from "react";
+ import number from '@/app/components/common/Constants'
 const RecognizedBy = () => {
   return (
     <div className="py-7">
@@ -95,7 +96,7 @@ const RecognizedBy = () => {
               </svg>
             </div>
             <div className="text-[#141619] font-semibold text-sm leading-[120%] reviwes">
-              (33 REVIEWS)
+              ({number.GoogleReview} REVIEWS)
             </div>
           </div>
         </div>
@@ -225,7 +226,7 @@ const RecognizedBy = () => {
               </svg>
             </div>
             <div className="text-[#141619] font-semibold text-sm leading-[120%] reviwes">
-              (33 REVIEWS)
+              ({number.UpworkReview} REVIEWS)
             </div>
           </div>
         </div>

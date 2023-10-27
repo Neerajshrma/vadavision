@@ -6,7 +6,10 @@ const Constants= {
     successfulProjects:'400',
     ProjectComplete:'1000',
     OurTeam:'233',
-    Ourclient:'1100'
+    Ourclient:'1100',
+    GoogleReview:'18',
+    UpworkReview:'30',
+
 
 };
 

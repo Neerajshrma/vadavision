@@ -1,9 +1,7 @@
 import Script from "next/script";
 import React, { useState } from "react";
-import SkeletonLoader from "./SkeletonLoader";
 
 const PopUp = () => {
-  const [loading, setLoading] = useState(true);
 
   return (
     <>
