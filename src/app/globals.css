@@ -132,8 +132,6 @@ body {
 
 @media screen and (max-width: 1000px) {
   .hero-calender {
-    display: flex;
-    justify-content: center;
     width: 100%;
     margin-top: 40px;
   }
