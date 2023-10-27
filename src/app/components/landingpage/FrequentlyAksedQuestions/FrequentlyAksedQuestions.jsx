@@ -1,5 +1,5 @@
 import React from "react";
-import Faq from './Faq'
+import Accordion from './Faq'
 
 const FrequentlyAksedQuestions = () => {
   return (
@@ -13,7 +13,7 @@ const FrequentlyAksedQuestions = () => {
         </p>
       </div>
       <div className="accordion faq-accordian-width mx-auto">
-        <Faq/>
+        <Accordion/>
       </div>
     </div>
   );
