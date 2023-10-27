@@ -53,15 +53,14 @@ const HeroSection = () => {
                   </svg>
                 </span>
                 <div className="	">
-                <Button
-                  fontFamily="Montserrat"
-                  fontWeight="500"
-                  padding=""
-                  fontSize="16px"
-                  name="Cost Calculator"
-                />
+                  <Button
+                    fontFamily="Montserrat"
+                    fontWeight="500"
+                    padding=""
+                    fontSize="16px"
+                    name="Cost Calculator"
+                  />
                 </div>
-               
               </div>
             </div>
           </div>
@@ -73,14 +72,6 @@ const HeroSection = () => {
           <div className="mt-2">
             {loading ? <SkeletonLoader /> : <PopUp minWidth="100%" />}
           </div>
-<<<<<<< HEAD
-=======
-          {loading ? (
-            <SkeletonLoader />
-          ) : (
-            <PopUp/>
-          )}
->>>>>>> def28bc53b776c8506b007630503133b07871b52
         </div>
       </div>
       <div className="mt-20 mx-auto">
