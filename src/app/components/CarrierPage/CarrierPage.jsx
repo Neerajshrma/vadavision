@@ -7,7 +7,7 @@ import Footer from "../common/Footer/Footer";
 import WhyJoinUs from "./WhyJoinUs";
 import CurrentJob from "./CurrentJobPage/CurrentJob";
 import Header from "../common/Header/Header";
-import Faq from "./Faq"
+import Accordion from "./Faq";
 
 const CarrierPage = () => {
   return (
@@ -36,7 +36,7 @@ const CarrierPage = () => {
           </div>
           <div className="flex gap-20 responsive-faqs">
             <div className="w-1/2 mt-8 faq-accordian">
-              <Faq/>
+              <Accordion/>
             </div>
             <div className="w-1/2 faq-tabs">
               <Tabs />

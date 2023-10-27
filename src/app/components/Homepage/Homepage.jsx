@@ -13,8 +13,8 @@ import Footer from "../common/Footer/Footer";
 import Header from "../common/Header/Header";
 import Tabs from "../common/Faqs/Tabs/Tabs";
 import SplideSlider from "../Splide/SplideSlider";
+import Accordion from "./Faq"
 import WhyChooseUs from "../common/WhyChooseUs";
-import Faq from './Faq'
 const Homepage = () => {
   return (
     <div>
@@ -91,7 +91,7 @@ const Homepage = () => {
         </div>
         <div className="flex gap-20 responsive-faqs">
           <div className="w-1/2 mt-8 faq-accordian">
-            <Faq/>
+            <Accordion/>
           </div>
           <div className="w-1/2 faq-tabs">
             <Tabs />
