@@ -7,13 +7,7 @@ import PopUp from "../../common/PopUp";
 import Calender from "../../common/Calender";
 
 const HeroSection = () => {
-  const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  }, []);
   return (
     <>
       <div className="flex flex-wrap px-40 responsive-width mobile-width mt-2">
@@ -70,7 +64,7 @@ const HeroSection = () => {
             <Calender />
           </div>
           <div className="mt-2">
-            {loading ? <SkeletonLoader /> : <PopUp minWidth="100%" />}
+            <PopUp minWidth="100%" />
           </div>
         </div>
       </div>

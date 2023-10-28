@@ -7,13 +7,6 @@ import Calender from "./Calender";
 import PopUp from "./PopUp";
 
 const Modals = ({ isOpen, onClose }) => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  }, []);
 
   return (
     <>

@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import Head from 'next/head'
+import useScripts from './components/hooks/UseScripts'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,6 +12,7 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <head>
@@ -20,10 +22,6 @@ export default function RootLayout({ children }) {
       <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVLS58QQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
       {children}
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></Script>
-      <Script
-          src="https://assets.calendly.com/assets/external/widget.js"
-          async={true}
-        ></Script>
       </body>
     </html>
   )
