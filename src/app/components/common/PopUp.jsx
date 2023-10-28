@@ -7,7 +7,7 @@ const PopUp = ({ minWidth }) => {
     useEffect(() => {
       setTimeout(() => {
         setLoading(false);
-      }, 500);
+      }, 1000);
     }, []);
   return (
     <>
