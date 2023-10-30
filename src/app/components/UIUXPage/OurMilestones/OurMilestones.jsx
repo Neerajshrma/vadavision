@@ -26,7 +26,7 @@ const OurMilestones = () => {
           MILESTONE
         </div>
         <div className="my-5 mx-auto text-center">
-          <div className="w-6/12 mx-auto some-facts">
+          <div className="w-6/12 mx-auto some-facts"     data-aos='zoom-in'>
             <h1
               style={{ fontFamily: "Poppins" }}
               className="Montserrat text-[#DD4242] text-4xl font-semibold heading leading-[63px]"
@@ -38,7 +38,7 @@ const OurMilestones = () => {
               eiusmodtempor incididunt ut labore et dolore magna aliqua.
             </p> */}
           </div>
-          <div className="w-8/12 mx-auto flex gap-2 flex-wrap justify-between bg-white py-6 px-10 mt-10 rounded-lg some-facts">
+          <div className="w-8/12 mx-auto flex gap-2 flex-wrap justify-between bg-white py-6 px-10 mt-10 rounded-lg some-facts"data-aos='flip-up'>
             <div className="">
               <span
                 style={{ fontFamily: "Raleway" }}
