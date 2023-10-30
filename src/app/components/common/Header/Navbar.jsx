@@ -1,24 +1,15 @@
 "use client";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useContext } from "react";
 import Button from "../Button";
 import RippleEffect from "../RippleEffect";
 import Menu from "./Menu";
 import MenuDropdown from "./MenuDropdown";
-
-import Script from "next/script";
-import Modals from "../Modals";
+import { ModalContext } from "../../hooks/modalContext";
 
 const Navbar = ({ color, backgroundColor, svgcolor }) => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  let { toggleModal } = useContext(ModalContext);
 
-  const openModal = () => {
-    setModalIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setModalIsOpen(false);
-  };
   return (
     <menu style={{ fontFamily: "Poppins" }}>
       <div className="nav-bar flex gap-10 items-center">
@@ -49,7 +40,7 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
         </div>
         <div>
           <RippleEffect>
-          <div onClick={openModal}>
+          <div onClick={toggleModal}>
             <Button
               fontFamily="Poppins"
               fontWeight="600"
@@ -62,8 +53,6 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
           </div>
 
           </RippleEffect>
-         
-          <Modals isOpen={modalIsOpen} onClose={closeModal} />
         </div>
       </div>
       {/* <button

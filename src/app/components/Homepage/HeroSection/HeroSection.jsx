@@ -1,20 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import Button from "../../common/Button";
 import RecognizedBy from "./RecognizedBy";
 import Link from "next/link";
 import RippleEffect from "../../common/RippleEffect";
-import Modals from "../../common/Modals";
+import { ModalContext } from "../../hooks/modalContext";
 
 const HeroSection = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  let { toggleModal } = useContext(ModalContext);
 
-  const openModal = () => {
-    setModalIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setModalIsOpen(false);
-  };
   return (
     <div className="flex items-center px-40 responsive-width mobile-width mt-2 mb-6">
       <div
@@ -47,7 +40,7 @@ const HeroSection = () => {
             <div>
               <RippleEffect>
                 {" "}
-                <div onClick={openModal}>
+                <div onClick={toggleModal}>
                   <Button
                     fontFamily="Poppins"
                     fontWeight="500"
@@ -59,8 +52,6 @@ const HeroSection = () => {
                   />
                 </div>
               </RippleEffect>
-
-              <Modals isOpen={modalIsOpen} onClose={closeModal} />
             </div>
             <div>
               <Link href="/about-us">

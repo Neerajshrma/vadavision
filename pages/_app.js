@@ -1,6 +1,9 @@
 import '../src/app/globals.css';
 import Head from 'next/head';
+import { ModalProvider } from '@/app/components/hooks/modalContext';
+
 export default function App({ Component, pageProps }) {
+
     return(
       <main>  
         <Head>
@@ -12,9 +15,10 @@ export default function App({ Component, pageProps }) {
           <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
           <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
           <link rel="icon" href="/images/favicon.ico" sizes="any" />
-          <script src="https://sales.vadavision.com/focus/1.js" type="text/javascript" charset="utf-8" async="async"></script>
         </Head>
-         <Component {...pageProps} />
+        <ModalProvider>
+          <Component {...pageProps} />
+        </ModalProvider>
       </main>
     );
   }
