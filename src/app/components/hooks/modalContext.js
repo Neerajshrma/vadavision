@@ -8,17 +8,17 @@ let ModalContext;
 let { Provider } = (ModalContext = createContext());
 
 let ModalProvider = ({ children }) => {
-  let { isModalOpen, toggleModal } = useModal();
+  let { isModalOpen, modalOpen,  modalClose } = useModal();
   const { registerHandler } = useExitIntent()
 
 
   registerHandler({
     id: 'openModal',
-    handler: () => {toggleModal()}
+    handler: () => {modalOpen()}
   });
 
   return (
-    <Provider value={{ isModalOpen, toggleModal }}>
+    <Provider value={{ isModalOpen, modalOpen, modalClose }}>
       <Modals />
       {children}
     </Provider>

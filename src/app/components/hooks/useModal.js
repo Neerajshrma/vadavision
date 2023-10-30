@@ -4,13 +4,17 @@ import { useState } from 'react';
 const useModal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  function toggleModal() {
-    setIsModalOpen(!isModalOpen);
+  function modalOpen() {
+    setIsModalOpen(true);
+  }
+  function modalClose() {
+    setIsModalOpen(false);
   }
 
   return {
     isModalOpen,
-    toggleModal
+    modalOpen,
+    modalClose
   }
 }
 

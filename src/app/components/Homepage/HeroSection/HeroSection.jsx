@@ -6,7 +6,7 @@ import RippleEffect from "../../common/RippleEffect";
 import { ModalContext } from "../../hooks/modalContext";
 
 const HeroSection = () => {
-  let { toggleModal } = useContext(ModalContext);
+  let { modalOpen } = useContext(ModalContext);
 
   return (
     <div className="flex items-center px-40 responsive-width mobile-width mt-2 mb-6">
@@ -40,7 +40,7 @@ const HeroSection = () => {
             <div>
               <RippleEffect>
                 {" "}
-                <div onClick={toggleModal}>
+                <div onClick={modalOpen}>
                   <Button
                     fontFamily="Poppins"
                     fontWeight="500"

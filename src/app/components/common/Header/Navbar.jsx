@@ -8,7 +8,7 @@ import MenuDropdown from "./MenuDropdown";
 import { ModalContext } from "../../hooks/modalContext";
 
 const Navbar = ({ color, backgroundColor, svgcolor }) => {
-  let { toggleModal } = useContext(ModalContext);
+  let { modalOpen } = useContext(ModalContext);
 
   return (
     <menu style={{ fontFamily: "Poppins" }}>
@@ -40,7 +40,7 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
         </div>
         <div>
           <RippleEffect>
-          <div onClick={toggleModal}>
+          <div onClick={modalOpen}>
             <Button
               fontFamily="Poppins"
               fontWeight="600"

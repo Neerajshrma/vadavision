@@ -5,7 +5,7 @@ import PopUp from "./PopUp";
 import { ModalContext } from "../hooks/modalContext";
 
 const Modals = () => {
-  let { isModalOpen, toggleModal } = useContext(ModalContext);
+  let { isModalOpen, modalClose } = useContext(ModalContext);
 
   return (
     <>
@@ -13,12 +13,12 @@ const Modals = () => {
         className={`fixed top-0 left-0 w-full h-full h-[100vh] flex items-center z-40 pt-10 justify-center bg-black bg-opacity-50 ${
           isModalOpen ? "" : "hidden"
         }`}
-        onClick={toggleModal}
+        onClick={modalClose}
       >
         <div onClick={e => e.stopPropagation()} className="w-[80%] relative bg-[#faf7f0] shadow-lg h-[90vh] no-scrollbar calender-popup">
           <div
             className="flex justify-end text-white p-2 absolute border border-white-800 rounded-full z-50 bg-black top-0 right-0 -mt-4 -mr-4 cursor-pointer text-3xl popup-cross-icon"
-            onClick={toggleModal}
+            onClick={modalClose}
           >
             <RxCross2 size={20} />
           </div>
