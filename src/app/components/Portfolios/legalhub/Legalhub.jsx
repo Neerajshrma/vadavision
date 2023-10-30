@@ -10,7 +10,7 @@ const Legalhub = () => {
       >
         <div className="portfolio-img portfolio-legalhub py-14 w-[45%]">
           <div className="">
-            <img src="/images/legalhub.png" alt="" />
+            <img src="/images/otgc.png" alt="" />
           </div>
         </div>
         <div className="portfolio-content w-[45%] py-14">
@@ -21,7 +21,7 @@ const Legalhub = () => {
             </div>
           </div>
           <div className="mt-5">
-            <img className="w-52" src="/images/legalhub-logo.png" alt="" />
+            <img className="w-20" src="/images/otgc-logo.png" alt="" />
           </div>
           <div className="mt-10">
             <p className=" Montserrat font-normal text-white text-sm leading-[120%]">
@@ -43,7 +43,7 @@ const Legalhub = () => {
               padding="12px 22px"
               Color="#ffffff"
               fontSize="16px"
-              backgroundColor="#141619"
+              backgroundColor="#1a16cc"
               name="Know More"
             />
           </div>

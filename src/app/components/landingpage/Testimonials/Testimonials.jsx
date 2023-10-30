@@ -19,9 +19,14 @@ const SplideSlider = () => {
   return (
     <div
       className="bg-white bg-center bg-contain bg-no-repeat"
-      //   style={{ backgroundImage: "url(images/bg-1.png)" }}
+      style={{ backgroundImage: "url(images/slider.png)" }}
     >
       <div className="relative testimonails-mobile-app">
+        <div className="flex justify-center items-center text-5xl pt-20">
+          <p className="pt-20 text-center flex flex-wrap">
+            What Clients Say About Us
+          </p>
+        </div>{" "}
         <Splide
           options={{
             rewind: true,

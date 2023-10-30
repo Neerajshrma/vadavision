@@ -8,7 +8,7 @@ const WhyJoinUs = () => {
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
             Why pick Vadavision for your professional journey?{" "}
           </h1>
-          <p className="pt-4 w-[80%] pb-10 text-white text-sm leading-[28px]">
+          <p className="pt-4 w-[80%] pb-10 text-white text-sm leading-[28px] para-responsive">
             At Vadavision, we prioritize our employees voices, valuing their
             input before giving feedback. Our work setup is incredibly flexible,
             allowing our team to work remotely in diverse environments, from the

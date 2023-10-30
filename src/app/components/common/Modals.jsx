@@ -15,15 +15,15 @@ const Modals = ({ isOpen, onClose }) => {
           isOpen ? "" : "hidden"
         }`}
       >
-        <div className="  w-[80%] relative bg-[#faf7f0] shadow-lg">
+        <div className="  w-[80%] relative bg-[#faf7f0] shadow-lg ">
           <div
-            className="flex justify-end p-2 absolute rounded-full z-50 bg-black  top-0 right-0 -mt-4 -mr-4 cursor-pointer text-3xl"
+            className="flex justify-end p-2 absolute border border-white-800 rounded-full z-50 bg-black  top-0 right-0 -mt-4 -mr-4 cursor-pointer text-3xl"
             onClick={onClose}
           >
             <RxCross2 size={20} style={{ color: "white" }} />
           </div>
-          <div className="flex flex-row">
-            <div className="w-[50%] flex flex-col pt-6 pl-6 ">
+          <div className="flex flex-row flex-wrap responsive-popup">
+            <div className="w-[50%]  pt-6 pl-6 ">
               <h1 className="text-4xl text-center  font-bold pb-6">
                 Talk To Our EXPERTS!
               </h1>
@@ -35,7 +35,7 @@ const Modals = ({ isOpen, onClose }) => {
 
               <Calender justifyContent="center" />
             </div>
-            <div className="pb-4">
+            <div className="pb-4 w-[50%]">
               <PopUp minWidth={"550px"} />
             </div>
           </div>

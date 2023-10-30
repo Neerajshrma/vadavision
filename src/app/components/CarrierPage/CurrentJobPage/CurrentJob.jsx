@@ -25,7 +25,7 @@ const CurrentJob = () => {
             <h1 className="currentJobResponsive">Current Job Openings</h1>
           </div>
         </div>
-        <div className="space-y-4 pb-10">
+        <div className="space-y-4 pb-10 px-10">
           <div id="join-widget">
           <Script
             defer

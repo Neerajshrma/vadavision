@@ -19,7 +19,7 @@ const OurServices = () => {
           </h1>
         </div>
         <div className="mt-4">
-          <div className="w-7/12 description">
+          <div className="w-7/12 description para-responsive mb-10">
             <p className="Montserrat text-[#A9AFC3] description text-base leading-[140%]">
               Experience top-notch services as we bring creative ideas to life
               through our exceptional portfolio.
