@@ -32,7 +32,7 @@ const Legalhub = () => {
             </div>
           </div>
           <div className="mt-5">
-            <img className="w-20" src="/images/otgc-logo.png" alt="" />
+            <img className="w-28" src="/images/otgc-logo.png" alt="" />
           </div>
           <div className="mt-10">
             <p className=" Montserrat font-normal text-white text-sm leading-[120%]">

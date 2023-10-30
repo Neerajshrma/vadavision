@@ -5,25 +5,37 @@ import { RiCloseLine } from "react-icons/ri";
 const questionsData = [
   {
     id: 1,
-    questions: "What services does Vadavision Offer?",
+    questions: "How can I make a payment for Vadavision's software services?",
     answer:
-      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
+      "Vadavision accepts payments through various methods, including credit/debit cards, PayPal, bank transfers, and other secure online payment gateways.",
   },
   {
     id: 2,
-    questions:
-      "How does Vadavision create website content without knowing our Business plan?",
+    questions: "Is my payment information secure with Vadavision?",
     answer:
-      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
+      "Yes, Vadavision takes data security seriously. We use encryption and follow industry standards to protect your payment information. Your data is safe and confidential.",
   },
   {
     id: 3,
-    questions: "What often will results be reported?",
+    questions: "Are there any additional fees or charges for making payments?",
     answer:
-      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
+      " Vadavision does not charge additional fees for standard payment methods. However, please check with your bank or payment provider for any transaction fees they might apply.",
+  },
+  {
+    id: 4,
+    questions: "What currency is accepted for payments to Vadavision?",
+    answer:
+      "Vadavision accepts payments in multiple currencies. During the checkout process, you can select your preferred currency. Please note that currency exchange rates may apply, depending on your payment method and location.",
+  },
+  {
+    id: 5,
+    questions:
+      "Can I get a refund if I am dissatisfied with the software services provided by Vadavision?",
+    answer:
+      "Vadavision offers a refund policy. Please refer to our Terms of Service or contact customer support for detailed information about our refund process and eligibility criteria.",
   },
 ];
-const Refund = () => {
+const Payment = () => {
   const [openAccordion, setOpenAccordion] = useState(null);
 
   const toggleAccordion = (id) => {
@@ -65,4 +77,4 @@ const Refund = () => {
   );
 };
 
-export default Refund;
+export default Payment;

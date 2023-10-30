@@ -1,8 +1,8 @@
 import { Splide, SplideSlide, SplideArrow } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import React, { useRef, useState, useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import Link from "next/link";
+
 const ServicesSlider = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
@@ -88,13 +88,15 @@ const ServicesSlider = () => {
                 </svg>
               </div>
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
-                SEO & SMM <br /> Optimization
+                Web Development
               </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
+              <div>
+                <Link href="/">
+                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                    read more
+                  </button>
+                </Link>
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
@@ -133,13 +135,15 @@ const ServicesSlider = () => {
                 </svg>
               </div>
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
-                SEO & SMM <br /> Optimization
+                Mobile App Development
               </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
+              <div>
+                <Link href="/mobile-hybrid-app-development-agency">
+                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                    read more
+                  </button>
+                </Link>
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
@@ -178,13 +182,15 @@ const ServicesSlider = () => {
                 </svg>
               </div>
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
-                SEO & SMM <br /> Optimization
+                UIUX Design
               </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
+              <div>
+                <Link href="/top-ui-ux-design-agency">
+                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                    read more
+                  </button>
+                </Link>
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
@@ -223,13 +229,15 @@ const ServicesSlider = () => {
                 </svg>
               </div>
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
-                SEO & SMM <br /> Optimization
+                Resource Augmentation
               </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
+              <div>
+                <Link href="/">
+                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                    read more
+                  </button>
+                </Link>
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
@@ -268,13 +276,15 @@ const ServicesSlider = () => {
                 </svg>
               </div>
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
-                SEO & SMM <br /> Optimization
+                CMS Development
               </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
+              <div>
+                <Link href="/">
+                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                    read more
+                  </button>
+                </Link>
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
@@ -313,58 +323,15 @@ const ServicesSlider = () => {
                 </svg>
               </div>
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
-                SEO & SMM <br /> Optimization
+                AI Services
               </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
-            </div>
-          </SplideSlide>
-          <SplideSlide>
-            <div className="flex flex-col items-center  h-[400px] services-bg-1">
-              <div className="mt-16 bg-[#ffffff] bg-opacity-5 p-6 rounded-full">
-                <svg
-                  width="70"
-                  height="70"
-                  viewBox="0 0 70 70"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clipPath="url(#clip0_519_5613)">
-                    <path
-                      d="M60.1611 0H57.1515C55.8285 0 55.8285 2.05108 57.1515 2.05108H60.1611C63.2692 2.05108 65.7979 4.57062 65.7979 7.66748V31.4015C65.7979 34.4984 63.2693 37.018 60.1611 37.018H56.7477C56.5225 37.018 56.3036 37.0921 56.1246 37.229L49.8611 42.02V38.0435C49.8611 37.4772 49.4021 37.018 48.8356 37.018H36.3541C35.332 37.018 34.3497 36.7482 33.4833 36.2353V24.723C33.4833 22.5666 32.385 20.6615 30.7172 19.5343V7.66748C30.7172 4.57062 33.2459 2.05108 36.3541 2.05108H50.7248C52.0476 2.05108 52.0476 0 50.7248 0H36.3541C32.1149 0 28.6661 3.43966 28.6661 7.66748V18.6329C28.1966 18.5208 27.7073 18.4597 27.2038 18.4597H8.43019C4.96783 18.4597 2.15088 21.2694 2.15088 24.723V26.9375C2.15088 28.2603 4.20196 28.2603 4.20196 26.9375V24.723C4.20196 22.4004 6.09866 20.5108 8.43019 20.5108H27.204C29.5355 20.5108 31.4323 22.4004 31.4323 24.723V36.6436C31.42 36.7341 31.4206 36.8253 31.4323 36.9152V43.4392C31.4323 43.5682 31.4245 43.6966 31.4129 43.8243H29.298C26.9676 43.8243 25.0248 45.5063 24.6219 47.717C24.5287 47.7521 24.4391 47.8012 24.3561 47.8652L19.7692 51.4068V48.677C19.7692 48.1106 19.3102 47.6515 18.7437 47.6515H8.43019C6.09866 47.6515 4.20196 45.7619 4.20196 43.4392V33.0907C4.20196 31.7679 2.15088 31.7679 2.15088 33.0907V43.4394C2.15088 46.893 4.96783 49.7027 8.43019 49.7027H17.7183V53.4944C17.7183 54.3171 18.7172 54.8105 19.3706 54.3063L24.5441 50.3117V61.849C24.5441 64.4641 26.6768 66.5915 29.2981 66.5915H35.5915V68.9846C35.5915 69.8069 36.5904 70.301 37.2437 69.7964L41.3946 66.5915H42.6208C45.2421 66.5915 47.3748 64.464 47.3748 61.849V60.0282C47.3748 58.7054 45.3237 58.7054 45.3237 60.0282V61.849C45.3237 63.3332 44.1113 64.5404 42.6208 64.5404H41.0447C40.8178 64.5404 40.5974 64.6157 40.418 64.7542L37.6425 66.897V65.5658C37.6425 64.9995 37.1834 64.5403 36.6169 64.5403H29.298C27.8077 64.5403 26.5951 63.3329 26.5951 61.8489V48.5669C26.5951 47.0828 27.8075 45.8755 29.298 45.8755H42.6208C44.1111 45.8755 45.3237 47.0829 45.3237 48.5669V53.6015C45.3237 54.9243 47.3748 54.9243 47.3748 53.6015V48.5671C47.3748 45.9519 45.2421 43.8246 42.6208 43.8246H33.4717C33.4795 43.6964 33.4834 38.5166 33.4834 38.5166C34.3877 38.8802 35.3571 39.0692 36.3542 39.0692H47.8102V44.0957C47.8102 44.9163 48.8048 45.4103 49.4589 44.9103L57.0952 39.0692H60.1612C64.4003 39.0692 67.8491 35.6295 67.8491 31.4016V7.66748C67.849 3.43966 64.4001 0 60.1611 0V0Z"
-                      fill="#A9AFC3"
-                    />
-                    <path
-                      d="M35.9471 51.1671C35.119 50.4853 34.0173 50.2164 32.9122 50.4851C31.496 50.829 30.0669 52.1529 30.0669 54.3351C30.0669 55.6933 30.5626 56.8723 31.5822 57.9394C32.4151 58.8111 33.617 59.64 35.4791 60.6272C35.6294 60.707 35.7945 60.7468 35.9595 60.7468C36.1246 60.7468 36.2896 60.707 36.4399 60.6272C39.6885 58.905 41.852 57.176 41.852 54.3351C41.852 52.141 40.3722 50.8306 38.9055 50.5053C37.8037 50.2608 36.7355 50.5203 35.9471 51.1671ZM39.8008 54.3351C39.8008 55.8674 38.7844 57.0005 35.9594 58.5557C33.1344 57.0004 32.1178 55.8672 32.1178 54.3351C32.1178 53.195 32.778 52.6283 33.3959 52.4782C33.5098 52.4505 33.6318 52.435 33.7572 52.435C34.222 52.435 34.733 52.6496 35.048 53.2605C35.2276 53.608 35.5905 53.8235 35.9797 53.8155C36.3707 53.8077 36.7233 53.5782 36.8887 53.2238C37.2205 52.5125 37.9184 52.3874 38.461 52.5078C39.1089 52.6513 39.8008 53.2069 39.8008 54.3351Z"
-                      fill="#A9AFC3"
-                    />
-                    <path
-                      d="M10.9323 35.6201C10.3658 35.6201 9.90674 36.0793 9.90674 36.6456C9.90674 37.212 10.3658 37.6712 10.9323 37.6712H13.9553L13.3906 41.0868C13.2981 41.6455 13.6763 42.1734 14.2351 42.2659C14.2918 42.2753 14.348 42.2798 14.4035 42.2798C14.8963 42.2798 15.331 41.9236 15.4142 41.4214L16.0341 37.6713H18.5081L17.9434 41.0869C17.851 41.6456 18.2292 42.1736 18.7879 42.266C18.8447 42.2754 18.9009 42.28 18.9564 42.28C19.4492 42.28 19.8839 41.9237 19.967 41.4215L20.587 37.6715H24.7018C25.2684 37.6715 25.7274 37.2123 25.7274 36.6459C25.7274 36.0795 25.2684 35.6204 24.7018 35.6204H20.9261L21.3397 33.1186H24.7018C25.2684 33.1186 25.7274 32.6594 25.7274 32.0931C25.7274 31.5267 25.2684 31.0675 24.7018 31.0675H21.6788L22.2436 27.6519C22.336 27.0932 21.9578 26.5653 21.3991 26.4728C20.8397 26.3801 20.3124 26.7586 20.22 27.3173L19.6 31.0674H17.126L17.6907 27.6518C17.7832 27.0931 17.4049 26.5651 16.8462 26.4727C16.2861 26.38 15.7597 26.7585 15.6671 27.3172L15.0472 31.0673H10.9323C10.3658 31.0673 9.90674 31.5264 9.90674 32.0928C9.90674 32.6592 10.3658 33.1183 10.9323 33.1183H14.708L14.2944 35.6201H10.9323ZM16.787 33.1183H19.261L18.8474 35.6201H16.3734L16.787 33.1183Z"
-                      fill="#A9AFC3"
-                    />
-                    <path
-                      d="M50.8202 7.57689C49.518 7.24448 48.1911 8.2733 48.1911 9.61881C48.1911 11.0889 47.6554 12.5056 46.6833 13.6073L43.8577 16.8047C43.6748 16.524 43.3586 16.3381 42.9986 16.3381H37.4826C36.9161 16.3381 36.457 16.7973 36.457 17.3637V29.7748C36.457 30.3411 36.9161 30.8003 37.4826 30.8003H42.9986C43.4131 30.8003 43.7691 30.554 43.9309 30.2004C45.0476 30.8827 46.3417 31.2517 47.6584 31.2517H57.4067C58.8964 31.2517 60.1252 29.9591 60.0554 28.4733C60.0243 27.8153 60.0582 18.9802 60.0582 18.784C60.0582 17.322 58.8688 16.1323 57.4098 16.1323L52.3404 16.1172L52.5503 15.6201C53.5096 13.3485 53.3516 10.7144 52.1284 8.57344C51.8428 8.07325 51.3781 7.71951 50.8202 7.57689C51.3781 7.71951 50.262 7.43441 50.8202 7.57689C51.3781 7.71951 49.5182 7.24448 50.8202 7.57689ZM41.9731 28.7492H38.5081V18.3892H41.9731V28.7492ZM57.4067 18.1833C57.7379 18.1833 58.0073 18.4527 58.0073 18.7838C58.0073 18.979 58.0052 19.5086 58.0025 20.2266C57.9873 24.1909 57.9772 27.9455 58.0065 28.5695C58.0171 28.7947 57.9076 28.9449 57.8414 29.0143C57.7268 29.1344 57.5725 29.2005 57.4067 29.2005H47.6584C46.4964 29.2005 45.3591 28.7978 44.4558 28.0666L44.0241 27.7171V19.7137L48.2208 14.9649C49.5243 13.4876 50.2422 11.5889 50.2422 9.61867C50.2422 9.5607 50.3214 9.54565 50.3476 9.59078C51.2558 11.1801 51.3729 13.1356 50.6609 14.822L49.8515 16.7389C49.7179 17.0552 49.7516 17.4171 49.9407 17.7035C50.1301 17.9898 50.45 18.1624 50.7931 18.1635L57.4067 18.1833Z"
-                      fill="#A9AFC3"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_519_5613">
-                      <rect width="70" height="70" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
+              <div>
+                <Link href="/">
+                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                    read more
+                  </button>
+                </Link>
               </div>
-              <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
-                SEO & SMM <br /> Optimization
-              </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
             </div>
           </SplideSlide>
         </Splide>

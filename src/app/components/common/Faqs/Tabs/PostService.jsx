@@ -5,39 +5,36 @@ import { RiCloseLine } from "react-icons/ri";
 const questionsData = [
   {
     id: 1,
-    questions: "What services does Vadavision Offer?",
+    questions: "What is Post-Service Support?",
     answer:
-      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
+      "Post-Service Support refers to the assistance and solutions provided after the completion of a project. It includes maintenance, troubleshooting, updates, and technical assistance to ensure your software continues to function optimally.",
   },
   {
     id: 2,
-    questions:
-      "How does Vadavision create website content without knowing our Business plan?",
+    questions: "What Does Post-Service Support Include?",
     answer:
-      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
+      "Our Post-Service Support includes regular software updates, bug fixes, security patches, and 24/7 technical assistance. We also offer performance optimization, feature enhancements, and compatibility checks with new technologies.",
   },
   {
     id: 3,
-    questions: "What often will results be reported?",
+    questions: "How Do I Report an Issue for Post-Service Support?",
     answer:
-      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
+      "You can report any issues or request support by contacting our dedicated support team via email, phone, or through our online support portal. Provide a detailed description of the problem, and our experts will assist you promptly.",
   },
   {
     id: 4,
-    questions:
-      "How do I enlist the expertise of a specialized developer from Vadavision?",
+    questions: "Can I Extend the Post-Service Support Period if Needed?",
     answer:
-      "Hiring a specialized developer from Vadavision is easy. Just tell us what you need, check our website for professionals, and interview them. Our friendly support team will help you throughout the process.",
+      " Yes, you can extend the Post-Service Support period by contacting our sales or support team. We offer flexible options to accommodate your ongoing support needs and ensure the continued success of your software.",
   },
   {
     id: 5,
-    questions:
-      "Is Vadavision suitable for startups? How can my early-stage company benefit?",
+    questions: "How Can Post-Service Support Benefit My Business?",
     answer:
-      "We enjoy assisting startups in overcoming their challenges. Opting for Vadavision in your early stages can enhance your growth. We create user-friendly products, attracting more users and making your brand impressive.",
+      "Post-Service Support ensures the longevity and efficiency of your software, reducing downtime, enhancing security, and providing a seamless user experience. It safeguards your investment, allowing your business to focus on growth and innovation.",
   },
 ];
-const GeneralTab = () => {
+const PostService = () => {
   const [openAccordion, setOpenAccordion] = useState(null);
 
   const toggleAccordion = (id) => {
@@ -79,4 +76,4 @@ const GeneralTab = () => {
   );
 };
 
-export default GeneralTab;
+export default PostService;

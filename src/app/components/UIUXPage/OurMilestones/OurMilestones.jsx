@@ -15,7 +15,7 @@ const OurMilestones = () => {
   return (
     <div className="bg-[#111319] py-10 px-40 responsive-width bg-contain">
       <div
-        className="py-10 bg-contain bg-no-repeat"
+        className="py-10 bg-contain bg-no-repeat some-facts"
         style={{ backgroundImage: "url(images/color-dots.png)" }}
       >
         <div
@@ -26,25 +26,26 @@ const OurMilestones = () => {
           MILESTONE
         </div>
         <div className="my-5 mx-auto text-center">
-          <div className="w-6/12 mx-auto" data-aos='zoom-in'>
+          <div className="w-6/12 mx-auto some-facts">
             <h1
               style={{ fontFamily: "Poppins" }}
               className="Montserrat text-[#DD4242] text-4xl font-semibold heading leading-[63px]"
             >
               How About some Fact <br /> Number About us
             </h1>
-            <p className="text-white mt-3 text-base font-normal">
+            {/* <p className="text-white mt-3 text-base font-normal">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmodtempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            </p> */}
           </div>
-          <div data-aos='flip-down' className="w-8/12 mx-auto flex flex-wrap justify-between bg-white py-6 px-10 mt-10 rounded-lg">
+          <div className="w-8/12 mx-auto flex gap-2 flex-wrap justify-between bg-white py-6 px-10 mt-10 rounded-lg some-facts">
             <div className="">
               <span
                 style={{ fontFamily: "Raleway" }}
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
                 {number.SatisfiedClients}
+                {"+"}
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
                 satisfied Client
@@ -56,6 +57,7 @@ const OurMilestones = () => {
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
                 {number.OurTeam}
+                {"+"}
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
                 Our Team
@@ -67,6 +69,7 @@ const OurMilestones = () => {
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
                 {number.Ourclient}
+                {"+"}
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
                 Our Client
@@ -77,7 +80,8 @@ const OurMilestones = () => {
                 style={{ fontFamily: "Raleway" }}
                 className="block text-[#DD4242] Montserrat text-[45px] font-semibold"
               >
-                {number.AwardWinning}
+                {number.FiveStarReviews}
+                {"+"}
               </span>
               <span className="block text-[#959596] Montserrat text-xs font-medium">
                 Awards

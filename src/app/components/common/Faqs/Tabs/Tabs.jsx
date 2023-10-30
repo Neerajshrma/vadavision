@@ -1,9 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import GeneralTab from "./General";
-import Payments from "./Payments";
-import Refund from "./Refund";
-import Contact from "./Contact";
+import PostService from "./PostService";
+import Payment from "./Payment";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -31,17 +30,18 @@ const Tabs = () => {
           General
         </div>
         <div
-          className={`tab ${activeTab === "Payments" ? "active" : ""}`}
-          onClick={() => handleTabClick("Payments")}
+          className={`tab ${activeTab === "Payment" ? "active" : ""}`}
+          onClick={() => handleTabClick("Payment")}
         >
-          Payments
+          Payment
         </div>
         <div
-          className={`tab ${activeTab === "Refund" ? "active" : ""}`}
-          onClick={() => handleTabClick("Refund")}
+          className={`tab ${activeTab === "PostService" ? "active" : ""}`}
+          onClick={() => handleTabClick("PostService")}
         >
-          Refund
+          Post Service Support
         </div>
+
         {/* <div
           className={`tab ${activeTab === "Contact" ? "active" : ""}`}
           onClick={() => handleTabClick("Contact")}
@@ -50,8 +50,8 @@ const Tabs = () => {
         </div> */}
       </div>
       {activeTab === "General" && <GeneralTab />}
-      {activeTab === "Payments" && <Payments />}
-      {activeTab === "Refund" && <Refund />}
+      {activeTab === "Payment" && <Payment />}
+      {activeTab === "PostService" && <PostService />}
       {/* {activeTab === "Contact" && <Contact />} */}
     </div>
   );

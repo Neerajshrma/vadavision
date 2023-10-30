@@ -73,7 +73,7 @@ const WhyChooseUs = () => {
                       </div>
                     </div>
                     <p className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text">
-                      Five Star Reviews
+                      5-Star Reviews
                     </p>
                   </div>
                 </div>
