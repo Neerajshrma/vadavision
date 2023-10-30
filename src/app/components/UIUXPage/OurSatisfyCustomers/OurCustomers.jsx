@@ -9,9 +9,6 @@ const OurCustomers = () => {
         </h2>
       </div>
       <div className="flex justify-center gap-14 items-center mt-5 flex-wrap">
-        <div className="w-44 mt-10">
-          <img src="images/legalhub-logo.png" alt="" />
-        </div>
         <div className="w-60 mt-10">
           <h1 className="p-[2px] px-1.5 border-[6px] text-lg borde-white text-white font-bold">
             STANDARD INSIGHTS
@@ -22,8 +19,8 @@ const OurCustomers = () => {
         </div>{" "}
       </div>
       <div className="flex justify-center gap-14 items-center mt-5 flex-wrap">
-        <div className="w-44 mt-10">
-          <img src="images/legalhub-logo.png" alt="" />
+        <div className="w-28 mt-10">
+          <img src="images/otgc-logo.png" alt="" />
         </div>
         <div className="w-60 mt-10">
           <h1 className="p-[2px] px-1.5 border-[6px] text-lg borde-white text-white font-bold">

@@ -39,32 +39,32 @@ const OurWorkCulture = () => {
           <div className="flex flex-row flex-wrap w-1/2 responsivePerksList">
             <div className="flex items-center py-2">
               <img className="h-5" src="images/check-circle.svg" alt="" />
+              <div className="pl-2 pr-8 font-medium text-white">
+                Team Spirit at Vadavision
+              </div>
+            </div>
+            <div className="flex items-center py-2">
+              <img className="h-5" src="images/check-circle.svg" alt="" />
               <span className="pl-2 pr-8 font-medium text-white">
-                Modern Technologies
+                Creative Freedom
               </span>
             </div>
             <div className="flex items-center py-2">
               <img className="h-5" src="images/check-circle.svg" alt="" />
               <span className="pl-2 pr-8 font-medium text-white">
-                Modern Technologies
+                Remote, Yet Connected
               </span>
             </div>
             <div className="flex items-center py-2">
               <img className="h-5" src="images/check-circle.svg" alt="" />
               <span className="pl-2 pr-8 font-medium text-white">
-                Modern Technologies
+                Flexible Vibes
               </span>
             </div>
             <div className="flex items-center py-2">
               <img className="h-5" src="images/check-circle.svg" alt="" />
               <span className="pl-2 pr-8 font-medium text-white">
-                Modern Technologies
-              </span>
-            </div>
-            <div className="flex items-center py-2">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
-              <span className="pl-2 pr-8 font-medium text-white">
-                Modern Technologies
+                Innovate Your Way
               </span>
             </div>
           </div>

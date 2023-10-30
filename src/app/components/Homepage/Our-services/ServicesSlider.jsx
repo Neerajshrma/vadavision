@@ -83,11 +83,13 @@ const ServicesSlider = () => {
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
                 Web Development
               </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
+              <div>
+                <Link href="/">
+                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                    read more
+                  </button>
+                </Link>
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
@@ -128,11 +130,13 @@ const ServicesSlider = () => {
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
                 Mobile App Development
               </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
+              <div>
+                <Link href="/mobile-hybrid-app-development-agency">
+                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                    read more
+                  </button>
+                </Link>
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
@@ -173,11 +177,13 @@ const ServicesSlider = () => {
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
                 UIUX Design
               </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
+              <div>
+                <Link href="/top-ui-ux-design-agency">
+                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                    read more
+                  </button>
+                </Link>
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
@@ -218,11 +224,13 @@ const ServicesSlider = () => {
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
                 Resource Augmentation
               </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
+              <div>
+                <Link href="/">
+                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                    read more
+                  </button>
+                </Link>
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
@@ -263,11 +271,13 @@ const ServicesSlider = () => {
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
                 CMS Development
               </div>
-              {/* <div>
-                <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
-                  read more
-                </button>
-              </div> */}
+              <div>
+                <Link href="/">
+                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                    read more
+                  </button>
+                </Link>
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>

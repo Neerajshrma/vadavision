@@ -22,6 +22,20 @@ const questionsData = [
     answer:
       "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
   },
+  {
+    id: 4,
+    questions:
+      "How do I enlist the expertise of a specialized developer from Vadavision?",
+    answer:
+      "Hiring a specialized developer from Vadavision is easy. Just tell us what you need, check our website for professionals, and interview them. Our friendly support team will help you throughout the process.",
+  },
+  {
+    id: 5,
+    questions:
+      "Is Vadavision suitable for startups? How can my early-stage company benefit?",
+    answer:
+      "We enjoy assisting startups in overcoming their challenges. Opting for Vadavision in your early stages can enhance your growth. We create user-friendly products, attracting more users and making your brand impressive.",
+  },
 ];
 const GeneralTab = () => {
   const [openAccordion, setOpenAccordion] = useState(null);
