@@ -16,7 +16,7 @@ const IndustriesWeWork = () => {
             Types of Industries We Partner With{" "}
           </h1>
         </div>
-        <div className="w-7/12 mt-4 description">
+        <div className="w-7/12 mt-4 description para-responsive">
           <p className="Montserrat text-[#A9AFC3] text-base leading-[140%] description">
             Explore the Various Industries We Proudly Collaborate and Partner
             With!

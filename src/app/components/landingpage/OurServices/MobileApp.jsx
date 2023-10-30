@@ -16,7 +16,7 @@ const MobileApp = () => {
             Mobile App Development Services
           </h1>
         </div>
-        <div className="w-10/12 mt-4 description">
+        <div className="w-10/12 mt-4 description para-responsive">
           <p className="Montserrat text-[#A9AFC3] text-lg leading-[140%] description">
             We consistently bring our creative ideas to life at the highest
             standards, evident in our portfolio.

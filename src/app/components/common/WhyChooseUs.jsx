@@ -102,8 +102,8 @@ const WhyChooseUs = () => {
                 What Sets Vadavision Apart?
               </h1>
             </div>
-            <div className="mt-5">
-              <p className="Montserrat font-normal text-[#A9AFC3] text-lg leading-[150%] description">
+            <div className="mt-5 para-responsive">
+              <p className="Montserrat font-normal text-[#A9AFC3] text-lg leading-[150%] description ">
                 From raw ideas to polished masterpieces, we sculpt your visions
                 into digital marvels.
               </p>

@@ -19,7 +19,7 @@ const TechStack = () => {
             Tech Stack
           </h1>
         </div>
-        <div className="w-6/12 mt-4 description">
+        <div className="w-6/12 mt-4 description para-responsive">
           <p className="Montserrat text-[#A9AFC3] text-base leading-[140%] description">
             Are you curious about our technologies? {"We're"} eager to provide
             you with useful information about our digital tools and methods that
