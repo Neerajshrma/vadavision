@@ -2,6 +2,9 @@ import { Splide, SplideSlide, SplideArrow } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import React, { useRef, useState, useEffect } from "react";
 import Link from "next/link";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 const ServicesSlider = () => {
   useEffect(() => {
