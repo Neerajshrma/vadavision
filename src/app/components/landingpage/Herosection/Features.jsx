@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Features = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
-    <div className="flex justify-center gap-6 flex-wrap items-center pb-10">
+    <div className="flex justify-center gap-6 flex-wrap items-center pb-10"data-aos='zoom-in'>
       <div className="text-center max-w-[200px]">
         <div className="">
           <svg

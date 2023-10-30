@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../../common/Button";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 const OurServiceses = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
     <div className="text-center responsive-width px-40 py-10">
-      <div className="mt-10 flex gap-3 justify-center items-center">
+      <div className="mt-10 flex gap-3 justify-center items-center"data-aos='zoom-in'>
         <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
         <div
           style={{ fontFamily: "Poppins" }}
@@ -14,7 +24,7 @@ const OurServiceses = () => {
           services
         </div>
       </div>
-      <div className="mt-5">
+      <div className="mt-5"data-aos='zoom-in'>
         <h1 className="text-4xl hero-heading leading-[120%] font-semibold text-[#DD4242]">
           Our UI-UX Design Service
         </h1>
@@ -25,7 +35,7 @@ const OurServiceses = () => {
       </div>
       <div>
         <div className="text-start flex justify-between flex-wrap">
-          <div className="flex gap-4 mt-10 max-w-[430px]">
+          <div className="flex gap-4 mt-10 max-w-[430px]" data-aos='fade-right'>
             <div>
               <svg
                 width="45"
@@ -74,7 +84,7 @@ const OurServiceses = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-10 max-w-[430px]">
+          <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-left'>
             <div>
               <svg
                 width="37"
@@ -171,7 +181,7 @@ const OurServiceses = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-10 max-w-[430px]">
+          <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-right'>
             <div>
               <svg
                 width="45"
@@ -213,7 +223,7 @@ const OurServiceses = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-10 max-w-[430px]">
+          <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-left'>
             <div>
               <svg
                 width="38"
@@ -362,7 +372,7 @@ const OurServiceses = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-10 max-w-[430px]">
+          <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-right'>
             <div>
               <svg
                 width="45"
@@ -432,7 +442,7 @@ const OurServiceses = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-10 max-w-[430px]">
+          <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-left'>
             <div>
               <svg
                 width="45"

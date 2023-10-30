@@ -1,10 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Button from "../../common/Button";
 import Link from "next/link";
 import Modals from "../../common/Modals";
 import RippleEffect from "../../common/RippleEffect";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const ConsultUs = ({ backgroundColor, color }) => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const openModal = () => {
@@ -23,12 +31,12 @@ const ConsultUs = ({ backgroundColor, color }) => {
         <div>
           <h1
             className="text-5xl Montserrat font-bold leading-[130%] w-7/12 mx-auto consult-us-width"
-            style={{ color: color }}
+            style={{ color: color }} data-aos='slide-right'
           >
             Consult with us for your business assistance.{" "}
           </h1>
         </div>
-        <div className="mt-10">
+        <div className="mt-10"data-aos='slide-left'>
             <div className="inline-block" onClick={openModal}>
               <Button
                 fontFamily="Poppins"

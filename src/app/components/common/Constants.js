@@ -9,6 +9,7 @@ const Constants= {
     Ourclient:'80',
     GoogleReview:'18',
     UpworkReview:'30',
+    AwardWinning:'55',
 
 
 };

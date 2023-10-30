@@ -1,11 +1,20 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import GeneralTab from "./General";
 import Payments from "./Payments";
 import Refund from "./Refund";
 import Contact from "./Contact";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Tabs = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   const [activeTab, setActiveTab] = useState("General");
 
   const handleTabClick = (tabName) => {
@@ -13,7 +22,7 @@ const Tabs = () => {
   };
 
   return (
-    <div>
+    <div data-aos="zoom-in">
       <div className="tab-container my-2">
         <div
           className={`tab ${activeTab === "General" ? "active" : ""}`}

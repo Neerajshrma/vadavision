@@ -1,13 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../../common/Button";
 import RippleEffect from "../../common/RippleEffect";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Tweekend = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+        offset: 300,
+        duration: 2000,
+        once: false,
+        easing: 'ease',
+      });
+    }
+  }, []);
   return (
     <div className="min-h-[720px] bg-tweekend py-20 px-10 px-5">
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio bg-contain bg-right"
-        style={{ backgroundImage: "url(images/bg-object.png)" }}
+        style={{ backgroundImage: "url(images/bg-object.png)" }} data-aos='zoom-in'
       >
         <div className="portfolio-img portfolio-tweekend w-[45%] py-14">
           <div className="">

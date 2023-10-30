@@ -1,7 +1,16 @@
 import { Splide, SplideSlide, SplideArrow } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import React, { useRef, useState, useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const ServicesSlider = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   const splideRef = useRef();
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -22,7 +31,7 @@ const ServicesSlider = () => {
   };
   return (
     <div>
-      <div className="pt-10 services-slider relative top-[-20px] right-0">
+      <div className="pt-10 services-slider relative top-[-20px] right-0"data-aos="fade-right" >
         <Splide
           ref={splideRef}
           options={{

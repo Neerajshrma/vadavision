@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BsPlus } from "react-icons/bs";
 import number from "./Constants";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const WhyChooseUs = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
     <>
       <div className="bg-[#111319] w-full py-10 pl-40 pr-36 responsive-width">
@@ -11,7 +19,7 @@ const WhyChooseUs = () => {
             className="bg-cover"
             style={{ backgroundImage: "url(images/bg-object4.png)" }}
           >
-            <div className="flex justify-between gap-6 features items-center pl-20">
+            <div className="flex justify-between gap-6 features items-center pl-20"data-aos="fade-right">
               <div className="">
                 <div className="flex justify-center items-center features-bg features-width w-[170px] h-[170px]">
                   <div className="">
@@ -90,7 +98,7 @@ const WhyChooseUs = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <div className="flex gap-3 items-center">
               <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>
               <div className="uppercase text-sm font-normal leading-[150%] text-[#A9AFC3]">

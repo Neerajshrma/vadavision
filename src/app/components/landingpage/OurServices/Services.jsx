@@ -1,10 +1,18 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const Services = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
     <div className="flex justify-between flex-wrap">
       <div className="flex gap-4 mt-10 max-w-[430px]">
-        <div>
+        <div data-aos='fade-right'>
           <svg
             width="60"
             height="60"
@@ -31,9 +39,9 @@ const Services = () => {
             </g>
           </svg>
         </div>
-        <div>
-          <div>
-            <h2 className="text-[#DD4242] Montserrat text-xl font-bold">
+        <div data-aos='fade-right'>
+          <div >
+            <h2 className="text-[#DD4242] Montserrat text-xl font-bold" >
               Ios Development
             </h2>
           </div>
@@ -46,7 +54,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 mt-10 max-w-[430px]">
+      <div className="flex gap-4 mt-10 max-w-[430px]" data-aos='fade-left'>
         <div>
           <svg
             width="60"
@@ -79,7 +87,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 mt-10 max-w-[430px]">
+      <div className="flex gap-4 mt-10 max-w-[430px]" data-aos='fade-right'>
         <div>
           <svg
             width="60"
@@ -111,7 +119,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 mt-10 max-w-[430px]">
+      <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-left'>
         <div>
           <svg
             width="60"

@@ -1,9 +1,17 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { Splide, SplideSlide, SplideArrow } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import { BsArrowDown, BsArrowUp } from "react-icons/bs";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const SplideSlider = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   const splideRef = useRef();
   const handlePrevClick = () => {
     if (splideRef.current) {
@@ -19,9 +27,9 @@ const SplideSlider = () => {
   return (
     <div
       className="bg-[#141619] bg-center bg-contain bg-no-repeat"
-      style={{ backgroundImage: "url(images/bg-1.png)" }}
+      style={{ backgroundImage: "url(images/bg-1.png)" }} 
     >
-      <div className="relative">
+      <div className="relative" data-aos="slide-up">
         <Splide
           options={{
             rewind: true,

@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MdContentPasteSearch } from "react-icons/md";
 import { TiGroup } from "react-icons/ti";
 import { AiOutlineShop } from "react-icons/ai";
 import { BiSolidShoppingBags } from "react-icons/bi";
 import { LuCalculator } from "react-icons/lu";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 const Industries = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
     <div className="mt-10">
-      <div className="flex flex-wrap gap-8 industries-we-work">
+      <div className="flex flex-wrap gap-8 industries-we-work" data-aos="flip-left">
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
             <div className="text-[#DD4242]">

@@ -1,8 +1,16 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const OurCustomers = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
-    <div className="p-5 mt-20">
+    <div className="p-5 mt-20"data-aos='zoom-in'>
       <div className="text-center responsive-width mobile-width px-40">
         <h2 className="text-4xl text-[#DD4242] font-semibold leading-[63px]">
           Our Satisfied Clients

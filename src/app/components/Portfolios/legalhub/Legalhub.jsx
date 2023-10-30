@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../../common/Button";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const Legalhub = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+        offset: 300,
+        duration: 2000,
+        once: false,
+        easing: 'ease',
+      });
+    }
+  }, []);
   return (
-    <div className="min-h-[720px] bg-[#1E2533] py-20 px-10 px-5">
+    <div className="min-h-[720px] bg-[#1E2533] py-20 px-10 px-5" >
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio	bg-contain bg-right"
-        style={{ backgroundImage: "url(images/bg-object3.png)" }}
+        style={{ backgroundImage: "url(images/bg-object3.png)" }} data-aos='zoom-in'
       >
         <div className="portfolio-img portfolio-legalhub py-14 w-[45%]">
           <div className="">

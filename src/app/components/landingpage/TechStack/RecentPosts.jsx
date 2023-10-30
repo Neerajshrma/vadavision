@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const RecentPosts = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
     <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6">
-      <div className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack">
+      <div className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack"data-aos='flip-right'>
         <div>
           <div className="text-[#DD4242] text-2xl Montserrat font-semibold leading-[110%]">
             React Native
@@ -15,7 +24,7 @@ const RecentPosts = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack">
+      <div className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack"data-aos='flip-down'>
         <div>
           <div className="text-[#DD4242] text-2xl Montserrat font-semibold leading-[110%]">
             Flutter
@@ -27,7 +36,7 @@ const RecentPosts = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack">
+      <div className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack"data-aos='flip-left'>
         <div>
           <div className="text-[#DD4242] text-2xl Montserrat font-semibold leading-[110%]">
             Hybrid Apps

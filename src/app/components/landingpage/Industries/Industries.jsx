@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HiArrowRight } from "react-icons/hi";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 const Industries = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
     <div className="mt-10">
       <div className="flex flex-wrap justify-between items-center">
         <div className="py-5 industries-width min-w-[180px]">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2"data-aos='fade-left'>
             <div>
               <svg
                 width="30"
@@ -37,7 +47,7 @@ const Industries = () => {
           </div>
         </div>
         <div className="py-5 industries-width min-w-[180px]">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2"data-aos='fade-left'>
             <div>
               <svg
                 width="34"
@@ -67,7 +77,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]">
+        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-left'>
           <div className="flex items-center gap-2">
             <div>
               <svg
@@ -102,7 +112,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]">
+        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-right'>
           <div className="flex items-center gap-2">
             <div>
               <svg
@@ -127,7 +137,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]">
+        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-right'>
           <div className="flex items-center gap-2">
             <div>
               <svg
@@ -158,7 +168,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]">
+        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-right'>
           <div className="flex items-center gap-2">
             <div>
               <svg

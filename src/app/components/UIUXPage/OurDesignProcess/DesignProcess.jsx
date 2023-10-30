@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const DesignProcess = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
     <div className="responsive-width px-40 py-10 pb-16">
-      <div className="mt-10 flex gap-3 items-center">
+      <div className="mt-10 flex gap-3 items-center" data-aos='zoom-in'>
         <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
         <div
           style={{ fontFamily: "Poppins" }}
@@ -12,7 +21,7 @@ const DesignProcess = () => {
           Process
         </div>
       </div>
-      <div className="mt-5">
+      <div className="mt-5"data-aos='zoom-in'>
         <h1 className="text-5xl hero-heading leading-[120%] font-bold text-white">
           Our UI/UX Design Methodology
         </h1>
@@ -21,7 +30,7 @@ const DesignProcess = () => {
           that delight and simplify user experiences for everyone.
         </p>
       </div>
-      <div className="mt-3 flex flex-col space-y-6 hidden display-show">
+      <div className="mt-3 flex flex-col space-y-6 hidden display-show" data-aos='zoom-in'>
         <div>
           <div className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
@@ -561,7 +570,7 @@ const DesignProcess = () => {
           </div>
         </div>
       </div>
-      <div className="mt-10 hide-data">
+      <div className="mt-10 hide-data" data-aos='zoom-in'>
         <div className="flex items-center justify-between">
           <div className="flex items-center w-[85%] design-process-content">
             <div className="bg-white font-medium text-base p-4 h-[80px]">

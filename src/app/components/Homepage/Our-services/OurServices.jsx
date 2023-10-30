@@ -1,12 +1,22 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import ServicesSlider from "./ServicesSlider";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 const OurServices = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
-    <div className="bg-[#141619] w-full py-10 px-40 responsive-width">
-      <div className="mt-10 relative">
+    <div className="bg-[#141619] w-full py-10 px-40 responsive-width " >
+      <div className="mt-10 relative"data-aos="fade-right">
         <div className="flex gap-3 items-center">
           <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>
           <div className="Montserrat text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]">

@@ -1,8 +1,17 @@
 import { Poppins, Raleway } from "next/font/google";
-import React from "react";
+import React, { useEffect } from "react";
 import number from "../../common/Constants";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const OurMilestones = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
     <div className="bg-[#111319] py-10 px-40 responsive-width bg-contain">
       <div
@@ -10,13 +19,14 @@ const OurMilestones = () => {
         style={{ backgroundImage: "url(images/color-dots.png)" }}
       >
         <div
+        data-aos='zoom-in'
           style={{ fontFamily: "Poppins" }}
           className="mt-10 text-center creative-idea text-sm uppercase font-normal leading-[150%] text-white"
         >
           MILESTONE
         </div>
         <div className="my-5 mx-auto text-center">
-          <div className="w-6/12 mx-auto">
+          <div className="w-6/12 mx-auto" data-aos='zoom-in'>
             <h1
               style={{ fontFamily: "Poppins" }}
               className="Montserrat text-[#DD4242] text-4xl font-semibold heading leading-[63px]"
@@ -28,7 +38,7 @@ const OurMilestones = () => {
               eiusmodtempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div className="w-8/12 mx-auto flex flex-wrap justify-between bg-white py-6 px-10 mt-10 rounded-lg">
+          <div data-aos='flip-down' className="w-8/12 mx-auto flex flex-wrap justify-between bg-white py-6 px-10 mt-10 rounded-lg">
             <div className="">
               <span
                 style={{ fontFamily: "Raleway" }}
