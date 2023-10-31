@@ -7,7 +7,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
           <link rel="icon" href="/images/favicon.ico" sizes="any" />
-          <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Marck+Script:400" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Marck+Script:400&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
