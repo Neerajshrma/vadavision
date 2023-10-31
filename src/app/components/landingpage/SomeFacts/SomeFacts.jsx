@@ -8,7 +8,7 @@ const SomeFacts = () => {
     if (typeof document !== "undefined") {
       AOS.init({
         offset: 300,
-        duration: 500,
+        duration: 1000,
         once: true,
         easing: "ease",
       });
@@ -20,17 +20,17 @@ const SomeFacts = () => {
       style={{ backgroundImage: "url(images/bg-object6.png)" }}
     >
       <div className="my-5 mx-auto w-7/12 min-w-[300px] text-center">
-        <div data-aos="fade-right">
+        <div data-aos='fade-up'>
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[63px]">
             Learn interesting facts and numbers about us.{" "}
           </h1>
         </div>
-        <div className="flex justify-between" data-aos="fade-right">
+        <div className="flex justify-between" data-aos="fade-up">
           <div className="mt-10">
             <span className="block text-[#DD4242] Montserrat text-3xl font-bold">
               {number.ProjectComplete} {"+"}
             </span>
-            <span className="block text-[#DD4242] Montserrat text-xl font-medium">
+            <span data-aos='fade-up' className="block text-[#DD4242] Montserrat text-xl font-medium">
               Project Complete
             </span>
           </div>
@@ -38,7 +38,7 @@ const SomeFacts = () => {
             <span className="block text-white Montserrat text-3xl font-bold">
               {number.OurTeam} {"+"}
             </span>
-            <span className="block text-white Montserrat text-xl font-medium">
+            <span data-aos='fade-up' className="block text-white Montserrat text-xl font-medium">
               Our Team
             </span>
           </div>
@@ -46,7 +46,7 @@ const SomeFacts = () => {
             <span className="block text-white Montserrat text-3xl font-bold">
               {number.Ourclient} {"+"}
             </span>
-            <span className="block text-white Montserrat text-xl font-medium">
+            <span data-aos='fade-up' className="block text-white Montserrat text-xl font-medium">
               Our client
             </span>
           </div>

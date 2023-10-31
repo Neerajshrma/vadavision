@@ -9,7 +9,7 @@ const Industries = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 500,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
@@ -19,8 +19,8 @@ const Industries = () => {
     <div className="mt-10">
       <div className="flex flex-wrap justify-between items-center">
         <div className="py-5 industries-width min-w-[180px]">
-          <div className="flex items-center gap-2"data-aos='fade-right'>
-            <div>
+          <div className="flex items-center gap-2">
+            <div data-aos='fade-up'>
               <svg
                 width="30"
                 height="30"
@@ -43,15 +43,15 @@ const Industries = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-2xl">
+              <h1 data-aos='fade-up' className="text-white font-semibold leading-[54px] text-2xl">
                 Sales
               </h1>
             </div>
           </div>
         </div>
         <div className="py-5 industries-width min-w-[180px]">
-          <div className="flex items-center gap-2"data-aos='fade-right'>
-            <div>
+          <div className="flex items-center gap-2">
+            <div data-aos='fade-up'>
               <svg
                 width="34"
                 height="28"
@@ -74,14 +74,14 @@ const Industries = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-2xl">
+              <h1 data-aos='fade-up' className="text-white font-semibold leading-[54px] text-2xl">
                 Marketing
               </h1>
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-right'>
-          <div className="flex items-center gap-2">
+        <div className="py-5 industries-width min-w-[180px]">
+          <div data-aos='fade-up' className="flex items-center gap-2">
             <div>
               <svg
                 width="28"
@@ -109,14 +109,14 @@ const Industries = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-2xl">
+              <h1 data-aos='fade-up' className="text-white font-semibold leading-[54px] text-2xl">
                 Sales
               </h1>
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-right'>
-          <div className="flex items-center gap-2">
+        <div className="py-5 industries-width min-w-[180px]">
+          <div data-aos='fade-up' className="flex items-center gap-2">
             <div>
               <svg
                 width="34"
@@ -134,14 +134,14 @@ const Industries = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-2xl">
+              <h1 data-aos='fade-up' className="text-white font-semibold leading-[54px] text-2xl">
                 IT
               </h1>
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-right'>
-          <div className="flex items-center gap-2">
+        <div className="py-5 industries-width min-w-[180px]">
+          <div data-aos='fade-up' className="flex items-center gap-2">
             <div>
               <svg
                 width="34"
@@ -165,14 +165,14 @@ const Industries = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-2xl">
+              <h1 data-aos='fade-up' className="text-white font-semibold leading-[54px] text-2xl">
                 Management
               </h1>
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-right'>
-          <div className="flex items-center gap-2">
+        <div className="py-5 industries-width min-w-[180px]">
+          <div data-aos='fade-up' className="flex items-center gap-2">
             <div>
               <svg
                 width="32"
@@ -196,7 +196,7 @@ const Industries = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-2xl">
+              <h1 data-aos='fade-up' className="text-white font-semibold leading-[54px] text-2xl">
                 Finance
               </h1>
             </div>

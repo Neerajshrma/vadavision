@@ -8,7 +8,7 @@ const FrequentlyAksedQuestions = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 500,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
@@ -16,7 +16,7 @@ const FrequentlyAksedQuestions = () => {
   }, []);
   return (
     <div className="py-10 px-40 responsive-width">
-      <div className="text-center" data-aos='fade-right'>
+      <div className="text-center" data-aos='fade-up'>
         <h1 className="text-center Montserrat capitalize text-white text-4xl font-bold leading-[110%] heading">
           Frequently Asked Questions
         </h1>
@@ -24,7 +24,7 @@ const FrequentlyAksedQuestions = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         </p> */}
       </div>
-      <div className="accordion faq-accordian-width mx-auto" data-aos='fade-right'>
+      <div className="accordion faq-accordian-width mx-auto" data-aos='fade-up' >
         <Accordion />
       </div>
     </div>

@@ -33,7 +33,7 @@ const Accordion = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 500,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
@@ -50,19 +50,19 @@ const Accordion = () => {
   };
 
   return (
-    <div className="pb-10 pt-5 mt-" data-aos='fade-right'>
-      <div className="w-full">
+    <div className="pb-10 pt-5 mt-" >
+      <div className="w-full"data-aos='fade-up'>
         {questionsData.map((item) => (
-          <div key={item.id} className="accordion-item">
+          <div data-aos='fade-up' key={item.id} className="accordion-item">
             <div
               className="accordion-header"
               onClick={() => toggleAccordion(item.id)}
             >
               <div className="flex gap-2 justify-between accordion-title">
-                <div className="Montserrat text-[#CFD3D7] text-sm leading-[24px] font-normal">
+                <div data-aos='fade-up' className="Montserrat text-[#CFD3D7] text-sm leading-[24px] font-normal">
                   {item.questions}{" "}
                 </div>
-                <div className="accordion-icon">
+                <div data-aos='fade-up' className="accordion-icon">
                   {openAccordion === item.id ? (
                     <RiCloseLine size={18} color="#A2A9B0" />
                   ) : (
@@ -72,7 +72,7 @@ const Accordion = () => {
               </div>
             </div>
             {openAccordion === item.id && (
-              <div className="text-sm accordion-content">{item.answer}</div>
+              <div data-aos='fade-up' className="text-sm accordion-content">{item.answer}</div>
             )}
           </div>
         ))}
