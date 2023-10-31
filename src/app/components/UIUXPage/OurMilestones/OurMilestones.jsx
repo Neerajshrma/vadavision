@@ -7,26 +7,29 @@ import 'aos/dist/aos.css';
 const OurMilestones = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
-      AOS.init({
+      AOS.init({offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
 
       });
     }
   }, []);
   return (
     <div className="bg-[#111319] py-10 px-40 responsive-width bg-contain">
-      <div
+      <div data-aos='fade-right'
         className="py-10 bg-contain bg-no-repeat some-facts"
         style={{ backgroundImage: "url(images/color-dots.png)" }}
       >
         <div
-        data-aos='zoom-in'
+      
           style={{ fontFamily: "Poppins" }}
           className="mt-10 text-center creative-idea text-sm uppercase font-normal leading-[150%] text-white"
         >
           MILESTONE
         </div>
         <div className="my-5 mx-auto text-center">
-          <div className="w-6/12 mx-auto some-facts"     data-aos='zoom-in'>
+          <div className="w-6/12 mx-auto some-facts"     >
             <h1
               style={{ fontFamily: "Poppins" }}
               className="Montserrat text-[#DD4242] text-4xl font-semibold heading leading-[63px]"
