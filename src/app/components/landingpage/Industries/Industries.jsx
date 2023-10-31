@@ -16,7 +16,7 @@ const Industries = () => {
     <div className="mt-10">
       <div className="flex flex-wrap justify-between items-center">
         <div className="py-5 industries-width min-w-[180px]">
-          <div className="flex items-center gap-2"data-aos='fade-left'>
+          <div className="flex items-center gap-2"data-aos='zoom-in'>
             <div>
               <svg
                 width="30"
@@ -47,7 +47,7 @@ const Industries = () => {
           </div>
         </div>
         <div className="py-5 industries-width min-w-[180px]">
-          <div className="flex items-center gap-2"data-aos='fade-left'>
+          <div className="flex items-center gap-2"data-aos='zoom-in'>
             <div>
               <svg
                 width="34"
@@ -77,7 +77,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-left'>
+        <div className="py-5 industries-width min-w-[180px]"data-aos='zoom-in'>
           <div className="flex items-center gap-2">
             <div>
               <svg
@@ -112,7 +112,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-right'>
+        <div className="py-5 industries-width min-w-[180px]"data-aos='zoom-in'>
           <div className="flex items-center gap-2">
             <div>
               <svg
@@ -137,7 +137,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-right'>
+        <div className="py-5 industries-width min-w-[180px]"data-aos='zoom-in'>
           <div className="flex items-center gap-2">
             <div>
               <svg
@@ -168,7 +168,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="py-5 industries-width min-w-[180px]"data-aos='fade-right'>
+        <div className="py-5 industries-width min-w-[180px]"data-aos='zoom-in'>
           <div className="flex items-center gap-2">
             <div>
               <svg

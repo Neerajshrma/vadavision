@@ -34,8 +34,8 @@ const OurServiceses = () => {
         </p>
       </div>
       <div>
-        <div className="text-start flex justify-between flex-wrap">
-          <div className="flex gap-4 mt-10 max-w-[430px]" data-aos='fade-right'>
+        <div className="text-start flex justify-between flex-wrap"data-aos='zoom-in'>
+          <div className="flex gap-4 mt-10 max-w-[430px]" >
             <div>
               <svg
                 width="45"
@@ -84,7 +84,7 @@ const OurServiceses = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-left'>
+          <div className="flex gap-4 mt-10 max-w-[430px]">
             <div>
               <svg
                 width="37"
@@ -181,7 +181,7 @@ const OurServiceses = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-right'>
+          <div className="flex gap-4 mt-10 max-w-[430px]">
             <div>
               <svg
                 width="45"
@@ -223,7 +223,7 @@ const OurServiceses = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-left'>
+          <div className="flex gap-4 mt-10 max-w-[430px]">
             <div>
               <svg
                 width="38"
@@ -372,7 +372,7 @@ const OurServiceses = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-right'>
+          <div className="flex gap-4 mt-10 max-w-[430px]">
             <div>
               <svg
                 width="45"
@@ -442,7 +442,7 @@ const OurServiceses = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-left'>
+          <div className="flex gap-4 mt-10 max-w-[430px]">
             <div>
               <svg
                 width="45"

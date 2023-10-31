@@ -10,9 +10,9 @@ const Services = () => {
     }
   }, []);
   return (
-    <div className="flex justify-between flex-wrap">
+    <div className="flex justify-between flex-wrap"data-aos='zoom-in'>
       <div className="flex gap-4 mt-10 max-w-[430px]">
-        <div data-aos='fade-right'>
+        <div >
           <svg
             width="60"
             height="60"
@@ -39,7 +39,7 @@ const Services = () => {
             </g>
           </svg>
         </div>
-        <div data-aos='fade-right'>
+        <div >
           <div >
             <h2 className="text-[#DD4242] Montserrat text-xl font-bold" >
               Ios Development
@@ -54,7 +54,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 mt-10 max-w-[430px]" data-aos='fade-left'>
+      <div className="flex gap-4 mt-10 max-w-[430px]" >
         <div>
           <svg
             width="60"
@@ -87,7 +87,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 mt-10 max-w-[430px]" data-aos='fade-right'>
+      <div className="flex gap-4 mt-10 max-w-[430px]" >
         <div>
           <svg
             width="60"
@@ -119,7 +119,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 mt-10 max-w-[430px]"data-aos='fade-left'>
+      <div className="flex gap-4 mt-10 max-w-[430px]">
         <div>
           <svg
             width="60"

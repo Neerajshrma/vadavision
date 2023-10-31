@@ -30,7 +30,7 @@ const ConsultWithUs = () => {
             Consult with us for your business assistance.{" "}
           </h1>
         </div>
-        <div className="w-4/12 full-width-responsive"data-aos="slide-left">
+        <div className="w-4/12 full-width-responsive" data-aos='fade-right'>
           <div className="flex border-l border-[#DD4242] consult-btn">
             <div className="border-l-2 border-[#DD4242] h-14 consult-btn"></div>
             <p className="Montserrat font-medium leading-[22px] pl-8 consult-btn text-basi text-white description">

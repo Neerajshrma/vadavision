@@ -31,12 +31,12 @@ const ConsultUs = ({ backgroundColor, color }) => {
         <div>
           <h1
             className="text-5xl Montserrat font-bold leading-[130%] w-7/12 mx-auto consult-us-width"
-            style={{ color: color }} data-aos='slide-right'
+            style={{ color: color }} data-aos='zoom-in'
           >
             Consult with us for your business assistance.{" "}
           </h1>
         </div>
-        <div className="mt-10"data-aos='slide-left'>
+        <div className="mt-10"data-aos='zoom-in'>
             <div className="inline-block" onClick={openModal}>
               <Button
                 fontFamily="Poppins"

@@ -33,10 +33,10 @@ const Portfolio = () => {
           </p>
         </div>
       </div>
-      <div data-aos='fade-right'>
+      <div data-aos='zoom-in'>
         <StandardInsights  />
       </div>
-      <div data-aos='fade-left'>
+      <div data-aos='zoom-in'>
         <StandardInsights />
       </div>
     </div>
