@@ -2,10 +2,10 @@ import React from "react";
 import { SiGooglemeet } from "react-icons/si";
 import { MdOutlineWatchLater } from "react-icons/md";
 
-const Calender = ({ justifyContent }) => {
+const Calender = ({ justifyContent, height }) => {
   return (
     <div>
-      <div className="flex  mt-2" style={{ justifyContent: justifyContent }}>
+      <div className="flex mt-2" style={{ justifyContent: justifyContent }}>
         <div className="text-center calender">
           <div className="w-16 mx-auto rounded-full">
             <img
@@ -28,7 +28,7 @@ const Calender = ({ justifyContent }) => {
             </span>
             <span className="text-sm font-medium calender">30 mins</span>
 
-            <span >
+            <span>
               <SiGooglemeet size={19} />
             </span>
             <span className="text-sm font-medium calender">Google meet</span>

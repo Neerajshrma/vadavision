@@ -7,7 +7,6 @@ import PopUp from "../../common/PopUp";
 import Calender from "../../common/Calender";
 
 const HeroSection = () => {
-
   return (
     <>
       <div className="flex flex-wrap px-40 responsive-width mobile-width mt-2">
@@ -63,12 +62,12 @@ const HeroSection = () => {
           <div className="flex justify-center">
             <Calender />
           </div>
-          <div className="mt-2">
+          <div className="mt-2 h-[600px]">
             <PopUp minWidth="100%" />
           </div>
         </div>
       </div>
-      <div className="mt-20 mx-auto">
+      <div className="mt-10 mx-auto">
         <Features />
       </div>
     </>
