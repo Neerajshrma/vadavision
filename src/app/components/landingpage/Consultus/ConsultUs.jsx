@@ -9,7 +9,10 @@ const ConsultUs = ({ backgroundColor, color }) => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
       });
     }
   }, []);
@@ -31,12 +34,12 @@ const ConsultUs = ({ backgroundColor, color }) => {
         <div>
           <h1
             className="text-5xl Montserrat font-bold leading-[130%] w-7/12 mx-auto consult-us-width"
-            style={{ color: color }} data-aos='zoom-in'
+            style={{ color: color }} data-aos='fade-right'
           >
             Consult with us for your business assistance.{" "}
           </h1>
         </div>
-        <div className="mt-10"data-aos='zoom-in'>
+        <div className="mt-10"data-aos='fade-right'>
             <div className="inline-block" onClick={openModal}>
               <Button
                 fontFamily="Poppins"

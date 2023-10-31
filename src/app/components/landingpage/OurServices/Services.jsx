@@ -5,12 +5,16 @@ const Services = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
 
       });
     }
   }, []);
   return (
-    <div className="flex justify-between flex-wrap"data-aos='zoom-in'>
+    <div className="flex justify-between flex-wrap"data-aos='fade-right'>
       <div className="flex gap-4 mt-10 max-w-[430px]">
         <div >
           <svg

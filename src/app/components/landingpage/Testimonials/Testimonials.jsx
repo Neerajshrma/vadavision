@@ -1,9 +1,21 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { Splide, SplideSlide, SplideArrow } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import { BsArrowDown, BsArrowUp } from "react-icons/bs";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const SplideSlider = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
+      });
+    }
+  }, []);
   const splideRef = useRef();
   const handlePrevClick = () => {
     if (splideRef.current) {
@@ -22,7 +34,7 @@ const SplideSlider = () => {
       style={{ backgroundImage: "url(images/slider.png)" }}
     >
       <div className="text-center text-5xl">
-        <p className="text-center testimonials-heading">
+        <p className="text-center testimonials-heading" data-aos='fade-right'>
           What Clients Say About Us
         </p>
       </div>{" "}
@@ -41,17 +53,17 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
-                <div className="w-1/3 mob-testimonials-img">
+                <div className="w-1/3 mob-testimonials-img"data-aos="slide-up">
                   <img className="w-full" src="images/client-img.png" alt="" />
                 </div>
-                <div className="w-2/3 mob-testimonials-content">
-                  <div
+                <div className="w-2/3 mob-testimonials-content" >
+                  <div data-aos="slide-up"
                     style={{ fontFamily: "Montserrat" }}
                     className="text-[#141414] text-2xl font-bold testimonials-heading"
                   >
                     Very Excellent !!
                   </div>
-                  <div>
+                  <div data-aos="slide-up">
                     <p
                       style={{ fontFamily: "Montserrat" }}
                       className="mob-testimonial-content text-black font-normal text-lg leading-[45px]"
@@ -70,9 +82,9 @@ const SplideSlider = () => {
                         alt=""
                       />
                     </div>
-                    <div className="text-black font-semibold mt-5 text-base testimonial-content">
+                    <div data-aos="slide-up" className="text-black font-semibold mt-5 text-base testimonial-content">
                       Robertsen Andrew
-                      <div className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
+                      <div  data-aos="slide-up" className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
                         Business Director at Wax Inc
                       </div>
                     </div>
@@ -84,17 +96,17 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
-                <div className="w-1/3 mob-testimonials-img">
+                <div className="w-1/3 mob-testimonials-img"data-aos="slide-up">
                   <img className="w-full" src="images/client-img.png" alt="" />
                 </div>
                 <div className="w-2/3 mob-testimonials-content">
-                  <div
+                  <div data-aos="slide-up"
                     style={{ fontFamily: "Montserrat" }}
                     className="text-[#141414] text-2xl font-bold testimonials-heading"
                   >
                     Very Excellent !!
                   </div>
-                  <div>
+                  <div data-aos="slide-up">
                     <p
                       style={{ fontFamily: "Montserrat" }}
                       className="mob-testimonial-content text-black font-normal text-lg leading-[56px]"
@@ -106,16 +118,16 @@ const SplideSlider = () => {
                     </p>
                   </div>
                   <div className="flex gap-2 items-center mob-testimonials-profile">
-                    <div className="w-10 mt-3 mob-testimonials-img2 hidden">
+                    <div className="w-10 mt-3 mob-testimonials-img2 hidden"data-aos="slide-up">
                       <img
                         className="w-full"
                         src="images/client-img.png"
                         alt=""
                       />
                     </div>
-                    <div className="text-black font-semibold mt-5 text-base testimonial-content">
+                    <div data-aos="slide-up" className="text-black font-semibold mt-5 text-base testimonial-content">
                       Robertsen Andrew
-                      <div className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
+                      <div data-aos="slide-up" className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
                         Business Director at Wax Inc
                       </div>
                     </div>

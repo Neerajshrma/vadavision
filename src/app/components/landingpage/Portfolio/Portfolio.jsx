@@ -8,13 +8,16 @@ const Portfolio = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
       });
     }
   }, []);
   return (
     <div className="bg-[#111319] py-10 px-40 responsive-width bg-contain">
-      <div className=""data-aos='zoom-in'>
+      <div className=""data-aos='fade-right'>
         <div className="flex gap-3 items-center">
           <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>
           <div className="uppercase Montserrat text-sm font-normal leading-[150%] text-[#A9AFC3] ">
@@ -33,10 +36,10 @@ const Portfolio = () => {
           </p>
         </div>
       </div>
-      <div data-aos='zoom-in'>
+      <div data-aos='fade-right'>
         <StandardInsights  />
       </div>
-      <div data-aos='zoom-in'>
+      <div data-aos='fade-right'>
         <StandardInsights />
       </div>
     </div>

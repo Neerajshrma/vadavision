@@ -7,7 +7,10 @@ const SomeFacts = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
       });
     }
   }, []);
@@ -17,12 +20,12 @@ const SomeFacts = () => {
       style={{ backgroundImage: "url(images/bg-object6.png)" }}
     >
       <div className="my-5 mx-auto w-7/12 min-w-[300px] text-center">
-        <div data-aos='zoom-in'>
+        <div data-aos='fade-right'>
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[63px]">
             Learn interesting facts and numbers about us.{" "}
           </h1>
         </div>
-        <div className="flex justify-between"data-aos='flip-down'>
+        <div className="flex justify-between"data-aos='fade-right'>
           <div className="mt-10">
             <span className="block text-[#DD4242] Montserrat text-3xl font-bold">
               {number.ProjectComplete}
