@@ -1,9 +1,20 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Perks = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
+      });
+    }
+  }, []);
   return (
     <>
-      <div className="px-40 responsive-width">
+      <div className="px-40 responsive-width"data-aos='fade-right'>
         <div
           style={{ fontFamily: "Montserrat" }}
           className="responsive-width pb-4"

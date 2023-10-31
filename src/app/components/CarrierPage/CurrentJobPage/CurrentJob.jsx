@@ -1,11 +1,23 @@
 "use client";
 import Script from "next/script";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const CurrentJob = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
+      });
+    }
+  }, []);
   return (
     <>
-      <div className="responsive-width mobile-width px-40">
+      <div className="responsive-width mobile-width px-40"data-aos='fade-right'>
         <div
           style={{ fontFamily: "Montserrat" }}
           className="responsive-width pb-4"
