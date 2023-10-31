@@ -7,7 +7,7 @@ const Calender = ({ justifyContent, height }) => {
     <div>
       <div
         className="flex  mt-2"
-        style={{ justifyContent: justifyContent, height: { height } }}
+        style={{ justifyContent: justifyContent, height: height }}
       >
         <div className="text-center calender">
           <div className="w-16 mx-auto rounded-full">
