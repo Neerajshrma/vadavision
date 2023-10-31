@@ -6,7 +6,7 @@ const DesignProcess = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
+        offset: 0,
         duration: 1000,
         once: true,
         easing: 'ease',
@@ -18,22 +18,23 @@ const DesignProcess = () => {
       <div className="mt-10 flex gap-3 items-center" >
         <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
         <div
+        data-aos='fade-up'
           style={{ fontFamily: "Poppins" }}
           className="creative-idea text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
         >
           Process
         </div>
       </div>
-      <div className="mt-5"data-aos='zoom-in'>
-        <h1 className="text-5xl hero-heading leading-[120%] font-bold text-white">
+      <div className="mt-5">
+        <h1  data-aos='fade-up' className="text-5xl hero-heading leading-[120%] font-bold text-white">
           Our UI/UX Design Methodology
         </h1>
-        <p className="mt-5 text-[#A9AFC3] font-normal text-base leading-[40px]">
+        <p  data-aos='fade-up' className="mt-5 text-[#A9AFC3] font-normal text-base leading-[40px]">
           At Vadavision, we tirelessly refine creative ideas, crafting websites
           that delight and simplify user experiences for everyone.
         </p>
       </div>
-      <div className="mt-3 flex flex-col space-y-6 hidden display-show" data-aos='zoom-in'>
+      <div className="mt-3 flex flex-col space-y-6 hidden display-show"  >
         <div>
           <div className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
@@ -141,7 +142,7 @@ const DesignProcess = () => {
             sure our designs match your business goals and what your users want.
           </div>
         </div>
-        <div>
+        <div  data-aos='fade-up'>
           <div className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
               width="45"
@@ -240,10 +241,10 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div className="text-xl flex flex-wrap text-white bg-[#005CE5] font-extrabold p-4 flex items-center justify-center">
+          <div  data-aos='fade-up'className="text-xl flex flex-wrap text-white bg-[#005CE5] font-extrabold p-4 flex items-center justify-center">
             User Research
           </div>
-          <div className="bg-white font-medium flex-wrap text-base p-4 ">
+          <div  data-aos='fade-up' className="bg-white font-medium flex-wrap text-base p-4 ">
             At Vadavision, we deeply understand your audience, customizing
             designs to perfectly match their distinct needs and preferences.
           </div>
@@ -347,10 +348,10 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div className="text-xl flex flex-wrap text-white bg-[#6E00E4] font-extrabold p-4 flex items-center justify-center">
+          <div  data-aos='fade-up'className="text-xl flex flex-wrap text-white bg-[#6E00E4] font-extrabold p-4 flex items-center justify-center">
             Analysis & Planning
           </div>
-          <div className="bg-white font-medium flex-wrap text-base p-4 ">
+          <div  data-aos='fade-up'className="bg-white font-medium flex-wrap text-base p-4 ">
             Vadavision analyzes data and plans interfaces, ensuring seamless
             user experiences through strategic layout and design.
           </div>{" "}
@@ -573,7 +574,7 @@ const DesignProcess = () => {
           </div>
         </div>
       </div>
-      <div className="mt-10 hide-data" data-aos='zoom-in'>
+      <div className="mt-10 hide-data"  data-aos='fade-up'>
         <div className="flex items-center justify-between">
           <div className="flex items-center w-[85%] design-process-content">
             <div className="bg-white font-medium text-base p-4 h-[80px]">
