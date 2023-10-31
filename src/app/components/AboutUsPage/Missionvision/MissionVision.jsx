@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const MissionVision = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
     <>
       <div
         style={{ fontFamily: "Montserrat" }}
         className="px-40 responsive-width mobile-width pt-10 "
       >
-        <div className="margin-res">
+        <div className="margin-res" data-aos='flip-down'>
           <h1 className="text-4xl text-[#DD4242] font-semibold">Mision</h1>
           <p className="pt-4 pb-10 text-white text-[14px] leading-[28px]">
             At Vadavision, making clients happy and helping our team grow are
@@ -24,7 +33,7 @@ const MissionVision = () => {
         style={{ fontFamily: "Montserrat" }}
         className="px-40 responsive-width mobile-width pt-10 "
       >
-        <div className="margin-res">
+        <div className="margin-res"data-aos='flip-up'>
           <h1 className="text-4xl text-[#DD4242] font-semibold">Vision</h1>
           <p className="pt-4 pb-10 text-white text-[14px] leading-[28px]">
             At Vadavision, dreams are our starting point. {"It's"} a place where
@@ -41,7 +50,7 @@ const MissionVision = () => {
         style={{ fontFamily: "Montserrat" }}
         className="px-40 responsive-width mobile-width pt-10 "
       >
-        <div className="margin-res">
+        <div className="margin-res" data-aos='flip-down'>
           <h1 className="text-4xl text-[#DD4242] font-semibold">
             Work Culture at Vadavision
           </h1>

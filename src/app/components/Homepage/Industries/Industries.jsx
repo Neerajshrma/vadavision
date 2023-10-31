@@ -12,13 +12,16 @@ const Industries = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
       });
     }
   }, []);
   return (
-    <div className="mt-10">
-      <div className="flex flex-wrap gap-8 industries-we-work" data-aos="flip-left">
+    <div className="mt-10"data-aos='fade-right'>
+      <div className="flex flex-wrap gap-8 industries-we-work" >
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
             <div className="text-[#DD4242]">

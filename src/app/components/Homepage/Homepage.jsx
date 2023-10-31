@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import HeroSection from "./HeroSection/HeroSection";
 import OurServices from "./Our-services/OurServices";
@@ -15,7 +15,19 @@ import Tabs from "../common/Faqs/Tabs/Tabs";
 import SplideSlider from "../Splide/SplideSlider";
 import Accordion from "./Faq"
 import WhyChooseUs from "../common/WhyChooseUs";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const Homepage = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
+      });
+    }
+  }, []);
   return (
     <div>
       <Head>
@@ -84,7 +96,7 @@ const Homepage = () => {
       </div>
       {/* consult with us end */}
       <div className="bg-[#141619] py-10 px-40 responsive-width">
-        <div className="w-1/2">
+        <div className="w-1/2"data-aos='fade-right'>
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
             Frequently Asked Questions
           </h1>

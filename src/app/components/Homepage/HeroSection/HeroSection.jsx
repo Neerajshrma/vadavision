@@ -1,15 +1,17 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Button from "../../common/Button";
 import RecognizedBy from "./RecognizedBy";
 import Link from "next/link";
 import RippleEffect from "../../common/RippleEffect";
 import { ModalContext } from "../../hooks/modalContext";
 
+
 const HeroSection = () => {
+
   let { modalOpen } = useContext(ModalContext);
 
   return (
-    <div className="flex items-center px-40 responsive-width mobile-width mt-2 mb-6">
+    <div className="flex items-center px-40 responsive-width mobile-width mt-2 mb-6" >
       <div
         style={{ fontFamily: "Montserrat" }}
         className="w-8/12 hero-section "

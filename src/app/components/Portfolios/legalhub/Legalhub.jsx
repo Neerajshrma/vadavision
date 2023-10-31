@@ -7,8 +7,8 @@ const Legalhub = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 2000,
-        once: false,
+        duration: 500,
+        once: true,
         easing: 'ease',
       });
     }
@@ -17,7 +17,7 @@ const Legalhub = () => {
     <div className="min-h-[720px] bg-[#1E2533] py-20 px-10 px-5" >
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio	bg-contain bg-right"
-        style={{ backgroundImage: "url(images/bg-object3.png)" }} data-aos='zoom-in'
+        style={{ backgroundImage: "url(images/bg-object3.png)" }} data-aos='fade-right'
       >
         <div className="portfolio-img portfolio-legalhub py-14 w-[45%]">
           <div className="">

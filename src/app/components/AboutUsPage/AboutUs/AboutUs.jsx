@@ -1,8 +1,16 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const AboutUs = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
-    <div className="responsive-width px-40">
+    <div className="responsive-width px-40" >
       <div
         className="bg-no-repeat bg-auto bg-right"
         style={{ backgroundImage: "url(images/bg-object7.png)" }}
@@ -10,7 +18,7 @@ const AboutUs = () => {
         <div className="responsive-width pb-4">
           <div className="mt-10 flex gap-3 items-center">
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
-            <div
+            <div data-aos='zoom-in'
               style={{ fontFamily: "Poppins" }}
               className="creative-idea text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
             >
@@ -19,7 +27,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="flex flex-row gap-2 justify-between responsive-row">
-          <div className="mt-5 flex flex-wrap ">
+          <div className="mt-5 flex flex-wrap "data-aos='zoom-in'>
             <h1 className="text-5xl hero-heading fontchange text-change leading-[120%] font-bold text-white heading-width">
               We are creative & strong team
             </h1>
@@ -36,7 +44,7 @@ const AboutUs = () => {
           </div>
           <div className="pt-20 flex flex-wrap ball bg-cover flex justify-end">
             <div className="flex justify-center  items-center w-[200px] h-[200px] border border-2 rounded-full border-[#DD4242] justify-items-center">
-              <div className="">
+              <div className=""data-aos='zoom-in'>
                 {" "}
                 <h1
                   className="font-bold text-center text-white text-5xl leading-[100%]"
@@ -52,7 +60,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="flex items-center Our-experience gap-4 justify-between">
-          <div className="pt-20 ">
+          <div className="pt-20 "data-aos='zoom-in'>
             <div className="w-[200px] h-[200px] ball2 border border-2 rounded-full border-[#DD4242] flex justify-center items-center">
               <div>
                 <h1
@@ -67,7 +75,7 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <div className="mt-5 pt-10 bg-cover">
+          <div className="mt-5 pt-10 bg-cover"data-aos='zoom-in'>
             <h1 className="hero-heading fontchange text-base leading-[120%] font-medium text-white">
               How the workday at Vadavision begins.{" "}
             </h1>
@@ -82,7 +90,7 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className="flex pb-10 justify-between our-approach">
+        <div className="flex pb-10 justify-between our-approach"data-aos='zoom-in'>
           <div className="mt-5 pt-12">
             <h1 className="text-base hero-heading pt-10 leading-[120%] font-medium text-white">
               Innovative Thinkers

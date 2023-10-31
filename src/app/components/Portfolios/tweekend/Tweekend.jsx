@@ -9,8 +9,8 @@ const Tweekend = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 2000,
-        once: false,
+        duration: 500,
+        once: true,
         easing: 'ease',
       });
     }
@@ -19,7 +19,7 @@ const Tweekend = () => {
     <div className="min-h-[720px] bg-tweekend py-20 px-10 px-5">
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio bg-contain bg-right"
-        style={{ backgroundImage: "url(images/bg-object.png)" }} data-aos='zoom-in'
+        style={{ backgroundImage: "url(images/bg-object.png)" }} data-aos="fade-right"
       >
         <div className="portfolio-img portfolio-tweekend w-[45%] py-14">
           <div className="">

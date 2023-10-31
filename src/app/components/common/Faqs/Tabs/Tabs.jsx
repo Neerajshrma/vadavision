@@ -10,7 +10,10 @@ const Tabs = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
       });
     }
   }, []);
@@ -21,7 +24,7 @@ const Tabs = () => {
   };
 
   return (
-    <div data-aos="zoom-in">
+    <div data-aos="fade-right">
       <div className="tab-container my-2">
         <div
           className={`tab ${activeTab === "General" ? "active" : ""}`}

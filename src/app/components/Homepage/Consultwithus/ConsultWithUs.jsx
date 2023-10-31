@@ -9,7 +9,10 @@ const ConsultWithUs = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
       });
     }
   }, []);
@@ -25,7 +28,7 @@ const ConsultWithUs = () => {
   return (
     <div className="bg-black px-40 responsive-width py-20">
       <div className="flex flex-wrap items-center justify-between gap-10">
-        <div className="w-7/12 full-width-responsive"data-aos="slide-right">
+        <div className="w-7/12 full-width-responsive"data-aos="fade-right">
           <h1 className="Montserrat font-bold leading-[130%] text-4xl text-white consult-us-heading">
             Consult with us for your business assistance.{" "}
           </h1>

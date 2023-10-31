@@ -8,7 +8,10 @@ const SplideSlider = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-
+        offset: 300,
+        duration: 1000,
+        once: true,
+        easing: 'ease',
       });
     }
   }, []);
@@ -29,7 +32,7 @@ const SplideSlider = () => {
       className="bg-[#141619] bg-center bg-contain bg-no-repeat"
       style={{ backgroundImage: "url(images/bg-1.png)" }} 
     >
-      <div className="relative" data-aos="slide-up">
+      <div className="relative" >
         <Splide
           options={{
             rewind: true,
@@ -44,7 +47,7 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="testimonials mt-5 w-7/12 mx-auto">
-                <div>
+                <div data-aos="slide-up">
                   <p
                     style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
@@ -55,7 +58,7 @@ const SplideSlider = () => {
                     got knowledge and made my website look better
                   </p>
                 </div>
-                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
+                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile"data-aos="slide-up">
                   <div className="profile-img">
                     <img className="w-full" src="/images/client.png" alt="" />
                   </div>
@@ -74,7 +77,7 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="testimonials mt-5 w-7/12 mx-auto">
-                <div>
+                <div data-aos="slide-up">
                   <p
                     style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
@@ -85,7 +88,7 @@ const SplideSlider = () => {
                     got knowledge and made my website look better
                   </p>
                 </div>
-                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
+                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile"data-aos="slide-up">
                   <div className="profile-img">
                     <img className="w-full" src="/images/client.png" alt="" />
                   </div>
@@ -104,7 +107,7 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="testimonials mt-5 w-7/12 mx-auto">
-                <div>
+                <div data-aos="slide-up">
                   <p
                     style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
@@ -115,7 +118,7 @@ const SplideSlider = () => {
                     got knowledge and made my website look better
                   </p>
                 </div>
-                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
+                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile"data-aos="slide-up">
                   <div className="profile-img">
                     <img className="w-full" src="/images/client.png" alt="" />
                   </div>

@@ -1,9 +1,17 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const Herosection = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+
+      });
+    }
+  }, []);
   return (
-    <div className="text-center responsive-width mobile-width px-40">
-      <div className="mt-20">
+    <div className="text-center responsive-width mobile-width px-40" >
+      <div className="mt-20" data-aos='zoom-in' >
         <h1 className="text-4xl hero-heading leading-[120%] font-bold text-white">
           About us
         </h1>
@@ -17,7 +25,7 @@ const Herosection = () => {
           creativity in our work.
         </p>
       </div>
-      <div className="py-10">
+      <div className="py-10" data-aos='flip-up'>
         <img src="images/about-us.jpg" alt="" />
       </div>
     </div>

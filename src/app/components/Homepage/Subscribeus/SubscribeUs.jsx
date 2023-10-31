@@ -8,32 +8,35 @@ const SubscribeUs = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
       });
     }
   }, []);
   return (
     <div className="flex flex-wrap subscribe-us" >
       <div className="w-6/12 bg-[#191C26] full-width-responsive px-40 responsive-width py-20">
-        <div className="flex gap-3 items-center"data-aos='flip-up'>
+        <div className="flex gap-3 items-center"data-aos='fade-right'>
           <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>
           <div className="Montserrat text-sm font-normal leading-[150%] text-[#A9AFC3]">
             newsletter
           </div>
         </div>
-        <div className="mt-4"data-aos='flip-up'>
+        <div className="mt-4"data-aos='fade-right'>
           <h1 className="Montserrat capitallize text-white text-5xl font-bold leading-[110%] heading">
             be always in touch{" "}
             <span className="inline-block w-3 h-3 ml-[-12px] bg-[#DD4242] rounded-full"></span>
           </h1>
         </div>
-        <div className="mt-5"data-aos='flip-up'>
+        <div className="mt-5"data-aos='fade-right'>
           <p className="Montserrat text-[#A9AFC3] text-base font-normal leading-[170%] description">
             We are grateful to know you are interested in our content and
             services. Subscribe
           </p>
         </div>
-        <div className="flex items-center gap-8 mt-5"data-aos='flip-up'>
+        <div className="flex items-center gap-8 mt-5"data-aos='fade-right'>
           <input
             className="subs-input text-white border-b border-[#3A3F50] outline-none p-1"
             type="email"
@@ -57,7 +60,7 @@ const SubscribeUs = () => {
           fontFamily: "Montserrat",
         }}
       >
-        <div className="bg-subscribe-us min-h-[450px]"data-aos='fade-right'>
+        <div className="bg-subscribe-us min-h-[450px]">
           <div className="py-14 px-12">
             <div className="flex gap-4 items-center">
               <img
@@ -66,10 +69,10 @@ const SubscribeUs = () => {
                 alt=""
               />
               <div>
-                <p className="text-white text-sm font-semibold">
+                <p className="text-white text-sm font-semibold"data-aos='fade-right'>
                   Sahil Salaria
                 </p>
-                <p className="mt-1 text-xs font-normal text-[#A9AFC3]">
+                <p className="mt-1 text-xs font-normal text-[#A9AFC3]"data-aos='fade-right'>
                   CEO at Vadavision
                 </p>
               </div>
@@ -79,7 +82,7 @@ const SubscribeUs = () => {
                 backgroundImage: "url(images/icon-quote.png)",
                 backgroundPosition: "right bottom",
               }}
-              className="w-[300px] pt-10 pb-20 text-base text-white font-normal bg-no-repeat bg-auto"
+              data-aos='fade-right'  className="w-[300px] pt-10 pb-20 text-base text-white font-normal bg-no-repeat bg-auto"
             >
               We never give up. Сhallenges make us stronger and more
               professional. Keep in mind. Beware

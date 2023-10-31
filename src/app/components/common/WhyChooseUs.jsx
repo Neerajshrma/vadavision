@@ -7,14 +7,17 @@ const WhyChooseUs = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
       });
     }
   }, []);
   return (
     <>
       <div className="bg-[#111319] w-full py-10 pl-40 pr-36 responsive-width" >
-        <div className="flex items-center why-us gap-14 pr-16"data-aos='zoom-in'>
+        <div className="flex items-center why-us gap-14 pr-16"data-aos='fade-right'>
           <div
             className="bg-cover"
             style={{ backgroundImage: "url(images/bg-object4.png)" }}

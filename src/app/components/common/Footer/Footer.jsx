@@ -3,19 +3,12 @@ import FooterLinks from "./FooterLinks";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { HiOutlinePhone } from "react-icons/hi";
 import Obfuscate from 'react-obfuscate';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+ 
 const Footer = () => {
-  useEffect(() => {
-    if (typeof document !== 'undefined') {
-      AOS.init({
-
-      });
-    }
-  }, []);
+ 
   return (
     <div className="bg-[#111319] pl-40 pr-6 responsive-width py-20 mobile-responisve">
-      <div className="flex gap-2 flex-wrap justify-between"data-aos='zoom-in'>
+      <div className="flex gap-2 flex-wrap justify-between">
         <div className="w-[42%] footer">
           <div className="flex gap-2 items-center cursor-pointer">
             <div>
