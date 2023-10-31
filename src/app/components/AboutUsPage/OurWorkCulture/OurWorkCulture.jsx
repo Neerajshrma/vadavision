@@ -5,8 +5,8 @@ const OurWorkCulture = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
-        duration: 500,
+        offset: 0,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
@@ -19,9 +19,9 @@ const OurWorkCulture = () => {
           style={{ fontFamily: "Montserrat" }}
           className="responsive-width pb-4"
         >
-          <div className="mt-10 flex gap-3 items-center"data-aos='fade-right'>
+          <div className="mt-10 flex gap-3 items-center">
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
-            <div
+            <div data-aos='fade-up'
               style={{ fontFamily: "Poppins" }}
               className="creative-idea text-sm uppercase  font-normal leading-[150%] text-[#A9AFC3]"
             >
@@ -30,17 +30,17 @@ const OurWorkCulture = () => {
           </div>
         </div>
 
-        <div className=""data-aos='fade-right'>
-          <span className="text-4xl hero-heading leading-[120%] font-bold text-white">
+        <div className="">
+          <span data-aos='fade-up'className="text-4xl hero-heading leading-[120%] font-bold text-white">
             Our Work
           </span>
         </div>
-        <div className=""data-aos='fade-right'>
-          <span className="text-4xl responsive-heading hero-heading leading-[120%] font-bold text-white">
+        <div className="">
+          <span data-aos='fade-up' className="text-4xl responsive-heading hero-heading leading-[120%] font-bold text-white">
             Culture Company’s
           </span>
         </div>
-        <div className="mt-5 w-6/12 pb-12 mobile-full-width"data-aos='fade-right'>
+        <div className="mt-5 w-6/12 pb-12 mobile-full-width">
           <p className="mt-4 text-[#A9AFC3] font-light text-sm mx-auto leading-[33px]">
             We always try to implement our creative ideas at the highest level.
             You can see it by looking at our portfolio.
