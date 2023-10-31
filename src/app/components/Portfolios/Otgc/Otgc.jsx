@@ -19,37 +19,40 @@ const Otgc = () => {
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio	bg-contain bg-right"
         style={{ backgroundImage: "url(images/bg-object3.png)" }}
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
-        <div className="portfolio-img portfolio-legalhub py-14 w-[45%]">
+        <div
+          className="portfolio-img portfolio-legalhub py-14 w-[45%]"
+          data-aos="fade-up"
+        >
           <div className="">
             <img src="/images/otgc.png" alt="" />
           </div>
         </div>
         <div className="portfolio-content w-[45%] py-14">
-          <div className="flex gap-3 items-center">
+          <div className="flex gap-3 items-center" data-aos="fade-up">
             <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>
             <div className="uppercase text-sm font-normal leading-[150%] text-white">
               Fintech
             </div>
           </div>
-          <div className="mt-5">
+          <div className="mt-5" data-aos="fade-up">
             <img className="w-28" src="/images/otgc-logo.png" alt="" />
           </div>
-          <div className="mt-10">
+          <div className="mt-10" data-aos="fade-up">
             <p className=" Montserrat font-normal text-white text-sm leading-[120%]">
               Experience our expertise through projects like{" "}
               {"'On The Go Cleaners.'"} Seamlessly integrating user-friendly
               features, secure payment gateways, and real-time order tracking.
             </p>
           </div>
-          <div className="mt-8 pr-5">
+          <div className="mt-8 pr-5" data-aos="fade-up">
             <p className="Montserrat font-normal text-white text-sm leading-[120%] ">
               we significantly boosted customer engagement and orders. Let us
               transform your ideas into success stories too.
             </p>
           </div>
-          <div className="mt-10 inline-block">
+          <div className="mt-10 inline-block" data-aos="fade-up">
             <Button
               fontFamily="Montserrat"
               fontWeight="500"

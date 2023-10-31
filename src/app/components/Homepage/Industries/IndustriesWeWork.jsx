@@ -23,7 +23,7 @@ const IndustriesWeWork = () => {
             Industries
           </div>
         </div>
-        <div className="mt-4" data-aos="fade-right">
+        <div className="mt-4" data-aos="fade-up">
           <h1 className="Montserrat capitalize text-white text-4xl font-bold heading leading-[110%]">
             Industries we work with
           </h1>

@@ -46,13 +46,19 @@ const StandardInsights = () => {
             </h1>
           </div>
           <div className="mt-10">
-            <p className=" Montserrat font-normal text-black text-sm leading-[120%]">
+            <p
+              className=" Montserrat font-normal text-black text-sm leading-[120%]"
+              data-aos="fade-up"
+            >
               Our experienced developers crafted a user-friendly online platform
               integrating advanced feedback tools like Node.js and Next.js.
             </p>
           </div>
           <div className="mt-8 pr-5">
-            <p className="Montserrat font-normal text-black text-sm leading-[120%] ">
+            <p
+              className="Montserrat font-normal text-black text-sm leading-[120%]"
+              data-aos="fade-up"
+            >
               Personalized surveys gather instant user feedback, boosting
               customer and employee satisfaction for your {"business's"}{" "}
               success. This highlights our {"team's"} expertise in creating

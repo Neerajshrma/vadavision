@@ -95,13 +95,8 @@ const Homepage = () => {
         <ConsultWithUs />
       </div>
       {/* consult with us end */}
-<<<<<<< HEAD
       <div className="bg-[#141619] py-10 px-40 responsive-width min-h-[600px]">
-        <div className="w-1/2" data-aos="fade-right">
-=======
-      <div className="bg-[#141619] py-10 px-40 responsive-width">
-        <div className="w-1/2"data-aos="fade-up">
->>>>>>> 78f315fafa99bdf32fd717cb8cc9fd7f414cc4a7
+        <div className="w-1/2" data-aos="fade-up">
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
             Frequently Asked Questions
           </h1>
