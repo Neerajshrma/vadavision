@@ -5,8 +5,8 @@ const SendMessage = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
-        duration: 500,
+        offset: 0,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
@@ -14,11 +14,11 @@ const SendMessage = () => {
   }, []);
   return (
     <>
-      <div className=" "data-aos='fade-right'>
+      <div className=" ">
         <div className="">
           <div className="mt-10  flex gap-3 items-center">
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
-            <div
+            <div data-aos='fade-up'
               style={{ fontFamily: "Poppins" }}
               className="creative-idea  text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
             >
@@ -30,7 +30,7 @@ const SendMessage = () => {
           className="mt-3    text-sm uppercase font-normal "
           style={{ fontFamily: "Mulish" }}
         >
-          <h1
+          <h1 data-aos='fade-up'
             style={{ fontFamily: "Poppins" }}
             className="message-responsiness  leading-[120%] font-semibold text-white whitespace-nowrap"
           >
@@ -38,7 +38,7 @@ const SendMessage = () => {
           </h1>
           <div className="mt-5 pb-10  ">
             <div className="mt-4 msg-info">
-              <p className="Mulish text-[#A9AFC3] text-base leading-[140%] msg-info">
+              <p data-aos='fade-up'className="Mulish text-[#A9AFC3] text-base leading-[140%] msg-info">
                 We always try to implement our creative ideas at the highest
                 level. Tell us about your project and we will make it work.
               </p>
@@ -47,14 +47,14 @@ const SendMessage = () => {
         </div>
         <div className="send-message flex flex-row gap-6">
           <div className=" ">
-            <input
+            <input data-aos='fade-up'
               style={{ backgroundColor: "inherit" }}
               type="text"
               className="text-sm border-none borderless-input text-white px-0 responsive-input"
               placeholder="Name"
             />
           </div>
-          <div className="   ">
+          <div data-aos='fade-up'className="   ">
             <input
               style={{ backgroundColor: "inherit" }}
               type="email"
@@ -63,7 +63,7 @@ const SendMessage = () => {
             />
           </div>
         </div>
-        <div className="send-message pt-6">
+        <div data-aos='fade-up'className="send-message pt-6">
           <textarea
             style={{ backgroundColor: "inherit" }}
             placeholder="Message"
@@ -73,7 +73,7 @@ const SendMessage = () => {
             rows="4"
           ></textarea>
         </div>
-        <div className="  pt-6 pb-4 ">
+        <div data-aos='fade-up' className="  pt-6 pb-4 ">
           <button className="text-sm center-button text-white rounded-full border border-[#DD4242] px-5 py-2.5">
             Send Message
           </button>

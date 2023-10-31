@@ -8,8 +8,8 @@ const CurrentJob = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
-        duration: 500,
+        offset: 0,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
@@ -17,14 +17,14 @@ const CurrentJob = () => {
   }, []);
   return (
     <>
-      <div className="responsive-width mobile-width px-40"data-aos='fade-right'>
+      <div className="responsive-width mobile-width px-40">
         <div
           style={{ fontFamily: "Montserrat" }}
           className="responsive-width pb-4"
         >
           <div className="mt-10   flex gap-3 items-center">
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
-            <div
+            <div data-aos='fade-up'
               style={{ fontFamily: "Poppins" }}
               className="creative-idea text-sm uppercase  font-normal leading-[150%] text-[#A9AFC3]"
             >
@@ -34,10 +34,10 @@ const CurrentJob = () => {
         </div>
         <div className="flex flex-row flex-wrap justify-between pb-10 ">
           <div className="flex text-4xl  hero-heading leading-[120%] font-bold text-white  ">
-            <h1 className="currentJobResponsive">Current Job Openings</h1>
+            <h1 data-aos='fade-up' className="currentJobResponsive">Current Job Openings</h1>
           </div>
         </div>
-        <div className="space-y-4 pb-10 px-10">
+        <div data-aos='fade-up'className="space-y-4 pb-10 px-10">
           <div id="join-widget">
           <Script
             defer

@@ -33,7 +33,7 @@ const OurCustomers = () => {
         <div data-aos='fade-up' className="w-28 mt-10">
           <img src="images/otgc-logo.png" alt="" />
         </div>
-        <div className="w-28 mt-10">
+        <div data-aos='fade-up' className="w-28 mt-10">
           <img src="images/360-logo.png" alt="" />
         </div>
       </div>

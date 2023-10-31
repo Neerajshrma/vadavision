@@ -8,7 +8,7 @@ const SubscribeUs = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       AOS.init({
-        offset: 300,
+        offset: 0,
         duration: 1000,
         once: true,
         easing: "ease",

@@ -7,8 +7,8 @@ const MessageInfo = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
-        duration: 500,
+        offset: 0,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
@@ -16,9 +16,9 @@ const MessageInfo = () => {
   }, []);
   return (
     <>
-      <div className="mt-10 "data-aos='fade-right'>
+      <div className="mt-10 ">
         <div className="">
-          <div
+          <div data-aos='fade-up'
             className="bg-[#191C26] text-white"
             style={{ width: "360px"}}
           >
@@ -72,7 +72,7 @@ const MessageInfo = () => {
         </div>
 
         <div className="pt-6 ">
-          <div
+          <div data-aos='fade-up'
             className="bg-[#191C26] text-white"
             style={{ width: "360px" }}
           >
@@ -122,7 +122,7 @@ const MessageInfo = () => {
         </div>
 
         <div className="pt-6 ">
-          <div
+          <div data-aos='fade-up'
             className="bg-[#191C26] text-white"
             style={{ width: "360px" }}
           >
