@@ -1,9 +1,20 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const SendMessage = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
+      });
+    }
+  }, []);
   return (
     <>
-      <div className=" ">
+      <div className=" "data-aos='fade-right'>
         <div className="">
           <div className="mt-10  flex gap-3 items-center">
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>

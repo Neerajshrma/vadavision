@@ -1,8 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const questionsData = [
   {
     id: 1,
@@ -26,6 +27,16 @@ const questionsData = [
 ];
 
 const Accordion = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
+      });
+    }
+  }, []);
   const [openAccordion, setOpenAccordion] = useState(null);
 
   const toggleAccordion = (id) => {
@@ -37,7 +48,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="pb-10 pt-5 mt-">
+    <div className="pb-10 pt-5 mt-"data-aos='fade-right'>
       <div className="w-full">
         {questionsData.map((item) => (
           <div key={item.id} className="accordion-item">

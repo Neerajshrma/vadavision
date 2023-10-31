@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Obfuscate from 'react-obfuscate';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const MessageInfo = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
+      });
+    }
+  }, []);
   return (
     <>
-      <div className="mt-10 ">
+      <div className="mt-10 "data-aos='fade-right'>
         <div className="">
           <div
             className="bg-[#191C26] text-white"
