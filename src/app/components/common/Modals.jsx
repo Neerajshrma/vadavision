@@ -15,27 +15,42 @@ const Modals = () => {
         }`}
         onClick={modalClose}
       >
-        <div onClick={e => e.stopPropagation()} className="w-[80%] relative bg-[#faf7f0] shadow-lg h-[90vh] no-scrollbar calender-popup">
+        <div
+          onClick={(e) => e.stopPropagation()}
+          className="w-[80%] relative bg-[#faf7f0] shadow-lg h-[90vh] no-scrollbar calender-popup"
+        >
           <div
             className="flex justify-end text-white p-2 absolute border border-white-800 rounded-full z-50 bg-black top-0 right-0 -mt-4 -mr-4 cursor-pointer text-3xl popup-cross-icon"
             onClick={modalClose}
           >
             <RxCross2 size={20} />
           </div>
-          <div className="flex flex-wrap responsive-popup">
+          <div className="flex flex-wrap responsive-popup h-full">
             <div className="w-[50%] min-w-[350px] pt-6 pl-6 calender-popup-content">
               <h1 className="text-4xl text-center font-bold pb-6">
                 Talk To Our EXPERTS!
               </h1>
-              <p className="px-2 pb-4 font-medium calender">
-                Unlock the power of personalised solutions! Schedule a call with
-                our Discovery Agent now and embark on a journey to fulfil your
-                unique needs. Your success story begins here.
-              </p>
-
               <Calender justifyContent="center" />
+              <div className="flex justify-center mt-10 font-medium calender">
+                <div className="">
+                  <div className="flex gap-2 items-center py-2">
+                    <img className="h-5" src="images/check-circle.svg" alt="" />
+                    <div className="font-medium">Personalized Solutions</div>
+                  </div>
+                  <div className="flex gap-2 items-center py-2">
+                    <img className="h-5" src="images/check-circle.svg" alt="" />
+                    <span className="font-medium">
+                      Initiating Action with a Call
+                    </span>
+                  </div>
+                  <div className="flex gap-2 items-center py-2">
+                    <img className="h-5" src="images/check-circle.svg" alt="" />
+                    <span className="font-medium">Embarking on a Journey</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="pb-4 w-[50%] min-w-[350px] calender-popup-content">
+            <div className="pb-4 w-[50%] min-w-[350px] h-full calender-popup-content">
               <PopUp minWidth={"500px"} />
             </div>
           </div>

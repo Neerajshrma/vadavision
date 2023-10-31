@@ -16,7 +16,7 @@ const PopUp = ({ minWidth }) => {
         style={{
           display: loading ? "none" : "block",
           minWidth: { minWidth },
-          height: "90vh",
+          height: "100%",
         }}
         className="calendly-inline-widget"
         data-url="https://calendly.com/pankil_joshi/discovery?hide_event_type_details=1&hide_gdpr_banner=1"
