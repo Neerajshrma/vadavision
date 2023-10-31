@@ -7,7 +7,7 @@ const DesignProcess = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 500,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
@@ -15,7 +15,7 @@ const DesignProcess = () => {
   }, []);
   return (
     <div className="responsive-width px-40 py-10 pb-16">
-      <div className="mt-10 flex gap-3 items-center" data-aos='zoom-in'>
+      <div className="mt-10 flex gap-3 items-center" >
         <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
         <div
           style={{ fontFamily: "Poppins" }}

@@ -7,14 +7,14 @@ const Features = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 500,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
     }
   }, []);
   return (
-    <div className="flex justify-center gap-6 flex-wrap items-center pb-10"data-aos='fade-right'>
+    <div className="flex justify-center gap-6 flex-wrap items-center pb-10"data-aos='fade-up'>
       <div className="text-center max-w-[200px]">
         <div className="">
           <svg

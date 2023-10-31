@@ -7,7 +7,7 @@ const RecentPosts = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 500,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
@@ -15,13 +15,13 @@ const RecentPosts = () => {
   }, []);
   return (
     <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6">
-      <div className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack"data-aos='fade-right'>
+      <div data-aos='fade-up' className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack">
         <div>
-          <div className="text-[#DD4242] text-2xl Montserrat font-semibold leading-[110%]">
+          <div data-aos='fade-up' className="text-[#DD4242] text-2xl Montserrat font-semibold leading-[110%]">
             React Native
           </div>
           <div className="mt-2">
-            <p className="text-lg font-normal Montserrat leading-[150%] text-white">
+            <p data-aos='fade-up' className="text-lg font-normal Montserrat leading-[150%] text-white">
               Explore React {"Native's"} magic with Vadavision! We specialize in
               creating user-friendly mobile apps with creative ideas. Join us to
               improve your {"app's"} performance on different devices for a
@@ -30,13 +30,13 @@ const RecentPosts = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack"data-aos='fade-right'>
+      <div data-aos='fade-up' className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack">
         <div>
-          <div className="text-[#DD4242] text-2xl Montserrat font-semibold leading-[110%]">
+          <div data-aos='fade-up' className="text-[#DD4242] text-2xl Montserrat font-semibold leading-[110%]">
             Flutter
           </div>
           <div className="mt-2">
-            <p className="text-lg font-normal Montserrat leading-[150%] text-white">
+            <p data-aos='fade-up' className="text-lg font-normal Montserrat leading-[150%] text-white">
               Dive into Flutter with Vadavision! Our experts seamlessly blend
               creativity and functionality, crafting visually appealing,
               high-performance apps. Experience innovation and exceptional
@@ -47,13 +47,13 @@ const RecentPosts = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack"data-aos='fade-right'>
+      <div data-aos='fade-up' className="bg-[#1E2024] py-5 px-6 md:w-[33%] tech-stack">
         <div>
-          <div className="text-[#DD4242] text-2xl Montserrat font-semibold leading-[110%]">
+          <div data-aos='fade-up' className="text-[#DD4242] text-2xl Montserrat font-semibold leading-[110%]">
             Hybrid Apps
           </div>
           <div className="mt-2">
-            <p className="text-lg font-normal Montserrat leading-[150%] text-white">
+            <p data-aos='fade-up' className="text-lg font-normal Montserrat leading-[150%] text-white">
               Explore {"Vadavision's"} Hybrid Development, where we mix
               different technologies to create apps. Our solutions are flexible,
               affordable, and work well on various devices. We make sure users

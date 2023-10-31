@@ -6,7 +6,7 @@ const Services = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 500,
+        duration: 1000,
         once: true,
         easing: 'ease',
 
@@ -14,9 +14,9 @@ const Services = () => {
     }
   }, []);
   return (
-    <div className="flex justify-between flex-wrap"data-aos='fade-right'>
+    <div className="flex justify-between flex-wrap">
       <div className="flex gap-4 mt-10 max-w-[430px]">
-        <div >
+        <div data-aos='fade-up'>
           <svg
             width="60"
             height="60"
@@ -45,12 +45,12 @@ const Services = () => {
         </div>
         <div >
           <div >
-            <h2 className="text-[#DD4242] Montserrat text-xl font-bold" >
+            <h2 data-aos='fade-up' className="text-[#DD4242] Montserrat text-xl font-bold" >
               Ios Development
             </h2>
           </div>
           <div>
-            <p className="Montserrat text-white text-base font-medium">
+            <p data-aos='fade-up' className="Montserrat text-white text-base font-medium">
               We deliver highly engaging mobile app solutions. Our iOS experts
               make sure your business shines online. We provide easy and
               creative solutions that your audience will love.
@@ -59,7 +59,7 @@ const Services = () => {
         </div>
       </div>
       <div className="flex gap-4 mt-10 max-w-[430px]" >
-        <div>
+        <div data-aos='fade-up'>
           <svg
             width="60"
             height="60"
@@ -78,12 +78,12 @@ const Services = () => {
         </div>
         <div>
           <div>
-            <h2 className="text-[#DD4242] Montserrat text-xl font-bold">
+            <h2 data-aos='fade-up' className="text-[#DD4242] Montserrat text-xl font-bold">
               Andriod Development
             </h2>
           </div>
           <div>
-            <p className="Montserrat text-white text-base font-medium">
+            <p data-aos='fade-up' className="Montserrat text-white text-base font-medium">
               We deliver engaging mobile apps and customized software,
               simplifying your business tasks. Our Android team ensures your
               online presence stands out
@@ -92,7 +92,7 @@ const Services = () => {
         </div>
       </div>
       <div className="flex gap-4 mt-10 max-w-[430px]" >
-        <div>
+        <div data-aos='fade-up'>
           <svg
             width="60"
             height="60"
@@ -111,12 +111,12 @@ const Services = () => {
         </div>
         <div>
           <div>
-            <h2 className="text-[#DD4242] Montserrat text-xl font-bold">
+            <h2 data-aos='fade-up' className="text-[#DD4242] Montserrat text-xl font-bold">
               Designing & Upgrading Service
             </h2>
           </div>
           <div>
-            <p className="Montserrat text-white text-base font-medium">
+            <p data-aos='fade-up' className="Montserrat text-white text-base font-medium">
               Delivering clever design solutions and hassle-free upgrades. Your
               satisfaction is our commitment.
             </p>
@@ -124,7 +124,7 @@ const Services = () => {
         </div>
       </div>
       <div className="flex gap-4 mt-10 max-w-[430px]">
-        <div>
+        <div data-aos='fade-up'>
           <svg
             width="60"
             height="60"
@@ -153,12 +153,12 @@ const Services = () => {
         </div>
         <div>
           <div>
-            <h2 className="text-[#DD4242] Montserrat text-xl font-bold">
+            <h2 data-aos='fade-up' className="text-[#DD4242] Montserrat text-xl font-bold">
               Cross Platform App Development
             </h2>
           </div>
           <div>
-            <p className="Montserrat text-white text-base font-medium">
+            <p data-aos='fade-up' className="Montserrat text-white text-base font-medium">
               We design apps for all platforms, ensuring simplicity in
               cross-platform development.
             </p>

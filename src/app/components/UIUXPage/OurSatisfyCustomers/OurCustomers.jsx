@@ -6,35 +6,35 @@ const OurCustomers = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 500,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
     }
   }, []);
   return (
-    <div className="p-5 mt-20"data-aos='fade-right'>
+    <div className="p-5 mt-20">
       <div className="text-center responsive-width mobile-width px-40">
-        <h2 className="text-4xl text-[#DD4242] font-semibold leading-[63px]">
+        <h2 data-aos='fade-up' className="text-4xl text-[#DD4242] font-semibold leading-[63px]">
           Our Satisfied Clients
         </h2>
       </div>
       <div className="flex justify-center gap-14 items-center mt-5 flex-wrap">
         <div className="w-60 mt-10">
-          <h1 className="p-[2px] px-1.5 border-[6px] text-lg borde-white text-white font-bold">
+          <h1 data-aos='fade-up' className="p-[2px] px-1.5 border-[6px] text-lg borde-white text-white font-bold">
             STANDARD INSIGHTS
           </h1>
         </div>{" "}
         <div className="w-56 mt-10">
-          <h1 className="text-2xl text-white font-bold">TWEEKEND</h1>
+          <h1 data-aos='fade-up' className="text-2xl text-white font-bold">TWEEKEND</h1>
         </div>{" "}
       </div>
       <div className="flex justify-center gap-14 items-center mt-5 flex-wrap">
-        <div className="w-28 mt-10">
+        <div data-aos='fade-up' className="w-28 mt-10">
           <img src="images/otgc-logo.png" alt="" />
         </div>
         <div className="w-60 mt-10">
-          <h1 className="p-[2px] px-1.5 border-[6px] text-lg borde-white text-white font-bold">
+          <h1 data-aos='fade-up' className="p-[2px] px-1.5 border-[6px] text-lg borde-white text-white font-bold">
             STANDARD INSIGHTS
           </h1>
         </div>{" "}
