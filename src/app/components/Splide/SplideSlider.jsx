@@ -9,7 +9,7 @@ const SplideSlider = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 200,
+        duration: 1000,
         once: true,
         easing: 'ease',
       });
