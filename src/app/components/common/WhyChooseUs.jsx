@@ -1,23 +1,26 @@
 import React, { useEffect } from "react";
 import { BsPlus } from "react-icons/bs";
 import number from "./Constants";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const WhyChooseUs = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 300,
         duration: 500,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
   return (
     <>
-      <div className="bg-[#111319] w-full py-10 pl-40 pr-36 responsive-width" >
-        <div className="flex items-center why-us gap-14 pr-16"data-aos='fade-right'>
+      <div className="bg-[#111319] w-full py-10 pl-40 pr-36 responsive-width">
+        <div
+          className="flex items-center why-us gap-14 pr-16"
+          data-aos="fade-right"
+        >
           <div
             className="bg-cover"
             style={{ backgroundImage: "url(images/bg-object4.png)" }}
@@ -94,14 +97,14 @@ const WhyChooseUs = () => {
                       </div>
                     </div>
                     <p className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text">
-                      successful Projects
+                      Successful Projects
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div >
+          <div>
             <div className="flex gap-3 items-center">
               <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>
               <div className="uppercase text-sm font-normal leading-[150%] text-[#A9AFC3]">

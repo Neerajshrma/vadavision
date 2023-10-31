@@ -1,23 +1,24 @@
 import React, { useEffect } from "react";
 import Button from "../../common/Button";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const StandardInsights = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 300,
         duration: 500,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
   return (
-    <div className="min-h-[720px] bg-[#14EFA5] py-20 px-10 px-5" >
+    <div className="min-h-[720px] bg-[#14EFA5] py-20 px-10 px-5">
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio bg-contain bg-right"
-        style={{ backgroundImage: "url(images/bg-object2.png)" }} data-aos='fade-right'
+        style={{ backgroundImage: "url(images/bg-object2.png)" }}
+        data-aos="fade-right"
       >
         <div className="portfolio-img portfolio-standardinsights py-14 w-[45%]">
           <div className="">
@@ -41,15 +42,16 @@ const StandardInsights = () => {
           </div>
           <div className="mt-10">
             <p className=" Montserrat font-normal text-black text-sm leading-[120%]">
-              Our creative and professional agency has been developing products
-              for 15 years. We are special.
+              Our experienced developers crafted a user-friendly online platform
+              integrating advanced feedback tools like Node.js and Next.js.
             </p>
           </div>
           <div className="mt-8 pr-5">
             <p className="Montserrat font-normal text-black text-sm leading-[120%] ">
-              We’ve got a lot of awards for our work and develop applications
-              that became popular in the world. We try not to miss important
-              details in each area.
+              Personalized surveys gather instant user feedback, boosting
+              customer and employee satisfaction for your {"business's"}{" "}
+              success. This highlights our {"team's"} expertise in creating
+              user-friendly apps and enhancing experiences through technology.
             </p>
           </div>
           <div className="mt-10 inline-block">

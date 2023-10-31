@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
 import number from "../../common/Constants";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const SomeFacts = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 300,
         duration: 500,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
@@ -20,15 +20,15 @@ const SomeFacts = () => {
       style={{ backgroundImage: "url(images/bg-object6.png)" }}
     >
       <div className="my-5 mx-auto w-7/12 min-w-[300px] text-center">
-        <div data-aos='fade-right'>
+        <div data-aos="fade-right">
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[63px]">
             Learn interesting facts and numbers about us.{" "}
           </h1>
         </div>
-        <div className="flex justify-between"data-aos='fade-right'>
+        <div className="flex justify-between" data-aos="fade-right">
           <div className="mt-10">
             <span className="block text-[#DD4242] Montserrat text-3xl font-bold">
-              {number.ProjectComplete}
+              {number.ProjectComplete} {"+"}
             </span>
             <span className="block text-[#DD4242] Montserrat text-xl font-medium">
               Project Complete
@@ -36,7 +36,7 @@ const SomeFacts = () => {
           </div>
           <div className="mt-10">
             <span className="block text-white Montserrat text-3xl font-bold">
-              {number.OurTeam}
+              {number.OurTeam} {"+"}
             </span>
             <span className="block text-white Montserrat text-xl font-medium">
               Our Team
@@ -44,7 +44,7 @@ const SomeFacts = () => {
           </div>
           <div className="mt-10">
             <span className="block text-white Montserrat text-3xl font-bold">
-              {number.Ourclient}
+              {number.Ourclient} {"+"}
             </span>
             <span className="block text-white Montserrat text-xl font-medium">
               Our client

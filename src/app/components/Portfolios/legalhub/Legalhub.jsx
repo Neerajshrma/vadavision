@@ -1,23 +1,25 @@
 import React, { useEffect } from "react";
 import Button from "../../common/Button";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Legalhub = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 300,
         duration: 500,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
   return (
-    <div className="min-h-[720px] bg-[#1E2533] py-20 px-10 px-5" >
+    <div className="min-h-[720px] bg-[#1E2533] py-20 px-10 px-5">
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio	bg-contain bg-right"
-        style={{ backgroundImage: "url(images/bg-object3.png)" }} data-aos='fade-right'
+        style={{ backgroundImage: "url(images/bg-object3.png)" }}
+        data-aos="fade-right"
       >
         <div className="portfolio-img portfolio-legalhub py-14 w-[45%]">
           <div className="">
@@ -36,15 +38,15 @@ const Legalhub = () => {
           </div>
           <div className="mt-10">
             <p className=" Montserrat font-normal text-white text-sm leading-[120%]">
-              Our creative and professional agency has been developing products
-              for 15 years. We are special.
+              Experience our expertise through projects like{" "}
+              {"'On The Go Cleaners.'"} Seamlessly integrating user-friendly
+              features, secure payment gateways, and real-time order tracking.
             </p>
           </div>
           <div className="mt-8 pr-5">
             <p className="Montserrat font-normal text-white text-sm leading-[120%] ">
-              We’ve got a lot of awards for our work and develop applications
-              that became popular in the world. We try not to miss important
-              details in each area.
+              we significantly boosted customer engagement and orders. Let us
+              transform your ideas into success stories too.
             </p>
           </div>
           <div className="mt-10 inline-block">

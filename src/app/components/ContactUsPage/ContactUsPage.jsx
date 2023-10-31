@@ -6,16 +6,17 @@ import Footer from "../common/Footer/Footer";
 import Accordion from "../common/Faqs/Faqs";
 import Tabs from "../common/Faqs/Tabs/Tabs";
 import Header from "../common/Header/Header";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const ContactUsPage = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 300,
         duration: 500,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
@@ -33,8 +34,8 @@ const ContactUsPage = () => {
             <SendMessage />
           </div>
         </div>
-        <div className="bg-[#141619] py-10 px-40 responsive-width">
-          <div className="w-1/2"data-aos='fade-right'>
+        <div className="bg-[#141619] py-10 px-40 responsive-width min-h-[600px]">
+          <div className="w-1/2" data-aos="fade-right">
             <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
               Frequently Asked Questions
             </h1>

@@ -37,16 +37,6 @@ const WhyJoinUs = () => {
           <div className="flex flex-row flex-wrap gap-4">
             <div className="">
               <img
-                src="images/gather.png"
-                alt=""
-                style={{
-                  height: "350px",
-                  width: "500px",
-                }}
-              />
-            </div>
-            <div className="">
-              <img
                 src="images/third.png"
                 alt=""
                 style={{
