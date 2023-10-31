@@ -18,21 +18,26 @@ const StandardInsights = () => {
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio bg-contain bg-right"
         style={{ backgroundImage: "url(images/bg-object2.png)" }}
-        data-aos="fade-right"
       >
         <div className="portfolio-img portfolio-standardinsights py-14 w-[45%]">
-          <div className="">
+          <div className="" data-aos="fade-up">
             <img src="/images/standardinsight.png" alt="" />
           </div>
         </div>
         <div className="portfolio-content w-[45%] py-14">
           <div className="flex gap-3 items-center">
             <div className="bg-white w-[50px] h-[1px]"></div>
-            <div className="uppercase text-sm font-normal leading-[150%] text-white">
+            <div
+              data-aos="fade-up"
+              className="uppercase text-sm font-normal leading-[150%] text-white"
+            >
               Fintech
             </div>
           </div>
-          <div className="border-8 border-black p-2 inline-block mt-5 standardinsights">
+          <div
+            data-aos="fade-up"
+            className="border-8 border-black p-2 inline-block mt-5 standardinsights"
+          >
             <h1
               className="font-black leading-[120%] text-3xl text-black leading-[40px] standardinsights-heading"
               style={{ fontFamily: "Inter" }}
@@ -54,7 +59,7 @@ const StandardInsights = () => {
               user-friendly apps and enhancing experiences through technology.
             </p>
           </div>
-          <div className="mt-10 inline-block">
+          <div className="mt-10 inline-block" data-aos="fade-up">
             <Button
               fontFamily="Montserrat"
               fontWeight="500"

@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Idelogy = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
+      });
+    }
+  }, []);
   return (
     <>
       <div
         style={{ fontFamily: "Montserrat" }}
-        className="mt-10 px-40 responsive-width pt-10 responsive-mobile idealogy"
+        className="mt-10 px-40 responsive-width pt-10 responsive-mobile idealogy" data-aos='fade-right'
       >
         <h1 className="text-4xl text-[#DD4242] font-semibold">
           Vadavision Ideology{" "}
@@ -18,7 +30,7 @@ const Idelogy = () => {
           supported. Join us in creating a happy and successful story together
         </p>
       </div>
-      <div className="px-40 responsive-width responsive-mobile idealogy">
+      <div className="px-40 responsive-width responsive-mobile idealogy"data-aos='fade-right'>
         <h1 className="text-4xl text-[#DD4242] font-semibold">How we work</h1>
         <p className="pt-4 pb-10 text-white text-sm leading-[28px]">
           At Vadavision, we work together as a team, putting our hearts into

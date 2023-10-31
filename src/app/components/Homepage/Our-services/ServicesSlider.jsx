@@ -34,7 +34,7 @@ const ServicesSlider = () => {
   };
   return (
     <div>
-      <div className="pt-10 services-slider relative top-[-20px] right-0"data-aos="fade-right" >
+      <div className="pt-10 services-slider relative top-[-20px] right-0"data-aos="fade-up" >
         <Splide
           ref={splideRef}
           options={{

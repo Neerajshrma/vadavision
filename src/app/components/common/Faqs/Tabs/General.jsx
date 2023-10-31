@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const questionsData = [
   {
     id: 1,
@@ -39,6 +40,16 @@ const questionsData = [
   },
 ];
 const GeneralTab = () => {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      AOS.init({
+        offset: 0,
+        duration: 500,
+        once: true,
+        easing: 'ease',
+      });
+    }
+  }, []);
   const [openAccordion, setOpenAccordion] = useState(null);
 
   const toggleAccordion = (id) => {
@@ -50,18 +61,18 @@ const GeneralTab = () => {
   };
   return (
     <div>
-      <div className="w-full min-w-[200px]">
+      <div data-aos="fade-up" className="w-full min-w-[200px]">
         {questionsData.map((item) => (
-          <div key={item.id} className="accordion-item">
-            <div
+          <div data-aos="fade-up" key={item.id} className="accordion-item">
+            <div data-aos="fade-up"
               className="accordion-header"
               onClick={() => toggleAccordion(item.id)}
             >
-              <div className="flex gap-2 justify-between accordion-title">
-                <div className="Montserrat text-[#CFD3D7] text-sm leading-[24px] font-normal">
+              <div data-aos="fade-up" className="flex gap-2 justify-between accordion-title">
+                <div data-aos="fade-up" className="Montserrat text-[#CFD3D7] text-sm leading-[24px] font-normal">
                   {item.questions}{" "}
                 </div>
-                <div className="accordion-icon">
+                <div data-aos="fade-up" className="accordion-icon">
                   {openAccordion === item.id ? (
                     <RiCloseLine size={18} color="#A2A9B0" />
                   ) : (
@@ -71,7 +82,7 @@ const GeneralTab = () => {
               </div>
             </div>
             {openAccordion === item.id && (
-              <div className="text-sm accordion-content">{item.answer}</div>
+              <div data-aos="fade-up" className="text-sm accordion-content">{item.answer}</div>
             )}
           </div>
         ))}

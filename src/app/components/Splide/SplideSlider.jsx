@@ -9,7 +9,7 @@ const SplideSlider = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 300,
-        duration: 1000,
+        duration: 200,
         once: true,
         easing: 'ease',
       });
@@ -32,7 +32,7 @@ const SplideSlider = () => {
       className="bg-[#141619] bg-center bg-contain bg-no-repeat"
       style={{ backgroundImage: "url(images/bg-1.png)" }} 
     >
-      <div className="relative" >
+      <div className="relative">
         <Splide
           options={{
             rewind: true,
@@ -47,7 +47,37 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="testimonials mt-5 w-7/12 mx-auto">
-                <div data-aos="slide-up">
+                <div  >
+                  <p data-aos="fade-up"
+                    style={{ fontFamily: "Montserrat" }}
+                    className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
+                  >
+                    I am very happy with the services provided, it is very
+                    helpful, starting from the insight that the company gave
+                    from the start that I did not understand what it was so I
+                    got knowledge and made my website look better
+                  </p>
+                </div>
+                <div  data-aos="slide-up" className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
+                  <div data-aos="fade-up" className="profile-img">
+                    <img className="w-full" src="/images/client.png" alt="" />
+                  </div>
+                  <div>
+                    <h6 data-aos="fade-up" className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]">
+                      Clay Johnson
+                    </h6>
+                    <p data-aos="fade-up" className="text-base testimonial-content font-normal text-[#959596] leading-[150%]">
+                      Business Director at Wax Inc
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="" data-carousel-item>
+              <div className="testimonials mt-5 w-7/12 mx-auto">
+                <div>
                   <p
                     style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
@@ -58,7 +88,7 @@ const SplideSlider = () => {
                     got knowledge and made my website look better
                   </p>
                 </div>
-                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile"data-aos="slide-up">
+                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
                   <div className="profile-img">
                     <img className="w-full" src="/images/client.png" alt="" />
                   </div>
@@ -77,7 +107,7 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="testimonials mt-5 w-7/12 mx-auto">
-                <div data-aos="slide-up">
+                <div>
                   <p
                     style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
@@ -88,37 +118,7 @@ const SplideSlider = () => {
                     got knowledge and made my website look better
                   </p>
                 </div>
-                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile"data-aos="slide-up">
-                  <div className="profile-img">
-                    <img className="w-full" src="/images/client.png" alt="" />
-                  </div>
-                  <div>
-                    <h6 className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]">
-                      Clay Johnson
-                    </h6>
-                    <p className="text-base testimonial-content font-normal text-[#959596] leading-[150%]">
-                      Business Director at Wax Inc
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SplideSlide>
-          <SplideSlide>
-            <div className="" data-carousel-item>
-              <div className="testimonials mt-5 w-7/12 mx-auto">
-                <div data-aos="slide-up">
-                  <p
-                    style={{ fontFamily: "Montserrat" }}
-                    className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
-                  >
-                    I am very happy with the services provided, it is very
-                    helpful, starting from the insight that the company gave
-                    from the start that I did not understand what it was so I
-                    got knowledge and made my website look better
-                  </p>
-                </div>
-                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile"data-aos="slide-up">
+                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
                   <div className="profile-img">
                     <img className="w-full" src="/images/client.png" alt="" />
                   </div>

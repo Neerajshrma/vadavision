@@ -1,10 +1,21 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const WhyJoinUs = () => {
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      AOS.init({
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: "ease",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="mt-20 px-40 responsive-width">
-        <div className="">
+        <div className="" data-aos="fade-right">
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
             Why pick Vadavision for your professional journey?{" "}
           </h1>
@@ -24,7 +35,7 @@ const WhyJoinUs = () => {
           </p>
         </div>
         <div className="space-y-4">
-          <div className="">
+          <div className="" data-aos="fade-right">
             <img
               src="images/gather.png"
               alt=""
@@ -35,7 +46,7 @@ const WhyJoinUs = () => {
             />
           </div>
           <div className="flex flex-row flex-wrap gap-4">
-            <div className="">
+            <div className="" data-aos="fade-right">
               <img
                 src="images/third.png"
                 alt=""
@@ -45,7 +56,7 @@ const WhyJoinUs = () => {
                 }}
               />
             </div>
-            <div className="">
+            <div className="" data-aos="fade-right">
               <img
                 src="images/fourth.png"
                 alt=""
@@ -57,7 +68,7 @@ const WhyJoinUs = () => {
             </div>
           </div>
           <div className="flex flex-row flex-wrap gap-4">
-            <div>
+            <div data-aos="fade-right">
               <img
                 src="images/fifth.png"
                 alt=""
@@ -67,7 +78,7 @@ const WhyJoinUs = () => {
                 }}
               />
             </div>
-            <div className="">
+            <div className="" data-aos="fade-right">
               <img
                 src="images/first.png"
                 alt=""
@@ -77,7 +88,7 @@ const WhyJoinUs = () => {
                 }}
               />
             </div>
-            <div className="">
+            <div className="" data-aos="fade-right">
               <img
                 src="images/fifth.png"
                 alt=""

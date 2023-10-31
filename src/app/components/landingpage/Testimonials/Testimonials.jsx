@@ -56,9 +56,11 @@ const SplideSlider = () => {
                 <div className="w-1/3 mob-testimonials-img" data-aos="slide-up">
                   <img className="w-full" src="images/client-img.png" alt="" />
                 </div>
-                <div className="w-2/3 mob-testimonials-content">
+                <div
+                  data-aos="slide-up"
+                  className="w-2/3 mob-testimonials-content"
+                >
                   <div
-                    data-aos="slide-up"
                     style={{ fontFamily: "Montserrat" }}
                     className="text-[#141414] text-2xl font-bold testimonials-heading"
                   >
@@ -88,10 +90,7 @@ const SplideSlider = () => {
                       className="text-black font-semibold mt-5 text-base testimonial-content"
                     >
                       Robertsen Andrew
-                      <div
-                        data-aos="slide-up"
-                        className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden"
-                      >
+                      <div className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
                         Business Director at Wax Inc
                       </div>
                     </div>

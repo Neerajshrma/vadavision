@@ -19,21 +19,24 @@ const Legalhub = () => {
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio	bg-contain bg-right"
         style={{ backgroundImage: "url(images/bg-object3.png)" }}
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <div className="portfolio-img portfolio-legalhub py-14 w-[45%]">
-          <div className="">
+          <div className="" data-aos="fade-up">
             <img src="/images/otgc.png" alt="" />
           </div>
         </div>
         <div className="portfolio-content w-[45%] py-14">
           <div className="flex gap-3 items-center">
             <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>
-            <div className="uppercase text-sm font-normal leading-[150%] text-white">
+            <div
+              data-aos="fade-up"
+              className="uppercase text-sm font-normal leading-[150%] text-white"
+            >
               Fintech
             </div>
           </div>
-          <div className="mt-5">
+          <div className="mt-5" data-aos="fade-up">
             <img className="w-28" src="/images/otgc-logo.png" alt="" />
           </div>
           <div className="mt-10">
@@ -49,7 +52,7 @@ const Legalhub = () => {
               transform your ideas into success stories too.
             </p>
           </div>
-          <div className="mt-10 inline-block">
+          <div className="mt-10 inline-block" data-aos="fade-up">
             <Button
               fontFamily="Montserrat"
               fontWeight="500"
