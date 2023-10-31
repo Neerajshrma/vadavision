@@ -29,7 +29,7 @@ const Herosection = () => {
         </p>
       </div>
       <div className="py-10" data-aos='fade-up'>
-        <img src="images/about-us.jpg" alt="" />
+        <img src="images/gather-4.png" alt="" />
       </div>
     </div>
   );
