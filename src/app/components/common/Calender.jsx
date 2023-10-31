@@ -5,10 +5,7 @@ import { MdOutlineWatchLater } from "react-icons/md";
 const Calender = ({ justifyContent, height }) => {
   return (
     <div>
-      <div
-        className="flex  mt-2"
-        style={{ justifyContent: justifyContent, height: height }}
-      >
+      <div className="flex mt-2" style={{ justifyContent: justifyContent }}>
         <div className="text-center calender">
           <div className="w-16 mx-auto rounded-full">
             <img

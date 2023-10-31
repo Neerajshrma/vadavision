@@ -60,9 +60,9 @@ const HeroSection = () => {
         </div>
         <div className="mt-5 w-5/12 hero-calender">
           <div className="flex justify-center">
-            <Calender height={"600px"} />
+            <Calender />
           </div>
-          <div className="mt-2">
+          <div className="mt-2 h-[600px]">
             <PopUp minWidth="100%" />
           </div>
         </div>
