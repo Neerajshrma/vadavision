@@ -8,17 +8,17 @@ import Header from "../common/Header/Header";
 import Accordion from "./Faq";
 import Idelogy from "./Idelogy";
 import Perks from "./Perks";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const CarrierPage = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 300,
         duration: 500,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
@@ -40,8 +40,8 @@ const CarrierPage = () => {
         <div className="bg-black py-10">
           <CurrentJob />
         </div>
-        <div className="bg-[#141619] py-10 px-40 responsive-width">
-          <div className="w-1/2"data-aos='fade-right'>
+        <div className="bg-[#141619] py-10 px-40 responsive-width min-h-[600px]">
+          <div className="w-1/2">
             <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
               Frequently Asked Questions
             </h1>

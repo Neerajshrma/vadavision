@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Herosection = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 0,
         duration: 1000,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);

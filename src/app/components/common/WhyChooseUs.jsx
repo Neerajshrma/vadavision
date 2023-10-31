@@ -1,33 +1,38 @@
 import React, { useEffect } from "react";
 import { BsPlus } from "react-icons/bs";
 import number from "./Constants";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const WhyChooseUs = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 300,
         duration: 1000,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
   return (
     <>
-      <div className="bg-[#111319] w-full py-10 pl-40 pr-36 responsive-width" >
+      <div className="bg-[#111319] w-full py-10 pl-40 pr-36 responsive-width">
         <div className="flex items-center why-us gap-14 pr-16">
-          <div data-aos="fade-up"
+          <div
+            data-aos="fade-up"
             className="bg-cover"
             style={{ backgroundImage: "url(images/bg-object4.png)" }}
           >
             <div className="flex justify-between gap-6 features items-center pl-20">
               <div className="">
-                <div data-aos="fade-up" className="flex justify-center items-center features-bg features-width w-[170px] h-[170px]">
+                <div
+                  data-aos="fade-up"
+                  className="flex justify-center items-center features-bg features-width w-[170px] h-[170px]"
+                >
                   <div className="">
                     <div className="flex justify-center">
-                      <h1 data-aos="fade-up"
+                      <h1
+                        data-aos="fade-up"
                         className="font-bold mt-3 text-white text-4xl leading-[100%] ml-3"
                         style={{ fontFamily: "Mulish" }}
                       >
@@ -37,15 +42,22 @@ const WhyChooseUs = () => {
                         <BsPlus />
                       </div>
                     </div>
-                    <p data-aos="fade-up" className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text">
+                    <p
+                      data-aos="fade-up"
+                      className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text"
+                    >
                       Satisfied Clients
                     </p>
                   </div>
                 </div>
-                <div data-aos="fade-up" className="mt-7 flex justify-center items-center features-bg-2 features-width w-[170px] h-[170px]">
+                <div
+                  data-aos="fade-up"
+                  className="mt-7 flex justify-center items-center features-bg-2 features-width w-[170px] h-[170px]"
+                >
                   <div className="">
                     <div className="flex justify-center">
-                      <h1 data-aos="fade-up"
+                      <h1
+                        data-aos="fade-up"
                         className="font-bold mt-3 text-white text-4xl leading-[100%] ml-3"
                         style={{ fontFamily: "Mulish" }}
                       >
@@ -55,17 +67,24 @@ const WhyChooseUs = () => {
                         <BsPlus />
                       </div>
                     </div>
-                    <p data-aos="fade-up" className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text">
+                    <p
+                      data-aos="fade-up"
+                      className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text"
+                    >
                       Team Members
                     </p>
                   </div>
                 </div>
               </div>
               <div className="mt-20 ml-2">
-                <div data-aos="fade-up" className="flex justify-center items-center features-bg features-width w-[170px] h-[170px]">
+                <div
+                  data-aos="fade-up"
+                  className="flex justify-center items-center features-bg features-width w-[170px] h-[170px]"
+                >
                   <div className="">
                     <div className="flex justify-center">
-                      <h1 data-aos="fade-up"
+                      <h1
+                        data-aos="fade-up"
                         className="font-bold mt-3 text-white text-4xl leading-[100%] ml-3"
                         style={{ fontFamily: "Mulish" }}
                       >
@@ -75,15 +94,22 @@ const WhyChooseUs = () => {
                         <BsPlus />
                       </div>
                     </div>
-                    <p data-aos="fade-up" className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text">
+                    <p
+                      data-aos="fade-up"
+                      className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text"
+                    >
                       5-Star Reviews
                     </p>
                   </div>
                 </div>
-                <div data-aos="fade-up" className="mt-7 flex justify-center items-center features-bg-2 features-width w-[170px] h-[170px]">
+                <div
+                  data-aos="fade-up"
+                  className="mt-7 flex justify-center items-center features-bg-2 features-width w-[170px] h-[170px]"
+                >
                   <div className="">
                     <div className="flex justify-center">
-                      <h1 data-aos="fade-up"
+                      <h1
+                        data-aos="fade-up"
                         className="font-bold text-white text-4xl leading-[100%] ml-3"
                         style={{ fontFamily: "Mulish" }}
                       >
@@ -93,18 +119,21 @@ const WhyChooseUs = () => {
                         <BsPlus />
                       </div>
                     </div>
-                    <p data-aos="fade-up" className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text">
-                      successful Projects
+                    <p className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text">
+                      Successful Projects
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div >
+          <div>
             <div className="flex gap-3 items-center">
               <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>
-              <div data-aos="fade-up" className="uppercase text-sm font-normal leading-[150%] text-[#A9AFC3]">
+              <div
+                data-aos="fade-up"
+                className="uppercase text-sm font-normal leading-[150%] text-[#A9AFC3]"
+              >
                 a few words
               </div>
             </div>
@@ -114,7 +143,10 @@ const WhyChooseUs = () => {
               </h1>
             </div>
             <div className="mt-5 para-responsive">
-              <p data-aos="fade-up" className="Montserrat font-normal text-[#A9AFC3] text-lg leading-[150%] description ">
+              <p
+                data-aos="fade-up"
+                className="Montserrat font-normal text-[#A9AFC3] text-lg leading-[150%] description "
+              >
                 From raw ideas to polished masterpieces, we sculpt your visions
                 into digital marvels.
               </p>
@@ -146,10 +178,16 @@ const WhyChooseUs = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 data-aos="fade-up" className="Montserrat font-semibold font-lg leading-[130%] text-white">
+                  <h4
+                    data-aos="fade-up"
+                    className="Montserrat font-semibold font-lg leading-[130%] text-white"
+                  >
                     Quality
                   </h4>
-                  <p data-aos="fade-up" className="mt-2 Montserrat font-medium font-base leading-[170%] text-[#A9AFC3] description">
+                  <p
+                    data-aos="fade-up"
+                    className="mt-2 Montserrat font-medium font-base leading-[170%] text-[#A9AFC3] description"
+                  >
                     What makes us different is our strong commitment to quality.
                     We use our expertise and innovative solutions to enhance
                     your business uniquely.
@@ -184,10 +222,16 @@ const WhyChooseUs = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 data-aos="fade-up" className="Montserrat font-semibold font-lg leading-[130%] text-white">
+                  <h4
+                    data-aos="fade-up"
+                    className="Montserrat font-semibold font-lg leading-[130%] text-white"
+                  >
                     R&D (Research and Development)
                   </h4>
-                  <p data-aos="fade-up" className="mt-2 Montserrat font-medium font-base leading-[170%] text-[#A9AFC3] description">
+                  <p
+                    data-aos="fade-up"
+                    className="mt-2 Montserrat font-medium font-base leading-[170%] text-[#A9AFC3] description"
+                  >
                     Our proficiency in research and development drives inventive
                     business solutions, making us unique with unmatched service
                     excellence and strategic capabilities.
@@ -222,10 +266,16 @@ const WhyChooseUs = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 data-aos="fade-up" className="Montserrat font-semibold font-lg leading-[130%] text-white">
+                  <h4
+                    data-aos="fade-up"
+                    className="Montserrat font-semibold font-lg leading-[130%] text-white"
+                  >
                     Accountability
                   </h4>
-                  <p data-aos="fade-up" className="mt-2 Montserrat font-medium font-base leading-[170%] text-[#A9AFC3] description">
+                  <p
+                    data-aos="fade-up"
+                    className="mt-2 Montserrat font-medium font-base leading-[170%] text-[#A9AFC3] description"
+                  >
                     We stand out for our accountability, emphasizing trust and
                     reliability in each service. We aim to enhance your business
                     experience, making it exceptional and unique.

@@ -58,7 +58,7 @@ const LandingPage = ({ minWidth }) => {
       {/* <div>
         <CalculateTheCost />
       </div> */}
-      <div className="bg-[#141619]">
+      <div className="bg-[#141619] min-h-[600px]">
         <FrequentlyAksedQuestions />
       </div>
       <div>

@@ -6,36 +6,37 @@ import 'aos/dist/aos.css';
 const questionsData = [
   {
     id: 1,
-    questions: "What services does Vadavision Offer?",
+    questions:
+      "Is Vadavision open to collaborative project management tools preferred by the client?",
     answer:
-      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
+      "Certainly, Vadavision values collaboration. We are flexible and can adapt to your preferred project management tools to enhance communication and transparency.",
   },
   {
     id: 2,
     questions:
-      "How does Vadavision create website content without knowing our Business plan?",
+      "Does Vadavision provide services for both web and mobile app development?",
     answer:
-      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
+      "Vadavision offers comprehensive services for both web and mobile app development. We create responsive websites and cross-platform mobile applications to cater to diverse user needs.",
   },
   {
     id: 3,
-    questions: "What often will results be reported?",
+    questions: "How are updates and improvements handled post-launch?",
     answer:
-      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
+      "Vadavision handles updates and improvements efficiently. We assess feedback, plan updates, and implement improvements seamlessly to enhance your application’s functionality and user experience.",
   },
   {
     id: 4,
     questions:
-      "How do I enlist the expertise of a specialized developer from Vadavision?",
+      "Does Vadavision offer any discounts for long-term projects or partnerships?",
     answer:
-      "Hiring a specialized developer from Vadavision is easy. Just tell us what you need, check our website for professionals, and interview them. Our friendly support team will help you throughout the process.",
+      "Yes, Vadavision values long-term partnerships. We provide discounts and special offers for extended projects, fostering mutually beneficial relationships with our clients.",
   },
   {
     id: 5,
     questions:
-      "Is Vadavision suitable for startups? How can my early-stage company benefit?",
+      "How does Vadavision ensure effective communication with clients?",
     answer:
-      "We enjoy assisting startups in overcoming their challenges. Opting for Vadavision in your early stages can enhance your growth. We create user-friendly products, attracting more users and making your brand impressive.",
+      "We use various communication channels including emails, video conferences, and project management tools to keep clients updated and ensure smooth communication.",
   },
 ];
 const GeneralTab = () => {

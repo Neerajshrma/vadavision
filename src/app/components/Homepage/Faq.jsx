@@ -2,38 +2,53 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const questionsData = [
   {
     id: 1,
-    questions: "How can I onboard experienced developers from Vadavision?",
+    questions: "What services does Vadavision Offer?",
     answer:
-      "To hire skilled developers from Vadavision, simply reach out to us through our website or contact our team directly. We're here to bring your projects to life with expertise and innovation. ",
+      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
   },
   {
     id: 2,
-    questions: "Does Vadavision cover SaaS applications?",
+    questions:
+      "How does Vadavision create website content without knowing our Business plan?",
     answer:
-      " At Vadavision, our expertise encompasses various fields such as Websites, Web Applications, Mobile Apps, SaaS Applications, Business Applications, Blockchain, and AI. We're well-versed in a diverse range of technologies to cater to your needs effectively.        ",
+      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
   },
   {
     id: 3,
-    questions: "Do you establish Non-Disclosure Agreements with your clients? ",
+    questions: "What often will results be reported?",
     answer:
-      "Absolutely, we sign Non-Disclosure Agreements with all clients, emphasizing our dedication to safeguarding their intellectual property and ensuring trust and confidentiality in our partnerships.        ",
+      "Vadavision offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.",
+  },
+  {
+    id: 4,
+    questions:
+      "How do I enlist the expertise of a specialized developer from Vadavision?",
+    answer:
+      "Hiring a specialized developer from Vadavision is easy. Just tell us what you need, check our website for professionals, and interview them. Our friendly support team will help you throughout the process.",
+  },
+  {
+    id: 5,
+    questions:
+      "Is Vadavision suitable for startups? How can my early-stage company benefit?",
+    answer:
+      "We enjoy assisting startups in overcoming their challenges. Opting for Vadavision in your early stages can enhance your growth. We create user-friendly products, attracting more users and making your brand impressive.",
   },
 ];
 
 const Accordion = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 300,
         duration: 1000,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
@@ -49,15 +64,21 @@ const Accordion = () => {
 
   return (
     <div className="pb-10 pt-5 mt-">
-      <div className="w-full"data-aos="fade-up">
+      <div className="w-full" data-aos="fade-up">
         {questionsData.map((item) => (
           <div data-aos="fade-up" key={item.id} className="accordion-item">
             <div
               className="accordion-header"
               onClick={() => toggleAccordion(item.id)}
             >
-              <div data-aos="fade-up" className="flex gap-2 justify-between accordion-title">
-                <div  data-aos="fade-up"className="Montserrat text-[#CFD3D7] text-sm leading-[24px] font-normal">
+              <div
+                data-aos="fade-up"
+                className="flex gap-2 justify-between accordion-title"
+              >
+                <div
+                  data-aos="fade-up"
+                  className="Montserrat text-[#CFD3D7] text-sm leading-[24px] font-normal"
+                >
                   {item.questions}{" "}
                 </div>
                 <div className="accordion-icon">
@@ -70,7 +91,9 @@ const Accordion = () => {
               </div>
             </div>
             {openAccordion === item.id && (
-              <div data-aos="fade-up" className="text-sm accordion-content">{item.answer}</div>
+              <div data-aos="fade-up" className="text-sm accordion-content">
+                {item.answer}
+              </div>
             )}
           </div>
         ))}

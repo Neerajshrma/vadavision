@@ -70,7 +70,7 @@ const UIUXPage = () => {
       <div>
         <WhyChooseUs />
       </div>
-      <div className="bg-[#141619]">
+      <div className="bg-[#141619] min-h-[600px]">
         <FrequentlyAksedQuestions />
       </div>
       <div>

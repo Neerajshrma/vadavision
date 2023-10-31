@@ -1,19 +1,19 @@
 import React, { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const OurCustomers = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 300,
         duration: 1000,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
   return (
-    <div className="p-5 mt-20">
+    <div className="p-5 my-20" >
       <div className="text-center responsive-width mobile-width px-40">
         <h2 data-aos='fade-up' className="text-4xl text-[#DD4242] font-semibold leading-[63px]">
           Our Satisfied Clients
@@ -33,11 +33,9 @@ const OurCustomers = () => {
         <div data-aos='fade-up' className="w-28 mt-10">
           <img src="images/otgc-logo.png" alt="" />
         </div>
-        <div className="w-60 mt-10">
-          <h1 data-aos='fade-up' className="p-[2px] px-1.5 border-[6px] text-lg borde-white text-white font-bold">
-            STANDARD INSIGHTS
-          </h1>
-        </div>{" "}
+        <div className="w-28 mt-10">
+          <img src="images/360-logo.png" alt="" />
+        </div>
       </div>
       {/* <div className="mt-20 text-center w-8/12 mx-auto min-w-[400px] mobile-full-width">
         <p className="text-white text-sm">

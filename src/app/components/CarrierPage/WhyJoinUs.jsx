@@ -1,21 +1,21 @@
 import React, { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const WhyJoinUs = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 300,
         duration: 500,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
   return (
     <>
-      <div className="mt-20 px-40 responsive-width" >
-        <div className=""data-aos='fade-right'>
+      <div className="mt-20 px-40 responsive-width">
+        <div className="" data-aos="fade-right">
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
             Why pick Vadavision for your professional journey?{" "}
           </h1>
@@ -35,77 +35,18 @@ const WhyJoinUs = () => {
           </p>
         </div>
         <div className="space-y-4">
-          <div className=""data-aos='fade-right'>
-            <img
-              src="images/gather.png"
-              alt=""
-              style={{
-                height: "350px",
-                width: "500px",
-              }}
-            />
+          <div className="" data-aos="fade-right">
+            <img src="images/team.jpg" alt="" />
           </div>
-          <div className="flex flex-row flex-wrap gap-4">
-            <div className=""data-aos='fade-right'>
-              <img
-                src="images/gather.png"
-                alt=""
-                style={{
-                  height: "350px",
-                  width: "500px",
-                }}
-              />
+          <div className="flex h-[370px] gap-4">
+            <div className="w-1/2 min-w-[300px] " data-aos="fade-right">
+              <img className="max-h-[100%]" src="images/gather.png" alt="" />
             </div>
-            <div className=""data-aos='fade-right'>
+            <div className="w-1/2 min-w-[300px]" data-aos="fade-right">
               <img
-                src="images/third.png"
+                className="max-h-[100%]"
+                src="images/team-party.jpg"
                 alt=""
-                style={{
-                  height: "350px",
-                  width: "250px",
-                }}
-              />
-            </div>
-            <div className=""data-aos='fade-right'>
-              <img
-                src="images/fourth.png"
-                alt=""
-                style={{
-                  height: "350px",
-                  width: "250px",
-                }}
-              />
-            </div>
-          </div>
-          <div className="flex flex-row flex-wrap gap-4">
-            <div data-aos='fade-right'>
-              <img
-                src="images/fifth.png"
-                alt=""
-                style={{
-                  height: "350px",
-                  width: "250px",
-                }}
-              />
-            </div>
-            <div className=""data-aos='fade-right'>
-              <img
-                src="images/first.png"
-                alt=""
-                style={{
-                  height: "350px",
-                  width: "250px",
-                }}
-              />
-            </div>
-            <div className=""data-aos='fade-right'>
-              <img
-                src="images/fifth.png"
-                alt=""
-                style={{
-                  height: "350px",
-                  width: "500px",
-                }}
               />
             </div>
           </div>
