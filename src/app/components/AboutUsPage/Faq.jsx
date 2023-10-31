@@ -43,7 +43,10 @@ const Accordion = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-
+        offset: 300,
+        duration: 500,
+        once: true,
+        easing: 'ease',
       });
     }
   }, []);
@@ -58,7 +61,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="pb-10 pt-5 mt-" data-aos="zoom-in">
+    <div className="pb-10 pt-5 mt-" data-aos="fade-right">
       <div className="w-full">
         {questionsData.map((item) => (
           <div key={item.id} className="accordion-item">
