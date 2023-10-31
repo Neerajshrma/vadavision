@@ -12,7 +12,7 @@ const Industries = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
+        offset: 0,
         duration: 500,
         once: true,
         easing: 'ease',
@@ -20,21 +20,21 @@ const Industries = () => {
     }
   }, []);
   return (
-    <div className="mt-10"data-aos='fade-right'>
+    <div className="mt-10">
       <div className="flex flex-wrap gap-8 industries-we-work" >
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
-            <div className="text-[#DD4242]">
+            <div data-aos="fade-up" className="text-[#DD4242]">
               <MdContentPasteSearch size={24} />
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-xl">
+              <h1 data-aos="fade-up" className="text-white font-semibold leading-[54px] text-xl">
                 Content Generation
               </h1>
             </div>
           </div>
           <div>
-            <p className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p  data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
               Upgrade your content with our tech expertise! We leverage AI and
               OpenAI API to craft smart, engaging, and automated content
               solutions tailored just for your business.
@@ -62,17 +62,17 @@ const Industries = () => {
         </div>
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
-            <div className="text-[#DD4242]">
+            <div data-aos="fade-up" className="text-[#DD4242]">
               <TiGroup size={24} />
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-xl">
+              <h1 data-aos="fade-up" className="text-white font-semibold leading-[54px] text-xl">
                 Human Resources
               </h1>
             </div>
           </div>
           <div>
-            <p className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
               We{"'"}re IT experts creating customized HR websites. Our focus?
               User-friendly designs, secure platforms, and easy communication
               tools. Trust us to streamline your HR processes!
@@ -100,17 +100,17 @@ const Industries = () => {
         </div>
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
-            <div className="text-[#DD4242]">
+            <div data-aos="fade-up" className="text-[#DD4242]">
               <AiOutlineShop size={24} />
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-xl">
+              <h1 data-aos="fade-up" className="text-white font-semibold leading-[54px] text-xl">
                 Retail
               </h1>
             </div>
           </div>
           <div>
-            <p className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
               Improve your online store with us! Our IT team creates easy,
               secure, and successful retail websites, ensuring seamless shopping
               experiences.
@@ -138,17 +138,17 @@ const Industries = () => {
         </div>
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
-            <div className="text-[#DD4242]">
+            <div data-aos="fade-up" className="text-[#DD4242]">
               <BiSolidShoppingBags size={24} />
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-xl">
+              <h1 data-aos="fade-up" className="text-white font-semibold leading-[54px] text-xl">
                 E-commerce
               </h1>
             </div>
           </div>
           <div>
-            <p className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
               Boost Your Online Shop with Us! We create easy and secure
               eCommerce websites. Enjoy smooth shopping and grow your online
               business with our help.
@@ -176,7 +176,7 @@ const Industries = () => {
         </div>
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
-            <div className="text-[#DD4242]">
+            <div data-aos="fade-up" className="text-[#DD4242]">
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -334,13 +334,13 @@ const Industries = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-xl">
+              <h1 data-aos="fade-up" className="text-white font-semibold leading-[54px] text-xl">
                 Accounting
               </h1>
             </div>
           </div>
           <div>
-            <p className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
               Level Up Your Accounting Online! We create easy-to-use websites
               for accountants. Safe, smooth, and efficient. Let{"'"}s enhance
               your accounting business online!
@@ -368,7 +368,7 @@ const Industries = () => {
         </div>
         <div className="py-5 industries-width min-w-[240px]">
           <div className="flex items-center gap-2">
-            <div>
+            <div data-aos="fade-up">
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -454,13 +454,13 @@ const Industries = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-white font-semibold leading-[54px] text-xl">
+              <h1 data-aos="fade-up" className="text-white font-semibold leading-[54px] text-xl">
                 Finance
               </h1>
             </div>
           </div>
           <div>
-            <p className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
               We create user-friendly websites for finance. Enjoy safe data
               handling and efficient tools. Boost your finance business online
               with us for easy client interactions and growth.{" "}

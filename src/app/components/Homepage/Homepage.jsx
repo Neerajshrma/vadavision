@@ -21,7 +21,7 @@ const Homepage = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
+        offset: 0,
         duration: 500,
         once: true,
         easing: 'ease',
@@ -96,7 +96,7 @@ const Homepage = () => {
       </div>
       {/* consult with us end */}
       <div className="bg-[#141619] py-10 px-40 responsive-width">
-        <div className="w-1/2"data-aos='fade-right'>
+        <div className="w-1/2"data-aos="fade-up">
           <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
             Frequently Asked Questions
           </h1>

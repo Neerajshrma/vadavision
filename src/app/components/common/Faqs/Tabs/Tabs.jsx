@@ -24,21 +24,21 @@ const Tabs = () => {
   };
 
   return (
-    <div data-aos="fade-right">
+    <div data-aos="fade-up">
       <div className="tab-container my-2">
-        <div
+        <div data-aos="fade-up"
           className={`tab ${activeTab === "General" ? "active" : ""}`}
           onClick={() => handleTabClick("General")}
         >
           General
         </div>
-        <div
+        <div data-aos="fade-up"
           className={`tab ${activeTab === "Payment" ? "active" : ""}`}
           onClick={() => handleTabClick("Payment")}
         >
           Payment
         </div>
-        <div
+        <div data-aos="fade-up"
           className={`tab ${activeTab === "PostService" ? "active" : ""}`}
           onClick={() => handleTabClick("PostService")}
         >
