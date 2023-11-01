@@ -6,10 +6,24 @@ import React from 'react'
 const index = () => {
 
   const structuredData = {
-    "@context" : "https://schema.org",
-    "@type" : "WebSite",
-    "name" : "Vadavision",
-    "url" : "https://www.vadavision.com/",
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "Vadavision",
+    "alternateName": "Vada Vision!",
+    "url": "https://www.vadavision.com",
+    "logo": "https://www.vadavision.com/images/logo-icon.jpg",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+916280007001",
+      "contactType": "technical support",
+      "areaServed": ["IN","AE","GB","US","AU","DE","CA","SE","JP","KR"],
+      "availableLanguage": "en"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/vadavision/",
+      "https://www.instagram.com/vadavision/",
+      "https://github.com/Vadavision/"
+    ]
   };
   
   return (
