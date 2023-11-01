@@ -27,13 +27,13 @@ const HeroSection = () => {
             </div>
           </div>
           <div>
-            <h1 className="mt-2 w-11/12 text-[55px] hero-heading leading-[120%] font-bold">
+            <h1 className="mt-2 w-11/12 text-[55px] hero-heading leading-[140%] font-bold">
               Crafting Digital Dreams into Tangible Reality{" "}
               <span className="heading-dot inline-block w-5 h-5 ml-[-4px] bg-[#DD4242] rounded-full"></span>
             </h1>
           </div>
           <div>
-            <h4 className="text-base hero-description font-medium leading-[120%] text-[#A9AFC3] w-10/12 mt-4">
+            <h4 className="text-base hero-description font-medium leading-[140%] text-[#A9AFC3] w-10/12 mt-4">
               We build a solid foundation for your dream startup and fuel it for
               explosive growth.
             </h4>
@@ -46,7 +46,7 @@ const HeroSection = () => {
                   <Button
                     fontFamily="Poppins"
                     fontWeight="500"
-                    padding="7px 22px"
+                    padding="10px 22px"
                     Color="#FFFFFF"
                     fontSize="16px"
                     backgroundColor="#141619"
@@ -54,19 +54,6 @@ const HeroSection = () => {
                   />
                 </div>
               </RippleEffect>
-            </div>
-            <div>
-              <Link href="/about-us">
-                <Button
-                  fontFamily="Poppins"
-                  fontWeight="500"
-                  padding="7px 22px"
-                  Color="#FFFFFF"
-                  fontSize="16px"
-                  backgroundColor="#959596"
-                  name="Know More"
-                />
-              </Link>
             </div>
           </div>
         </div>

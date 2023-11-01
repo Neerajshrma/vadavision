@@ -113,9 +113,9 @@ const RecognizedBy = () => {
                 </defs>
               </svg>
             </div>
-            <div className="text-[#141619] font-semibold text-sm leading-[120%] reviwes">
+            {/* <div className="text-[#141619] font-semibold text-sm leading-[120%] reviwes">
               ({number.GoogleReview} REVIEWS)
-            </div>
+            </div> */}
           </div>
         </div>
         <div>
@@ -244,9 +244,9 @@ const RecognizedBy = () => {
                 />
               </svg>
             </div>
-            <div data-aos='fade-up' className="text-[#141619] font-semibold text-sm leading-[120%] reviwes">
+            {/* <div data-aos='fade-up' className="text-[#141619] font-semibold text-sm leading-[120%] reviwes">
               ({number.UpworkReview} REVIEWS)
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
