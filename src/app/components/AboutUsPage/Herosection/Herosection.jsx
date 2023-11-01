@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
+import Image from "next/image";
+import Gather from "../../../../../public/images/gather-4.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Image from "next/image";
 
 const Herosection = () => {
   useEffect(() => {
@@ -36,18 +37,9 @@ const Herosection = () => {
           creativity in our work.
         </p>
       </div>
-      <div
-        style={{ position: "relative", width: "100%", aspectRatio: "16/8" }}
-        className="py-10"
-        data-aos="fade-up"
-      >
+      <div className="py-10" data-aos="fade-up">
         {/* <img src="images/gather-4.png" alt="" /> */}
-        <Image
-          src="/images/gather-4.png"
-          alt=""
-          layout="fill"
-          objectFit="contain"
-        />
+        <Image src={Gather} alt="" />
       </div>
     </div>
   );
