@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import Button from "../../common/Button";
 import AOS from "aos";
+import Image from "next/image";
+import otgc from "../../../../../public/images/otgc.png";
 import "aos/dist/aos.css";
 
 const Otgc = () => {
@@ -26,7 +28,9 @@ const Otgc = () => {
           data-aos="fade-up"
         >
           <div className="">
-            <img src="/images/otgc.png" alt="" />
+          <Image src={otgc} alt="" />
+
+            {/* <img src="/images/otgc.png" alt="" /> */}
           </div>
         </div>
         <div className="portfolio-content w-[45%] py-14">

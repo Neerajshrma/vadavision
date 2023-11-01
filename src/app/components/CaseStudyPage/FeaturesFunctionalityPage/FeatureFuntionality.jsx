@@ -1,5 +1,8 @@
 import React from "react";
-
+import Image from "next/image";
+import user from "../../../../../public/images/user.png";
+import car from "../../../../../public/images/car.png";
+import wallet from "../../../../../public/images/wallet.png";
 const FeatureFuntionality = () => {
   return (
     <>
@@ -17,11 +20,13 @@ const FeatureFuntionality = () => {
         <div className="flex flex-col md:flex-row justify-around  space-y-10  px-36 md:space-x-20 pt-10 pb-16">
           <div className="flex flex-col w-36 h-36 bg-[#F6FAFE] rounded-full shadow-md">
             <div className="flex justify-center pt-4 md:pt-12 pb-2 md:pb-4">
-              <img
+            <Image src={user} alt="" />
+
+              {/* <img
                 src="images/user.png"
                 alt=""
                 style={{ width: "40px", height: "40px" }}
-              />
+              /> */}
             </div>
             <h1 className="font-bold flex justify-center pt-4 md:pt-16">
               User Friendly
@@ -30,11 +35,13 @@ const FeatureFuntionality = () => {
           </div>
           <div className="flex flex-col w-36 h-36 bg-[#F6FAFE] rounded-full shadow-md">
             <div className="flex justify-center pt-4 md:pt-12 pb-2 md:pb-4">
-              <img
+            <Image src={car} alt="" />
+
+              {/* <img
                 src="images/car.png"
                 alt=""
                 style={{ width: "40px", height: "40px" }}
-              />
+              /> */}
             </div>
             <h1 className="font-bold flex justify-center pt-4 md:pt-16">
               Easy to connect
@@ -43,11 +50,13 @@ const FeatureFuntionality = () => {
           </div>
           <div className="flex flex-col w-36 h-36 bg-[#F6FAFE] rounded-full shadow-md">
             <div className="flex justify-center pt-4 md:pt-12 pb-2 md:pb-4">
-              <img
+            <Image src={wallet} alt="" />
+
+              {/* <img
                 src="images/wallet.png"
                 alt=""
                 style={{ width: "40px", height: "40px" }}
-              />
+              /> */}
             </div>
             <h1 className="font-bold flex justify-center pt-4 md:pt-16">
               Easy to Pay

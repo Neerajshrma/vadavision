@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
+import Image from "next/image";
+import circle from "../../../../../public/images/check-circle.svg";
 import 'aos/dist/aos.css'; 
 const OurWorkCulture = () => {
   useEffect(() => {
@@ -49,31 +51,41 @@ const OurWorkCulture = () => {
         <div>
           <div className="flex flex-row flex-wrap w-1/2 responsivePerksList"data-aos='fade-right'>
             <div className="flex items-center py-2">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
+            <Image src={circle} alt="" />
+
+              {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
               <div className="pl-2 pr-8 font-medium text-white">
                 Team Spirit at Vadavision
               </div>
             </div>
             <div className="flex items-center py-2">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
+            <Image src={circle} alt="" />
+
+              {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
               <span className="pl-2 pr-8 font-medium text-white">
                 Creative Freedom
               </span>
             </div>
             <div className="flex items-center py-2">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
+            <Image src={circle} alt="" />
+
+              {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
               <span className="pl-2 pr-8 font-medium text-white">
                 Remote, Yet Connected
               </span>
             </div>
             <div className="flex items-center py-2">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
+                        <Image src={circle} alt="" />
+
+              {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
               <span className="pl-2 pr-8 font-medium text-white">
                 Flexible Vibes
               </span>
             </div>
             <div className="flex items-center py-2">
-              <img className="h-5" src="images/check-circle.svg" alt="" />
+            <Image src={circle} alt="" />
+
+              {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
               <span className="pl-2 pr-8 font-medium text-white">
                 Innovate Your Way
               </span>

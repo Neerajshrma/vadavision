@@ -30,12 +30,7 @@ const Homepage = () => {
   }, []);
   return (
     <div>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Marck+Script:400"
-          rel="stylesheet"
-        />
-      </Head>
+      
       {/* header start */}
       <div>
         <Header color="black" backgroundColor="#141619" svgcolor="#333542" />

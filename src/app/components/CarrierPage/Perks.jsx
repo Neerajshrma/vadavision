@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from "next/image";
+import circle from "../../../../public/images/check-circle.svg";
 const Perks = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
@@ -44,13 +46,17 @@ const Perks = () => {
           <div>
             <div className="flex gap-4 flex-wrap">
               <div data-aos='fade-up' className="flex items-center pb-3p w-80">
-                <img className="h-5" src="images/check-circle.svg" alt="" />
+              <Image src={circle} alt="" />
+
+                {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
                 <span data-aos='fade-up' className="pl-2 pr-8 font-medium text-white text-xl">
                   Flexible Work Hours
                 </span>
               </div>
               <div data-aos='fade-up'className="flex items-center pb-3 w-80">
-                <img className="h-5" src="images/check-circle.svg" alt="" />
+              <Image src={circle} alt="" />
+
+                {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
                 <span data-aos='fade-up'className="pl-2 font-medium text-white text-xl">
                   Health Insurance Benefits:
                 </span>
@@ -58,13 +64,17 @@ const Perks = () => {
             </div>
             <div className="flex gap-4 flex-wrap">
               <div data-aos='fade-up'className="flex items-center pb-3 w-80">
-                <img className="h-5" src="images/check-circle.svg" alt="" />
+              <Image src={circle} alt="" />
+
+                {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
                 <span  data-aos='fade-up' className="pl-2 pr-8 font-medium text-white text-xl">
                   Paid Time Off
                 </span>
               </div>
               <div data-aos='fade-up'className="flex items-center pb-3 w-80">
-                <img className="h-5" src="images/check-circle.svg" alt="" />
+              <Image src={circle} alt="" />
+
+                {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
                 <span data-aos='fade-up'className="pl-2 font-medium text-white text-xl">
                   Customizable Benefits
                 </span>
@@ -72,14 +82,19 @@ const Perks = () => {
             </div>
             <div className="flex gap-4 flex-wrap">
               <div data-aos='fade-up'className="flex items-center pb-3 w-80">
-                <img className="h-5" src="images/check-circle.svg" alt="" />
+              <Image src={circle} alt="" />
+
+                {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
                 <span data-aos='fade-up' className="pl-2 pr-8 font-medium text-white text-xl">
                   Incentives
                 </span>
               </div>
               <div data-aos='fade-up'className="flex items-center pb-3 w-80">
-                <img className="h-5" src="images/check-circle.svg" alt="" />
+              <Image src={circle} alt="" />
+
+                {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
                 <span data-aos='fade-up' className="pl-2 font-medium text-white text-xl">
+
                   Internet Reimbursement
                 </span>
               </div>

@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import Google from "../../../../../public/images/google.png";
+import clutch from "../../../../../public/images/clutch.png";
 
 const RecognizedBy = () => {
   return (
@@ -6,8 +9,11 @@ const RecognizedBy = () => {
       <div className="flex flex-wrap gap-7 items-center justify-evenly recognize-by">
         <div>
           <div className="w-[95px] mt-2">
-            <img src="/images/google.png" alt="" />
+            {/* <img src="/images/google.png" alt="" /> */}
+            <Image src={Google} alt="" />
+
           </div>
+
           <div className="flex items-center gap-1 mt-1">
             <div>
               <svg
@@ -222,7 +228,9 @@ const RecognizedBy = () => {
           </div>
         </div>
         <div className="w-20">
-          <img src="images/clutch.png" alt="" />
+        <Image src={clutch} alt="" />
+
+          {/* <img src="images/clutch.png" alt="" /> */}
         </div>
       </div>
     </div>

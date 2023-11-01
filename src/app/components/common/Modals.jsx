@@ -3,7 +3,8 @@ import { RxCross2 } from "react-icons/rx";
 import Calender from "./Calender";
 import PopUp from "./PopUp";
 import { ModalContext } from "../hooks/modalContext";
-
+import Image from "next/image";
+import circle from "../../.././../public/images/check-circle.svg";
 const Modals = () => {
   let { isModalOpen, modalClose } = useContext(ModalContext);
 
@@ -34,18 +35,26 @@ const Modals = () => {
               <div className="flex justify-center mt-10 font-medium calender">
                 <div className="">
                   <div className="flex gap-2 items-center py-2">
-                    <img className="h-5" src="images/check-circle.svg" alt="" />
+                    {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
+                    <Image src={circle} alt="" />
+
                     <div className="font-medium">Personalized Solutions</div>
+
                   </div>
                   <div className="flex gap-2 items-center py-2">
-                    <img className="h-5" src="images/check-circle.svg" alt="" />
+                    {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
+                    <Image src={circle} alt="" />
+
                     <span className="font-medium">
                       Initiating Action with a Call
                     </span>
                   </div>
                   <div className="flex gap-2 items-center py-2">
-                    <img className="h-5" src="images/check-circle.svg" alt="" />
+                  <Image src={circle} alt="" />
+
+                    {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
                     <span className="font-medium">Embarking on a Journey</span>
+
                   </div>
                 </div>
               </div>

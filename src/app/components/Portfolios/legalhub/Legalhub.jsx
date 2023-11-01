@@ -2,8 +2,13 @@ import React, { useEffect } from "react";
 import Button from "../../common/Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
+import otgc from "../../../../../public/images/otgc.png";
+import logo from "../../../../../public/images/otgc-logo.png";
+import Otgc from "../Otgc/Otgc";
 
 const Legalhub = () => {
+
   useEffect(() => {
     if (typeof document !== "undefined") {
       AOS.init({
@@ -23,7 +28,9 @@ const Legalhub = () => {
       >
         <div className="portfolio-img portfolio-legalhub py-14 w-[45%]">
           <div className="" data-aos="fade-up">
-            <img src="/images/otgc.png" alt="" />
+          <Image src={otgc} alt="" />
+
+            {/* <img src="/images/otgc.png" alt="" /> */}
           </div>
         </div>
         <div className="portfolio-content w-[45%] py-14">
@@ -37,7 +44,9 @@ const Legalhub = () => {
             </div>
           </div>
           <div className="mt-5" data-aos="fade-up">
-            <img className="w-28" src="/images/otgc-logo.png" alt="" />
+          <Image src={logo} alt="" />
+
+            {/* <img className="w-28" src="/images/otgc-logo.png" alt="" /> */}
           </div>
           <div className="mt-10">
             <p className=" Montserrat font-normal text-white text-sm leading-[120%]">

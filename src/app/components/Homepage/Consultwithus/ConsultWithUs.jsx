@@ -1,11 +1,15 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import RippleEffect from "../../common/RippleEffect";
 import Modals from "../../common/Modals";
 import Button from "../../common/Button";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { ModalContext } from "../../hooks/modalContext";
+
 const ConsultWithUs = () => {
+  let { modalOpen } = useContext(ModalContext);
+
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
@@ -44,7 +48,7 @@ const ConsultWithUs = () => {
           <div className="pt-10 h-16 border-l border-[#DD4242] consult-btn">
             <div className="pl-8 consult-btn"data-aos="fade-up">
               <RippleEffect>
-                <div onClick={openModal}>
+                <div onClick={modalOpen}>
                   <Button
                     fontFamily="Poppins"
                     fontWeight="600"
@@ -57,7 +61,6 @@ const ConsultWithUs = () => {
                 </div>
               </RippleEffect>
 
-              <Modals isOpen={modalIsOpen} onClose={closeModal} />
             </div>
           </div>
         </div>

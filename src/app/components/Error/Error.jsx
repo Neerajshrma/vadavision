@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import errorimage from "../../../../public/images/error.png";
 const Error = () => {
   return (
     <>
@@ -25,7 +26,9 @@ const Error = () => {
           >
             Don’t worry. It’s just 404 page not found.
           </div>
-          <img className="max-h-full w-full" src="images/error.png" alt="" />
+          <Image src={errorimage} alt="" />
+
+          {/* <img className="max-h-full w-full" src="images/error.png" alt="" /> */}
         </div>
       </div>
     </>

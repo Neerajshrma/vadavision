@@ -1,7 +1,13 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
+import teamparty from "../../../../public/images/team-party.jpg";
+import gather from "../../../../public/images/gather.png";
+import team from "../../../../public/images/team.jpg";
+
 const WhyJoinUs = () => {
+
   useEffect(() => {
     if (typeof document !== "undefined") {
       AOS.init({
@@ -36,18 +42,24 @@ const WhyJoinUs = () => {
         </div>
         <div className="space-y-4">
           <div className="" data-aos='fade-up'>
-            <img src="images/team.jpg" alt="" />
+          <Image src={team} alt="" />
+
+            {/* <img src="images/team.jpg" alt="" /> */}
           </div>
           <div className="flex h-[370px] gap-4">
             <div className="w-1/2 min-w-[300px] " data-aos='fade-up'>
-              <img className="max-h-[100%]" src="images/gather.png" alt="" />
+            <Image src={gather} alt="" />
+
+              {/* <img className="max-h-[100%]" src="images/gather.png" alt="" /> */}
             </div>
             <div className="w-1/2 min-w-[300px]" data-aos='fade-up'>
-              <img
+            <Image src={teamparty} alt="" />
+
+              {/* <img
                 className="max-h-[100%]"
                 src="images/team-party.jpg"
                 alt=""
-              />
+              /> */}
             </div>
           </div>
         </div>

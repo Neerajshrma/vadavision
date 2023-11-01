@@ -1,5 +1,10 @@
 import React from 'react'
+import Image from "next/image";
+import icondev from "../../../../../public/images/iconwebdev.svg";
+import iconsocialmedia from "../../../../../public/images/iconsocialmedia.svg";
+import iconbrading from "../../../../../public/images/iconbranding.svg";
 
+import iconapp from "../../../../../public/images/iconapp.svg";
 const ServiseCards = () => {
   return (
     <>
@@ -38,7 +43,9 @@ const ServiseCards = () => {
 
       <div className="flex flex-row   px-40 responsive-width mobile-width ">
         <div className=" w-[25%] bg-[#2a2b2a] grid justify-items-center pt-10">
-          <img src="images/iconbranding.svg" alt="" />
+        <Image src={iconbrading} alt="" />
+
+          {/* <img src="images/iconbranding.svg" alt="" /> */}
           <span className="pt-5 text-white">UI/UX and</span>
           <span className="text-white">Brand Identity</span>
           <div className="  pt-5 pb-20   ">
@@ -48,7 +55,9 @@ const ServiseCards = () => {
           </div>
         </div>
         <div className="w-[25%] bg-[#181a18] grid justify-items-center pt-10">
-          <img src="images/iconapp.svg" alt="" />
+        <Image src={iconapp} alt="" />
+
+          {/* <img src="images/iconapp.svg" alt="" /> */}
           <span className="pt-5 text-white">App</span>
           <span className="text-white">Development</span>
           <div className="  pt-5 pb-20   ">
@@ -59,7 +68,9 @@ const ServiseCards = () => {
         </div>
 
         <div className="w-[25%] bg-[#2a2b2a] grid justify-items-center pt-10">
-          <img src="images/iconsocialmedia.svg" alt="" />
+        <Image src={iconsocialmedia} alt="" />
+
+          {/* <img src="images/iconsocialmedia.svg" alt="" /> */}
           <span className="pt-5 text-white">SEO & SMM</span>
           <span className="text-white ">Optimization</span>
           <div className="  pt-5 pb-20   ">
@@ -69,7 +80,9 @@ const ServiseCards = () => {
           </div>{" "}
         </div>
         <div className="w-[25%] bg-[#181a18] grid justify-items-center pt-10">
-          <img src="images/iconwebdev.svg" alt="" />
+        <Image src={icondev} alt="" />
+
+          {/* <img src="images/iconwebdev.svg" alt="" /> */}
           <span className="pt-5 text-white">Web</span>
           <span className="text-white">Development</span>
           <div className="  pt-5 pb-20   ">

@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../common/Button";
-
+import Image from "next/image";
+import group from "../../../../../public/images/group_83.png";
 const UiUxCaseStudy = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2">
@@ -21,11 +22,13 @@ const UiUxCaseStudy = () => {
       </div>
 
       <div className="flex justify-center">
-        <img
+        {/* <img
           src="images/group_83.png"
           alt=""
           style={{ height: "auto", maxWidth: "100%" }}
-        />
+        /> */}
+                  <Image src={group} alt="" />
+
       </div>
     </div>
   );

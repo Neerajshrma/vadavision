@@ -3,6 +3,8 @@ import Button from "../../common/Button";
 import RippleEffect from "../../common/RippleEffect";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Image from "next/image";
+import tw from "../../../../../public/images/tweekend.png";
 
 const Tweekend = () => {
   useEffect(() => {
@@ -23,7 +25,9 @@ const Tweekend = () => {
       >
         <div className="portfolio-img portfolio-tweekend w-[45%] py-14">
           <div className=""data-aos="fade-up">
-            <img src="/images/tweekend.png" alt="" />
+          <Image src={tw} alt="" />
+
+            {/* <img src="/images/tweekend.png" alt="" /> */}
           </div>
         </div>
         <div className="portfolio-content w-[45%] py-14">

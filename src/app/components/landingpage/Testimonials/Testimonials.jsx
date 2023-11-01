@@ -4,6 +4,9 @@ import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import { BsArrowDown, BsArrowUp } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
+import clientimage from "../../../../../public/images/client-img.png";
+
 
 const SplideSlider = () => {
   useEffect(() => {
@@ -54,7 +57,9 @@ const SplideSlider = () => {
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
                 <div className="w-1/3 mob-testimonials-img"data-aos='fade-up'>
-                  <img className="w-full" src="images/client-img.png" alt="" />
+                <Image src={clientimage} alt="" />
+
+                  {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
                 </div>
                 <div data-aos='fade-up' className="w-2/3 mob-testimonials-content" >
                   <div  data-aos='fade-up'
@@ -76,11 +81,13 @@ const SplideSlider = () => {
                   </div>
                   <div className="flex gap-2 items-center mob-testimonials-profile">
                     <div data-aos='fade-up' className="w-10 mt-3 mob-testimonials-img2 hidden">
-                      <img
+                      {/* <img
                         className="w-full"
                         src="images/client-img.png"
                         alt=""
-                      />
+                      /> */}
+                                <Image src={clientimage} alt="" />
+
                     </div>
                     <div data-aos='fade-up' className="text-black font-semibold mt-5 text-base testimonial-content">
                       Robertsen Andrew
@@ -97,7 +104,9 @@ const SplideSlider = () => {
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
                 <div className="w-1/3 mob-testimonials-img" data-aos="slide-up">
-                  <img className="w-full" src="images/client-img.png" alt="" />
+                <Image src={clientimage} alt="" />
+
+                  {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
                 </div>
                 <div className="w-2/3 mob-testimonials-content">
                   <div
@@ -123,11 +132,13 @@ const SplideSlider = () => {
                       className="w-10 mt-3 mob-testimonials-img2 hidden"
                       data-aos="slide-up"
                     >
-                      <img
+                                <Image src={clientimage} alt="" />
+
+                      {/* <img
                         className="w-full"
                         src="images/client-img.png"
                         alt=""
-                      />
+                      /> */}
                     </div>
                     <div
                       data-aos="slide-up"
@@ -150,7 +161,9 @@ const SplideSlider = () => {
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
                 <div className="w-1/3 mob-testimonials-img">
-                  <img className="w-full" src="images/client-img.png" alt="" />
+                <Image src={clientimage} alt="" />
+
+                  {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
                 </div>
                 <div className="w-2/3 mob-testimonials-content">
                   <div
@@ -172,11 +185,13 @@ const SplideSlider = () => {
                   </div>
                   <div className="flex gap-2 items-center mob-testimonials-profile">
                     <div className="w-10 mt-3 mob-testimonials-img2 hidden">
-                      <img
+                      {/* <img
                         className="w-full"
                         src="images/client-img.png"
                         alt=""
-                      />
+                      /> */}
+                                <Image src={clientimage} alt="" />
+
                     </div>
                     <div className="text-black font-semibold mt-5 text-base testimonial-content">
                       Robertsen Andrew

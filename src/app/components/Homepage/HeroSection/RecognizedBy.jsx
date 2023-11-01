@@ -2,6 +2,8 @@
  import React, { useEffect } from "react";
  import number from '@/app/components/common/Constants'
  import AOS from 'aos';
+ import Image from "next/image";
+import google from "../../../../../public/images/google.png";
 import 'aos/dist/aos.css'; 
 const RecognizedBy = () => {
   useEffect(() => {
@@ -29,7 +31,9 @@ const RecognizedBy = () => {
         <div>
           <div className="max-w-[95px]"
           data-aos='fade-up'>
-            <img src="images/google.png" alt="" />
+                    <Image src={google} alt="" />
+
+            {/* <img src="images/google.png" alt="" /> */}
           </div>
           <div data-aos='fade-up' className="flex items-center gap-1 mt-3">
             <div >

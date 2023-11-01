@@ -1,4 +1,9 @@
 import React from "react";
+import Image from "next/image";
+import one from "../../../../../public/images/one.png";
+import second from "../../../../../public/images/two.png";
+import third from "../../../../../public/images/three.png";
+import fourth from "../../../../../public/images/four.png";
 
 const OurExperts = () => {
   return (
@@ -38,16 +43,24 @@ const OurExperts = () => {
           <div className="flex px-40 responsive-width mobile-width">
             <div className="flex flex-row">
               <div>
-                <img src="images/one.png" alt="" />
+              <Image src={one} alt="" />
+
+                {/* <img src="images/one.png" alt="" /> */}
               </div>
               <div>
-                <img src="images/two.png" alt="" />
+              <Image src={second} alt="" />
+
+                {/* <img src="images/two.png" alt="" /> */}
               </div>
               <div>
-                <img src="images/three.png" alt="" />
+              <Image src={third} alt="" />
+
+                {/* <img src="images/three.png" alt="" /> */}
               </div>
               <div>
-                <img src="images/four.jpg   " alt="" />
+              <Image src={fourth} alt="" />
+
+                {/* <img src="images/four.jpg   " alt="" /> */}
               </div>
             </div>
           

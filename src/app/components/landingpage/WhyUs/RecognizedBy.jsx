@@ -1,12 +1,15 @@
 import React from "react";
-
+import Image from "next/image";
+import google from "../../../../../public/images/google.png";
 const RecognizedBy = () => {
   return (
     <div className="py-7">
       <div className="flex flex-wrap gap-7 itesm-center mt-7 recognize-by">
         <div>
           <div className="max-w-[95px]">
-            <img src="images/google.png" alt="" />
+          <Image src={google} alt="" />
+
+            {/* <img src="images/google.png" alt="" /> */}
           </div>
           <div className="flex items-center gap-1 mt-3">
             <div>

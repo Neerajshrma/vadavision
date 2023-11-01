@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import Image from "next/image";
+import SI from "../../../../../public/images/standardinsight.png";
 import Button from "../../common/Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -21,7 +23,9 @@ const StandardInsights = () => {
       >
         <div className="portfolio-img portfolio-standardinsights py-14 w-[45%]">
           <div className="" data-aos="fade-up">
-            <img src="/images/standardinsight.png" alt="" />
+          <Image src={SI} alt="" />
+
+            {/* <img src="/images/standardinsight.png" alt="" /> */}
           </div>
         </div>
         <div className="portfolio-content w-[45%] py-14">

@@ -4,6 +4,8 @@ import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import { BsArrowDown, BsArrowUp } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
+import client from "../../../../public/images/client.png";
 
 const SplideSlider = () => {
   useEffect(() => {
@@ -65,7 +67,9 @@ const SplideSlider = () => {
                   className="mt-10 flex justify-center gap-4 items-center testimonial-profile"
                 >
                   <div data-aos="fade-up" className="profile-img">
-                    <img className="w-full" src="/images/client.png" alt="" />
+                  <Image src={client} alt="" />
+
+                    {/* <img className="w-full" src="/images/client.png" alt="" /> */}
                   </div>
                   <div>
                     <h6
@@ -101,7 +105,9 @@ const SplideSlider = () => {
                 </div>
                 <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
                   <div className="profile-img">
-                    <img className="w-full" src="/images/client.png" alt="" />
+                  <Image src={client} alt="" />
+
+                    {/* <img className="w-full" src="/images/client.png" alt="" /> */}
                   </div>
                   <div>
                     <h6 className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]">
@@ -131,7 +137,9 @@ const SplideSlider = () => {
                 </div>
                 <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
                   <div className="profile-img">
-                    <img className="w-full" src="/images/client.png" alt="" />
+                  <Image src={client} alt="" />
+
+                    {/* <img className="w-full" src="/images/client.png" alt="" /> */}
                   </div>
                   <div>
                     <h6 className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]">

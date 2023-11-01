@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import flowchat from "../../../../../public/images/flowchat.png";
 const UserFlow = () => {
   return (
     <>
@@ -9,10 +10,12 @@ const UserFlow = () => {
       >
         <div className="text-3xl font-bold pt-14">User Flow</div>
         <div>
-        <img
+        {/* <img
                 src="images/flowchat.png"
                 alt=""
-              />
+              /> */}
+                        <Image src={flowchat} alt="" />
+
         </div>
       </div>
     </>

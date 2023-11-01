@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import arrow from "../../../../../public/images/arrow.png";
 const BusinessChallengePage = () => {
   return (
     <div className="px-4 pt-10 md:px-20 content-responsive">
@@ -9,7 +10,9 @@ const BusinessChallengePage = () => {
         </div>
         <div className="flex flex-col space-y-4 md:flex-row md:space-x-4">
           <div className="w-10 md:w-16 pt-2 hide-arrow">
-            <img src="images/arrow.png" alt="" />
+          <Image src={arrow} alt="" />
+
+            {/* <img src="images/arrow.png" alt="" /> */}
           </div>
           <div className="font-medium text-left">
             <p>

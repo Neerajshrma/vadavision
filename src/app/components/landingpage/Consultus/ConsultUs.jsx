@@ -1,11 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Button from "../../common/Button";
 import Link from "next/link";
 import Modals from "../../common/Modals";
 import RippleEffect from "../../common/RippleEffect";
+import { ModalContext } from "../../hooks/modalContext";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 const ConsultUs = ({ backgroundColor, color }) => {
+  let { modalOpen } = useContext(ModalContext);
+
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
@@ -40,7 +44,7 @@ const ConsultUs = ({ backgroundColor, color }) => {
           </h1>
         </div>
         <div className="mt-10" data-aos='fade-up'>
-            <div className="inline-block" onClick={openModal}>
+            <div className="inline-block"onClick={modalOpen} >
               <Button
                 fontFamily="Poppins"
                 fontWeight="500"
@@ -52,7 +56,6 @@ const ConsultUs = ({ backgroundColor, color }) => {
               />
             </div>
           
-          <Modals isOpen={modalIsOpen} onClose={closeModal} />
         </div>
       </div>
     </div>

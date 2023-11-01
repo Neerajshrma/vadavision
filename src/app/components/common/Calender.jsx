@@ -1,6 +1,8 @@
 import React from "react";
 import { SiGooglemeet } from "react-icons/si";
 import { MdOutlineWatchLater } from "react-icons/md";
+import Image from "next/image";
+import calender from "../../.././../public/images/calender-img.png";
 
 const Calender = ({ justifyContent, height }) => {
   return (
@@ -8,11 +10,14 @@ const Calender = ({ justifyContent, height }) => {
       <div className="flex mt-2" style={{ justifyContent: justifyContent }}>
         <div className="text-center calender">
           <div className="w-16 mx-auto rounded-full">
-            <img
+            {/* <img
               className="max-w-[100%] rounded-full"
               src="images/calender-img.png"
               alt=""
-            />
+
+            /> */}
+                      <Image className="max-w-[100%] rounded-full" src={calender} alt="" />
+
           </div>
           <div className="mt-2">
             <span className="block font-semibold 		text-sm">

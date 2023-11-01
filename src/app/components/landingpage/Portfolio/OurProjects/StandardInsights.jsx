@@ -1,5 +1,7 @@
 import Button from "@/app/components/common/Button";
 import React from "react";
+import Image from "next/image";
+import StandardInsight from "../../../../../../public/images/standardinsight.png";
 
 const StandardInsights = () => {
   return (
@@ -9,11 +11,13 @@ const StandardInsights = () => {
           className="py-10 bg-no-repeat portfolio-img min-w-[400px] min-h-[330px] bg-cover"
           style={{ backgroundImage: "url(images/portfolio-bg.png)" }}
         >
-          <img
+          {/* <img
             className="mx-auto portfolio-img max-w-[370px]"
             src="/images/standardinsight.png"
             alt=""
-          />
+          /> */}
+                    <Image src={StandardInsight} alt="" />
+
         </div>
       </div>
       <div>

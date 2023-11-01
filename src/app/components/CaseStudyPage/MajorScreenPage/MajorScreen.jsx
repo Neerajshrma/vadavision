@@ -1,6 +1,11 @@
 import React from "react";
+import Image from "next/image";
+import gallery from "../../../../../public/images/gallery.png";
+import profile from "../../../../../public/images/profile.png";
+import homescreen from "../../../../../public/images/homescreen.png";
 
 const MajorScreen = () => {
+
   return (
     <div className="px-4 pt-10 md:px-20">
       <div style={{ fontFamily: "Montserrat" }}>
@@ -10,29 +15,35 @@ const MajorScreen = () => {
             Home Screen
           </div>
           <div className="flex justify-center items-center">
-            <img
+          <Image src={homescreen} alt="" />
+
+            {/* <img
               src="images/homescreen.png"
               alt=""
               style={{ height: "auto", maxWidth: "100%" }}
-            />
+            /> */}
           </div>
 
           <div className="text-2xl font-bold pt-6 text-center">Profile</div>
           <div className="flex justify-center items-center">
-            <img
+          <Image src={profile} alt="" />
+
+            {/* <img
               src="images/profile.png"
               alt=""
               style={{ height: "auto", maxWidth: "100%" }}
-            />
+            /> */}
           </div>
 
           <div className="text-2xl font-bold pt-6 text-center">Gallery</div>
           <div className="flex justify-center items-center">
-            <img
+          <Image src={gallery} alt="" />
+
+            {/* <img
               src="images/gallery.png"
               alt=""
               style={{ height: "auto", maxWidth: "100%" }}
-            />
+            /> */}
           </div>
         </div>
       </div>
