@@ -1,4 +1,7 @@
 import React, { useEffect } from "react";
+import Image from 'next/image';
+import Gather from '../../../../../public/images/gather-4.png'
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Herosection = () => {
@@ -29,7 +32,8 @@ const Herosection = () => {
         </p>
       </div>
       <div className="py-10" data-aos='fade-up'>
-        <img src="images/gather-4.png" alt="" />
+        {/* <img src="images/gather-4.png" alt="" /> */}
+        <Image src={Gather}  alt="" />
       </div>
     </div>
   );
