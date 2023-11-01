@@ -1251,3 +1251,12 @@ div#join-widget > div {
 .calender-popup {
   animation: wobble 1s ease-in-out ;
 }
+
+
+@media screen and (max-width: 760px) {
+  .career-images{
+   flex-wrap: wrap;
+   width: 100%;
+   height: 100%;
+  }
+}

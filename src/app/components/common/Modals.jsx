@@ -36,25 +36,23 @@ const Modals = () => {
                 <div className="">
                   <div className="flex gap-2 items-center py-2">
                     {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
-                    <Image src={circle} alt="" />
+                    <Image src={circle} width={20} alt="" />
 
                     <div className="font-medium">Personalized Solutions</div>
-
                   </div>
                   <div className="flex gap-2 items-center py-2">
                     {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
-                    <Image src={circle} alt="" />
+                    <Image src={circle} width={20} alt="" />
 
                     <span className="font-medium">
                       Initiating Action with a Call
                     </span>
                   </div>
                   <div className="flex gap-2 items-center py-2">
-                  <Image src={circle} alt="" />
+                    <Image src={circle} width={20} alt="" />
 
                     {/* <img className="h-5" src="images/check-circle.svg" alt="" /> */}
                     <span className="font-medium">Embarking on a Journey</span>
-
                   </div>
                 </div>
               </div>

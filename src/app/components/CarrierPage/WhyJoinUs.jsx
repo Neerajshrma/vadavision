@@ -7,7 +7,6 @@ import gather from "../../../../public/images/gather.png";
 import team from "../../../../public/images/team.jpg";
 
 const WhyJoinUs = () => {
-
   useEffect(() => {
     if (typeof document !== "undefined") {
       AOS.init({
@@ -21,11 +20,17 @@ const WhyJoinUs = () => {
   return (
     <>
       <div className="mt-20 px-40 responsive-width">
-        <div className="" >
-          <h1 data-aos='fade-up' className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
+        <div className="">
+          <h1
+            data-aos="fade-up"
+            className="Montserrat text-white text-4xl font-bold heading leading-[130%]"
+          >
             Why pick Vadavision for your professional journey?{" "}
           </h1>
-          <p data-aos='fade-up' className="pt-4 w-[80%] pb-10 text-white text-sm leading-[28px] para-responsive">
+          <p
+            data-aos="fade-up"
+            className="pt-4 w-[80%] pb-10 text-white text-sm leading-[28px] para-responsive"
+          >
             At Vadavision, we prioritize our employees voices, valuing their
             input before giving feedback. Our work setup is incredibly flexible,
             allowing our team to work remotely in diverse environments, from the
@@ -41,19 +46,25 @@ const WhyJoinUs = () => {
           </p>
         </div>
         <div className="space-y-4">
-          <div className="" data-aos='fade-up'>
-          <Image src={team} alt="" />
+          <div className="" data-aos="fade-up">
+            <Image src={team} alt="" />
 
             {/* <img src="images/team.jpg" alt="" /> */}
           </div>
-          <div className="flex h-[370px] gap-4">
-            <div className="w-1/2 min-w-[300px] " data-aos='fade-up'>
-            <Image src={gather} alt="" />
+          <div className="flex h-[370px] career-images gap-4">
+            <div
+              className="w-1/2 career-images min-w-[300px] "
+              data-aos="fade-up"
+            >
+              <Image src={gather} alt="" />
 
               {/* <img className="max-h-[100%]" src="images/gather.png" alt="" /> */}
             </div>
-            <div className="w-1/2 min-w-[300px]" data-aos='fade-up'>
-            <Image src={teamparty} alt="" />
+            <div
+              className="w-1/2 career-images min-w-[300px]"
+              data-aos="fade-up"
+            >
+              <Image src={teamparty} alt="" />
 
               {/* <img
                 className="max-h-[100%]"

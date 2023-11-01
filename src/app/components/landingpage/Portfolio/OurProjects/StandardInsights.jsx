@@ -16,8 +16,12 @@ const StandardInsights = () => {
             src="/images/standardinsight.png"
             alt=""
           /> */}
-                    <Image src={StandardInsight} alt="" />
-
+          <Image
+            src={StandardInsight}
+            width={370}
+            style={{ margin: "0 auto" }}
+            alt=""
+          />
         </div>
       </div>
       <div>
