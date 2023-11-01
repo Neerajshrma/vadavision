@@ -21,7 +21,7 @@ const CalculateTheCost = () => {
             </div>
             <div className="flex-grow border-t-2 border-[#D9D9D9]"></div>
             <div className="bg-[#D9D9D9] flex justify-center items-center text-xs rounded-[50%] w-5 h-5 text-white">
-              <span>3</span>
+              <span></span>
             </div>
           </div>
         </div>
