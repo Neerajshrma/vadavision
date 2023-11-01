@@ -4,6 +4,7 @@ import AOS from "aos";
 import Image from "next/image";
 import otgc from "../../../../../public/images/otgc.png";
 import "aos/dist/aos.css";
+import logo from "../../../../../public/images/otgc-logo.png";
 
 const Otgc = () => {
   useEffect(() => {
@@ -41,7 +42,9 @@ const Otgc = () => {
             </div>
           </div>
           <div className="mt-5" data-aos="fade-up">
-            <img className="w-28" src="/images/otgc-logo.png" alt="" />
+          <Image src={logo} alt="" />
+
+            {/* <img className="w-28" src="/images/otgc-logo.png" alt="" /> */}
           </div>
           <div className="mt-10" data-aos="fade-up">
             <p className=" Montserrat font-normal text-white text-sm leading-[120%]">
