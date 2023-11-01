@@ -22,12 +22,12 @@ const RecognizedBy = () => {
         <h1 
         data-aos='fade-up'
           style={{ fontFamily: "Poppins" }}
-          className="tracking-[0.08em] text-sm text-black font-bold leading-[150%]"
+          className="tracking-[0.08em] text-sm text-[#A9AFC3] leading-[150%] uppercase"
         >
           Recognized by
         </h1>
       </div>
-      <div className="flex flex-wrap gap-7 itesm-center mt-7">
+      <div className="flex flex-wrap gap-20 itesm-center mt-7">
         <div>
           <div className="max-w-[95px]"
           data-aos='fade-up'>

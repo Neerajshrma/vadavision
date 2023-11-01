@@ -33,10 +33,11 @@ const HeroSection = () => {
             </h1>
           </div>
           <div>
-            <h4 className="text-base hero-description font-medium leading-[140%] text-[#A9AFC3] w-10/12 mt-4">
+            <p className="text-base hero-description font-medium leading-[180%] text-[#A9AFC3] w-10/12 mt-4">
               We build a solid foundation for your dream startup and fuel it for
-              explosive growth.
-            </h4>
+              explosive growth. 
+              With innovative strategies and unwavering dedication, we pave the path for success that exceeds.
+            </p>
           </div>
           <div className="flex gap-2 mt-8">
             <div>
@@ -45,12 +46,12 @@ const HeroSection = () => {
                 <div onClick={modalOpen}>
                   <Button
                     fontFamily="Poppins"
-                    fontWeight="500"
-                    padding="10px 22px"
+                    fontWeight="600"
+                    padding="10px 40px"
                     Color="#FFFFFF"
                     fontSize="16px"
-                    backgroundColor="#141619"
-                    name="Consult with us"
+                    backgroundColor="#DD4242"
+                    name="CONSULT US"
                   />
                 </div>
               </RippleEffect>
