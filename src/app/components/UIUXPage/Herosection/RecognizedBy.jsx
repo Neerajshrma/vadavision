@@ -11,7 +11,6 @@ const RecognizedBy = () => {
           <div className="w-[95px] mt-2">
             {/* <img src="/images/google.png" alt="" /> */}
             <Image src={Google} alt="" />
-
           </div>
 
           <div className="flex items-center gap-1 mt-1">
@@ -92,9 +91,9 @@ const RecognizedBy = () => {
                 </defs>
               </svg>
             </div>
-            <div className="text-white font-medium text-sm leading-[120%]">
+            {/* <div className="text-white font-medium text-sm leading-[120%]">
               (33 REVIEWS)
-            </div>
+            </div> */}
           </div>
         </div>
         <div>
@@ -222,13 +221,13 @@ const RecognizedBy = () => {
                 />
               </svg>
             </div>
-            <div className="text-white font-normal text-base leading-[120%]">
+            {/* <div className="text-white font-normal text-base leading-[120%]">
               (33 REVIEWS)
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="w-20">
-        <Image src={clutch} alt="" />
+          <Image src={clutch} alt="" />
 
           {/* <img src="images/clutch.png" alt="" /> */}
         </div>
