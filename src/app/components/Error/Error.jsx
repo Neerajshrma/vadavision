@@ -5,7 +5,7 @@ const Error = () => {
   return (
     <>
       <div
-        className="text-white bg-black px-20 bg-cover h-[100vh]"
+        className="text-white bg-black px-20 bg-cover bg-center h-[100vh]"
         style={{ backgroundImage: "URL(images/error.png)" }}
       >
         <div className="text-right pt-10">+91 62 8000 7001</div>

@@ -6,8 +6,8 @@ const MobileApp = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
-        duration: 1000,
+        offset: 0,
+        duration: 500,
         once: true,
         easing: 'ease',
       });
@@ -15,7 +15,7 @@ const MobileApp = () => {
   }, []);
   return (
     <div>
-      <div className="bg-[#141619] py-10 px-40 responsive-width">
+      <div  className="bg-[#141619] py-10 px-40 responsive-width">
         <div className="flex gap-3 items-center" >
           <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>
           <div data-aos='fade-up' className="uppercase Montserrat text-sm font-normal leading-[150%] text-[#A9AFC3] ">

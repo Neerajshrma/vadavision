@@ -10,12 +10,12 @@ import clientimage from "../../../../../public/images/client-img.png";
 
 const SplideSlider = () => {
   useEffect(() => {
-    if (typeof document !== "undefined") {
+    if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
-        duration: 1000,
+        offset: 0,
+        duration: 500,
         once: true,
-        easing: "ease",
+        easing: 'ease',
       });
     }
   }, []);
@@ -32,17 +32,17 @@ const SplideSlider = () => {
     }
   };
   return (
-    <div
-      className="bg-white bg-center bg-contain bg-no-repeat"
+    <div  data-aos='fade-up'
+      className="bg-white bg-center bg-contain bg-no-repeat  px-40 responsive-width"
       style={{ backgroundImage: "url(images/slider.png)" }}
     >
       <div className="text-center text-5xl">
-        <p className="text-center testimonials-heading" data-aos='fade-up'>
+        <p className="text-center testimonials-heading pt-20" data-aos='fade-up'>
           What Clients Say About Us
         </p>
       </div>{" "}
-      <div className="relative testimonails-mobile-app">
-        <Splide
+      <div data-aos='fade-up'className="relative testimonails-mobile-app">
+        <Splide 
           options={{
             rewind: true,
             gap: "1rem",
@@ -56,20 +56,20 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
-                <div className="w-1/3 mob-testimonials-img"data-aos='fade-up'>
+                <div className="w-1/3 mob-testimonials-img">
                 <Image src={clientimage} alt="" />
 
                   {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
                 </div>
-                <div data-aos='fade-up' className="w-2/3 mob-testimonials-content" >
-                  <div  data-aos='fade-up'
+                <div className="w-2/3 mob-testimonials-content" >
+                  <div  
                     style={{ fontFamily: "Montserrat" }}
                     className="text-[#141414] text-2xl font-bold testimonials-heading"
                   >
                     Very Excellent !!
                   </div>
                   <div >
-                    <p data-aos='fade-up'
+                    <p 
                       style={{ fontFamily: "Montserrat" }}
                       className="mob-testimonial-content text-black font-normal text-lg leading-[45px]"
                     >
@@ -80,7 +80,7 @@ const SplideSlider = () => {
                     </p>
                   </div>
                   <div className="flex gap-2 items-center mob-testimonials-profile">
-                    <div data-aos='fade-up' className="w-10 mt-3 mob-testimonials-img2 hidden">
+                    <div  className="w-10 mt-3 mob-testimonials-img2 hidden">
                       {/* <img
                         className="w-full"
                         src="images/client-img.png"
@@ -89,9 +89,9 @@ const SplideSlider = () => {
                                 <Image src={clientimage} alt="" />
 
                     </div>
-                    <div data-aos='fade-up' className="text-black font-semibold mt-5 text-base testimonial-content">
+                    <div  className="text-black font-semibold mt-5 text-base testimonial-content">
                       Robertsen Andrew
-                      <div data-aos='fade-up'  className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
+                      <div   className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
                         Business Director at Wax Inc
                       </div>
                     </div>
@@ -103,20 +103,19 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
-                <div className="w-1/3 mob-testimonials-img" data-aos="slide-up">
+                <div className="w-1/3 mob-testimonials-img" >
                 <Image src={clientimage} alt="" />
 
                   {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
                 </div>
                 <div className="w-2/3 mob-testimonials-content">
                   <div
-                    data-aos="slide-up"
                     style={{ fontFamily: "Montserrat" }}
                     className="text-[#141414] text-2xl font-bold testimonials-heading"
                   >
                     Very Excellent !!
                   </div>
-                  <div data-aos="slide-up">
+                  <div >
                     <p
                       style={{ fontFamily: "Montserrat" }}
                       className="mob-testimonial-content text-black font-normal text-lg leading-[56px]"
@@ -130,7 +129,6 @@ const SplideSlider = () => {
                   <div className="flex gap-2 items-center mob-testimonials-profile">
                     <div
                       className="w-10 mt-3 mob-testimonials-img2 hidden"
-                      data-aos="slide-up"
                     >
                                 <Image src={clientimage} alt="" />
 
@@ -141,12 +139,10 @@ const SplideSlider = () => {
                       /> */}
                     </div>
                     <div
-                      data-aos="slide-up"
                       className="text-black font-semibold mt-5 text-base testimonial-content"
                     >
                       Robertsen Andrew
                       <div
-                        data-aos="slide-up"
                         className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden"
                       >
                         Business Director at Wax Inc

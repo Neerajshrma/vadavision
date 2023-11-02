@@ -9,12 +9,12 @@ import client from "../../../../public/images/client.png";
 
 const SplideSlider = () => {
   useEffect(() => {
-    if (typeof document !== "undefined") {
+    if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
-        duration: 1000,
+        offset: 0,
+        duration: 500,
         once: true,
-        easing: "ease",
+        easing: 'ease',
       });
     }
   }, []);
@@ -31,7 +31,7 @@ const SplideSlider = () => {
     }
   };
   return (
-    <div
+    <div data-aos="fade-up"
       className="bg-[#141619] bg-center bg-contain bg-no-repeat"
       style={{ backgroundImage: "url(images/bg-1.png)" }}
     >
@@ -47,12 +47,11 @@ const SplideSlider = () => {
           }}
           ref={splideRef}
         >
-          <SplideSlide>
+          <SplideSlide >
             <div className="" data-carousel-item>
               <div className="testimonials mt-5 w-7/12 mx-auto">
                 <div>
                   <p
-                    data-aos="fade-up"
                     style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
@@ -63,10 +62,9 @@ const SplideSlider = () => {
                   </p>
                 </div>
                 <div
-                  data-aos="slide-up"
                   className="mt-10 flex justify-center gap-4 items-center testimonial-profile"
                 >
-                  <div data-aos="fade-up" className="profile-img">
+                  <div  className="profile-img">
                   <Image src={client} alt="" />
 
                     {/* <img className="w-full" src="/images/client.png" alt="" /> */}
