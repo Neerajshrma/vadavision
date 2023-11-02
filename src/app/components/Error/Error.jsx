@@ -4,33 +4,20 @@ import errorimage from "../../../../public/images/error.png";
 const Error = () => {
   return (
     <>
-      <div className="text-white bg-black pt-20 flex flex-row-reverse px-40  ">
-        <span className="w-[40%]">+91 62 8000 7001</span>
+         <div className="min-h-screen flex items-center justify-center relative" style={{ backgroundImage: `url('/images/error.png')`, backgroundColor:'black', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+ 
+ <div className="text-center mb-20 ">
+     <div className="absolute top-4 lg:top-12 right-4 lg:right-44 text-white text-lg lg:text-xl font-light lg:pr-10 lg:pt-8">
+         +91 62 8000 7001
+     </div>
 
-        <div className="h-screen flex items-center justify-center  ">
-          <div
-            className="text-white absolute text-6xl inset-0 pb-44 flex items-center justify-center"
-            style={{ top: "-60px" }}
-          >
-            OMG!
-          </div>
-          <div
-            className="text-white absolute pb-20 text-5xl  pt-10  inset-0 flex items-center justify-center"
-            style={{ top: "-60px" }}
-          >
-            You broke the site!
-          </div>
-          <div
-            className="text-[#A9AFC3] absolute font-extralight pt-10 text-xl inset-0 flex items-center justify-center"
-            style={{ top: "-20px" }}
-          >
-            Don’t worry. It’s just 404 page not found.
-          </div>
-          <Image src={errorimage} alt="" />
-
-          {/* <img className="max-h-full w-full" src="images/error.png" alt="" /> */}
-        </div>
-      </div>
+     <h1 className="text-white text-6xl lg:text-7xl font-bold">OMG !</h1>
+     <h1 className="text-white text-4xl lg:text-5xl font-bold ">You broke the site!</h1>
+     <h1 className="text-[#A9AFC3] text-lg lg:text-xl font-light">
+         Don’t worry. It’s just 404 page not found.
+     </h1>
+ </div>
+</div>
     </>
   );
 };

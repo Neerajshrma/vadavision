@@ -14,7 +14,7 @@ const DesignProcess = () => {
     }
   }, []);
   return (
-    <div className="responsive-width px-40 py-10 pb-16">
+    <div className="responsive-width px-40 py-10 pb-16"data-aos='fade-up'>
       <div className="mt-10 flex gap-3 items-center" >
         <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
         <div
@@ -35,8 +35,8 @@ const DesignProcess = () => {
         </p>
       </div>
       <div className="mt-3 flex flex-col space-y-6 hidden display-show"  >
-        <div>
-          <div className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
+        <div data-aos='fade-up'>
+          <div  className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
               width="45"
               height="45"
@@ -137,7 +137,7 @@ const DesignProcess = () => {
           <div className="text-xl flex flex-wrap text-white bg-[#CE3400] font-extrabold p-4 flex items-center justify-center">
             Detailed Consultation
           </div>
-          <div className="bg-white font-medium flex-wrap text-base p-4 ">
+          <div  className="bg-white font-medium flex-wrap text-base p-4 ">
             Vadavision provides detailed discussions to grasp your needs, making
             sure our designs match your business goals and what your users want.
           </div>
@@ -241,16 +241,16 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div  data-aos='fade-up'className="text-xl flex flex-wrap text-white bg-[#005CE5] font-extrabold p-4 flex items-center justify-center">
+          <div  className="text-xl flex flex-wrap text-white bg-[#005CE5] font-extrabold p-4 flex items-center justify-center">
             User Research
           </div>
-          <div  data-aos='fade-up' className="bg-white font-medium flex-wrap text-base p-4 ">
+          <div   className="bg-white font-medium flex-wrap text-base p-4 ">
             At Vadavision, we deeply understand your audience, customizing
             designs to perfectly match their distinct needs and preferences.
           </div>
         </div>
         <div>
-          <div className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
+          <div data-aos='fade-up' className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
               width="45"
               height="45"
@@ -358,7 +358,7 @@ const DesignProcess = () => {
         </div>
 
         <div>
-          <div className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
+          <div data-aos='fade-up' className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
               width="45"
               height="45"
@@ -456,17 +456,17 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div className="text-xl flex flex-wrap text-white bg-[#00EC2C] font-extrabold p-4 flex items-center justify-center">
+          <div data-aos='fade-up' className="text-xl flex flex-wrap text-white bg-[#00EC2C] font-extrabold p-4 flex items-center justify-center">
             Wireframing{" "}
           </div>
-          <div className="bg-white font-medium flex-wrap text-base p-4 ">
+          <div data-aos='fade-up' className="bg-white font-medium flex-wrap text-base p-4 ">
             Vadavision designs fundamental layouts, ensuring smooth user
             experiences by outlining interface structures and functionalities.
           </div>
         </div>
 
         <div>
-          <div className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
+          <div data-aos='fade-up' className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
               width="45"
               height="45"
@@ -564,31 +564,31 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div className="text-xl flex flex-wrap text-white bg-[#B2004A] font-extrabold p-4 flex items-center justify-center">
+          <div data-aos='fade-up' className="text-xl flex flex-wrap text-white bg-[#B2004A] font-extrabold p-4 flex items-center justify-center">
             Designing & Prototype
           </div>
-          <div className="bg-white font-medium flex-wrap text-base p-4 ">
+          <div data-aos='fade-up' className="bg-white font-medium flex-wrap text-base p-4 ">
             Vadavision crafts engaging designs, using colors, fonts, and
             interactive prototypes for user feedback and flawless
             implementation.
           </div>
         </div>
       </div>
-      <div className="mt-10 hide-data"  data-aos='fade-up'>
-        <div className="flex items-center justify-between">
+      <div className="mt-10 hide-data" >
+        <div className="flex items-center justify-between" data-aos='fade-up'>
           <div className="flex items-center w-[85%] design-process-content">
-            <div className="bg-white font-medium text-base p-4 h-[80px]">
+            <div   className="bg-white font-medium text-base p-4 h-[80px]">
               Vadavision provides detailed discussions to grasp your needs,
               making sure our designs match your business goals and what your
               users want.
             </div>
-            <div className="text-xl text-white bg-[#CE3400] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
+            <div  className="text-xl text-white bg-[#CE3400] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
               Detailed Consultation
             </div>
           </div>
           <div className="border border-white border-dashed w-[20%]"></div>
           <div className="w-[4%] responsive-dash  relative design-process-icon">
-            <div className="flex justify-center items-center bg-[#FFE7DF] rounded-full h-[65px] w-[65px]">
+            <div  className="flex justify-center items-center bg-[#FFE7DF] rounded-full h-[65px] w-[65px]">
               <svg
                 width="45"
                 height="45"
@@ -688,19 +688,19 @@ const DesignProcess = () => {
             </div>
           </div>
         </div>
-        <div className="mt-32 flex items-center justify-between flex-row-reverse">
+        <div className="mt-32 flex items-center justify-between flex-row-reverse" data-aos='fade-up'>
           <div className="flex items-center w-[85%] design-process-content flex-row-reverse">
-            <div className="bg-white font-medium text-base p-4 h-[80px]">
+            <div  className="bg-white font-medium text-base p-4 h-[80px]">
               At Vadavision, we deeply understand your audience, customizing
               designs to perfectly match their distinct needs and preferences.
             </div>
-            <div className="text-xl text-white bg-[#005CE5] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
+            <div  className="text-xl text-white bg-[#005CE5] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
               User Research
             </div>
           </div>
           <div className="border border-white border-dashed w-[20%]"></div>
           <div className="w-[4%] responsive-dash relative design-process-icon">
-            <div className="flex justify-center items-center bg-[#ABCDFF] rounded-full h-[65px] w-[65px]">
+            <div  className="flex justify-center items-center bg-[#ABCDFF] rounded-full h-[65px] w-[65px]">
               <svg
                 width="45"
                 height="45"
@@ -800,13 +800,13 @@ const DesignProcess = () => {
             </div>
           </div>
         </div>
-        <div className="mt-32 flex items-center justify-between">
+        <div className="mt-32 flex items-center justify-between" data-aos='fade-up'>
           <div className="flex items-center w-[85%] design-process-content">
-            <div className="bg-white font-medium text-base p-4 h-[80px]">
+            <div  className="bg-white font-medium text-base p-4 h-[80px]">
               Vadavision analyzes data and plans interfaces, ensuring seamless
               user experiences through strategic layout and design.
             </div>
-            <div className="text-xl text-white bg-[#6E00E4] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
+            <div  className="text-xl text-white bg-[#6E00E4] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
               Analysis & Planning
             </div>
           </div>
@@ -856,19 +856,19 @@ const DesignProcess = () => {
             </div>
           </div>
         </div>
-        <div className="mt-32 flex items-center justify-between flex-row-reverse">
+        <div className="mt-32 flex items-center justify-between flex-row-reverse" data-aos='fade-up'>
           <div className="flex items-center w-[85%] design-process-content flex-row-reverse">
-            <div className="bg-white font-medium text-base p-4 h-[80px]">
+            <div  className="bg-white font-medium text-base p-4 h-[80px]">
               Vadavision designs fundamental layouts, ensuring smooth user
               experiences by outlining interface structures and functionalities.
             </div>
-            <div className="text-xl text-white bg-[#00EC2C] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
+            <div  className="text-xl text-white bg-[#00EC2C] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
               Wireframing
             </div>
           </div>
           <div className="border border-white border-dashed w-[20%]"></div>
           <div className="w-[4%] responsive-dash relative design-process-icon">
-            <div className="flex justify-center items-center bg-[#BAFFC7] rounded-full h-[65px] w-[65px]">
+            <div  className="flex justify-center items-center bg-[#BAFFC7] rounded-full h-[65px] w-[65px]">
               <svg
                 width="35"
                 height="35"
@@ -995,20 +995,20 @@ const DesignProcess = () => {
             </div>
           </div>
         </div>
-        <div className="mt-32 flex items-center justify-between items-center">
+        <div className="mt-32 flex items-center justify-between items-center" data-aos='fade-up'>
           <div className="flex items-center w-[85%] design-process-content">
-            <div className="bg-white font-medium text-base p-4 h-[80px]">
+            <div  className="bg-white font-medium text-base p-4 h-[80px]">
               Vadavision crafts engaging designs, using colors, fonts, and
               interactive prototypes for user feedback and flawless
               implementation.
             </div>
-            <div className="text-xl text-white bg-[#B2004A] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
+            <div  className="text-xl text-white bg-[#B2004A] font-extrabold p-4 min-w-[150px] h-[80px] flex items-center justify-center">
               Designing & Prototype
             </div>
           </div>
           <div className="border border-white border-dashed w-[9%]"></div>
           <div className="w-[6%]">
-            <div className="flex justify-center items-center bg-[#FFC3DC] rounded-full h-[65px] w-[65px]">
+            <div  className="flex justify-center items-center bg-[#FFC3DC] rounded-full h-[65px] w-[65px]">
               <svg
                 width="40"
                 height="40"

@@ -6,8 +6,8 @@ const Features = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
-        duration: 1000,
+        offset: 0,
+        duration: 500,
         once: true,
         easing: 'ease',
       });

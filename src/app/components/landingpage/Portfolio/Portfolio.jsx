@@ -7,8 +7,8 @@ const Portfolio = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       AOS.init({
-        offset: 300,
-        duration: 1000,
+        offset: 100,
+        duration: 500,
         once: true,
         easing: "ease",
       });

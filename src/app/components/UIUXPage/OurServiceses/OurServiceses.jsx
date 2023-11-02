@@ -9,17 +9,17 @@ const OurServiceses = () => {
   useEffect(() => {
     if (typeof document !== 'undefined') {
       AOS.init({
-        offset: 300,
-        duration: 1000,
+        offset: 0,
+        duration: 500,
         once: true,
         easing: 'ease',
       });
     }
   }, []);
   return (
-    <div className="text-center responsive-width px-40 py-10">
+    <div className="text-center responsive-width px-40 py-10"data-aos="fade-up">
       <div className="mt-10 flex gap-3 justify-center items-center">
-        <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
+        <div data-aos="fade-up" className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
         <div data-aos='fade-up'
           style={{ fontFamily: "Poppins" }}
           className="creative-idea text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
