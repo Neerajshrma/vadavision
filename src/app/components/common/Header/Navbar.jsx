@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useContext } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import Button from "../Button";
 import RippleEffect from "../RippleEffect";
 import Menu from "./Menu";
@@ -8,19 +8,42 @@ import MenuDropdown from "./MenuDropdown";
 import { ModalContext } from "../../hooks/modalContext";
 
 const Navbar = ({ color, backgroundColor, svgcolor }) => {
+  const [selectedMenu, setSelectedMenu] = useState(""); // Add state for selected menu
+
   let { modalOpen } = useContext(ModalContext);
+  const handleMenuClick = (menuName) => {
+    setSelectedMenu(menuName);
+    localStorage.setItem("activeMenu", menuName);
+
+    // Add other logic or actions based on the selected menu if needed
+  };
+
+  useEffect(() => {
+    const storedActiveMenu = localStorage.getItem("activeMenu");
+    setSelectedMenu(storedActiveMenu);
+  }, []);
 
   return (
     <menu style={{ fontFamily: "Poppins" }}>
       <div className="nav-bar flex gap-10 items-center">
         <div>
           <Link href="/mobile-hybrid-app-development-agency">
-            <Menu menuname="Mobile App" color={color} />
+            <Menu
+              menuname="Mobile App"
+              color={color}
+              selected={selectedMenu === "Mobile App"} // Check if it's selected
+              onClick={() => handleMenuClick("Mobile App")}
+            />
           </Link>
         </div>
         <div>
           <Link href="/top-ui-ux-design-agency">
-            <Menu menuname="UI UX" color={color} />
+            <Menu
+              menuname="UI UX"
+              color={color}
+              selected={selectedMenu === "UI UX"} // Check if it's selected
+              onClick={() => handleMenuClick("UI UX")}
+            />
           </Link>
         </div>
         <div>
@@ -40,18 +63,17 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
         </div>
         <div>
           <RippleEffect>
-          <div onClick={modalOpen}>
-            <Button
-              fontFamily="Poppins"
-              fontWeight="600"
-              padding="7px 22px"
-              Color="#FFFFFF"
-              fontSize="12px"
-              backgroundColor={backgroundColor}
-              name="GET IN TOUCH"
-            />
-          </div>
-
+            <div className="get-in-touch-btn" onClick={modalOpen}>
+              <Button
+                fontFamily="Poppins"
+                fontWeight="600"
+                padding="7px 22px"
+                Color="#FFFFFF"
+                fontSize="12px"
+                backgroundColor={backgroundColor}
+                name="GET IN TOUCH"
+              />
+            </div>
           </RippleEffect>
         </div>
       </div>

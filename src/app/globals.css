@@ -1260,3 +1260,23 @@ div#join-widget > div {
    height: 100%;
   }
 }
+
+/* Add these styles to your existing CSS or create a new CSS file */
+
+/* Style for hover effect */
+.nav-items:hover {
+  border-bottom: 2px solid #dd4242;
+  transition: border 0.1s ease;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Style for active state */
+.nav-items.active {
+  border-bottom: 2px solid #dd4242;
+  border-radius: 8px 8px 0 0;
+  transition: border 0.3s ease;
+}
+
+.get-in-touch-btn:hover{
+  background-color: #df2727;
+}
