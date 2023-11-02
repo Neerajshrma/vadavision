@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import user from "../../../../../public/images/user.png";
 import car from "../../../../../public/images/car.png";
-import wallet from "../../../../../public/images/wallet.png";
 const FeatureFuntionality = () => {
   return (
     <>
@@ -50,7 +49,7 @@ const FeatureFuntionality = () => {
           </div>
           <div className="flex flex-col w-36 h-36 bg-[#F6FAFE] rounded-full shadow-md">
             <div className="flex justify-center pt-4 md:pt-12 pb-2 md:pb-4">
-            <Image src={wallet} alt="" />
+            {/* <Image src={wallet} alt="" /> */}
 
               {/* <img
                 src="images/wallet.png"
