@@ -7,7 +7,7 @@ const index = () => {
 
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
+    "@type": "Corporation",
     "name": "Vadavision",
     "alternateName": "Vada Vision!",
     "url": "https://www.vadavision.com",
