@@ -3,7 +3,7 @@ import Head from "next/head";
 import Navbar from "./Navbar";
 import Link from "next/link";
 
-const Header = ({ color, backgroundColor, svgcolor }) => {
+const Header = ({ color, backgroundColor, svgcolor, hoverbackground }) => {
   return (
     <header className="header px-40 mx-auto py-10 responsive-width">
       <div className="flex justify-between items-center">
@@ -44,6 +44,7 @@ const Header = ({ color, backgroundColor, svgcolor }) => {
           color={color}
           backgroundColor={backgroundColor}
           svgcolor={svgcolor}
+          hoverbackground={hoverbackground}
         />
       </div>
     </header>

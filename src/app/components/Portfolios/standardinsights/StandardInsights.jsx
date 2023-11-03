@@ -23,7 +23,7 @@ const StandardInsights = () => {
       >
         <div className="portfolio-img portfolio-standardinsights py-14 w-[45%]">
           <div className="" data-aos="fade-up">
-          <Image src={SI} alt="" />
+            <Image src={SI} alt="" />
 
             {/* <img src="/images/standardinsight.png" alt="" /> */}
           </div>
@@ -69,16 +69,20 @@ const StandardInsights = () => {
               user-friendly apps and enhancing experiences through technology.
             </p>
           </div>
-          <div className="mt-10 inline-block" data-aos="fade-up">
-            <Button
-              fontFamily="Montserrat"
-              fontWeight="500"
-              padding="12px 22px"
-              Color="#ffffff"
-              fontSize="16px"
-              backgroundColor="#141619"
-              name="Know More"
-            />
+          <div
+            className="mt-10 inline-block get-in-touch-btn"
+            data-aos="fade-up"
+          >
+            <a href="https://standard-insights.com/" target="_blank">
+              <Button
+                fontFamily="Montserrat"
+                fontWeight="500"
+                padding="12px 22px"
+                Color="#ffffff"
+                fontSize="16px"
+                name="Visit"
+              />
+            </a>
           </div>
         </div>
       </div>

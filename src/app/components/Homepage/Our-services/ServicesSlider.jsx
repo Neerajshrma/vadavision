@@ -2,16 +2,13 @@ import { Splide, SplideSlide, SplideArrow } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import React, { useRef, useState, useEffect } from "react";
 import Link from "next/link";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ServicesSlider = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
-      AOS.init({
-
-      });
+    if (typeof document !== "undefined") {
+      AOS.init({});
     }
   }, []);
   const splideRef = useRef();
@@ -34,7 +31,10 @@ const ServicesSlider = () => {
   };
   return (
     <div>
-      <div className="pt-10 services-slider relative top-[-20px] right-0"data-aos="fade-up" >
+      <div
+        className="pt-10 services-slider relative top-[-20px] right-0"
+        data-aos="fade-up"
+      >
         <Splide
           ref={splideRef}
           options={{
@@ -93,9 +93,9 @@ const ServicesSlider = () => {
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
                 Web Development
               </div>
-              <div>
+              <div className="text-[#DD4242] hover:text-[#c12c2c] border-b border-[#DD4242] hover:border-[#c12c2c]">
                 <Link href="/">
-                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                  <button className="font-normal text-base uppercase leading-[150%] pb-2 mt-10">
                     read more
                   </button>
                 </Link>
@@ -140,9 +140,9 @@ const ServicesSlider = () => {
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
                 Mobile App Development
               </div>
-              <div>
-                <Link href="/mobile-hybrid-app-development-agency">
-                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+              <div className="text-[#DD4242] hover:text-[#c12c2c] border-b border-[#DD4242] hover:border-[#c12c2c]">
+                <Link href="/">
+                  <button className="font-normal text-base uppercase leading-[150%] pb-2 mt-10">
                     read more
                   </button>
                 </Link>
@@ -187,9 +187,9 @@ const ServicesSlider = () => {
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
                 UIUX Design
               </div>
-              <div>
-                <Link href="/top-ui-ux-design-agency">
-                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+              <div className="text-[#DD4242] hover:text-[#c12c2c] border-b border-[#DD4242] hover:border-[#c12c2c]">
+                <Link href="/">
+                  <button className="font-normal text-base uppercase leading-[150%] pb-2 mt-10">
                     read more
                   </button>
                 </Link>
@@ -234,9 +234,9 @@ const ServicesSlider = () => {
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
                 Resource Augmentation
               </div>
-              <div>
+              <div className="text-[#DD4242] hover:text-[#c12c2c] border-b border-[#DD4242] hover:border-[#c12c2c]">
                 <Link href="/">
-                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                  <button className="font-normal text-base uppercase leading-[150%] pb-2 mt-10">
                     read more
                   </button>
                 </Link>
@@ -281,9 +281,9 @@ const ServicesSlider = () => {
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
                 CMS Development
               </div>
-              <div>
+              <div className="text-[#DD4242] hover:text-[#c12c2c] border-b border-[#DD4242] hover:border-[#c12c2c]">
                 <Link href="/">
-                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                  <button className="font-normal text-base uppercase leading-[150%] pb-2 mt-10">
                     read more
                   </button>
                 </Link>
@@ -328,9 +328,9 @@ const ServicesSlider = () => {
               <div className="text-center Montserrat uppercase font-medium text-white mt-10 text-base leading-[130%]">
                 AI Services
               </div>
-              <div>
+              <div className="text-[#DD4242] hover:text-[#c12c2c] border-b border-[#DD4242] hover:border-[#c12c2c]">
                 <Link href="/">
-                  <button className="text-[#DD4242] font-normal text-base uppercase leading-[150%] border-b border-[#DD4242] pb-2 mt-10">
+                  <button className="font-normal text-base uppercase leading-[150%] pb-2 mt-10">
                     read more
                   </button>
                 </Link>

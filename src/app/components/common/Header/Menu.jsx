@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Menu = ({ color, menuname, onClick }) => {
+const Menu = ({ color, menuname, selected, onClick }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -16,7 +16,9 @@ const Menu = ({ color, menuname, onClick }) => {
       onClick={onClick}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="relative text-base font-normal leading-[120%]"
+      className={`relative text-base font-normal leading-[120%] ${
+        selected ? "selected" : ""
+      } ${isHovered ? "hovered" : ""}`}
       style={{
         fontFamily: "Poppins",
         color: color,
@@ -24,21 +26,26 @@ const Menu = ({ color, menuname, onClick }) => {
       }}
     >
       {menuname}
-      <div className={`hover-border ${isHovered ? "hovered" : ""}`} />
+      <div className="selected-border" />
       <style jsx>{`
-        .hover-border {
+        .selected-border {
           position: absolute;
           bottom: 0;
           left: 0;
           width: 100%;
           height: 2px;
-          background-color: transparent;
+          background-color: ${selected ? "#dd4242" : "transparent"};
           margin-bottom: -5px;
           transition: background-color 0.5s ease;
         }
 
-        .hover-border.hovered {
+        .selected:hover .selected-border,
+        .hovered .selected-border {
           background-color: #dd4242;
+        }
+
+        .selected {
+          font-weight: 500;
         }
       `}</style>
     </div>

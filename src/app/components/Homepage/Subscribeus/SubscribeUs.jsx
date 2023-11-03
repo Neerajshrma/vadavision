@@ -5,7 +5,8 @@ import Button from "../../common/Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import proilepic from "../../../../../public/images/sahil.jpeg";
+import profilepic from "../../../../../public/images/sahil.jpeg";
+
 const SubscribeUs = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
@@ -56,7 +57,7 @@ const SubscribeUs = () => {
           />
           <div
             data-aos="fade-up"
-            className="overflow-hidden cursor-pointer rounded-full bg-[#DD4242]"
+            className="overflow-hidden cursor-pointer rounded-full bg-[#DD4242] primary-color"
           >
             <RippleEffect>
               <button className="p-3">
@@ -78,7 +79,11 @@ const SubscribeUs = () => {
         <div className="bg-subscribe-us min-h-[450px]">
           <div className="py-14 px-12">
             <div data-aos="fade-up" className="flex gap-4 items-center">
-            <Image className="rounded-full h-12 w-12" src={proilepic} alt="" />
+              <Image
+                className="rounded-full h-12 w-12"
+                src={profilepic}
+                alt=""
+              />
 
               {/* <img
                 className="rounded-full h-12 w-12"

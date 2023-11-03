@@ -8,19 +8,17 @@ import MenuDropdown from "./MenuDropdown";
 import { ModalContext } from "../../hooks/modalContext";
 
 const Navbar = ({ color, backgroundColor, svgcolor }) => {
-  const [selectedMenu, setSelectedMenu] = useState(""); // Add state for selected menu
+  const [selectedMenu, setSelectedMenu] = useState("");
 
   let { modalOpen } = useContext(ModalContext);
   const handleMenuClick = (menuName) => {
     setSelectedMenu(menuName);
     localStorage.setItem("activeMenu", menuName);
-
-    // Add other logic or actions based on the selected menu if needed
   };
 
   useEffect(() => {
     const storedActiveMenu = localStorage.getItem("activeMenu");
-    setSelectedMenu(storedActiveMenu);
+    setSelectedMenu(storedActiveMenu || "");
   }, []);
 
   return (
@@ -41,24 +39,39 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
             <Menu
               menuname="UI UX"
               color={color}
-              selected={selectedMenu === "UI UX"} // Check if it's selected
+              selected={selectedMenu === "UI UX"}
               onClick={() => handleMenuClick("UI UX")}
             />
           </Link>
         </div>
         <div>
           <Link href="/about-us">
-            <Menu menuname="About Us" color={color} />
+            <Menu
+              menuname="About Us"
+              color={color}
+              selected={selectedMenu === "About Us"}
+              onClick={() => handleMenuClick("About Us")}
+            />
           </Link>
         </div>
         <div>
           <Link href="/contact-us">
-            <Menu menuname="Contact Us" color={color} />
+            <Menu
+              menuname="Contact Us"
+              color={color}
+              selected={selectedMenu === "Contact Us"}
+              onClick={() => handleMenuClick("Contact Us")}
+            />
           </Link>
         </div>
         <div>
           <Link href="/career">
-            <Menu menuname="Career" color={color} />
+            <Menu
+              menuname="Career"
+              color={color}
+              selected={selectedMenu === "Career"}
+              onClick={() => handleMenuClick("Career")}
+            />
           </Link>
         </div>
         <div>
@@ -70,8 +83,8 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
                 padding="7px 22px"
                 Color="#FFFFFF"
                 fontSize="12px"
-                backgroundColor={backgroundColor}
                 name="GET IN TOUCH"
+                backgroundColor={backgroundColor}
               />
             </div>
           </RippleEffect>

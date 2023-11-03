@@ -22,12 +22,12 @@ const FooterLinks = () => {
               </li>
             </a> */}
             <Link href="/mobile-hybrid-app-development-agency">
-              <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
+              <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base footer-link w-[200px]">
                 App Development
               </li>
             </Link>
             <Link href="/top-ui-ux-design-agency">
-              <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
+              <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base footer-link">
                 UI/UX Design
               </li>
             </Link>
@@ -48,12 +48,12 @@ const FooterLinks = () => {
           </h1>
           <ul className="pt-3">
             <Link href="/privacy-policy">
-              <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
+              <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base footer-link">
                 Privacy Policy
               </li>
             </Link>
             <Link href="/terms-condition">
-              <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
+              <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base footer-link">
                 Help & Support
               </li>
             </Link>
@@ -68,7 +68,7 @@ const FooterLinks = () => {
               </li>
             </a> */}
             <Link href="/contact-us">
-              <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
+              <li className="my-5 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base footer-link">
                 Contact Us
               </li>
             </Link>
@@ -84,7 +84,7 @@ const FooterLinks = () => {
                 <div className="text-black bg-white p-[3px] rounded-full">
                   <AiFillInstagram size={20} />
                 </div>
-                <div className="mt-4 mb-3 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
+                <div className="mt-4 mb-3 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base footer-link">
                   Instagram
                 </div>
               </li>
@@ -97,7 +97,7 @@ const FooterLinks = () => {
                 <div className="text-black bg-white p-[3px] rounded-full">
                   <BiLogoLinkedin size={20} />
                 </div>
-                <div className="mt-3 mb-3 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base">
+                <div className="mt-3 mb-3 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base footer-link">
                   LinkedIn
                 </div>
               </li>

@@ -30,10 +30,9 @@ const Homepage = () => {
   }, []);
   return (
     <div>
-      
       {/* header start */}
       <div>
-        <Header color="black" backgroundColor="#141619" svgcolor="#333542" />
+        <Header color="black" svgcolor="#333542" />
       </div>
       {/* header end */}
 

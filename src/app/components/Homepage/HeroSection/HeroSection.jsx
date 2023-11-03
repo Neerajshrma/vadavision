@@ -5,13 +5,11 @@ import Link from "next/link";
 import RippleEffect from "../../common/RippleEffect";
 import { ModalContext } from "../../hooks/modalContext";
 
-
 const HeroSection = () => {
-
   let { modalOpen } = useContext(ModalContext);
 
   return (
-    <div className="flex items-center px-40 responsive-width mobile-width mt-2 mb-6" >
+    <div className="flex items-center px-40 responsive-width mobile-width mt-2 mb-6">
       <div
         style={{ fontFamily: "Montserrat" }}
         className="w-8/12 hero-section "
@@ -35,12 +33,12 @@ const HeroSection = () => {
           <div>
             <p className="text-base hero-description font-medium leading-[180%] text-[#A9AFC3] w-10/12 mt-4">
               We build a solid foundation for your dream startup and fuel it for
-              explosive growth. 
-              With innovative strategies and unwavering dedication, we pave the path for success that exceeds.
+              explosive growth. With innovative strategies and unwavering
+              dedication, we pave the path for success that exceeds.
             </p>
           </div>
           <div className="flex gap-2 mt-8">
-            <div>
+            <div className="primary-color">
               <RippleEffect>
                 {" "}
                 <div onClick={modalOpen}>
@@ -50,7 +48,6 @@ const HeroSection = () => {
                     padding="10px 40px"
                     Color="#FFFFFF"
                     fontSize="16px"
-                    backgroundColor="#DD4242"
                     name="CONSULT US"
                   />
                 </div>

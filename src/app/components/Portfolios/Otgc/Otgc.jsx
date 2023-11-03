@@ -29,7 +29,7 @@ const Otgc = () => {
           data-aos="fade-up"
         >
           <div className="">
-          <Image src={otgc} alt="" />
+            <Image src={otgc} alt="" />
 
             {/* <img src="/images/otgc.png" alt="" /> */}
           </div>
@@ -42,7 +42,7 @@ const Otgc = () => {
             </div>
           </div>
           <div className="mt-5" data-aos="fade-up">
-          <Image src={logo} alt="" />
+            <Image src={logo} alt="" />
 
             {/* <img className="w-28" src="/images/otgc-logo.png" alt="" /> */}
           </div>
@@ -59,15 +59,14 @@ const Otgc = () => {
               transform your ideas into success stories too.
             </p>
           </div>
-          <div className="mt-10 inline-block" data-aos="fade-up">
+          <div className="mt-10 inline-block otgc-visit-btn" data-aos="fade-up">
             <Button
               fontFamily="Montserrat"
               fontWeight="500"
               padding="12px 22px"
               Color="#ffffff"
               fontSize="16px"
-              backgroundColor="#1a16cc"
-              name="Know More"
+              name="Visit"
             />
           </div>
         </div>

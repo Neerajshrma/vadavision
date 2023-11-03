@@ -18,7 +18,7 @@ const LandingPage = ({ minWidth }) => {
     <div>
       <div>
         {/* header start */}
-        <Header color="black" backgroundColor="#141619" svgcolor="#333542" />
+        <Header color="black" svgcolor="#333542" />
         {/* header end */}
       </div>
       <div>

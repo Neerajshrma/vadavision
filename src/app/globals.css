@@ -1277,6 +1277,49 @@ div#join-widget > div {
   transition: border 0.3s ease;
 }
 
+.get-in-touch-btn{
+  background-color: #000000;
+}
+
 .get-in-touch-btn:hover{
-  background-color: #df2727;
+  background-color: #312f2f;
+}
+
+.primary-color{
+  background-color: #dd4242;
+}
+
+.primary-color:hover{
+  background-color: #c12c2c;
+}
+
+.otgc-visit-btn{
+  background-color: #1a16cc;
+}
+
+.otgc-visit-btn:hover{
+  background-color: #2826aa;
+}
+
+.footer-link:hover{
+ position: relative;
+ font-size: 17px;
+}
+
+.footer-link:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(90deg, #E6E6E6 50%, transparent 50%);
+  background-size: 10px 1px;
+  transition: width 1.5s ease; /* Use transition for simplicity */
+  max-width: 100%; /* Ensure the width doesn't exceed the text width */
+
+}
+
+.footer-link:hover:before {
+  width: 140px;
 }

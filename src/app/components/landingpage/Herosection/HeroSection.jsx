@@ -28,7 +28,7 @@ const HeroSection = () => {
               </h4>
             </div>
             <div className="flex gap-4 mt-8">
-              <div className="flex gap-1 bg-[#DD4242] text-white cost-Calculator items-center px-4 py-1.5 ">
+              <div className="flex gap-1 bg-[#DD4242] primary-color text-white cost-Calculator items-center px-4 py-1.5 ">
                 <span>
                   <svg
                     width="22"
@@ -45,7 +45,7 @@ const HeroSection = () => {
                     />
                   </svg>
                 </span>
-                <div className="	">
+                <div className="">
                   <Button
                     fontFamily="Montserrat"
                     fontWeight="500"
