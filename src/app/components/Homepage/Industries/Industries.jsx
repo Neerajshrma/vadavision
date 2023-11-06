@@ -34,7 +34,7 @@ const Industries = () => {
             </div>
           </div>
           <div>
-            <p  data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p  data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-medium text-base">
               Upgrade your content with our tech expertise! We leverage AI and
               OpenAI API to craft smart, engaging, and automated content
               solutions tailored just for your business.
@@ -72,7 +72,7 @@ const Industries = () => {
             </div>
           </div>
           <div>
-            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-medium text-base">
               We{"'"}re IT experts creating customized HR websites. Our focus?
               User-friendly designs, secure platforms, and easy communication
               tools. Trust us to streamline your HR processes!
@@ -110,7 +110,7 @@ const Industries = () => {
             </div>
           </div>
           <div>
-            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-medium text-base">
               Improve your online store with us! Our IT team creates easy,
               secure, and successful retail websites, ensuring seamless shopping
               experiences.
@@ -148,7 +148,7 @@ const Industries = () => {
             </div>
           </div>
           <div>
-            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-medium text-base">
               Boost Your Online Shop with Us! We create easy and secure
               eCommerce websites. Enjoy smooth shopping and grow your online
               business with our help.
@@ -340,7 +340,7 @@ const Industries = () => {
             </div>
           </div>
           <div>
-            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-medium text-base">
               Level Up Your Accounting Online! We create easy-to-use websites
               for accountants. Safe, smooth, and efficient. Let{"'"}s enhance
               your accounting business online!
@@ -460,7 +460,7 @@ const Industries = () => {
             </div>
           </div>
           <div>
-            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-normal text-base">
+            <p data-aos="fade-up" className="text-[#C1C1C1] Montserrat font-medium text-base">
               We create user-friendly websites for finance. Enjoy safe data
               handling and efficient tools. Boost your finance business online
               with us for easy client interactions and growth.{" "}

@@ -40,7 +40,7 @@ const OurServices = () => {
           <div className="w-7/12 description para-responsive mb-10">
             <p
               data-aos="fade-up"
-              className="Montserrat text-[#A9AFC3] description text-base leading-[140%]"
+              className="Montserrat text-[#A9AFC3] description font-medium text-base leading-[140%]"
             >
               Experience top-notch services as we bring creative ideas to life
               through our exceptional portfolio.

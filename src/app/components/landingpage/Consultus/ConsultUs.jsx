@@ -30,7 +30,7 @@ const ConsultUs = ({ backgroundColor, color }) => {
     setModalIsOpen(false);
   };
   return (
-    <div data-aos="fade-up">
+    <div >
       <div
         className="py-14 text-center"
         style={{ backgroundColor: backgroundColor }}

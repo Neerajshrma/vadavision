@@ -36,7 +36,7 @@ const Perks = () => {
             Perks you enjoy in our {"company's"} distinctive culture.
           </span>
         </div>
-        <div className="mt-2 w-[50%] responsiveFullWidth pb-10 pl-4 flex flex-wrap">
+        <div className="mt-2 w-[50%] Montserrat responsiveFullWidth pb-10 pl-4 flex flex-wrap">
           <p data-aos='fade-up' className="mt-2 text-[#A9AFC3] font-light text-sm  mx-auto leading-[33px]">
             We’ve got a lot of awards for our products and services that became
             popular in the world.

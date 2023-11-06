@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import Button from "../../common/Button";
 import AOS from "aos";
 import Image from "next/image";
-import otgc from "../../../../../public/images/otgc.png";
+import otgcImage from "../../../../../public/images/otgc.png";
 import "aos/dist/aos.css";
-import logo from "../../../../../public/images/otgc-logo.png";
+import OtgcLogo from "../../../../../public/images/otgc-logo.png";
 
 const Otgc = () => {
   useEffect(() => {
@@ -29,7 +29,7 @@ const Otgc = () => {
           data-aos="fade-up"
         >
           <div className="">
-            <Image src={otgc} alt="" />
+            <Image src={otgcImage} alt="" />
 
             {/* <img src="/images/otgc.png" alt="" /> */}
           </div>
@@ -42,19 +42,19 @@ const Otgc = () => {
             </div>
           </div>
           <div className="mt-5" data-aos="fade-up">
-            <Image src={logo} alt="" />
+            <Image src={OtgcLogo} alt="" />
 
             {/* <img className="w-28" src="/images/otgc-logo.png" alt="" /> */}
           </div>
           <div className="mt-10" data-aos="fade-up">
-            <p className=" Montserrat font-normal text-white text-sm leading-[120%]">
+            <p className=" Montserrat font-medium text-white text-md leading-[120%]">
               Experience our expertise through projects like{" "}
               {"'On The Go Cleaners.'"} Seamlessly integrating user-friendly
               features, secure payment gateways, and real-time order tracking.
             </p>
           </div>
           <div className="mt-8 pr-5" data-aos="fade-up">
-            <p className="Montserrat font-normal text-white text-sm leading-[120%] ">
+            <p className="Montserrat font-medium text-white text-md leading-[120%] ">
               we significantly boosted customer engagement and orders. Let us
               transform your ideas into success stories too.
             </p>

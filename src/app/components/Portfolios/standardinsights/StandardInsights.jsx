@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import SI from "../../../../../public/images/standardinsight.png";
+import StandardinsightImage from "../../../../../public/images/standardinsight.png";
 import Button from "../../common/Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -23,7 +23,7 @@ const StandardInsights = () => {
       >
         <div className="portfolio-img portfolio-standardinsights py-14 w-[45%]">
           <div className="" data-aos="fade-up">
-            <Image src={SI} alt="" />
+            <Image src={StandardinsightImage} alt="" />
 
             {/* <img src="/images/standardinsight.png" alt="" /> */}
           </div>
@@ -51,7 +51,7 @@ const StandardInsights = () => {
           </div>
           <div className="mt-10">
             <p
-              className=" Montserrat font-normal text-black text-sm leading-[120%]"
+              className=" Montserrat font-medium text-black text-md leading-[120%]"
               data-aos="fade-up"
             >
               Our experienced developers crafted a user-friendly online platform
@@ -60,7 +60,7 @@ const StandardInsights = () => {
           </div>
           <div className="mt-8 pr-5">
             <p
-              className="Montserrat font-normal text-black text-sm leading-[120%]"
+              className="Montserrat font-medium text-black text- md leading-[120%]"
               data-aos="fade-up"
             >
               Personalized surveys gather instant user feedback, boosting

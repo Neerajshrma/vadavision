@@ -56,13 +56,13 @@ const MessageInfo = () => {
                   </defs>
                 </svg>
               </div>
-              <div className="py-7 px-8">
-                <p className="text-[#A9AFC3] text-sm">
+              <div className="py-7 Montserrat px-8">
+                <p className="text-[#A9AFC3]  text-sm">
                   Vadavision Private Limited
                   <br />
                   CRN: U62099CH2023PTC045004
                   </p>
-                <span className="text-sm">Address</span>
+                <span className="text-sm ">Address</span>
                 <p className="text-[#A9AFC3] text-sm">
                   Plot 337, Phase 2 Chandigarh, India, 160002
                 </p>
@@ -111,7 +111,7 @@ const MessageInfo = () => {
                   />
                 </svg>
               </div>
-              <div className="py-7 px-8">
+              <div className="py-7 px-8 Montserrat">
                 <span className="text-sm">Hit us up:</span>
                 <p className="text-[#A9AFC3] text-sm">
                 <Obfuscate tel="+91 62 8000 7001" /> <br /> <Obfuscate email="info@vadavision.ca" />{" "}
@@ -200,7 +200,7 @@ const MessageInfo = () => {
                   </defs>
                 </svg>
               </div>
-              <div className="py-7 px-8">
+              <div className="py-7 px-8 Montserrat">
                 <span className="text-sm">Working Schedule:</span>
                 <p className="text-[#A9AFC3] text-sm">
                   Mon - Fri: 9 am - 6 pm Sat, Sun: Holiday{" "}

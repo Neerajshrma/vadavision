@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Google from "../../../../../public/images/google.png";
-import clutch from "../../../../../public/images/clutch.png";
+import GoogleImage from "../../../../../public/images/google.png";
+import clutchImage from "../../../../../public/images/clutch.png";
 
 const RecognizedBy = () => {
   return (
@@ -10,7 +10,7 @@ const RecognizedBy = () => {
         <div>
           <div className="w-[95px] mt-2">
             {/* <img src="/images/google.png" alt="" /> */}
-            <Image src={Google} alt="" />
+            <Image src={GoogleImage} alt="" />
           </div>
 
           <div className="flex items-center gap-1 mt-1">
@@ -227,7 +227,7 @@ const RecognizedBy = () => {
           </div>
         </div>
         <div className="w-20">
-          <Image src={clutch} alt="" />
+          <Image src={clutchImage} alt="" />
 
           {/* <img src="images/clutch.png" alt="" /> */}
         </div>

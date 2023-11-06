@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import OTGC from "../../../../../public/images/otgc-logo.png";
-import rotation360 from "../../../../../public/images/360-logo.png";
+import OTGCImage from "../../../../../public/images/otgc-logo.png";
+import rotation360Image from "../../../../../public/images/360-logo.png";
 
 const OurCustomers = () => {
   useEffect(() => {
@@ -36,12 +36,12 @@ const OurCustomers = () => {
       <div className="flex justify-center gap-14 items-center mt-5 flex-wrap">
         <div data-aos='fade-up' className="w-28 mt-10">
           {/* <img src="images/otgc-logo.png" alt="" /> */}
-          <Image src={OTGC} alt="" />
+          <Image src={OTGCImage} alt="" />
 
         </div>
         <div data-aos='fade-up' className="w-28 mt-10">
           {/* <img src="images/360-logo.png" alt="" /> */}
-          <Image src={rotation360} alt="" />
+          <Image src={rotation360Image} alt="" />
 
         </div>
       </div>
