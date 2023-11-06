@@ -77,7 +77,7 @@ const StandardInsights = () => {
               <Button
                 fontFamily="Montserrat"
                 fontWeight="500"
-                padding="12px 22px"
+                padding="12px 40px"
                 Color="#ffffff"
                 fontSize="16px"
                 name="Visit"

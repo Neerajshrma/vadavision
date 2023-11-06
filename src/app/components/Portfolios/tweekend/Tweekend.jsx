@@ -78,7 +78,7 @@ const Tweekend = () => {
               <Button
                 fontFamily="Montserrat"
                 fontWeight="500"
-                padding="12px 22px"
+                padding="12px 40px"
                 Color="#300C44"
                 fontSize="16px"
                 backgroundColor="#ffffff"
