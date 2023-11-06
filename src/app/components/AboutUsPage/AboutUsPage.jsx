@@ -45,9 +45,9 @@ const AboutUsPage = () => {
       <div>
         <ConsultWithUs />
       </div>
-      <div className="bg-[#141619] py-10 px-40 responsive-width min-h-[600px]">
+      <div className="bg-[#141619] Montserrat py-10 px-40 responsive-width min-h-[600px]">
         <div className="w-1/2">
-          <h1 className="Montserrat text-white text-4xl font-bold hero-heading leading-[130%]">
+          <h1 className=" text-white text-4xl font-bold hero-heading leading-[130%]">
             Frequently Asked Questions
           </h1>
         </div>

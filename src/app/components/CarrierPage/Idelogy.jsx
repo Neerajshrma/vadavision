@@ -30,7 +30,7 @@ const Idelogy = () => {
           supported. Join us in creating a happy and successful story together
         </p>
       </div>
-      <div className="px-40 responsive-width responsive-mobile idealogy">
+      <div className="px-40 Montserrat responsive-width responsive-mobile idealogy">
         <h1 data-aos='fade-up'className="text-4xl text-[#DD4242] font-semibold">How we work</h1>
         <p data-aos='fade-up'className="pt-4 pb-10 text-white text-sm leading-[28px]">
           At Vadavision, we work together as a team, putting our hearts into

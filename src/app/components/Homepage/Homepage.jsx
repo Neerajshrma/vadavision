@@ -89,13 +89,13 @@ const Homepage = () => {
         <ConsultWithUs />
       </div>
       {/* consult with us end */}
-      <div className="bg-[#141619] py-10 px-40 responsive-width min-h-[600px]">
+      <div className="bg-[#141619] Montserrat py-10 px-40 responsive-width min-h-[600px]">
         <div className="w-1/2" data-aos="fade-up">
-          <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
+          <h1 className=" text-white text-4xl font-bold heading leading-[130%]">
             Frequently Asked Questions
           </h1>
         </div>
-        <div className="flex gap-20 responsive-faqs">
+        <div className="flex  gap-20 responsive-faqs">
           <div className="w-1/2 mt-8 faq-accordian">
             <Accordion />
           </div>

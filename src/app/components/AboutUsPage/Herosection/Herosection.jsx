@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import Gather from "../../../../../public/images/gather-4.png";
+import GatherImage from "../../../../../public/images/gather-4.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -16,7 +16,7 @@ const Herosection = () => {
     }
   }, []);
   return (
-    <div className="text-center responsive-width mobile-width px-40">
+    <div className="text-center Montserrat responsive-width mobile-width px-40">
       <div className="mt-20">
         <h1
           data-aos="fade-up"
@@ -39,7 +39,7 @@ const Herosection = () => {
       </div>
       <div className="py-10" data-aos="fade-up">
         {/* <img src="images/gather-4.png" alt="" /> */}
-        <Image src={Gather} alt="" />
+        <Image src={GatherImage} alt="" />
       </div>
     </div>
   );

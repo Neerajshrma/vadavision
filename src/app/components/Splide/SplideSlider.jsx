@@ -5,7 +5,7 @@ import { BsArrowDown, BsArrowUp } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import client from "../../../../public/images/client.png";
+import clientProfile from "../../../../public/images/client.png";
 
 const SplideSlider = () => {
   useEffect(() => {
@@ -65,7 +65,7 @@ const SplideSlider = () => {
                   className="mt-10 flex justify-center gap-4 items-center testimonial-profile"
                 >
                   <div  className="profile-img">
-                  <Image src={client} alt="" />
+                  <Image src={clientProfile} alt="" />
 
                     {/* <img className="w-full" src="/images/client.png" alt="" /> */}
                   </div>
@@ -103,7 +103,7 @@ const SplideSlider = () => {
                 </div>
                 <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
                   <div className="profile-img">
-                  <Image src={client} alt="" />
+                  <Image src={clientProfile} alt="" />
 
                     {/* <img className="w-full" src="/images/client.png" alt="" /> */}
                   </div>
@@ -135,7 +135,7 @@ const SplideSlider = () => {
                 </div>
                 <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
                   <div className="profile-img">
-                  <Image src={client} alt="" />
+                  <Image src={clientProfile} alt="" />
 
                     {/* <img className="w-full" src="/images/client.png" alt="" /> */}
                   </div>

@@ -24,7 +24,7 @@ const AboutUs = () => {
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
             <div
               data-aos="fade-up"
-              style={{ fontFamily: "Poppins" }}
+              style={{ fontFamily: "Montserrat" }}
               className="creative-idea text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
             >
               our services
@@ -35,13 +35,13 @@ const AboutUs = () => {
           <div className="mt-5 flex flex-wrap ">
             <h1
               data-aos="fade-up"
-              className="text-5xl hero-heading fontchange text-change leading-[120%] font-bold text-white heading-width"
+              className="text-5xl hero-heading Montserrat fontchange text-change leading-[120%] font-bold text-white heading-width"
             >
               We are creative & strong team
             </h1>
             <p
               data-aos="fade-up"
-              className="text-[#A9AFC3] font-light text-sm  mx-auto leading-[33px]"
+              className="text-[#A9AFC3] font-light Montserrat text-sm  mx-auto leading-[33px]"
             >
               Vadavision was born from a shared vision and unwavering passion.
               Over the past 1.5 years, we transformed challenges into
@@ -62,7 +62,7 @@ const AboutUs = () => {
                 {" "}
                 <h1
                   className="font-bold text-center text-white text-5xl leading-[100%]"
-                  style={{ fontFamily: "Mulish" }}
+                  style={{ fontFamily: "Montserrat" }}
                 >
                   15
                 </h1>
@@ -85,7 +85,7 @@ const AboutUs = () => {
               <div>
                 <h1
                   className="font-bold text-center text-white text-5xl leading-[100%]"
-                  style={{ fontFamily: "Mulish" }}
+                  style={{ fontFamily: "Montserrat" }}
                 >
                   9
                 </h1>
@@ -101,13 +101,13 @@ const AboutUs = () => {
           <div className="mt-5 pt-10 bg-cover">
             <h1
               data-aos="fade-up"
-              className="hero-heading fontchange text-base leading-[120%] font-medium text-white"
+              className="hero-heading Montserrat fontchange text-base leading-[120%] font-medium text-white"
             >
               How the workday at Vadavision begins.{" "}
             </h1>
             <p
               data-aos="fade-up"
-              className="mt-5 text-[#A9AFC3] font-light text-sm mx-auto leading-[33px]"
+              className="mt-5 text-[#A9AFC3]  Montserrat font-light text-sm mx-auto leading-[33px]"
             >
               Every day at Vadavision, we begin with a cup of coffee. Gathered
               around, we engage in lively discussions, where creativity sparks
@@ -123,13 +123,13 @@ const AboutUs = () => {
           <div className="mt-5 pt-12">
             <h1
               data-aos="fade-up"
-              className="text-base hero-heading pt-10 leading-[120%] font-medium text-white"
+              className="text-base hero-heading Montserrat pt-10 leading-[120%] font-medium text-white"
             >
               Innovative Thinkers
             </h1>
             <p
               data-aos="fade-up"
-              className="mt-8 text-[#A9AFC3] font-light text-sm  mx-auto leading-[33px]"
+              className="mt-8 text-[#A9AFC3] Montserrat font-light text-sm  mx-auto leading-[33px]"
             >
               Our team consists of innovative thinkers who bring fresh ideas to
               the table, ensuring unique solutions for every project.
@@ -142,7 +142,7 @@ const AboutUs = () => {
             >
               <h1
                 className="font-bold mt-3 text-center pt-8 text-white text-4xl leading-[100%] ml-3"
-                style={{ fontFamily: "Mulish" }}
+                style={{ fontFamily: "Montserrat" }}
               >
                 354
               </h1>

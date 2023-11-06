@@ -4,7 +4,7 @@ import RippleEffect from "../../common/RippleEffect";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import tweekendimg from "../../../../../public/images/tweekend.png";
+import TweekendImage from "../../../../../public/images/tweekend.png";
 
 const Tweekend = () => {
   useEffect(() => {
@@ -26,7 +26,7 @@ const Tweekend = () => {
       >
         <div className="portfolio-img portfolio-tweekend w-[45%] py-14">
           <div className="" data-aos="fade-up">
-            <Image src={tweekendimg} alt="" />
+            <Image src={TweekendImage} alt="" />
 
             {/* <img src="/images/tweekend.png" alt="" /> */}
           </div>
@@ -52,7 +52,7 @@ const Tweekend = () => {
           <div className="mt-10">
             <p
               data-aos="fade-up"
-              className=" Montserrat font-normal text-white text-sm leading-[120%] "
+              className=" Montserrat font-medium text-white text-md leading-[120%] "
             >
               Our skilled developers made an easy-to-use app for booking social
               events. It makes planning and attending events simple, helping
@@ -62,7 +62,7 @@ const Tweekend = () => {
           <div className="mt-8 pr-5">
             <p
               data-aos="fade-up"
-              className="Montserrat font-normal text-white text-sm leading-[120%] "
+              className="Montserrat font-medium text-white text-md leading-[120%] "
             >
               The app also lets users reserve tables at restaurants and venues,
               providing a comfortable space for events. This demonstrates our

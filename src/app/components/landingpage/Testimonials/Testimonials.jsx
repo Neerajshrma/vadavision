@@ -5,7 +5,7 @@ import { BsArrowDown, BsArrowUp } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import clientimage from "../../../../../public/images/client-img.png";
+import clientProfile from "../../../../../public/images/client-img.png";
 
 
 const SplideSlider = () => {
@@ -57,7 +57,7 @@ const SplideSlider = () => {
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
                 <div className="w-1/3 mob-testimonials-img">
-                <Image src={clientimage} alt="" />
+                <Image src={clientProfile} alt="" />
 
                   {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
                 </div>
@@ -86,7 +86,7 @@ const SplideSlider = () => {
                         src="images/client-img.png"
                         alt=""
                       /> */}
-                                <Image src={clientimage} alt="" />
+                                <Image src={clientProfile} alt="" />
 
                     </div>
                     <div  className="text-black font-semibold mt-5 text-base testimonial-content">
@@ -104,7 +104,7 @@ const SplideSlider = () => {
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
                 <div className="w-1/3 mob-testimonials-img" >
-                <Image src={clientimage} alt="" />
+                <Image src={clientProfile} alt="" />
 
                   {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
                 </div>
@@ -130,7 +130,7 @@ const SplideSlider = () => {
                     <div
                       className="w-10 mt-3 mob-testimonials-img2 hidden"
                     >
-                                <Image src={clientimage} alt="" />
+                                <Image src={clientProfile} alt="" />
 
                       {/* <img
                         className="w-full"
@@ -157,7 +157,7 @@ const SplideSlider = () => {
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
                 <div className="w-1/3 mob-testimonials-img">
-                <Image src={clientimage} alt="" />
+                <Image src={clientProfile} alt="" />
 
                   {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
                 </div>
@@ -186,7 +186,7 @@ const SplideSlider = () => {
                         src="images/client-img.png"
                         alt=""
                       /> */}
-                                <Image src={clientimage} alt="" />
+                                <Image src={clientProfile} alt="" />
 
                     </div>
                     <div className="text-black font-semibold mt-5 text-base testimonial-content">

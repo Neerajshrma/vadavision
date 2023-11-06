@@ -14,12 +14,12 @@ const SendMessage = () => {
   }, []);
   return (
     <>
-      <div className=" ">
+      <div className="Montserrat ">
         <div className="">
           <div className="mt-10  flex gap-3 items-center">
             <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
             <div data-aos='fade-up'
-              style={{ fontFamily: "Poppins" }}
+              style={{ fontFamily: "Montserrat" }}
               className="creative-idea  text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
             >
               Contact Us
@@ -28,15 +28,15 @@ const SendMessage = () => {
         </div>
         <div
           className="mt-3    text-sm uppercase font-normal "
-          style={{ fontFamily: "Mulish" }}
+          style={{ fontFamily: "Montserrat" }}
         >
           <h1 data-aos='fade-up'
-            style={{ fontFamily: "Poppins" }}
+            style={{ fontFamily: "Montserrat" }}
             className="message-responsiness  leading-[120%] font-semibold text-white whitespace-nowrap"
           >
             Send a Message
           </h1>
-          <div className="mt-5 pb-10  ">
+          <div className="mt-5 pb-10 Montserrat ">
             <div className="mt-4 msg-info">
               <p data-aos='fade-up'className="Mulish text-[#A9AFC3] text-base leading-[140%] msg-info">
                 We always try to implement our creative ideas at the highest

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { RxCross2 } from "react-icons/rx";
-import Calender from "./Calender";
-import PopUp from "./PopUp";
+import Calender from "./CalenderProfile";
+import PopUp from "./Calender";
 import { ModalContext } from "../hooks/modalContext";
 import Image from "next/image";
 import circle from "../../.././../public/images/check-circle.svg";

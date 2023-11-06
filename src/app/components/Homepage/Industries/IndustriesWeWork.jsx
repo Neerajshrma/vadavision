@@ -29,7 +29,7 @@ const IndustriesWeWork = () => {
           </h1>
         </div>
         <div className="w-7/12 mt-4 description" data-aos="fade-up">
-          <p className="Montserrat text-[#A9AFC3] text-base leading-[140%] description">
+          <p className="Montserrat text-[#A9AFC3] font-medium text-base leading-[140%] description">
             We bring our best creative ideas to life! Just check out our
             portfolio and see for yourself.
           </p>

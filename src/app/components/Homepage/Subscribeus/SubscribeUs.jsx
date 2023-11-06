@@ -5,7 +5,7 @@ import Button from "../../common/Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import profilepic from "../../../../../public/images/sahil.jpeg";
+import profilepicSahil from "../../../../../public/images/sahil.jpeg";
 
 const SubscribeUs = () => {
   useEffect(() => {
@@ -81,7 +81,7 @@ const SubscribeUs = () => {
             <div data-aos="fade-up" className="flex gap-4 items-center">
               <Image
                 className="rounded-full h-12 w-12"
-                src={profilepic}
+                src={profilepicSahil}
                 alt=""
               />
 

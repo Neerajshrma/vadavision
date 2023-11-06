@@ -3,8 +3,8 @@ import Button from "../../common/Button";
 import Features from "./Features";
 import Script from "next/script";
 import SkeletonLoader from "../../common/SkeletonLoader";
-import PopUp from "../../common/PopUp";
-import Calender from "../../common/Calender";
+import PopUp from "../../common/Calender";
+import Calender from "../../common/CalenderProfile";
 
 const HeroSection = () => {
   return (

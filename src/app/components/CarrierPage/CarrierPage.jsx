@@ -40,9 +40,9 @@ const CarrierPage = () => {
         <div className="bg-black py-10">
           <CurrentJob />
         </div>
-        <div className="bg-[#141619] py-10 px-40 responsive-width min-h-[600px]">
+        <div className="bg-[#141619] Montserrat py-10 px-40 responsive-width min-h-[600px]">
           <div className="w-1/2">
-            <h1 className="Montserrat text-white text-4xl font-bold heading leading-[130%]">
+            <h1 className=" text-white text-4xl font-bold heading leading-[130%]">
               Frequently Asked Questions
             </h1>
           </div>

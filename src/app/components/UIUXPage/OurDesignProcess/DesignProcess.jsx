@@ -19,7 +19,7 @@ const DesignProcess = () => {
         <div className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
         <div
         data-aos='fade-up'
-          style={{ fontFamily: "Poppins" }}
+          style={{ fontFamily: "Montserrat" }}
           className="creative-idea text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
         >
           Process
@@ -29,7 +29,7 @@ const DesignProcess = () => {
         <h1  data-aos='fade-up' className="text-5xl hero-heading leading-[120%] font-bold text-white">
           Our UI/UX Design Methodology
         </h1>
-        <p  data-aos='fade-up' className="mt-5 text-[#A9AFC3] font-normal text-base leading-[40px]">
+        <p  data-aos='fade-up' className="mt-5 text-[#A9AFC3] font-normal Montserrat text-base leading-[40px]">
           At Vadavision, we tirelessly refine creative ideas, crafting websites
           that delight and simplify user experiences for everyone.
         </p>
@@ -134,10 +134,10 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div className="text-xl flex flex-wrap text-white bg-[#CE3400] font-extrabold p-4 flex items-center justify-center">
+          <div className="text-xl flex flex-wrap Montserrat text-white bg-[#CE3400] font-extrabold p-4 flex items-center justify-center">
             Detailed Consultation
           </div>
-          <div  className="bg-white font-medium flex-wrap text-base p-4 ">
+          <div  className="bg-white font-medium Montserrat flex-wrap text-base p-4 ">
             Vadavision provides detailed discussions to grasp your needs, making
             sure our designs match your business goals and what your users want.
           </div>
@@ -241,10 +241,10 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div  className="text-xl flex flex-wrap text-white bg-[#005CE5] font-extrabold p-4 flex items-center justify-center">
+          <div  className="text-xl flex flex-wrap Montserrat text-white bg-[#005CE5] font-extrabold p-4 flex items-center justify-center">
             User Research
           </div>
-          <div   className="bg-white font-medium flex-wrap text-base p-4 ">
+          <div   className="bg-white font-medium Montserrat flex-wrap text-base p-4 ">
             At Vadavision, we deeply understand your audience, customizing
             designs to perfectly match their distinct needs and preferences.
           </div>
@@ -348,10 +348,10 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div  data-aos='fade-up'className="text-xl flex flex-wrap text-white bg-[#6E00E4] font-extrabold p-4 flex items-center justify-center">
+          <div  data-aos='fade-up'className="text-xl Montserrat flex flex-wrap text-white bg-[#6E00E4] font-extrabold p-4 flex items-center justify-center">
             Analysis & Planning
           </div>
-          <div  data-aos='fade-up'className="bg-white font-medium flex-wrap text-base p-4 ">
+          <div  data-aos='fade-up'className="bg-white Montserrat font-medium flex-wrap text-base p-4 ">
             Vadavision analyzes data and plans interfaces, ensuring seamless
             user experiences through strategic layout and design.
           </div>{" "}
@@ -456,10 +456,10 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div data-aos='fade-up' className="text-xl flex flex-wrap text-white bg-[#00EC2C] font-extrabold p-4 flex items-center justify-center">
+          <div data-aos='fade-up' className="text-xl Montserrat flex flex-wrap text-white bg-[#00EC2C] font-extrabold p-4 flex items-center justify-center">
             Wireframing{" "}
           </div>
-          <div data-aos='fade-up' className="bg-white font-medium flex-wrap text-base p-4 ">
+          <div data-aos='fade-up' className="bg-white Montserrat font-medium flex-wrap text-base p-4 ">
             Vadavision designs fundamental layouts, ensuring smooth user
             experiences by outlining interface structures and functionalities.
           </div>
@@ -564,10 +564,10 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div data-aos='fade-up' className="text-xl flex flex-wrap text-white bg-[#B2004A] font-extrabold p-4 flex items-center justify-center">
+          <div data-aos='fade-up' className="text-xl Montserrat flex flex-wrap text-white bg-[#B2004A] font-extrabold p-4 flex items-center justify-center">
             Designing & Prototype
           </div>
-          <div data-aos='fade-up' className="bg-white font-medium flex-wrap text-base p-4 ">
+          <div data-aos='fade-up' className="bg-white Montserrat font-medium flex-wrap text-base p-4 ">
             Vadavision crafts engaging designs, using colors, fonts, and
             interactive prototypes for user feedback and flawless
             implementation.
@@ -576,7 +576,7 @@ const DesignProcess = () => {
       </div>
       <div className="mt-10 hide-data" >
         <div className="flex items-center justify-between" data-aos='fade-up'>
-          <div className="flex items-center w-[85%] design-process-content">
+          <div className="flex items-center w-[85%] Montserrat design-process-content">
             <div   className="bg-white font-medium text-base p-4 h-[80px]">
               Vadavision provides detailed discussions to grasp your needs,
               making sure our designs match your business goals and what your
@@ -689,7 +689,7 @@ const DesignProcess = () => {
           </div>
         </div>
         <div className="mt-32 flex items-center justify-between flex-row-reverse" data-aos='fade-up'>
-          <div className="flex items-center w-[85%] design-process-content flex-row-reverse">
+          <div className="flex items-center w-[85%] Montserrat design-process-content flex-row-reverse">
             <div  className="bg-white font-medium text-base p-4 h-[80px]">
               At Vadavision, we deeply understand your audience, customizing
               designs to perfectly match their distinct needs and preferences.
@@ -801,7 +801,7 @@ const DesignProcess = () => {
           </div>
         </div>
         <div className="mt-32 flex items-center justify-between" data-aos='fade-up'>
-          <div className="flex items-center w-[85%] design-process-content">
+          <div className="flex items-center w-[85%] Montserrat design-process-content">
             <div  className="bg-white font-medium text-base p-4 h-[80px]">
               Vadavision analyzes data and plans interfaces, ensuring seamless
               user experiences through strategic layout and design.
@@ -857,7 +857,7 @@ const DesignProcess = () => {
           </div>
         </div>
         <div className="mt-32 flex items-center justify-between flex-row-reverse" data-aos='fade-up'>
-          <div className="flex items-center w-[85%] design-process-content flex-row-reverse">
+          <div className="flex items-center w-[85%] Montserrat design-process-content flex-row-reverse">
             <div  className="bg-white font-medium text-base p-4 h-[80px]">
               Vadavision designs fundamental layouts, ensuring smooth user
               experiences by outlining interface structures and functionalities.
@@ -996,7 +996,7 @@ const DesignProcess = () => {
           </div>
         </div>
         <div className="mt-32 flex items-center justify-between items-center" data-aos='fade-up'>
-          <div className="flex items-center w-[85%] design-process-content">
+          <div className="flex items-center w-[85%] Montserrat design-process-content">
             <div  className="bg-white font-medium text-base p-4 h-[80px]">
               Vadavision crafts engaging designs, using colors, fonts, and
               interactive prototypes for user feedback and flawless

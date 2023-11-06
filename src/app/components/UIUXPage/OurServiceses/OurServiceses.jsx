@@ -21,17 +21,17 @@ const OurServiceses = () => {
       <div className="mt-10 flex gap-3 justify-center items-center">
         <div data-aos="fade-up" className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
         <div data-aos='fade-up'
-          style={{ fontFamily: "Poppins" }}
+          style={{ fontFamily: "Montserrat" }}
           className="creative-idea text-sm uppercase font-normal leading-[150%] text-[#A9AFC3]"
         >
           services
         </div>
       </div>
       <div className="mt-5">
-        <h1 data-aos='fade-up' className="text-4xl hero-heading leading-[120%] font-semibold text-[#DD4242]">
+        <h1 data-aos='fade-up' className="text-4xl Montserrat hero-heading leading-[120%] font-semibold text-[#DD4242]">
           Our UI-UX Design Service
         </h1>
-        <p data-aos='fade-up' className="mt-8 text-[#A9AFC3] font-normal text-base  mx-auto leading-[40px]">
+        <p data-aos='fade-up' className="mt-8 text-[#A9AFC3] Montserrat font-normal text-base  mx-auto leading-[40px]">
           We bring creativity to life through our work. Explore our portfolio
           and see our imaginative ideas in action.
         </p>

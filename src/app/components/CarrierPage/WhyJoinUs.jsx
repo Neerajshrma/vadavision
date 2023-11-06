@@ -3,8 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 import teamparty from "../../../../public/images/team-party.jpg";
-import gather from "../../../../public/images/gather.png";
-import team from "../../../../public/images/team.jpg";
+import GatherImage from "../../../../public/images/gather-4.png";
+import teamImage from "../../../../public/images/team.jpg";
 
 const WhyJoinUs = () => {
   useEffect(() => {
@@ -29,7 +29,7 @@ const WhyJoinUs = () => {
           </h1>
           <p
             data-aos="fade-up"
-            className="pt-4 w-[80%] pb-10 text-white text-sm leading-[28px] para-responsive"
+            className="pt-4 w-[100%] pb-10 Montserrat text-white text-sm leading-[28px] para-responsive"
           >
             At Vadavision, we prioritize our employees voices, valuing their
             input before giving feedback. Our work setup is incredibly flexible,
@@ -46,33 +46,21 @@ const WhyJoinUs = () => {
           </p>
         </div>
         <div className="space-y-4">
-          <div className="" data-aos="fade-up">
-            <Image src={team} alt="" />
+          <div className="flex  h-[600px] image-responsive-height" data-aos="fade-up">
+            <Image src={GatherImage} alt="" />
 
             {/* <img src="images/team.jpg" alt="" /> */}
           </div>
-          <div className="flex h-[370px] career-images gap-4">
-            <div
-              className="w-1/2 career-images min-w-[300px] "
-              data-aos="fade-up"
-            >
-              <Image src={gather} alt="" />
+          <div className="flex career-images gap-2 ">
+  <div className="w-1/2 career-images min-w-[full] flex " data-aos="fade-up">
+    <Image src={teamImage} alt=""  />
+  </div>
+  <div className="w-1/2 career-images min-w-[full] flex" data-aos="fade-up">
+    <Image src={teamparty} alt="" />
+  </div>
+</div>
 
-              {/* <img className="max-h-[100%]" src="images/gather.png" alt="" /> */}
-            </div>
-            <div
-              className="w-1/2 career-images min-w-[300px]"
-              data-aos="fade-up"
-            >
-              <Image src={teamparty} alt="" />
 
-              {/* <img
-                className="max-h-[100%]"
-                src="images/team-party.jpg"
-                alt=""
-              /> */}
-            </div>
-          </div>
         </div>
       </div>
     </>

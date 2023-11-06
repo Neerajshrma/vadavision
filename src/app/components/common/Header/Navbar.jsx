@@ -6,20 +6,26 @@ import RippleEffect from "../RippleEffect";
 import Menu from "./Menu";
 import MenuDropdown from "./MenuDropdown";
 import { ModalContext } from "../../hooks/modalContext";
+import { useRouter } from 'next/router';
+
 
 const Navbar = ({ color, backgroundColor, svgcolor }) => {
   const [selectedMenu, setSelectedMenu] = useState("");
 
-  let { modalOpen } = useContext(ModalContext);
+  const { modalOpen } = useContext(ModalContext);
+  const router = useRouter();
+
+
   const handleMenuClick = (menuName) => {
     setSelectedMenu(menuName);
     localStorage.setItem("activeMenu", menuName);
   };
 
   useEffect(() => {
-    const storedActiveMenu = localStorage.getItem("activeMenu");
-    setSelectedMenu(storedActiveMenu || "");
-  }, []);
+    const routeWithoutLeadingSlash = router.asPath.replace(/^\/+/, ''); 
+    const menuName = routeWithoutLeadingSlash.split('/')[0];
+    setSelectedMenu(menuName);
+  }, [router.asPath]);
 
   return (
     <menu style={{ fontFamily: "Poppins" }}>
@@ -29,8 +35,8 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
             <Menu
               menuname="Mobile App"
               color={color}
-              selected={selectedMenu === "Mobile App"} // Check if it's selected
-              onClick={() => handleMenuClick("Mobile App")}
+              selected={selectedMenu === "mobile-hybrid-app-development-agency"}
+              onClick={() => handleMenuClick("mobile-hybrid-app-development-agency")}
             />
           </Link>
         </div>
@@ -39,8 +45,8 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
             <Menu
               menuname="UI UX"
               color={color}
-              selected={selectedMenu === "UI UX"}
-              onClick={() => handleMenuClick("UI UX")}
+              selected={selectedMenu === "top-ui-ux-design-agency"}
+              onClick={() => handleMenuClick("top-ui-ux-design-agency")}
             />
           </Link>
         </div>
@@ -49,8 +55,8 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
             <Menu
               menuname="About Us"
               color={color}
-              selected={selectedMenu === "About Us"}
-              onClick={() => handleMenuClick("About Us")}
+              selected={selectedMenu === "about-us"}
+              onClick={() => handleMenuClick("about-us")}
             />
           </Link>
         </div>
@@ -59,8 +65,8 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
             <Menu
               menuname="Contact Us"
               color={color}
-              selected={selectedMenu === "Contact Us"}
-              onClick={() => handleMenuClick("Contact Us")}
+              selected={selectedMenu === "contact-us"}
+              onClick={() => handleMenuClick("contact-us")}
             />
           </Link>
         </div>
