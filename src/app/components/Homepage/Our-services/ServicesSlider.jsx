@@ -221,9 +221,9 @@ const ServicesSlider = () => {
             </div>
           </SplideSlide>
         </Splide>
-        <div className="absolute flex gap-5 mr-3 top-[-5px] right-0">
+        <div className="absolute prev-button  justify-between flex gap-5 mr-3 top-[-5px] right-0">
           <button className="" onClick={handlePrev}>
-            <span className="pb-[2px] border-b text-white">Prev</span>
+            <span className="pb-[2px] border-b text-white ">Prev</span>
           </button>
           <button onClick={handleNext}>
             <span className="pb-[2px] border-b border-[#DD4242] text-[#DD4242]">

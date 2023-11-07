@@ -16,17 +16,18 @@ const Herosection = () => {
     }
   }, []);
   return (
-    <div className="text-center Montserrat responsive-width mobile-width px-40">
-      <div className="mt-20">
+    <div className=" Montserrat responsive-width mobile-width px-40">
+      <div className="mt-20 ">
         <h1
           data-aos="fade-up"
-          className="text-4xl hero-heading leading-[120%] font-bold text-white"
+          className="text-4xl hero-heading heading-margin leading-[120%] font-bold text-white text-left"
         >
           About us
         </h1>
+
         <p
           data-aos="fade-up"
-          className="mt-8 text-white font-light text-sm leading-[40px] px-4 mx-auto min-w-[280px] mobile-full-width w-10/12"
+          className="mt-8 text-white heading-margin font-light text-sm leading-[40px]  mx-auto min-w-[280px] mobile-full-width w-full"
         >
           At Vadavision, we chose the word {"'Vada'"} to represent trust,
           reliability, and integrity in our services. It signifies the strong

@@ -18,7 +18,7 @@ const Tweekend = () => {
     }
   }, []);
   return (
-    <div className="min-h-[720px] bg-tweekend py-20 px-10 px-5">
+    <div className="min-h-[100vh] bg-tweekend py-20 px-10 px-5">
       <div
         data-aos="fade-up"
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio bg-contain bg-right"

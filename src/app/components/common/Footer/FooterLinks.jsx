@@ -54,7 +54,7 @@ const FooterLinks = () => {
             </Link>
             <Link href="/terms-condition">
               <li className="my-2.5 inline-block Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base footer-link">
-                Help & Support
+                Term & Conditions
               </li>
             </Link>
             {/* <a href="">

@@ -46,11 +46,14 @@ const WhyJoinUs = () => {
           </p>
         </div>
         <div className="space-y-4">
-          <div className="flex  h-[600px] image-responsive-height" data-aos="fade-up">
-            <Image src={GatherImage} alt="" />
+          <div className="flex   h-[400px] image-responsive-height responsive-img" data-aos="fade-up">
+            <Image src={GatherImage} alt="" style={{width:'100vw'}}/>
+            
+
 
             {/* <img src="images/team.jpg" alt="" /> */}
           </div>
+   
           <div className="flex career-images gap-2 ">
   <div className="w-1/2 career-images min-w-[full] flex " data-aos="fade-up">
     <Image src={teamImage} alt=""  />
