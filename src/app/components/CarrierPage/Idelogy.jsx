@@ -7,7 +7,7 @@ const Idelogy = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 0,
-        duration: 1000,
+        duration:1000,
         once: true,
         easing: 'ease',
       });

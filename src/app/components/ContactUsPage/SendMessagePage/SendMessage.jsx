@@ -6,7 +6,7 @@ const SendMessage = () => {
     if (typeof document !== 'undefined') {
       AOS.init({
         offset: 0,
-        duration: 1000,
+        duration: 500,
         once: true,
         easing: 'ease',
       });
