@@ -57,7 +57,7 @@ const SubscribeUs = () => {
           />
           <div
             data-aos="fade-up"
-            className="overflow-hidden cursor-pointer rounded-full bg-[#DD4242] primary-color"
+            className="overflow-hidden cursor-pointer rounded-full bg-[#DD4242] primary-color button-color-change"
           >
             <RippleEffect>
               <button className="p-3">

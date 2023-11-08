@@ -56,7 +56,7 @@ const ConsultWithUs = () => {
           </div>
           <div className="pt-7 pl-8 h-16 border-l border-[#DD4242] consult-btn">
             <div
-              className="consult-btn primary-color inline-block"
+              className="consult-btn primary-color button-color-change inline-block"
               data-aos="fade-up"
             >
               <RippleEffect>

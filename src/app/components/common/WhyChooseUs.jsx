@@ -17,14 +17,14 @@ const WhyChooseUs = () => {
   return (
     <>
       <div className="bg-[#111319] w-full py-10 pl-40 pr-36 responsive-width">
-        <div className="flex items-center why-us gap-14 pr-16">
+        <div className="flex items-center why-us gap-14 pr-16 ">
           <div
             data-aos="fade-up"
-            className="bg-cover"
+            className="bg-cover responsive-content "
             style={{ backgroundImage: "url(images/bg-object4.png)" }}
           >
-            <div className="flex justify-between gap-6 features items-center pl-20">
-              <div className="">
+            <div className="flex flex-col items-center sm:justify-between gap-6 sm:flex-row sm:pl-20">
+              <div className="w-full sm:w-1/2">
                 <div
                   data-aos="fade-up"
                   className="flex justify-center items-center features-bg features-width w-[170px] h-[170px]"
@@ -76,7 +76,7 @@ const WhyChooseUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="mt-20 ml-2">
+              <div className=" w-full sm:w-1/2">
                 <div
                   data-aos="fade-up"
                   className="flex justify-center items-center features-bg features-width w-[170px] h-[170px]"
@@ -127,6 +127,7 @@ const WhyChooseUs = () => {
               </div>
             </div>
           </div>
+
           <div>
             <div className="flex gap-3 items-center">
               <div className="bg-[#A9AFC3] w-[50px] h-[1px]"></div>

@@ -24,7 +24,7 @@ const Herosection = () => {
           for enhancing online interactions
         </p>
       </div>
-      <div className="mt-8 bg-[#DD4242] primary-color flex gap-2 items-center justify-center w-60 mx-auto py-1.5 px-2">
+      <div className="mt-8 bg-[#DD4242] primary-color flex gap-2 items-center button-color-change justify-center w-60 mx-auto py-1.5 px-2">
         <div>
           <Button
             fontFamily="Poppins"
