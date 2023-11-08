@@ -141,7 +141,7 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
           <div className="cursor-pointer projects-dropdown text-base font-normal text-black leading-[120%]">
             <div className="flex gap-1 items-center">
               <span className={selectedMenu === "Projects" ? "selected" : ""}>
-                Projects
+                Products
               </span>
               <span className="mt-[2px]">
                 {isProjectsHovered ? (
