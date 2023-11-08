@@ -7,8 +7,8 @@ const Header = ({ color, backgroundColor, svgcolor, hoverbackground }) => {
   return (
     <header className="header px-40 mx-auto py-10 responsive-width">
       <div className="flex justify-between items-center">
-        <div className="flex gap-2 items-center cursor-pointer">
-          <div>
+        <div className="flex items-center gap-2 cursor-pointer">
+          <div className="">
             <svg
               width="40"
               height="25"
