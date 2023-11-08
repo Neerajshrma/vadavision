@@ -203,6 +203,13 @@ body {
     padding-right: 20px;
   }
 }
+@media screen and (min-width:1900\px) {
+  .responsive-img{
+    width: 100%;
+    height: 100%;
+  }
+  
+}
 .background {
   background: linear-gradient(
     180deg,
@@ -573,6 +580,15 @@ body {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .heading-margin {
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+}
+
+
+
 @media screen and (max-width: 600px) {
   .mobile-full-width {
     width: 100%;
@@ -729,6 +745,7 @@ body {
   }
 }
 
+
 @media screen and (max-width: 480px) {
   .mobile-footer {
     display: block;
@@ -776,6 +793,7 @@ body {
   position: absolute;
   top: 27%;
   right: 15%;
+
 }
 
 .custom-next-button {
@@ -1308,6 +1326,27 @@ div#join-widget > div {
 
 .primary-color{
   background-color: #dd4242;
+  color: floralwhite;
+}
+@media screen and (max-width:480px) {
+  .primary-color{
+    background-color: floralwhite;
+    color: #dd4242;
+  }
+  
+}
+@media screen and (max-width:480px) {
+  .button-color-change{
+    background-color: #dd4242;
+    color: floralwhite;
+  }
+  
+}
+@media screen and (max-width:420px) {
+  .prev-button{
+    left: 0; 
+  }
+  
 }
 
 .primary-color:hover{

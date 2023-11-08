@@ -34,8 +34,8 @@ const DesignProcess = () => {
           that delight and simplify user experiences for everyone.
         </p>
       </div>
-      <div className="mt-3 flex flex-col space-y-6 hidden display-show"  >
-        <div data-aos='fade-up'>
+      <div  className="mt-3  flex flex-col space-y-6 hidden display-show"  >
+        <div aos-data='fade-up'>
           <div  className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
               width="45"
@@ -142,7 +142,7 @@ const DesignProcess = () => {
             sure our designs match your business goals and what your users want.
           </div>
         </div>
-        <div  data-aos='fade-up'>
+        <div data-aos="fade-up"     >
           <div className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
               width="45"
@@ -249,8 +249,8 @@ const DesignProcess = () => {
             designs to perfectly match their distinct needs and preferences.
           </div>
         </div>
-        <div>
-          <div data-aos='fade-up' className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
+        <div data-aos="fade-up">
+          <div  className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
               width="45"
               height="45"
@@ -348,17 +348,17 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div  data-aos='fade-up'className="text-xl Montserrat flex flex-wrap text-white bg-[#6E00E4] font-extrabold p-4 flex items-center justify-center">
+          <div  className="text-xl Montserrat flex flex-wrap text-white bg-[#6E00E4] font-extrabold p-4 flex items-center justify-center">
             Analysis & Planning
           </div>
-          <div  data-aos='fade-up'className="bg-white Montserrat font-medium flex-wrap text-base p-4 ">
+          <div  className="bg-white Montserrat font-medium flex-wrap text-base p-4 ">
             Vadavision analyzes data and plans interfaces, ensuring seamless
             user experiences through strategic layout and design.
           </div>{" "}
         </div>
 
-        <div>
-          <div data-aos='fade-up' className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
+        <div data-aos="fade-up">
+          <div  className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
               width="45"
               height="45"
@@ -456,17 +456,17 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div data-aos='fade-up' className="text-xl Montserrat flex flex-wrap text-white bg-[#00EC2C] font-extrabold p-4 flex items-center justify-center">
+          <div  className="text-xl Montserrat flex flex-wrap text-white bg-[#00EC2C] font-extrabold p-4 flex items-center justify-center">
             Wireframing{" "}
           </div>
-          <div data-aos='fade-up' className="bg-white Montserrat font-medium flex-wrap text-base p-4 ">
+          <div  className="bg-white Montserrat font-medium flex-wrap text-base p-4 ">
             Vadavision designs fundamental layouts, ensuring smooth user
             experiences by outlining interface structures and functionalities.
           </div>
         </div>
 
-        <div>
-          <div data-aos='fade-up' className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
+        <div data-aos="fade-up">
+          <div  className="flex justify-center background-change items-center bg-[#FFE7DF] h-[65px] w-full">
             <svg
               width="45"
               height="45"
@@ -564,16 +564,25 @@ const DesignProcess = () => {
               />
             </svg>
           </div>
-          <div data-aos='fade-up' className="text-xl Montserrat flex flex-wrap text-white bg-[#B2004A] font-extrabold p-4 flex items-center justify-center">
+          <div  className="text-xl Montserrat flex flex-wrap text-white bg-[#B2004A] font-extrabold p-4 flex items-center justify-center">
             Designing & Prototype
           </div>
-          <div data-aos='fade-up' className="bg-white Montserrat font-medium flex-wrap text-base p-4 ">
+          <div  className="bg-white Montserrat font-medium flex-wrap text-base p-4 ">
             Vadavision crafts engaging designs, using colors, fonts, and
             interactive prototypes for user feedback and flawless
             implementation.
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
       <div className="mt-10 hide-data" >
         <div className="flex items-center justify-between" data-aos='fade-up'>
           <div className="flex items-center w-[85%] Montserrat design-process-content">

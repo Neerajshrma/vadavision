@@ -45,12 +45,11 @@ const ConsultUs = ({ backgroundColor, color }) => {
           </h1>
         </div>
         <div className="mt-10" data-aos="fade-up">
-          <div className="inline-block primary-color" onClick={modalOpen}>
+          <div className="inline-block primary-color button-color-change" onClick={modalOpen}>
             <Button
               fontFamily="Poppins"
               fontWeight="500"
               padding="7px 22px"
-              Color="#FFFFFF"
               fontSize="16px"
               name="Consult with us"
             />

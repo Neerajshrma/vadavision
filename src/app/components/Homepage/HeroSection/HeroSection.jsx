@@ -46,7 +46,6 @@ const HeroSection = () => {
                     fontFamily="Poppins"
                     fontWeight="600"
                     padding="10px 40px"
-                    Color="#FFFFFF"
                     fontSize="16px"
                     name="CONSULT US"
                   />
