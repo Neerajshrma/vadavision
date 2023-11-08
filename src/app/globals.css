@@ -1490,3 +1490,25 @@ div#join-widget > div {
 .bar:after {
 	right: 50%;
 }
+
+/* Add this CSS to your stylesheet */
+.projects-dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: flex;
+  width: 210px;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  z-index: 10;
+  background-color: #f7f7f7;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.dropdown-option {
+  padding: 4px;
+}
