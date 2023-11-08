@@ -16,7 +16,7 @@ const AboutUsPage = () => {
   return (
     <div className="bg-[#141619]">
       <div>
-        <Header color="white" backgroundColor="#DD4242" svgcolor="#ffffff" />
+        <Header color="black" backgroundColor="#DD4242" svgcolor="#ffffff" navItemColor="white" downdownColor='white' />
       </div>
       <div>
         <Herosection />

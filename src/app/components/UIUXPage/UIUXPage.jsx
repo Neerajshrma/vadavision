@@ -24,10 +24,10 @@ const UIUXPage = () => {
         >
           <div>
             <Header
-              color="white"
+              color="black"
               backgroundColor="#DD4242"
               svgcolor="#ffffff"
-            />
+              navItemColor="white" downdownColor='white'            />
           </div>
           <div>
             <Herosection />
