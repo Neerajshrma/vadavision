@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import number from "../../common/Constants";
 
 const AboutUs = () => {
   useEffect(() => {
@@ -64,7 +65,7 @@ const AboutUs = () => {
                   className="font-bold text-center text-white text-5xl leading-[100%]"
                   style={{ fontFamily: "Montserrat" }}
                 >
-                  15
+                  {number.AwardWinning}+
                 </h1>
                 <p
                   data-aos="fade-up"
@@ -87,13 +88,13 @@ const AboutUs = () => {
                   className="font-bold text-center text-white text-5xl leading-[100%]"
                   style={{ fontFamily: "Montserrat" }}
                 >
-                  9
+                  {number.OurTeam}+
                 </h1>
                 <p
                   data-aos="fade-up"
                   className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text"
                 >
-                  Years experience
+                  Team Members
                 </p>
               </div>
             </div>
@@ -119,7 +120,7 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className="flex pb-10 justify-between our-approach">
+        <div className="flex flex-row gap-2 justify-between responsive-row">
           <div className="mt-5 pt-12">
             <h1
               data-aos="fade-up"
@@ -144,7 +145,7 @@ const AboutUs = () => {
                 className="font-bold mt-3 text-center pt-8 text-white text-4xl leading-[100%] ml-3"
                 style={{ fontFamily: "Montserrat" }}
               >
-                354
+                {number.ProjectComplete}+
               </h1>
               <p
                 data-aos="fade-up"

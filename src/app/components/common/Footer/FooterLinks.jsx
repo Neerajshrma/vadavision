@@ -37,7 +37,7 @@ const FooterLinks = () => {
           </h1>
           <div className="mt-2">
             <span className="text-[#E6E6E6] pr-2">golegal.ly</span>
-            <span className="font-Poppins bg-[#3A9AFC3] text-xs	rounded-lg py-[3px] px-1 text-[#E6E6E6] text-base border border-red-500">
+            <span className="font-Poppins bg-[#3A9AFC3] text-xs	rounded-lg py-[3px] break-line px-1 text-[#E6E6E6] text-base border border-red-500">
               Coming Soon
             </span>
           </div>

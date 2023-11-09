@@ -650,10 +650,18 @@ body {
     font-weight: 400;
   }
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:770px) {
   .para-responsive{
     width: 100%;
   }
+  
+}
+
+@media screen and (max-width:1270px) {
+.break-line{
+  margin-top: 3px;
+  display: inline-block;
+}  
   
 }
 
@@ -1511,4 +1519,21 @@ div#join-widget > div {
 
 .dropdown-option {
   padding: 4px;
+}
+
+.testimonial-container > .slider-responsive{
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  transform: translate(65%, -50%);
+
+}
+
+@media screen and (max-width:880px) {
+  .testimonial-container>.slider-responsive{
+    top: 50%;
+    width: 59%;
+    transform: translate(46%, -50%);
+  }
+  
 }

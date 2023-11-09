@@ -154,7 +154,7 @@ const SplideSlider = () => {
             </div>
           </SplideSlide>
           <SplideSlide>
-            <div className="" data-carousel-item>
+            <div className="testimonial-container" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
                 <div className="w-1/3 mob-testimonials-img">
                 <Image src={clientProfile} alt="" />
