@@ -12,7 +12,8 @@ const SkeletonLoader = () => {
         </div>
 
 
-        <div className="flex flex-row ml-20 space-x-6">
+<div className="ml-20">
+<div className="flex flex-row ml-20 space-x-6">
           <div className="h-10 w-10 bg-gray-200 rounded-full dark:bg-gray-700 flex items-center justify-center mb-2.5" />
           <div className="h-10 w-10 bg-gray-200 rounded-full dark:bg-gray-700 flex items-center justify-center mb-2.5" />
           <div className="h-10 w-10 bg-gray-200 rounded-full dark:bg-gray-700 flex items-center justify-center mb-2.5" />
@@ -57,10 +58,13 @@ const SkeletonLoader = () => {
           <div className="h-10 w-10 bg-gray-200 rounded-full dark:bg-gray-700 flex items-center justify-center mb-2.5" />
           <div className="h-10 w-10 bg-gray-200 rounded-full dark:bg-gray-700 flex items-center justify-center mb-2.5" />
         </div>
-        <div className="flex flex-col ml-20 pt-6">
+</div>
+       
+
+        <div className="flex flex-col items-center ml-6 pt-6">
 
           <div className="h-4 bg-gray-200 rounded-md dark:bg-gray-700 w-[50%] mb-2.5" />
-          <div className="h-4 bg-gray-200 rounded-md dark:bg-gray-700 w-[80%] mb-2.5" />
+          <div className="h-4 bg-gray-200 rounded-md dark:bg-gray-700 w-[70%] mb-2.5" />
 
         </div>
         
