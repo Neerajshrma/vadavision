@@ -901,7 +901,7 @@ body {
 
 @media screen and (max-width:900px) {
   .splide__pagination--ttb{
-    right: 2% !important;
+    right: 8% !important;
     height: 150px;
     top: 50% !important;
     transform: translate(0, -50%);
@@ -1126,7 +1126,7 @@ body {
   .custom-arrows {
     top: 50%;
     transform: translate(0, -50%);
-    right: 2%;  }
+    right: 8%;  }
 }
 @media screen and (max-width: 320px) {
   .custom-arrows {
@@ -1277,6 +1277,29 @@ div#join-widget > div {
   > .splide__pagination__page {
   background: #000000 !important;
   opacity: 0.2 !important;
+}
+
+
+
+
+@media screen and (max-width:330px) {
+  .slider-mobile-app
+>.splide
+>.splide__pagination{
+  right: 6% !important;
+  height: 100px;
+  top: 50% !important;
+  transform: translate(0, -50%);
+  width: 18px;
+}
+
+
+  @media screen and (max-width:330px) {
+    .arrow-height-responsive{
+      height: 40px;
+    }
+    
+  }
 }
 
 .testimonails-mobile-app
@@ -1535,5 +1558,13 @@ div#join-widget > div {
     width: 59%;
     transform: translate(46%, -50%);
   }
+  
+}
+
+@media screen and (max-width:330px) {
+  .flexiable-arrow>.custom-arrows{
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 6%;  }
   
 }
