@@ -138,7 +138,7 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
           onMouseEnter={handleProjectsHover}
           onMouseLeave={handleProjectsLeave}
         >
-          <div className="cursor-pointer projects-dropdown text-base font-normal text-black leading-[120%]">
+          <div className="projects-dropdown text-base font-normal text-black leading-[120%]">
             <div className="flex gap-1 items-center">
               <span className={selectedMenu === "Projects" ? "selected" : ""}>
                 Products
