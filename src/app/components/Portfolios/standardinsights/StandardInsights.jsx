@@ -16,7 +16,7 @@ const StandardInsights = () => {
     }
   }, []);
   return (
-    <div className="min-h-[100vh] bg-[#14EFA5] py-20 px-10 px-5">
+    <div className="min-h-[100vh] bg-[#14EFA5] flex items-center px-10 px-5">
       <div
         className="flex flex-wrap items-center gap-14 justify-center w-full bg-no-repeat portfolio bg-contain bg-right"
         style={{ backgroundImage: "url(images/bg-object2.png)" }}

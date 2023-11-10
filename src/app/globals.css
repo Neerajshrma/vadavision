@@ -1508,7 +1508,7 @@ div#join-widget > div {
 
 .dropdown-content {
   display: flex;
-  width: 210px;
+  width: 240px;
   flex-direction: column;
   position: absolute;
   top: 100%;
