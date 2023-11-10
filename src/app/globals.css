@@ -901,7 +901,7 @@ body {
 
 @media screen and (max-width:900px) {
   .splide__pagination--ttb{
-    right: 2% !important;
+    right: 8% !important;
     height: 150px;
     top: 50% !important;
     transform: translate(0, -50%);
@@ -1126,7 +1126,7 @@ body {
   .custom-arrows {
     top: 50%;
     transform: translate(0, -50%);
-    right: 2%;  }
+    right: 8%;  }
 }
 
 @media screen and (max-width: 320px) {
@@ -1279,6 +1279,29 @@ div#join-widget > div {
   > .splide__pagination__page {
   background: #000000 !important;
   opacity: 0.2 !important;
+}
+
+
+
+
+@media screen and (max-width:330px) {
+  .slider-mobile-app
+>.splide
+>.splide__pagination{
+  right: 6% !important;
+  height: 100px;
+  top: 50% !important;
+  transform: translate(0, -50%);
+  width: 18px;
+}
+
+
+  @media screen and (max-width:330px) {
+    .arrow-height-responsive{
+      height: 40px;
+    }
+    
+  }
 }
 
 .testimonails-mobile-app
@@ -1551,4 +1574,12 @@ div#join-widget > div {
   background-color: #f7f7f7;
   padding: 12px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+@media screen and (max-width:330px) {
+  .flexiable-arrow>.custom-arrows{
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 6%;  }
+  
 }
