@@ -1128,12 +1128,14 @@ body {
     transform: translate(0, -50%);
     right: 2%;  }
 }
+
 @media screen and (max-width: 320px) {
   .custom-arrows {
     top: 50%;
     transform: translate(0, -50%);
     right: -7%;  }
 }
+
 @media screen and (max-width: 1050px) {
   .testimonial-content {
     font-size: 1.25rem;
