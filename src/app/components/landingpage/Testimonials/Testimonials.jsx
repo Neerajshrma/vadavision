@@ -33,7 +33,7 @@ const SplideSlider = () => {
   };
   return (
     <div  data-aos='fade-up'
-      className="bg-white bg-center bg-contain bg-no-repeat  px-40 responsive-width"
+      className="bg-white bg-center bg-cover-change bg-contain  bg-no-repeat  px-30 pb-4 responsive-width"
       style={{ backgroundImage: "url(images/slider.png)" }}
     >
       <div className="text-center text-5xl">
@@ -41,7 +41,7 @@ const SplideSlider = () => {
           What Clients Say About Us
         </p>
       </div>{" "}
-      <div data-aos='fade-up'className="relative testimonails-mobile-app">
+      <div data-aos='fade-up'className="relative testimonails-mobile-app" >
         <Splide 
           options={{
             rewind: true,
@@ -54,8 +54,8 @@ const SplideSlider = () => {
           ref={splideRef}
         >
           <SplideSlide>
-            <div className="" data-carousel-item>
-              <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
+            <div className="" data-carousel-item  >
+              <div className="flex gap-10 testimonials  mt-5 w-7/12 mx-auto">
                 <div className="w-1/3 mob-testimonials-img">
                 <Image src={clientProfile} alt="" />
 
@@ -71,7 +71,7 @@ const SplideSlider = () => {
                   <div >
                     <p 
                       style={{ fontFamily: "Montserrat" }}
-                      className="mob-testimonial-content text-black font-normal text-lg leading-[45px]"
+                      className="mob-testimonial-content bg-responsive text-black font-normal text-lg leading-[45px]"
                     >
                       I am very happy with the services provided, it is very
                       helpful, starting from the insight that the company gave
@@ -154,7 +154,7 @@ const SplideSlider = () => {
             </div>
           </SplideSlide>
           <SplideSlide>
-            <div className="" data-carousel-item>
+            <div className="testimonial-container" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
                 <div className="w-1/3 mob-testimonials-img">
                 <Image src={clientProfile} alt="" />

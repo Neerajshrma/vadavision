@@ -41,18 +41,18 @@ const SplideSlider = () => {
             rewind: true,
             gap: "1rem",
             direction: "ttb",
-            heightRatio: 0.5, // Adjust the value as needed
+            heightRatio: 0.5, 
             isNavigation: true,
             speed: 900,
           }}
           ref={splideRef}
         >
           <SplideSlide >
-            <div className="" data-carousel-item>
-              <div className="testimonials mt-5 w-7/12 mx-auto">
+            <div className="testimonial-container" data-carousel-item>
+              <div className="testimonials mt-5 w-7/12 slider-responsive mx-auto">
                 <div>
-                  <p
-                    style={{ fontFamily: "Montserrat" }}
+                  <p    
+                          style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
                     I am very happy with the services provided, it is very

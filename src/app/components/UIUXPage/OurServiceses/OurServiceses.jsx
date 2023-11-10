@@ -17,8 +17,8 @@ const OurServiceses = () => {
     }
   }, []);
   return (
-    <div className="text-center responsive-width px-40 py-10"data-aos="fade-up">
-      <div className="mt-10 flex gap-3 justify-center items-center">
+    <div className="text-left responsive-width px-40 py-10"data-aos="fade-up">
+      <div className="mt-10 flex gap-3 justify-start items-center">
         <div data-aos="fade-up" className="bg-[#A9AFC3] bg-responsive w-[50px] h-[1px]"></div>
         <div data-aos='fade-up'
           style={{ fontFamily: "Montserrat" }}

@@ -9,7 +9,7 @@ import { ModalContext } from "../../hooks/modalContext";
 import { useRouter } from "next/router";
 import { HiChevronDown, HiChevronUp } from "react-icons/hi";
 
-const Navbar = ({ color, backgroundColor, svgcolor }) => {
+const Navbar = ({ color, backgroundColor, svgcolor,navItemColor,downdownColor }) => {
   const [selectedMenu, setSelectedMenu] = useState("");
   const [isServicesHovered, setIsServicesHovered] = useState(false);
   const [isProjectsHovered, setIsProjectsHovered] = useState(false);
@@ -62,10 +62,10 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
         >
           <div className="cursor-pointer projects-dropdown text-base font-normal text-black leading-[120%]">
             <div className="flex gap-1 items-center">
-              <span className={selectedMenu === "Projects" ? "selected" : ""}>
+              <span className={selectedMenu === "Projects" ? "selected" : ""} style={ {color:navItemColor}}>
                 Services
               </span>
-              <span className="mt-[2px]">
+              <span className="mt-[2px]"style={ {color:downdownColor}}>
                 {isServicesHovered ? (
                   <HiChevronUp size={22} />
                 ) : (
@@ -140,10 +140,10 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
         >
           <div className="projects-dropdown text-base font-normal text-black leading-[120%]">
             <div className="flex gap-1 items-center">
-              <span className={selectedMenu === "Projects" ? "selected" : ""}>
+              <span className={selectedMenu === "Projects" ? "selected" : ""}style={ {color:navItemColor}}>
                 Products
               </span>
-              <span className="mt-[2px]">
+              <span className="mt-[2px]"style={ {color:downdownColor}}>
                 {isProjectsHovered ? (
                   <HiChevronUp size={22} />
                 ) : (
@@ -182,10 +182,10 @@ const Navbar = ({ color, backgroundColor, svgcolor }) => {
         >
           <div className="cursor-pointer projects-dropdown text-base font-normal text-black leading-[120%]">
             <div className="flex gap-1 items-center">
-              <span className={selectedMenu === "Projects" ? "selected" : ""}>
+              <span className={selectedMenu === "Projects" ? "selected" : ""}style={ {color:navItemColor}}>
                 Company
               </span>
-              <span className="mt-[2px]">
+              <span className="mt-[2px]"style={ {color:downdownColor}}>
                 {isCompanyHovered ? (
                   <HiChevronUp size={22} />
                 ) : (
