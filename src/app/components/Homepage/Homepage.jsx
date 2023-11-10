@@ -32,7 +32,7 @@ const Homepage = () => {
     <div>
       {/* header start */}
       <div>
-        <Header color="black" svgcolor="#333542" />
+        <Header color="#212a31" svgcolor="#333542" />
       </div>
       {/* header end */}
 

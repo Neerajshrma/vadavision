@@ -1508,7 +1508,7 @@ div#join-widget > div {
 
 .dropdown-content {
   display: flex;
-  width: 240px;
+  width: 220px;
   flex-direction: column;
   position: absolute;
   top: 100%;
@@ -1538,4 +1538,17 @@ div#join-widget > div {
     transform: translate(46%, -50%);
   }
   
+}
+
+.company-dropdown{
+  display: flex;
+  width: 165px;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  z-index: 10;
+  background-color: #f7f7f7;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }

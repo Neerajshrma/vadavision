@@ -16,7 +16,7 @@ const Menu = ({ color, menuname, selected, onClick }) => {
       onClick={onClick}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className={`inline-block relative text-base font-normal leading-[120%] ${
+      className={`inline-block relative text-sm font-normal leading-[120%] ${
         selected ? "selected" : ""
       } ${isHovered ? "hovered" : ""}`}
       style={{
