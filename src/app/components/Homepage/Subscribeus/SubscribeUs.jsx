@@ -48,7 +48,7 @@ const SubscribeUs = () => {
             services. Subscribe
           </p>
         </div>
-        <div className="flex items-center gap-8 mt-5" data-aos="fade-up">
+        <div className="flex items-center gap-8 mt-5 input-button-responsive" data-aos="fade-up">
           <input
             data-aos="fade-up"
             className="subs-input text-white border-b border-[#3A3F50] outline-none p-1"
@@ -70,52 +70,47 @@ const SubscribeUs = () => {
         </div>
       </div>
       <div
-        className="full-width-responsive w-6/12 bg-cover"
-        style={{
-          backgroundImage: "url(images/team.jpg)",
-          fontFamily: "Montserrat",
-        }}
-      >
-        <div className="bg-subscribe-us min-h-[450px]">
-          <div className="py-14 px-12">
-            <div data-aos="fade-up" className="flex gap-4 items-center">
-              <Image
-                className="rounded-full h-12 w-12"
-                src={profilepicSahil}
-                alt=""
-              />
-
-              {/* <img
-                className="rounded-full h-12 w-12"
-                src="images/sahil.jpeg"
-                alt=""
-              /> */}
-              <div data-aos="fade-up">
-                <p className="text-white text-sm font-semibold">
-                  Sahil Salaria
-                </p>
-                <p
-                  data-aos="fade-up"
-                  className="mt-1 text-xs font-normal text-[#A9AFC3]"
-                >
-                  CEO at Vadavision
-                </p>
-              </div>
-            </div>
-            <div
-              style={{
-                backgroundImage: "url(images/icon-quote.png)",
-                backgroundPosition: "right bottom",
-              }}
-              data-aos="fade-up"
-              className="w-[300px] pt-10 pb-20 text-base text-white font-normal bg-no-repeat bg-auto"
-            >
-              We never give up. Сhallenges make us stronger and more
-              professional. Keep in mind. Beware
-            </div>
-          </div>
+  className="full-width-responsive w-[50%] bg-cover"
+  style={{
+    backgroundImage: "url(images/team.jpg)",
+    fontFamily: "Montserrat",
+  }}
+>
+  <div className="bg-subscribe-us min-h-[450px]">
+    <div className="py-14 px-4 md:px-12"> {/* Adjust padding for different screen sizes */}
+      <div data-aos="fade-up" className="flex flex-col md:flex-row items-center">
+        <Image
+          className="rounded-full h-12 w-12 md:h-16 md:w-16"
+          src={profilepicSahil}
+          alt=""
+        />
+        <div data-aos="fade-up" className="md:ml-4"> {/* Adjust margin for different screen sizes */}
+          <p className="text-white text-sm font-semibold">
+            Sahil Salaria
+          </p>
+          <p
+            data-aos="fade-up"
+            className="mt-1 text-xs font-normal text-[#A9AFC3]"
+          >
+            CEO at Vadavision
+          </p>
         </div>
       </div>
+      <div
+        style={{
+          backgroundImage: "url(images/icon-quote.png)",
+          backgroundPosition: "right bottom",
+        }}
+        data-aos="fade-up"
+        className="w-full md:w-[300px] pt-10 pb-20 text-base text-white font-normal bg-no-repeat bg-auto"
+      >
+        We never give up. Challenges make us stronger and more
+        professional. Keep in mind. Beware
+      </div>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };

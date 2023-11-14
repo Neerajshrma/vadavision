@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../common/Button";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import RippleEffect from "../../common/RippleEffect";
 
 const Herosection = () => {
   return (
@@ -26,6 +27,7 @@ const Herosection = () => {
       </div>
       <div className="mt-8 bg-[#DD4242] primary-color flex gap-2 items-center button-color-change justify-center w-60 mx-auto py-1.5 px-2">
         <div>
+          <RippleEffect>
           <Button
             fontFamily="Poppins"
             fontWeight="400"
@@ -35,6 +37,8 @@ const Herosection = () => {
             letterSpacing="0.06em"
             name="Request Quotation"
           />
+          </RippleEffect>
+         
         </div>
         <div className="text-white">
           <HiArrowNarrowRight size={18} />

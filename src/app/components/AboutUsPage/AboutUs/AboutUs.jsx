@@ -65,13 +65,13 @@ const AboutUs = () => {
                   className="font-bold text-center text-white text-5xl leading-[100%]"
                   style={{ fontFamily: "Montserrat" }}
                 >
-                  {number.AwardWinning}+
+                  {number.FiveStarReviews}+
                 </h1>
                 <p
                   data-aos="fade-up"
                   className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text"
                 >
-                  Awards Winning
+                  5-star Ratings
                 </p>
               </div>
             </div>

@@ -98,7 +98,7 @@ const WhyChooseUs = () => {
                       data-aos="fade-up"
                       className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text"
                     >
-                      5-Star Reviews
+                      5-Star Ratings
                     </p>
                   </div>
                 </div>

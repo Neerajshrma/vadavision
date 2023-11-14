@@ -411,6 +411,23 @@ body {
   }
 }
 
+@media (max-width: 320px) {
+  .input-button-responsive {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* .subs-input {
+    margin-bottom: 10px; 
+  } */
+}
+
+@media  screen and (max-width:320px) {
+  .subs-input{
+    width: 100%;
+  }
+  
+}
 @media screen and (max-width: 500px) {
   .our-approach {
     flex-wrap: wrap;
@@ -1094,7 +1111,7 @@ body {
 @media screen and (max-width:320px) {
   .testimonials{
    width: 101%;
-    top: 34%;
+    top: 39%;
     transform: translate(4%, -50%);
 
   }
@@ -1472,7 +1489,13 @@ div#join-widget > div {
 .primary-color:hover{
   background-color: #c12c2c;
 }
+@media screen and (max-width:480px) {
 
+.primary-color:hover{
+  background-color: white;
+}
+  
+}
 .otgc-visit-btn{
   background-color: #1a16cc;
 }
@@ -1529,6 +1552,7 @@ div#join-widget > div {
   position: relative;
 }
 
+
 .dropdown-content {
   display: flex;
   width: 220px;
@@ -1558,7 +1582,7 @@ div#join-widget > div {
   .testimonial-container>.slider-responsive{
     top: 50%;
     width: 59%;
-    transform: translate(46%, -50%);
+    transform: translate(40%, -50%);
   }
   
 }
