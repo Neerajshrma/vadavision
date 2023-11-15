@@ -4,6 +4,7 @@ import HeroSection from "./HeroSectionPage/HeroSection";
 import Footer from "../common/Footer/Footer";
 import SubscribeUs from "../Homepage/Subscribeus/SubscribeUs";
 import ConsultWithUs from "../Homepage/Consultwithus/ConsultWithUs";
+import Breadcrums from "../common/Breadcrums";
 
 const PrivacyPolicy = () => {
   return (
@@ -11,6 +12,9 @@ const PrivacyPolicy = () => {
       <div className="bg-[#141619]">
         <div>
           <Header color="black" backgroundColor="#DD4242" svgcolor="#ffffff" navItemColor="white" downdownColor='white' />
+        </div>
+        <div className="  pt-10 cursor-default px-40 	">
+          <Breadcrums curpage="Privacy & Policy" />
         </div>
         <div>
           <HeroSection />

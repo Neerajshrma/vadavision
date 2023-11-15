@@ -10,6 +10,7 @@ import Idelogy from "./Idelogy";
 import Perks from "./Perks";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Breadcrums from "../common/Breadcrums";
 
 const CarrierPage = () => {
   useEffect(() => {
@@ -27,6 +28,9 @@ const CarrierPage = () => {
       <div className="bg-[#141619]">
         <div>
           <Header color="black" backgroundColor="#DD4242" svgcolor="#ffffff" navItemColor="white" downdownColor='white'/>
+        </div>
+        <div className="  pt-10 cursor-default px-40 	">
+          <Breadcrums curpage="Carrier" />
         </div>
         <div>
           <WhyJoinUs />

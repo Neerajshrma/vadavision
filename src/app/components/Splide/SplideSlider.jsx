@@ -55,10 +55,13 @@ const SplideSlider = () => {
                           style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
-                    I am very happy with the services provided, it is very
-                    helpful, starting from the insight that the company gave
-                    from the start that I did not understand what it was so I
-                    got knowledge and made my website look better
+                  "Superb work, always a pleasure working with Vadavision on complex tasks requiring a finesse touch."
+
+
+
+
+
+
                   </p>
                 </div>
                 <div
@@ -95,11 +98,88 @@ const SplideSlider = () => {
                           style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
-                    I am very happy with the services provided, it is very
-                    helpful, starting from the insight that the company gave
-                    from the start that I did not understand what it was so I
-                    got knowledge and made my website look better
+               "Vadavision's solution to our problem is clear and honest. They don't just run around trying to fill extended time and hours. They work with us around the clock, addressing our needs as soon as they arise."
                   </p>
+                </div>
+                <div
+                  className="mt-10 flex justify-center gap-4 items-center testimonial-profile"
+                >
+                  <div  className="profile-img">
+                  <Image src={clientProfile} alt="" />
+
+                    {/* <img className="w-full" src="/images/client.png" alt="" /> */}
+                  </div>
+                  <div>
+                    <h6
+                      data-aos="fade-up"
+                      className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]"
+                    >
+                      Clay Johnson
+                    </h6>
+                    <p
+                      data-aos="fade-up"
+                      className="text-base testimonial-content font-normal text-[#959596] leading-[150%]"
+                    >
+                      Business Director at Wax Inc
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SplideSlide> 
+          <SplideSlide >
+            <div className="testimonial-container" data-carousel-item>
+              <div className="testimonials mt-5 w-7/12 slider-responsive mx-auto">
+                <div>
+                  <p    
+                          style={{ fontFamily: "Montserrat" }}
+                    className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
+                  >
+                    "Vadavision stands out as a hub of exceptional talent. The team's expertise and smooth communication make every collaboration effortless. Excited for more future projects together."
+                  </p>
+                </div>
+                <div
+                  className="mt-10 flex justify-center gap-4 items-center testimonial-profile"
+                >
+                  <div  className="profile-img">
+                  <Image src={clientProfile} alt="" />
+
+                    {/* <img className="w-full" src="/images/client.png" alt="" /> */}
+                  </div>
+                  <div>
+                    <h6
+                      data-aos="fade-up"
+                      className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]"
+                    >
+                      Clay Johnson
+                    </h6>
+                    <p
+                      data-aos="fade-up"
+                      className="text-base testimonial-content font-normal text-[#959596] leading-[150%]"
+                    >
+                      Business Director at Wax Inc
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SplideSlide>
+
+          <SplideSlide >
+            <div className="testimonial-container" data-carousel-item>
+              <div className="testimonials mt-5 w-7/12 slider-responsive mx-auto">
+                <div>
+                  <p    
+                          style={{ fontFamily: "Montserrat" }}
+                    className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
+                  >
+"Vadavision turned our app dreams into a stunning reality! Their expertise, creativity, and commitment to excellence exceeded our expectations. Highly recommend!"
+
+
+
+
+
+</p>
                 </div>
                 <div
                   className="mt-10 flex justify-center gap-4 items-center testimonial-profile"
@@ -134,11 +214,56 @@ const SplideSlider = () => {
                           style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
-                    I am very happy with the services provided, it is very
-                    helpful, starting from the insight that the company gave
-                    from the start that I did not understand what it was so I
-                    got knowledge and made my website look better
-                  </p>
+"𝘼𝙢𝙖𝙯𝙞𝙣𝙜, They are 𝙙𝙚𝙛𝙞𝙣𝙞𝙩𝙚𝙡𝙮 𝙤𝙣𝙚 𝙞𝙣 𝙖 𝙢𝙞𝙡𝙡𝙞𝙤𝙣. 𝙒𝙚 𝙘𝙚𝙧𝙩𝙖𝙞𝙣𝙡𝙮 𝙬𝙤𝙧𝙠 𝙬𝙞𝙩𝙝 them 𝙖𝙜𝙖𝙞𝙣 𝙞𝙣 𝙩𝙝𝙚 𝙣𝙚𝙖𝙧 𝙛𝙪𝙩𝙪𝙧𝙚."
+
+
+
+
+
+
+</p>
+                </div>
+                <div
+                  className="mt-10 flex justify-center gap-4 items-center testimonial-profile"
+                >
+                  <div  className="profile-img">
+                  <Image src={clientProfile} alt="" />
+
+                    {/* <img className="w-full" src="/images/client.png" alt="" /> */}
+                  </div>
+                  <div>
+                    <h6
+                      data-aos="fade-up"
+                      className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]"
+                    >
+                      Clay Johnson
+                    </h6>
+                    <p
+                      data-aos="fade-up"
+                      className="text-base testimonial-content font-normal text-[#959596] leading-[150%]"
+                    >
+                      Business Director at Wax Inc
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SplideSlide> <SplideSlide >
+            <div className="testimonial-container" data-carousel-item>
+              <div className="testimonials mt-5 w-7/12 slider-responsive mx-auto">
+                <div>
+                  <p    
+                          style={{ fontFamily: "Montserrat" }}
+                    className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
+                  >
+"Vadavision completes my task in a timely manner, excels in communication skills, and is well-versed in NodeJS/JavaScript. Thanks."
+
+
+
+
+
+
+</p>
                 </div>
                 <div
                   className="mt-10 flex justify-center gap-4 items-center testimonial-profile"
