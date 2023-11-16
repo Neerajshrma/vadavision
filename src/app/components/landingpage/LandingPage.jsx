@@ -31,38 +31,40 @@ const LandingPage = ({ minWidth }) => {
       <div className="">
         <ConsultUs backgroundColor="#14EFA5" />
       </div>
-      <div className="">
-        <MobileApp />
-      </div>
-      <div>
-        <IndustriesWeWork />
-      </div>
-      <div>
-        <TechStack />
-      </div>
-      <div className="">
-        <ConsultUs color="#ffffff" backgroundColor="#1E2533" />
-      </div>
-      <div>
-        <Portfolio />
-      </div>
-      <div>
-        <SomeFacts />
-      </div>
-      <div className="">
-        <ConsultUs color="#ffffff" backgroundColor="#0C4137" />
-      </div>
-      <div>
-        <WhyChooseUs />
-      </div>
-      {/* <div>
+      <div className="bg-[#141619]">
+        <div className="">
+          <MobileApp />
+        </div>
+        <div>
+          <IndustriesWeWork />
+        </div>
+        <div>
+          <TechStack />
+        </div>
+        <div className="">
+          <ConsultUs color="#ffffff" backgroundColor="#1E2533" />
+        </div>
+        <div>
+          <Portfolio />
+        </div>
+        <div>
+          <SomeFacts />
+        </div>
+        <div className="">
+          <ConsultUs color="#ffffff" backgroundColor="#0C4137" />
+        </div>
+        <div>
+          <WhyChooseUs />
+        </div>
+        {/* <div>
         <CalculateTheCost />
-      </div> */}
-      <div className="bg-[#141619] min-h-[600px]">
-        <FrequentlyAksedQuestions />
-      </div>
-      <div>
-        <Footer />
+        </div> */}
+        <div className="bg-[#141619] min-h-[600px]">
+          <FrequentlyAksedQuestions />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
     </div>
   );

@@ -27,7 +27,9 @@ const UIUXPage = () => {
               color="black"
               backgroundColor="#DD4242"
               svgcolor="#ffffff"
-              navItemColor="white" downdownColor='white'            />
+              navItemColor="white"
+              downdownColor="white"
+            />
           </div>
           <div>
             <Herosection />
@@ -37,44 +39,46 @@ const UIUXPage = () => {
       <div>
         <RecognizedBy />
       </div>
-      <div className="">
-        <OurCustomers />
-      </div>
-      <div>
-        <SplideSlider />
-      </div>
-      <div>
-        <OurServiceses />
-      </div>
-      <div className="mt-5">
-        <ConsultUs backgroundColor="#1E2533" color="white" />
-      </div>
-      <div>
-        <DesignProcess />
-      </div>
-      <div>
-        <Portfolio />
-      </div>
-      <div className="mt-5">
-        <ConsultUs backgroundColor="#1E2533" color="white" />
-      </div>
-      {/* <div className="bg-white">
+      <div className="bg-[#141619]">
+        <div className="">
+          <OurCustomers />
+        </div>
+        <div>
+          <SplideSlider />
+        </div>
+        <div>
+          <OurServiceses />
+        </div>
+        <div className="mt-5">
+          <ConsultUs backgroundColor="#1E2533" color="white" />
+        </div>
+        <div>
+          <DesignProcess />
+        </div>
+        <div>
+          <Portfolio />
+        </div>
+        <div className="mt-5">
+          <ConsultUs backgroundColor="#1E2533" color="white" />
+        </div>
+        {/* <div className="bg-white">
         <DesigningTools />
-      </div> */}
-      <div>
-        <OurMilestones />
-      </div>
-      <div className="mt-5">
-        <ConsultUs backgroundColor="#0C4137" color="white" />
-      </div>
-      <div>
-        <WhyChooseUs />
-      </div>
-      <div className="bg-[#141619] min-h-[600px]">
-        <FrequentlyAksedQuestions />
-      </div>
-      <div>
-        <Footer />
+        </div> */}
+        <div>
+          <OurMilestones />
+        </div>
+        <div className="mt-5">
+          <ConsultUs backgroundColor="#0C4137" color="white" />
+        </div>
+        <div>
+          <WhyChooseUs />
+        </div>
+        <div className="bg-[#141619] min-h-[600px]">
+          <FrequentlyAksedQuestions />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
     </div>
   );
