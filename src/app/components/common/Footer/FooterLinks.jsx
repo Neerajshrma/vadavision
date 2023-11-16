@@ -8,6 +8,7 @@ import CompanyDropdown from "./CompanyDropdown";
 import SocialMediaDropdown from "./SocialMediaDropdown";
 import Button from "../Button";
 import { SlSocialLinkedin } from "react-icons/sl";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 const FooterLinks = () => {
   return (
@@ -97,7 +98,7 @@ const FooterLinks = () => {
             >
               <li className="flex gap-2 items-center">
                 <div className="text-black bg-white p-[3px] rounded-full">
-                  <SlSocialLinkedin size={20} />
+                  <FaLinkedinIn size={20} />
                 </div>
                 <div className="mt-2.5 mb-3 Montserrat font-normal text-[#E6E6E6] leading-[32px] text-base footer-link inline-block">
                   LinkedIn
