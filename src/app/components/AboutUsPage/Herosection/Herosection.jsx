@@ -3,6 +3,7 @@ import Image from "next/image";
 import GatherImage from "../../../../../public/images/gather-4.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Breadcrums from "../../common/Breadcrums";
 
 const Herosection = () => {
   useEffect(() => {
@@ -17,7 +18,9 @@ const Herosection = () => {
   }, []);
   return (
     <div className=" Montserrat responsive-width mobile-width px-40">
-      <div className="mt-20 ">
+
+        
+      <div className="mt-14 ">
         <h1
           data-aos="fade-up"
           className="text-4xl hero-heading heading-margin leading-[120%] font-bold text-white text-left"

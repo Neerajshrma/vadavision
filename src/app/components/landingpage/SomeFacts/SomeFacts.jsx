@@ -19,7 +19,7 @@ const SomeFacts = () => {
   className="bg-[#111319] py-10 px-4 sm:px-20 responsive-width bg-cover"
   style={{ backgroundImage: "url(images/bg-object6.png)" }}
 >
-  <div className="my-5 mx-auto w-full sm:w-7/12 min-w-[300px] text-center">
+  <div className="my-5 mx-auto w-full sm:w-7/12 min-w-[250px] text-center">
     <div data-aos="fade-up">
       <h1 className="Montserrat text-white text-4xl sm:text-5xl font-bold heading leading-[63px]">
         Learn interesting facts and numbers about us.

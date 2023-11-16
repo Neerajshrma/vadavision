@@ -12,12 +12,17 @@ import Header from "../common/Header/Header";
 import OurServices from "../Homepage/Our-services/OurServices";
 import WhyChooseUs from "../common/WhyChooseUs";
 import Accordion from "./Faq";
+import Breadcrums from "../common/Breadcrums";
 const AboutUsPage = () => {
   return (
     <div className="bg-[#141619]">
       <div>
         <Header color="black" backgroundColor="#DD4242" svgcolor="#ffffff" navItemColor="white" downdownColor='white' />
       </div>
+      <div className=" text-start pt-5 cursor-default px-40	">
+          <Breadcrums curpage="About Us" />
+        </div>
+
       <div>
         <Herosection />
       </div>

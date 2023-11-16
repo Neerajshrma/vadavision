@@ -7,15 +7,14 @@ import "aos/dist/aos.css";
 import Image from "next/image";
 import clientProfile from "../../../../../public/images/client-img.png";
 
-
 const SplideSlider = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 0,
         duration: 500,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
@@ -32,17 +31,21 @@ const SplideSlider = () => {
     }
   };
   return (
-    <div  data-aos='fade-up'
+    <div
+      data-aos="fade-up"
       className="bg-white bg-center bg-cover-change bg-contain  bg-no-repeat  px-30 pb-4 responsive-width"
       style={{ backgroundImage: "url(images/slider.png)" }}
     >
       <div className="text-center text-5xl">
-        <p className="text-center testimonials-heading pt-20" data-aos='fade-up'>
+        <p
+          className="text-center testimonials-heading pt-20"
+          data-aos="fade-up"
+        >
           What Clients Say About Us
         </p>
       </div>{" "}
-      <div data-aos='fade-up'className="relative testimonails-mobile-app" >
-        <Splide 
+      <div data-aos="fade-up" className="relative testimonails-mobile-app">
+        <Splide
           options={{
             rewind: true,
             gap: "1rem",
@@ -54,44 +57,42 @@ const SplideSlider = () => {
           ref={splideRef}
         >
           <SplideSlide>
-            <div className="" data-carousel-item  >
+            <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials  mt-5 w-7/12 mx-auto">
                 <div className="w-1/3 mob-testimonials-img">
-                <Image src={clientProfile} alt="" />
+                  <Image src={clientProfile} alt="" />
 
                   {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
                 </div>
-                <div className="w-2/3 mob-testimonials-content" >
-                  <div  
+                <div className="w-2/3 mob-testimonials-content">
+                  <div
                     style={{ fontFamily: "Montserrat" }}
                     className="text-[#141414] text-2xl font-bold testimonials-heading"
                   >
                     Very Excellent !!
                   </div>
-                  <div >
-                    <p 
+                  <div>
+                    <p
                       style={{ fontFamily: "Montserrat" }}
                       className="mob-testimonial-content bg-responsive text-black font-normal text-lg leading-[45px]"
                     >
-                      I am very happy with the services provided, it is very
-                      helpful, starting from the insight that the company gave
-                      from the start that I did not understand what it was so I
-                      got knowledge and made my website look better
+                      Vadavision turned our app dreams into a stunning reality!
+                      Their expertise, creativity, and commitment to excellence
+                      exceeded our expectations. Highly recommend!
                     </p>
                   </div>
                   <div className="flex gap-2 items-center mob-testimonials-profile">
-                    <div  className="w-10 mt-3 mob-testimonials-img2 hidden">
+                    <div className="w-10 mt-3 mob-testimonials-img2 hidden">
                       {/* <img
                         className="w-full"
                         src="images/client-img.png"
                         alt=""
                       /> */}
-                                <Image src={clientProfile} alt="" />
-
+                      <Image src={clientProfile} alt="" />
                     </div>
-                    <div  className="text-black font-semibold mt-5 text-base testimonial-content">
+                    <div className="text-black font-semibold mt-5 text-base testimonial-content">
                       Robertsen Andrew
-                      <div   className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
+                      <div className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
                         Business Director at Wax Inc
                       </div>
                     </div>
@@ -103,61 +104,8 @@ const SplideSlider = () => {
           <SplideSlide>
             <div className="" data-carousel-item>
               <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
-                <div className="w-1/3 mob-testimonials-img" >
-                <Image src={clientProfile} alt="" />
-
-                  {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
-                </div>
-                <div className="w-2/3 mob-testimonials-content">
-                  <div
-                    style={{ fontFamily: "Montserrat" }}
-                    className="text-[#141414] text-2xl font-bold testimonials-heading"
-                  >
-                    Very Excellent !!
-                  </div>
-                  <div >
-                    <p
-                      style={{ fontFamily: "Montserrat" }}
-                      className="mob-testimonial-content text-black font-normal text-lg leading-[56px]"
-                    >
-                      I am very happy with the services provided, it is very
-                      helpful, starting from the insight that the company gave
-                      from the start that I did not understand what it was so I
-                      got knowledge and made my website look better
-                    </p>
-                  </div>
-                  <div className="flex gap-2 items-center mob-testimonials-profile">
-                    <div
-                      className="w-10 mt-3 mob-testimonials-img2 hidden"
-                    >
-                                <Image src={clientProfile} alt="" />
-
-                      {/* <img
-                        className="w-full"
-                        src="images/client-img.png"
-                        alt=""
-                      /> */}
-                    </div>
-                    <div
-                      className="text-black font-semibold mt-5 text-base testimonial-content"
-                    >
-                      Robertsen Andrew
-                      <div
-                        className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden"
-                      >
-                        Business Director at Wax Inc
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SplideSlide>
-          <SplideSlide>
-            <div className="testimonial-container" data-carousel-item>
-              <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
                 <div className="w-1/3 mob-testimonials-img">
-                <Image src={clientProfile} alt="" />
+                  <Image src={clientProfile} alt="" />
 
                   {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
                 </div>
@@ -173,10 +121,54 @@ const SplideSlider = () => {
                       style={{ fontFamily: "Montserrat" }}
                       className="mob-testimonial-content text-black font-normal text-lg leading-[56px]"
                     >
-                      I am very happy with the services provided, it is very
-                      helpful, starting from the insight that the company gave
-                      from the start that I did not understand what it was so I
-                      got knowledge and made my website look better
+                      Vadavision completes my task in a timely manner, excels in
+                      communication skills, and is well-versed in
+                      NodeJS/JavaScript. Thanks.
+                    </p>
+                  </div>
+                  <div className="flex gap-2 items-center mob-testimonials-profile">
+                    <div className="w-10 mt-3 mob-testimonials-img2 hidden">
+                      <Image src={clientProfile} alt="" />
+
+                      {/* <img
+                        className="w-full"
+                        src="images/client-img.png"
+                        alt=""
+                      /> */}
+                    </div>
+                    <div className="text-black font-semibold mt-5 text-base testimonial-content">
+                      Robertsen Andrew
+                      <div className="text-black font-semibold text-base testimonial-content mob-testimonials-img2 hidden">
+                        Business Director at Wax Inc
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="testimonial-container" data-carousel-item>
+              <div className="flex gap-10 testimonials mt-5 w-7/12 mx-auto">
+                <div className="w-1/3 mob-testimonials-img">
+                  <Image src={clientProfile} alt="" />
+
+                  {/* <img className="w-full" src="images/client-img.png" alt="" /> */}
+                </div>
+                <div className="w-2/3 mob-testimonials-content">
+                  <div
+                    style={{ fontFamily: "Montserrat" }}
+                    className="text-[#141414] text-2xl font-bold testimonials-heading"
+                  >
+                    Very Excellent !!
+                  </div>
+                  <div>
+                    <p
+                      style={{ fontFamily: "Montserrat" }}
+                      className="mob-testimonial-content text-black font-normal text-lg leading-[56px]"
+                    >
+                      Amazing, They are definitely one in a million. We
+                      certainly work with them again in the near future.
                     </p>
                   </div>
                   <div className="flex gap-2 items-center mob-testimonials-profile">
@@ -186,8 +178,7 @@ const SplideSlider = () => {
                         src="images/client-img.png"
                         alt=""
                       /> */}
-                                <Image src={clientProfile} alt="" />
-
+                      <Image src={clientProfile} alt="" />
                     </div>
                     <div className="text-black font-semibold mt-5 text-base testimonial-content">
                       Robertsen Andrew

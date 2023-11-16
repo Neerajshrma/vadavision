@@ -4,13 +4,17 @@ import HeroSection from "./HeroSectionPage/HeroSection";
 import ConsultWithUs from "../Homepage/Consultwithus/ConsultWithUs";
 import Footer from "../common/Footer/Footer";
 import SubscribeUs from "../Homepage/Subscribeus/SubscribeUs";
+import Breadcrums from "../common/Breadcrums";
 
 const TermsAndConditionPage = () => {
   return (
     <>
       <div className="bg-[#141619]">
       <div>
-          <Header color="white" backgroundColor="#DD4242" svgcolor="#ffffff" />
+          <Header color="black" backgroundColor="#DD4242" svgcolor="#ffffff" navItemColor="white" downdownColor='white'  />
+        </div>
+        <div className="  pt-20 cursor-default px-40 	">
+          <Breadcrums curpage="Terms & Conditions" />
         </div>
         <div>
             <HeroSection/>

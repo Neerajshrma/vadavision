@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Obfuscate from 'react-obfuscate';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Breadcrums from "../../common/Breadcrums";
 
 const MessageInfo = () => {
   useEffect(() => {
@@ -16,6 +17,7 @@ const MessageInfo = () => {
   }, []);
   return (
     <>
+       
       <div className="mt-10 ">
         <div className="">
           <div data-aos='fade-up'

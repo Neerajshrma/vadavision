@@ -89,16 +89,17 @@ const Navbar = ({
             />
             {isServicesHovered && (
               <div className="bg-[#f7f7f7] dropdown-content absolute top-5 left-0 z-10 p-2">
+                <Link
+                    href="/mobile-hybrid-app-development-agency"
+                    className="flex items-center"
+                  >
                 <div
-                  className={`p-4 text-[#ffffff] hover:bg-white hover:text-black hover:rounded-lg text-normal ${
+                  className={`p-4 text-[#ffffff] w-full hover:bg-white hover:text-black hover:rounded-lg text-normal ${
                     selectedMenu === "services" ? "selected" : ""
                   }`}
                   onClick={() => handleMenuClick("services")}
                 >
-                  <Link
-                    href="/mobile-hybrid-app-development-agency"
-                    className="flex items-center"
-                  >
+                  
                     <div className="flex gap-3 items-center">
                       <div className="w-6">
                         <svg
@@ -128,19 +129,20 @@ const Navbar = ({
                         }
                       />
                     </div>
-                  </Link>
                 </div>
+                </Link>
 
+                <Link
+                    href="/top-ui-ux-design-agency"
+                    className="flex items-center"
+                  >
                 <div
-                  className={`p-4 text-[#8d9dab] hover:bg-white hover:text-black hover:rounded-lg text-normal ${
+                  className={`p-4 text-[#8d9dab] hover:bg-white w-full hover:text-black hover:rounded-lg text-normal ${
                     selectedMenu === "uiux" ? "selected" : ""
                   }`}
                   onClick={() => handleMenuClick("My Proj")}
                 >
-                  <Link
-                    href="/top-ui-ux-design-agency"
-                    className="flex items-center"
-                  >
+                  
                     <div className="flex gap-3 items-center">
                       <div className="w-6">
                         <svg
@@ -163,15 +165,16 @@ const Navbar = ({
                         }
                       />
                     </div>
-                  </Link>
                 </div>
+                </Link>
+                <Link href="" className="flex items-center">
+
                 <div
-                  className={`p-4 text-[#8d9dab] hover:bg-white hover:text-black hover:rounded-lg text-normal ${
+                  className={`p-4 text-[#8d9dab] hover:bg-white w-full hover:text-black hover:rounded-lg text-normal ${
                     selectedMenu === "My Proj" ? "selected" : ""
                   }`}
                   onClick={() => handleMenuClick("My Proj")}
                 >
-                  <Link href="" className="flex items-center">
                     <div className="flex gap-3 items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -193,8 +196,9 @@ const Navbar = ({
                         }
                       />
                     </div>
-                  </Link>
                 </div>
+                </Link>
+
               </div>
             )}
           </div>
@@ -272,51 +276,56 @@ const Navbar = ({
             />
             {isCompanyHovered && (
               <div className="bg-[#f7f7f7] company-dropdown absolute top-5 left-0 z-10 p-2">
+                                  <Link href="/about-us">
+
                 <div
                   className={`p-4 text-[#8d9dab] hover:bg-white hover:text-black hover:rounded-lg text-normal ${
                     selectedMenu === "My Proj" ? "selected" : ""
                   }`}
                   onClick={() => handleMenuClick("My Proj")}
                 >
-                  <Link href="/about-us">
                     <Menu
                       menuname="About Us"
                       color={color}
                       selected={selectedMenu === "about-us"}
                       onClick={() => handleMenuClick("about-us")}
                     />
-                  </Link>
                 </div>
+                </Link>
+
+                <Link href="/contact-us">
+
                 <div
                   className={`p-4 text-[#8d9dab] hover:bg-white hover:text-black hover:rounded-lg text-normal ${
                     selectedMenu === "My Proj" ? "selected" : ""
                   }`}
                   onClick={() => handleMenuClick("services")}
                 >
-                  <Link href="/contact-us">
                     <Menu
                       menuname="Contact Us"
                       color={color}
                       selected={selectedMenu === "contact-us"}
                       onClick={() => handleMenuClick("contact-us")}
                     />
-                  </Link>
                 </div>
+                </Link>
+                <Link href="/career">
+
                 <div
                   className={`p-4 text-[#8d9dab] hover:bg-white hover:text-black hover:rounded-lg text-normal ${
                     selectedMenu === "My Proj" ? "selected" : ""
                   }`}
                   onClick={() => handleMenuClick("My Proj")}
                 >
-                  <Link href="/career">
                     <Menu
                       menuname="Career"
                       color={color}
                       selected={selectedMenu === "Career"}
                       onClick={() => handleMenuClick("Career")}
                     />
-                  </Link>
                 </div>
+                </Link>
+
               </div>
             )}
           </div>

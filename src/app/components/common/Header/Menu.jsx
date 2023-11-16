@@ -26,7 +26,7 @@ const Menu = ({ color, menuname, selected, onClick }) => {
       }}
     >
       {menuname}
-      <div className="selected-border" />
+      <div className="" />
       <style jsx>{`
         .selected-border {
           position: absolute;

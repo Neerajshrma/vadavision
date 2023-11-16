@@ -8,6 +8,7 @@ import Tabs from "../common/Faqs/Tabs/Tabs";
 import Header from "../common/Header/Header";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Breadcrums from "../common/Breadcrums";
 
 const ContactUsPage = () => {
   useEffect(() => {
@@ -25,6 +26,9 @@ const ContactUsPage = () => {
       <div className="bg-[#141619]">
         <div>
           <Header color="black" backgroundColor="#DD4242" svgcolor="#ffffff" navItemColor="white" downdownColor='white' />
+        </div>
+        <div className="  pt-10 cursor-default px-40 	">
+          <Breadcrums curpage="Contact Us" />
         </div>
         <div className="py-10 gap-10 flex justify-between responsive-width px-40">
           <div className="w-1/2 hide-cards">
