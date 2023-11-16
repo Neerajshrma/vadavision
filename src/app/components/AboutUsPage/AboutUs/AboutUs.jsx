@@ -42,11 +42,11 @@ const AboutUs = () => {
             </h1>
             <p
               data-aos="fade-up"
-              className="text-[#A9AFC3] font-light Montserrat text-sm  mx-auto leading-[33px]"
+              className="text-[#A9AFC3] font-light Montserrat text-sm mx-auto leading-[33px]"
             >
               Vadavision was born from a shared vision and unwavering passion.
               Over the past 1.5 years, we transformed challenges into
-              opportunities, guided by our {"clients'"} support and our{" "}
+              opportunities, guided by our {"clients'"} support and our
               {"team's"}
               dedication. Today, Vadavision stands as a testament to our journey
               of creativity and growth. With each passing day, our commitment to
@@ -57,12 +57,12 @@ const AboutUs = () => {
           <div className="pt-20 flex flex-wrap ball bg-cover flex justify-end">
             <div
               data-aos="fade-up"
-              className="flex justify-center  items-center w-[200px] h-[200px] border border-2 rounded-full border-[#DD4242] justify-items-center"
+              className="flex justify-center items-center w-[200px] h-[200px] border border-2 rounded-full border-[#DD4242] justify-items-center"
             >
               <div className="">
                 {" "}
                 <h1
-                  className="font-bold text-center text-white text-5xl leading-[100%]"
+                  className="font-semibold text-center text-white text-4xl leading-[100%]"
                   style={{ fontFamily: "Montserrat" }}
                 >
                   {number.AwardWinning}+
@@ -85,7 +85,7 @@ const AboutUs = () => {
             >
               <div>
                 <h1
-                  className="font-bold text-center text-white text-5xl leading-[100%]"
+                  className="font-semibold text-center text-white text-4xl leading-[100%]"
                   style={{ fontFamily: "Montserrat" }}
                 >
                   {number.OurTeam}+
@@ -108,7 +108,7 @@ const AboutUs = () => {
             </h1>
             <p
               data-aos="fade-up"
-              className="mt-5 text-[#A9AFC3]  Montserrat font-light text-sm mx-auto leading-[33px]"
+              className="mt-5 text-[#A9AFC3] Montserrat font-light text-sm mx-auto leading-[33px]"
             >
               Every day at Vadavision, we begin with a cup of coffee. Gathered
               around, we engage in lively discussions, where creativity sparks
@@ -130,7 +130,7 @@ const AboutUs = () => {
             </h1>
             <p
               data-aos="fade-up"
-              className="mt-8 text-[#A9AFC3] Montserrat font-light text-sm  mx-auto leading-[33px]"
+              className="mt-8 text-[#A9AFC3] Montserrat font-light text-sm mx-auto leading-[33px]"
             >
               Our team consists of innovative thinkers who bring fresh ideas to
               the table, ensuring unique solutions for every project.
@@ -139,20 +139,22 @@ const AboutUs = () => {
           <div className="pt-20 bg-cover">
             <div
               data-aos="fade-up"
-              className="w-[200px] h-[200px] ball2 border border-2 item-center justify-center rounded-full border-[#DD4242] justify-items-center"
+              className="flex w-[200px] h-[200px] ball2 border border-2 items-center justify-center rounded-full border-[#DD4242]"
             >
-              <h1
-                className="font-bold mt-3 text-center pt-8 text-white text-4xl leading-[100%] ml-3"
-                style={{ fontFamily: "Montserrat" }}
-              >
-                {number.ProjectComplete}+
-              </h1>
-              <p
-                data-aos="fade-up"
-                className="Montserrat mt-3 text-center font-medium leading-[170%] text-[#A9AFC3] feature-text"
-              >
-                Successful projects
-              </p>
+              <div>
+                <h1
+                  className="font-semibold text-center text-white text-4xl leading-[100%]"
+                  style={{ fontFamily: "Montserrat" }}
+                >
+                  {number.ProjectComplete}+
+                </h1>
+                <p
+                  data-aos="fade-up"
+                  className="Montserrat text-center font-medium leading-[170%] text-[#A9AFC3] feature-text"
+                >
+                  Successful projects
+                </p>
+              </div>
             </div>
           </div>
         </div>

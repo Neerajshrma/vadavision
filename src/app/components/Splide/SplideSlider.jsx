@@ -9,12 +9,12 @@ import clientProfile from "../../../../public/images/client.png";
 
 const SplideSlider = () => {
   useEffect(() => {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       AOS.init({
         offset: 0,
         duration: 500,
         once: true,
-        easing: 'ease',
+        easing: "ease",
       });
     }
   }, []);
@@ -31,7 +31,8 @@ const SplideSlider = () => {
     }
   };
   return (
-    <div data-aos="fade-up"
+    <div
+      data-aos="fade-up"
       className="bg-[#141619] bg-center bg-contain bg-no-repeat"
       style={{ backgroundImage: "url(images/bg-1.png)" }}
     >
@@ -41,31 +42,30 @@ const SplideSlider = () => {
             rewind: true,
             gap: "1rem",
             direction: "ttb",
-            heightRatio: 0.5, 
+            heightRatio: 0.5,
             isNavigation: true,
             speed: 900,
           }}
           ref={splideRef}
         >
-          <SplideSlide >
+          <SplideSlide>
             <div className="testimonial-container" data-carousel-item>
               <div className="testimonials mt-5 w-7/12 slider-responsive mx-auto">
                 <div>
-                  <p    
-                          style={{ fontFamily: "Montserrat" }}
+                  <p
+                    style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
-                    I am very happy with the services provided, it is very
-                    helpful, starting from the insight that the company gave
-                    from the start that I did not understand what it was so I
-                    got knowledge and made my website look better
+                    Im very happy with our collaboration, and Im open to working
+                    together on more projects in the future. Vadavision team
+                    provided a great solution within a tight timeframe. They are
+                    trustworthy and skilled. I will definitely choose to work
+                    with them again.
                   </p>
                 </div>
-                <div
-                  className="mt-10 flex justify-center gap-4 items-center testimonial-profile"
-                >
-                  <div  className="profile-img">
-                  <Image src={clientProfile} alt="" />
+                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
+                  <div className="profile-img">
+                    <Image src={clientProfile} alt="" />
 
                     {/* <img className="w-full" src="/images/client.png" alt="" /> */}
                   </div>
@@ -87,12 +87,12 @@ const SplideSlider = () => {
               </div>
             </div>
           </SplideSlide>
-          <SplideSlide >
+          <SplideSlide>
             <div className="testimonial-container" data-carousel-item>
               <div className="testimonials mt-5 w-7/12 slider-responsive mx-auto">
                 <div>
-                  <p    
-                          style={{ fontFamily: "Montserrat" }}
+                  <p
+                    style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
                     I am very happy with the services provided, it is very
@@ -101,11 +101,9 @@ const SplideSlider = () => {
                     got knowledge and made my website look better
                   </p>
                 </div>
-                <div
-                  className="mt-10 flex justify-center gap-4 items-center testimonial-profile"
-                >
-                  <div  className="profile-img">
-                  <Image src={clientProfile} alt="" />
+                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
+                  <div className="profile-img">
+                    <Image src={clientProfile} alt="" />
 
                     {/* <img className="w-full" src="/images/client.png" alt="" /> */}
                   </div>
@@ -126,12 +124,13 @@ const SplideSlider = () => {
                 </div>
               </div>
             </div>
-          </SplideSlide> <SplideSlide >
+          </SplideSlide>{" "}
+          <SplideSlide>
             <div className="testimonial-container" data-carousel-item>
               <div className="testimonials mt-5 w-7/12 slider-responsive mx-auto">
                 <div>
-                  <p    
-                          style={{ fontFamily: "Montserrat" }}
+                  <p
+                    style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
                     I am very happy with the services provided, it is very
@@ -140,11 +139,9 @@ const SplideSlider = () => {
                     got knowledge and made my website look better
                   </p>
                 </div>
-                <div
-                  className="mt-10 flex justify-center gap-4 items-center testimonial-profile"
-                >
-                  <div  className="profile-img">
-                  <Image src={clientProfile} alt="" />
+                <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
+                  <div className="profile-img">
+                    <Image src={clientProfile} alt="" />
 
                     {/* <img className="w-full" src="/images/client.png" alt="" /> */}
                   </div>
@@ -166,25 +163,23 @@ const SplideSlider = () => {
               </div>
             </div>
           </SplideSlide>
-         
         </Splide>
         <div className="flexiable-arrow">
-        <div className="h-[150px] absolute custom-arrows">
-          <div className="h-full relative w-[18px] ">
-            <div className="absolute acustom-arrow-prev">
-              <button className="" onClick={handlePrevClick}>
-                <BsArrowUp size={18} color="#DD4242" />
-              </button>
-            </div>
-            <div className="absolute custom-arrow-next">
-              <button className="" onClick={handleNextClick}>
-                <BsArrowDown size={18} color="#DD4242" />
-              </button>
+          <div className="h-[150px] absolute custom-arrows">
+            <div className="h-full relative w-[18px] ">
+              <div className="absolute acustom-arrow-prev">
+                <button className="" onClick={handlePrevClick}>
+                  <BsArrowUp size={18} color="#DD4242" />
+                </button>
+              </div>
+              <div className="absolute custom-arrow-next">
+                <button className="" onClick={handleNextClick}>
+                  <BsArrowDown size={18} color="#DD4242" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        </div>
-        
       </div>
     </div>
   );
