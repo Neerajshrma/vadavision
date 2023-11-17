@@ -18,7 +18,7 @@ const Modals = () => {
       >
         <div
           onClick={(e) => e.stopPropagation()}
-          className="w-[80%] relative bg-[#faf7f0] shadow-lg h-[90vh] no-scrollbar calender-popup"
+          className="w-[80%] relative shadow-lg h-[90vh] no-scrollbar calender-popup"
         >
           <div
             className="flex justify-end text-white p-2 absolute border border-white-800 rounded-full z-50 bg-black top-0 right-0 -mt-4 -mr-4 cursor-pointer text-3xl popup-cross-icon"
@@ -26,7 +26,7 @@ const Modals = () => {
           >
             <RxCross2 size={20} />
           </div>
-          <div className="flex flex-wrap responsive-popup h-full">
+          <div className="bg-[#faf7f0] flex flex-wrap responsive-popup h-full">
             <div className="w-[50%] min-w-[350px] pt-6 pl-6 calender-popup-content">
               <h1 className="text-4xl text-center font-bold pb-6">
                 Talk To Our EXPERTS!
@@ -57,7 +57,7 @@ const Modals = () => {
                 </div>
               </div>
             </div>
-            <div className="pb-4 w-[50%] min-w-[350px] h-full calender-popup-content">
+            <div className="bg-white pb-4 w-[50%] min-w-[350px] h-full calender-popup-content">
               <PopUp minWidth={"500px"} />
             </div>
           </div>
