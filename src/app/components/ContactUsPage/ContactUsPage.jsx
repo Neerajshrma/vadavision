@@ -27,7 +27,7 @@ const ContactUsPage = () => {
         <div>
           <Header color="black" backgroundColor="#DD4242" svgcolor="#ffffff" navItemColor="white" downdownColor='white' />
         </div>
-        <div className="  pt-10 cursor-default px-40 	">
+        <div className="  pt-10 cursor-default  pl-40 contact-breadcrums	">
           <Breadcrums curpage="Contact Us" />
         </div>
         <div className="py-10 gap-10 flex justify-between responsive-width px-40">

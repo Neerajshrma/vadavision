@@ -37,7 +37,7 @@ const SocialMediaDropdown = () => {
             className="ml-4 text-sm text-gray-700 dark:text-gray-200"
             aria-labelledby="dropdownDefaultButton"
           >
-            <a href="">
+            <a href="https://www.instagram.com/vadavision/  " target="_blank">
               <li className="flex gap-2 items-center">
                 <div className="text-black bg-white p-[3px] rounded-full">
                   <AiFillInstagram size={20} />
@@ -47,8 +47,10 @@ const SocialMediaDropdown = () => {
                 </div>
               </li>
             </a>
-            <a href="">
-              <li className="flex gap-2 items-center">
+            <a
+              href="https://www.linkedin.com/company/vadavision/"
+              target="_blank"
+            >              <li className="flex gap-2 items-center">
                 <div className="text-black bg-white p-[3px] rounded-full">
                   <BiLogoLinkedin size={20} />
                 </div>
@@ -57,8 +59,10 @@ const SocialMediaDropdown = () => {
                 </div>
               </li>
             </a>
-            <a href="">
-              <li className="flex gap-2 items-center">
+            <a
+              href="https://www.facebook.com/profile.php?id=100090359760736&mibextid=ZbWKwL"
+              target="_blank"
+            >              <li className="flex gap-2 items-center">
                 <div className="text-black bg-white p-[3px] rounded-full">
                   <BiLogoFacebook size={20} />
                 </div>

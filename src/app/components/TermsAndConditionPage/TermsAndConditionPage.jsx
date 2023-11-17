@@ -13,7 +13,7 @@ const TermsAndConditionPage = () => {
       <div>
           <Header color="black" backgroundColor="#DD4242" svgcolor="#ffffff" navItemColor="white" downdownColor='white'  />
         </div>
-        <div className="  pt-20 cursor-default px-40 	">
+        <div className="float-left px-40 pt-5  responsive-breadcrums  cursor-default">
           <Breadcrums curpage="Terms & Conditions" />
         </div>
         <div>

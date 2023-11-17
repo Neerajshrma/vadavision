@@ -17,7 +17,7 @@ const Herosection = () => {
     }
   }, []);
   return (
-    <div className=" Montserrat responsive-width mobile-width px-40">
+    <div className=" Montserrat pt-6 responsive-width mobile-width px-40">
 
         
       <div className="mt-14 ">

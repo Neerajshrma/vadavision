@@ -19,7 +19,7 @@ const AboutUsPage = () => {
       <div>
         <Header color="black" backgroundColor="#DD4242" svgcolor="#ffffff" navItemColor="white" downdownColor='white' />
       </div>
-      <div className=" text-start pt-5 cursor-default px-40	">
+      <div className="float-left mobile-responisve px-40 pt-5  responsive-breadcrums  cursor-default">
           <Breadcrums curpage="About Us" />
         </div>
 

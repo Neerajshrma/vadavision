@@ -411,7 +411,7 @@ body {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .input-button-responsive {
     flex-direction: column;
     align-items: center;
@@ -422,12 +422,54 @@ body {
   } */
 }
 
-@media  screen and (max-width:320px) {
+@media  screen and (max-width:350px) {
   .subs-input{
     width: 100%;
   }
   
 }
+
+@media screen and (max-width:1200px) {
+  .responsive-breadcrums{
+    padding-left: 68px;
+    
+  }
+  
+}
+
+
+
+@media screen and (max-width:1200px) {
+  .contact-breadcrums{
+    padding-left: 78px;
+  }
+  
+}
+@media screen and (max-width:480px) {
+  .contact-breadcrums{
+    padding-left: 50px;
+  }
+  
+}
+
+
+@media screen and (max-width:480px) {
+  .responsive-breadcrums{
+    padding-left: 21px;
+  }
+  
+}
+
+@media screen and (max-width:360px) {
+  .text-responsive{
+      margin-top: -5px;
+      font-size: xx-large;
+      padding-top: 50px;
+
+  }
+  
+}
+
 @media screen and (max-width: 500px) {
   .our-approach {
     flex-wrap: wrap;
@@ -882,16 +924,36 @@ body {
 .splide__pagination__page.is-active {
   background: #dd4242 !important;
   opacity: 0.7 !important;
-  width: 7px !important;
-  height: 7px !important;
+  width: 7px !important ;
+  height: 7px !important; 
 }
 
+@media screen and(max-width:420px) {
+  .splide__pagination__page.is-active{
+    background: #dd4242 !important;
+    opacity: 0.7 !important;
+    width: 2px !important; 
+    height: 2px !important; 
+  }
+  
+}
 .splide__pagination__page {
   background: #dd4242 !important;
   opacity: 0.2 !important;
   width: 7px !important;
   height: 7px !important;
 }
+
+@media screen and (max-width:420px) {
+  .splide__pagination__page{
+    background: #dd4242 !important;
+  opacity: 0.2 !important;
+  width: 6px !important;
+  height: 6px !important;
+}
+  }
+  
+
 
 .custom-arrow-prev {
   top: 0;
@@ -1582,7 +1644,16 @@ div#join-widget > div {
   .testimonial-container>.slider-responsive{
     top: 50%;
     width: 59%;
-    transform: translate(40%, -50%);
+    transform: translate(39%, -50%);
+  }
+  
+}
+
+@media screen and (max-width:380px) {
+  .testimonial-container>.slider-responsive{
+    top: 50%;
+    width: 59%;
+    transform: translate(34%, -50%);
   }
   
 }
