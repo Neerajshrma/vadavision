@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
 import { GoChevronDown, GoChevronUp } from "react-icons/go";
 
@@ -36,45 +37,45 @@ const CompanyDropdown = () => {
             aria-labelledby="dropdownDefaultButton"
           >
             <li>
-              <a
+              <Link
                 href="/"
                 className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
               >
                 Service
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/privacy-policy"
                 className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
               >
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/terms-condition"
                 className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
               >
                 Help & Support
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/"
                 className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
               >
                 Portfolio
-              </a>
+              </Link>
             </li>
            
             <li>
-              <a
+              <Link
                 href="/"
                 className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
               >
                 Blog
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
