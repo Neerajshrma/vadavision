@@ -27,29 +27,22 @@ const Herosection = () => {
         </p>
       </div>
       <Link href="/top-ui-ux-design-agency">
+        <div className="w-60 mx-auto mt-8">
+          <RippleEffect>
+            <div className=" bg-[#DD4242]  primary-color flex gap-2 items-center button-color-change justify-center  mx-auto py-1.5 px-2">
+              <div>
+                <button className="text-[#FFFFFF] text-sm font-Poppins font-normal	">
+                  Request Quotation
+                </button>
+              </div>
 
-      <div className="mt-8 bg-[#DD4242]  primary-color flex gap-2 items-center button-color-change justify-center w-60 mx-auto py-1.5 px-2">
-        
-        <RippleEffect>
-            <div>
-              <Button
-                fontFamily="Poppins"
-                fontWeight="400"
-                Color="#FFFFFF"
-                fontSize="12px"
-                backgroundColor=""
-                letterSpacing="0.06em"
-                name="Request Quotation"
-              />
+              <div className="text-white">
+                <HiArrowNarrowRight size={18} />
+              </div>
             </div>
-        </RippleEffect>
-
-        <div className="text-white">
-          <HiArrowNarrowRight size={18} />
+          </RippleEffect>
         </div>
-      </div>
       </Link>
-
     </div>
   );
 };
