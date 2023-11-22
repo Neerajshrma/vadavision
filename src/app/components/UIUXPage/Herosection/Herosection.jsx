@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../../common/Button";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import RippleEffect from "../../common/RippleEffect";
+import Link from "next/link";
 
 const Herosection = () => {
   return (
@@ -25,24 +26,27 @@ const Herosection = () => {
           for enhancing online interactions
         </p>
       </div>
-      <div className="mt-8 bg-[#DD4242] primary-color flex gap-2 items-center button-color-change justify-center w-60 mx-auto py-1.5 px-2">
-        <div>
-          <RippleEffect>
-          <Button
-            fontFamily="Poppins"
-            fontWeight="400"
-            Color="#FFFFFF"
-            fontSize="12px"
-            backgroundColor=""
-            letterSpacing="0.06em"
-            name="Request Quotation"
-          />
-          </RippleEffect>
-         
-        </div>
-        <div className="text-white">
-          <HiArrowNarrowRight size={18} />
-        </div>
+      <div className="w-60 mx-auto mt-8">
+        <RippleEffect>
+          <Link href="">
+            <div className="inline-block bg-[#DD4242] primary-color flex gap-2 items-center button-color-change justify-center mx-auto py-1.5 px-2">
+              <div>
+                <Button
+                  fontFamily="Poppins"
+                  fontWeight="400"
+                  Color="#FFFFFF"
+                  fontSize="12px"
+                  backgroundColor=""
+                  letterSpacing="0.06em"
+                  name="Request Quotation"
+                />
+              </div>
+              <div className="text-white">
+                <HiArrowNarrowRight size={18} />
+              </div>
+            </div>
+          </Link>
+        </RippleEffect>
       </div>
     </div>
   );

@@ -32,7 +32,10 @@ const HeroSection = () => {
               </h4>
             </div>
             <div className="flex gap-4 mt-8">
-              <div onClick={modalOpen} className="flex gap-1 cursor-pointer bg-[#DD4242] primary-color text-white cost-Calculator items-center px-4 py-1.5 ">
+              <div
+                onClick={modalOpen}
+                className="flex gap-1 cursor-pointer bg-[#DD4242] primary-color text-white cost-Calculator items-center px-4 py-1.5 "
+              >
                 <span>
                   <svg
                     width="22"
@@ -49,17 +52,16 @@ const HeroSection = () => {
                     />
                   </svg>
                 </span>
-                <div >
+                <div>
                   <RippleEffect>
-                  <Button
-                    fontFamily="Montserrat"
-                    fontWeight="500"
-                    padding=""
-                    fontSize="16px"
-                    name="Cost Calculator"
-                  />
+                    <Button
+                      fontFamily="Montserrat"
+                      fontWeight="500"
+                      padding=""
+                      fontSize="16px"
+                      name="Cost Calculator"
+                    />
                   </RippleEffect>
-               
                 </div>
               </div>
             </div>

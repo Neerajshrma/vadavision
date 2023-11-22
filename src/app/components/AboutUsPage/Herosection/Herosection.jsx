@@ -18,8 +18,6 @@ const Herosection = () => {
   }, []);
   return (
     <div className=" Montserrat pt-6 responsive-width mobile-width px-40">
-
-        
       <div className="mt-14 ">
         <h1
           data-aos="fade-up"
@@ -27,7 +25,6 @@ const Herosection = () => {
         >
           About us
         </h1>
-
         <p
           data-aos="fade-up"
           className="mt-8 text-white heading-margin font-light text-sm leading-[40px]  mx-auto min-w-[280px] mobile-full-width w-full"

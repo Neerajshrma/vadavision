@@ -17,12 +17,17 @@ const AboutUsPage = () => {
   return (
     <div className="bg-[#141619]">
       <div>
-        <Header color="black" backgroundColor="#DD4242" svgcolor="#ffffff" navItemColor="white" downdownColor='white' />
+        <Header
+          color="black"
+          backgroundColor="#DD4242"
+          svgcolor="#ffffff"
+          navItemColor="white"
+          downdownColor="white"
+        />
       </div>
       <div className="float-left mobile-responisve px-40 pt-5  responsive-breadcrums  cursor-default">
-          <Breadcrums curpage="About Us" />
-        </div>
-
+        <Breadcrums curpage="About Us" />
+      </div>
       <div>
         <Herosection />
       </div>

@@ -20,7 +20,7 @@ const UIUXPage = () => {
       <div className="ui-page-bg herosection-uiux">
         <div
           className="bg-cover h-[82vh] herosection-uiux"
-          style={{ backgroundImage: "URL(images/ui-bg-img.png)" }}
+          style={{ backgroundImage: "URL(images/ui-bg-img-2.webp)" }}
         >
           <div>
             <Header
