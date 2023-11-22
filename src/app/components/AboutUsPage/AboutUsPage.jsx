@@ -25,9 +25,10 @@ const AboutUsPage = () => {
           downdownColor="white"
         />
       </div>
-      <div className="float-left mobile-responisve px-40 pt-5  responsive-breadcrums  cursor-default">
+      <div className="float-left mobile-responisve mt-5 about-us-breadcrum cursor-default">
         <Breadcrums curpage="About Us" />
       </div>
+
       <div>
         <Herosection />
       </div>

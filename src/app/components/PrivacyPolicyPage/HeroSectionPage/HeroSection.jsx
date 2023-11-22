@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <>
       <div className=" responsive-width mobile-width px-40">
-        <div className="mt-20 pb-10">
+        <div className="mt-20 pb-10 mobile-privacy-page">
           <h1 className="text-5xl tracking-widest text-start hero-heading leading-[120%] font-bold text-white">
             Privacy & Policy
           </h1>
