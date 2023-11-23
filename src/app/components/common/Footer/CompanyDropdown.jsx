@@ -38,16 +38,8 @@ const CompanyDropdown = () => {
           >
             <li>
               <Link
-                href="/"
-                className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-              >
-                Service
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="/privacy-policy"
-                className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%]  dark:hover:bg-gray-600 dark:hover:text-white"
               >
                 Privacy Policy
               </Link>
@@ -55,28 +47,20 @@ const CompanyDropdown = () => {
             <li>
               <Link
                 href="/terms-condition"
-                className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%]  dark:hover:bg-gray-600 dark:hover:text-white"
               >
-                Help & Support
+                Term & Conditions
               </Link>
             </li>
             <li>
               <Link
-                href="/"
-                className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                href="/contact-us"
+                className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%]  dark:hover:bg-gray-600 dark:hover:text-white"
               >
-                Portfolio
+                Contact Us
               </Link>
             </li>
-           
-            <li>
-              <Link
-                href="/"
-                className="Montserrat text-[#E6E6E6] block px-4 py-2 text-sm font-normal leading-[120%] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-              >
-                Blog
-              </Link>
-            </li>
+          
           </ul>
         </div>
       )}

@@ -9,6 +9,7 @@ import SocialMediaDropdown from "./SocialMediaDropdown";
 import Button from "../Button";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { FaLinkedinIn } from "react-icons/fa6";
+import OurProducts from "./OurProducts";
 
 const FooterLinks = () => {
   return (
@@ -124,6 +125,9 @@ const FooterLinks = () => {
       <div className="mobile-footer">
         <div>
           <ServicesDropdown />
+        </div>
+        <div>
+          <OurProducts />
         </div>
         <div>
           <CompanyDropdown />

@@ -3,6 +3,7 @@ import FooterLinks from "./FooterLinks";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { HiOutlinePhone } from "react-icons/hi";
 import Obfuscate from "react-obfuscate";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -33,12 +34,15 @@ const Footer = () => {
               </svg>
             </div>
             <div>
+              <Link href='/'>
               <h1
                 style={{ fontFamily: "Source Sans Pro" }}
                 className="text-3xl text-[#DD4242] leading-[120%] font-bold"
               >
                 Vada vision!
               </h1>
+              </Link>
+              
             </div>
           </div>
           <div className="mt-10">

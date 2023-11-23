@@ -68,13 +68,11 @@ const SplideSlider = () => {
                   </div>
                   <div>
                     <h6
-                      data-aos="fade-up"
                       className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]"
                     >
                       Clay Johnson
                     </h6>
                     <p
-                      data-aos="fade-up"
                       className="text-base testimonial-content font-normal text-[#959596] leading-[150%]"
                     >
                       Business Director at Wax Inc
@@ -92,10 +90,8 @@ const SplideSlider = () => {
                     style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
-                    Vadavisions solution to our problem is clear and honest.
-                    They do not just run around trying to fill extended time and
-                    hours. They work with us around the clock, addressing our
-                    needs as soon as they arise.
+                    Superb work, always a pleasure working with Vadavision on
+                    complex tasks requiring a finesse touch.
                   </p>
                 </div>
                 <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
@@ -106,13 +102,11 @@ const SplideSlider = () => {
                   </div>
                   <div>
                     <h6
-                      data-aos="fade-up"
                       className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]"
                     >
                       Clay Johnson
                     </h6>
                     <p
-                      data-aos="fade-up"
                       className="text-base testimonial-content font-normal text-[#959596] leading-[150%]"
                     >
                       Business Director at Wax Inc
@@ -121,8 +115,7 @@ const SplideSlider = () => {
                 </div>
               </div>
             </div>
-          </SplideSlide>
-          <SplideSlide>
+          </SplideSlide><SplideSlide>
             <div className="testimonial-container" data-carousel-item>
               <div className="testimonials mt-5 w-7/12 slider-responsive mx-auto">
                 <div>
@@ -130,10 +123,8 @@ const SplideSlider = () => {
                     style={{ fontFamily: "Montserrat" }}
                     className="testimonial-content text-center text-white font-semibold text-2xl leading-[56px]"
                   >
-                    Vadavision stands out as a hub of exceptional talent. The
-                    teams expertise and smooth communication make every
-                    collaboration effortless. Excited for more future projects
-                    together.
+                    Superb work, always a pleasure working with Vadavision on
+                    complex tasks requiring a finesse touch.
                   </p>
                 </div>
                 <div className="mt-10 flex justify-center gap-4 items-center testimonial-profile">
@@ -144,13 +135,11 @@ const SplideSlider = () => {
                   </div>
                   <div>
                     <h6
-                      data-aos="fade-up"
                       className="text-xl testimonial-content font-bold leading-[32px] text-[#DD4242]"
                     >
                       Clay Johnson
                     </h6>
                     <p
-                      data-aos="fade-up"
                       className="text-base testimonial-content font-normal text-[#959596] leading-[150%]"
                     >
                       Business Director at Wax Inc
