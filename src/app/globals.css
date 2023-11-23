@@ -1572,18 +1572,21 @@ div#join-widget > div {
   background-color: #dd4242;
   color: floralwhite;
 }
+
 @media screen and (max-width: 480px) {
   .primary-color {
     background-color: floralwhite;
     color: #dd4242;
   }
 }
+
 @media screen and (max-width: 480px) {
   .button-color-change {
     background-color: #dd4242;
     color: floralwhite;
   }
 }
+
 @media screen and (max-width: 650px) {
   .prev-button {
     left: 0;
@@ -1593,11 +1596,13 @@ div#join-widget > div {
 .primary-color:hover {
   background-color: #c12c2c;
 }
+
 @media screen and (max-width: 480px) {
   .primary-color:hover {
     background-color: white;
   }
 }
+
 .otgc-visit-btn {
   background-color: #1a16cc;
 }
@@ -1713,5 +1718,17 @@ div#join-widget > div {
     top: 50%;
     transform: translate(0, -50%);
     right: 6%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .testimonails-mobile-app > .splide > .splide__track{
+    height: 450px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .testimonails-mobile-app > .splide > .splide__track{
+    height: 250px !important;
   }
 }
