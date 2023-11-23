@@ -50,7 +50,7 @@ const SplideSlider = () => {
             rewind: true,
             gap: "1rem",
             direction: "ttb",
-            heightRatio: 0.6, // Adjust the value as needed
+            heightRatio: 0.4, // Adjust the value as needed
             isNavigation: true,
             speed: 900,
           }}
