@@ -1599,7 +1599,7 @@ div#join-widget > div {
 
 @media screen and (max-width: 480px) {
   .primary-color:hover {
-    background-color: white;
+    /* background-color: white; */
   }
 }
 
