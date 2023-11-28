@@ -55,8 +55,8 @@ const ServicesSlider = () => {
             },
           }}
         >
-      <SplideSlide>
-            <div className="flex flex-col items-center h-[400px] services-bg-1">
+          <SplideSlide>
+            <div className="flex hover-effect flex-col items-center h-[400px] services-bg-1">
               <div className="mt-16 bg-[#ffffff] bg-opacity-5 p-6 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ const ServicesSlider = () => {
             </div>
           </SplideSlide>
           <SplideSlide>
-            <div  className="flex flex-col items-center  h-[400px] services-bg-2">
+            <div className="flex flex-col items-center  h-[400px] services-bg-2">
               <div className="mt-16 bg-[#ffffff]  bg-opacity-5 p-6 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -165,9 +165,6 @@ const ServicesSlider = () => {
               </div>
             </div>
           </SplideSlide>
-
-        
-          
         </Splide>
         <div className="absolute prev-button  justify-between flex gap-5 mr-3 top-[-5px] right-0">
           <button className="" onClick={handlePrev}>
